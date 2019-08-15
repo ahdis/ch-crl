@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ch.fhir.ig.ig"/>
+  <id value="ch.fhir.ig.crl"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      ImplementationGuide for CH-IG
+      ImplementationGuide for CH-CRL
     </div>
   </text>
-  <url value="http://fhir.ch/ig/ch-ig/ImplementationGuide/ch.fhir.ig.ig"/>
+  <url value="http://fhir.ch/ig/ch-crl/ImplementationGuide/ch.fhir.ig.crl"/>
   <version value="0.0.1"/>
-  <name value="CH_IG"/>
-  <title value="CH-IG"/>
+  <name value="CH_CRL"/>
+  <title value="CH-CRL"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2019-07-02"/>
@@ -30,7 +30,7 @@
     </coding>
   </jurisdiction>
   <copyright value="CC-BY-SA-4.0"/>
-  <packageId value="ch.fhir.ig.ig"/>
+  <packageId value="ch.fhir.ig.crl"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.0"/>
   <definition>
@@ -38,11 +38,11 @@
       <reference>
         <reference value="Patient/FranzMuster"/>
       </reference>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ig/StructureDefinition/ch-ig-patient"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ig-patient"/>
+        <reference value="StructureDefinition/ch-crl-patient"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
