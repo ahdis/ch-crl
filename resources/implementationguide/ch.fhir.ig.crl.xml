@@ -36,6 +36,11 @@
   <definition>
     <resource>
       <reference>
+        <reference value="Bundle/ExampleUseCase1a"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/FranzMuster"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
