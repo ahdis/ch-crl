@@ -41,7 +41,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/FranzMuster"/>
+        <reference value="Patient/FranzMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
     </resource>
@@ -54,6 +54,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-patient"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-practitioner"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
