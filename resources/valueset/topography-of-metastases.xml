@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="TopographyOfMetastases"/>
-    <meta>
-        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-    </meta>
-    <url value="http://build.fhir.org/ig/ahdis/ch-crl/ValueSet/TopographyOfMetastases"/>
+    <id value="topography-of-metastases"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/topography-of-metastases"/>
     <version value="0.1"/>
     <name value="TopographyOfMetastases"/>
     <title value="TopographyOfMetastases"/>
@@ -31,7 +26,7 @@
     <immutable value="false"/>
     <compose>
         <include>
-            <system value="www.nicer.org/Basisdaten"/>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/topography-of-metastases"/>
             <concept>
                 <code value="PUL"/>
             </concept>

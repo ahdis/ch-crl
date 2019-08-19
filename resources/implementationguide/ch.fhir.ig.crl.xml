@@ -47,7 +47,19 @@
     </resource>
     <resource>
       <reference>
+        <reference value="CodeSystem/topography-of-metastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-patient"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/topography-of-metastases"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

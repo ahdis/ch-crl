@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="TopographyOfMetastases"/>
-    <url value="www.nicer.org/basisdaten" />
+    <id value="topography-of-metastases"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/topography-of-metastases" />
     <version value="0.1"/>
     <name value="TopographyOfMetastases"/>
     <title value="TopographyOfMetastases"/>
@@ -13,7 +11,7 @@
         <name value="NICER"/>
         <telecom>
             <system value="url"/>
-            <value value="www.nicer.org"/>
+            <value value="https://www.nicer.org"/>
         </telecom>
     </contact>
     <description value="ImplementationGuide for CH-CRL"/>
