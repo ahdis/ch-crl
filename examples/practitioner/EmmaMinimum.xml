@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="EmmaMinimum"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+  </meta>
+  <name>
+    <family value="Minimum"/>
+    <given value="Emma"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="031 512 75 98"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="praxis@privatpraxis.ch"/>
+  </telecom>
+  <address>
+    <line value="Bahnhofstrasse 1"/>
+    <city value="Zürich"/>
+    <postalCode value="8001"/>
+  </address>
+</Practitioner>

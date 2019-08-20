@@ -38,7 +38,6 @@
             <path value="Patient.identifier" />
             <sliceName value="AHVN13" />
             <min value="1" />
-        
         </element>
         <element id="Patient.name">
             <path value="Patient.name"/>

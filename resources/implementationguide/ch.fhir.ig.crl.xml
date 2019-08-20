@@ -47,6 +47,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Practitioner/EmmaMinimum"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="CodeSystem/topography-of-metastases"/>
       </reference>
       <exampleBoolean value="false"/>
