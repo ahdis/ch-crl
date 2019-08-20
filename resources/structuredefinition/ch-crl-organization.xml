@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-organization"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+    <version value="0.0.1"/>
+    <name value="CHCRLOrganization"/>
+    <title value="CH CRL Organization"/>
+    <status value="draft"/>
+    <date value="2019-08-19T00:00:00+10:00"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on Organization for Reporting to the Cancer Registry"/>
+    <fhirVersion value="4.0.0" />
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Organization"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Organization">
+            <path value="Organization"/>
+        </element>
+
+        <element id="Organization.type">
+            <path value="Organization.type"/>
+            <short value="govt for BFS"/>
+            <min value="1"/>
+        </element>
+       
+
+
+        <element id="Organization.telecom">
+            <path value="Organization.telecom" />
+            <slicing>
+                <discriminator>
+                    <type value="value" />
+                    <path value="system" />
+                </discriminator>
+                <rules value="open" />
+            </slicing>
+        </element>
+        <element id="Organization.telecom:phone">
+            <path value="Organization.telecom" />
+            <sliceName value="phone" />
+            <short value="phone"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.telecom.system:phone">
+            <path value="Organization.telecom.system" />
+            <min value="1" />
+            <fixedCode value="phone"/>
+        </element>
+        <element id="Organization.telecom.value:phone">
+            <path value="Organization.telecom.value" />
+            <min value="1" />
+        </element>
+        <element id="Organization.telecom:email">
+            <path value="Organization.telecom" />
+            <sliceName value="email" />
+            <short value="email" />
+            <min value="1"/>
+        </element>
+        <element id="Organization.telecom:email.system">
+            <path value="Organization.telecom.system" />
+            <min value="1" />
+            <fixedCode value="email"/>
+        </element>
+        <element id="Organization.telecom:email.value">
+            <path value="Organization.telecom.value" />
+            <min value="1" />
+        </element>
+
+        <element id="Organization.address">
+            <path value="Organization.address"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.address.line">
+            <path value="Organization.address.line"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.address.city">
+            <path value="Organization.address.city"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.address.postalCode">
+            <path value="Organization.address.postalCode"/>
+            <min value="1"/>
+        </element>
+
+
+        <element id="Organization.contact">
+            <path value="Organization.contact"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.contact.name">
+            <path value="Organization.contact.name"/>
+            <min value="1"/>
+            <type>
+                <code value="HumanName"/>
+                <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-humanname" />
+            </type>
+        </element>
+        <element id="Organization.contact.name.family">
+            <path value="Organization.contact.name.family"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.contact.name.given">
+            <path value="Organization.contact.name.given"/>
+            <min value="1"/>
+        </element>
+
+    </differential>
+</StructureDefinition>

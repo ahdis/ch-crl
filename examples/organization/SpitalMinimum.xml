@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="SpitalMinimum"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+  </meta>
+  <identifier>
+    <system value="https://www.uid.admin.ch"/>
+    <!--  bur? -->
+    <value value="CHE-105.983.423"/>
+  </identifier>
+  <active value="true"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+      <code value="prov"/>
+    </coding>
+  </type>
+  <name value="Spital Minium"/>
+  <telecom>
+    <system value="phone"/>
+    <value value="031 512 75 98"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="spital@spital.ch"/>
+  </telecom>
+  <address>
+    <line value="Bahnhofstrasse 1"/>
+    <city value="Zürich"/>
+    <postalCode value="8001"/>
+  </address>
+  <contact>
+    <name>
+      <family value="Doctor"/>
+      <given value="Krg"/>
+    </name>
+  </contact>
+</Organization>

@@ -41,6 +41,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Organization/SpitalMinimum"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/FranzMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
@@ -54,6 +60,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/topography-of-metastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-organization"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
