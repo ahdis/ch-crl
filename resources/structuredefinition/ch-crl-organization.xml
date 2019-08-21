@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
     <version value="0.0.1"/>
     <name value="CHCRLOrganization"/>
-    <title value="CH CRL Organization"/>
+    <title value="CH CRL Organization Profile"/>
     <status value="draft"/>
     <date value="2019-08-19T00:00:00+10:00"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>

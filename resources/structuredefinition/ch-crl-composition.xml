@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-composition"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    <version value="0.0.1"/>
+    <name value="CHCRLComposition"/>
+    <title value="CH CRL Composition Profile"/>
+    <status value="draft"/>
+    <date value="2019-08-16T00:00:00+10:00"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on Composition for Reporting to the Cancer Registry"/>
+    <fhirVersion value="4.0.0" />
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Composition"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Composition">
+            <path value="Composition"/>
+        </element>
+        <element id="Composition.subject">
+            <path value="Composition.subject"/>
+            <short value="Patient"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </type>
+        </element>
+        <element id="Composition.author">
+            <path value="Composition.author"/>
+            <short value="Practitioner if Resident Physician or Organization if Hospital"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+            </type>
+        </element>
+        <element id="Composition.author.reference">
+            <path value="Composition.author.reference"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
     <version value="0.0.1"/>
     <name value="CHCRLPractitioner"/>
-    <title value="CH CRL Practitioner"/>
+    <title value="CH CRL Practitioner Profile"/>
     <status value="draft"/>
     <date value="2019-08-19T00:00:00+10:00"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>

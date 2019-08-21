@@ -36,7 +36,19 @@
   <definition>
     <resource>
       <reference>
-        <reference value="Bundle/ExampleUseCase1a"/>
+        <reference value="Composition/CompFromOrganization"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompFromPractitioner"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DocumentReference/DocuMinimum"/>
       </reference>
     </resource>
     <resource>
@@ -60,6 +72,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/topography-of-metastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-composition"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="CompFromPractitioner"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+  </meta>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="11503-0"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <date value="2019-02-07T13:28:17-05:00"/>
+  <author>
+    <reference value="Practitioner/EmmaMinimum"/>
+  </author>
+  <title value="Medical record"/>
+</Composition>
