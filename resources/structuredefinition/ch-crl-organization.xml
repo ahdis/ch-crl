@@ -19,15 +19,12 @@
         <element id="Organization">
             <path value="Organization"/>
         </element>
-
         <element id="Organization.type">
             <path value="Organization.type"/>
             <short value="govt for BFS"/>
             <min value="1"/>
+            <max value="1"/>
         </element>
-       
-
-
         <element id="Organization.telecom">
             <path value="Organization.telecom" />
             <slicing>
@@ -68,7 +65,6 @@
             <path value="Organization.telecom.value" />
             <min value="1" />
         </element>
-
         <element id="Organization.address">
             <path value="Organization.address"/>
             <min value="1"/>
@@ -85,11 +81,29 @@
             <path value="Organization.address.postalCode"/>
             <min value="1"/>
         </element>
-
-
         <element id="Organization.contact">
             <path value="Organization.contact"/>
             <min value="1"/>
+        </element>
+        <element id="Organization.contact.extension">
+            <path value="Organization.contact.extension" />
+            <slicing>
+                <discriminator>
+                    <type value="value" />
+                    <path value="url" />
+                </discriminator>
+                <rules value="open" />
+            </slicing>
+        </element>
+        <element id="Organization.contact.extension:functionOfContactPerson">
+            <path value="Organization.contact.extension"/>
+            <sliceName value="functionOfContactPerson"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension" />
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson" />
+            </type>
         </element>
         <element id="Organization.contact.name">
             <path value="Organization.contact.name"/>
@@ -107,6 +121,5 @@
             <path value="Organization.contact.name.given"/>
             <min value="1"/>
         </element>
-
     </differential>
 </StructureDefinition>

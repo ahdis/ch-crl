@@ -65,6 +65,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-organization-contact-functionofcontactperson"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-organization"/>
       </reference>
       <exampleBoolean value="false"/>

@@ -32,9 +32,12 @@
     <postalCode value="8001"/>
   </address>
   <contact>
+    <extension url="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson">
+      <valueString value="Doctor"/>
+    </extension>
     <name>
-      <family value="Doctor"/>
-      <given value="Krg"/>
+      <family value="Muster"/>
+      <given value="Hans"/>
     </name>
   </contact>
 </Organization>

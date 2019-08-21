@@ -22,4 +22,5 @@
     <city value="Zürich"/>
     <postalCode value="8001"/>
   </address>
+  <gender value="female"/>
 </Practitioner>

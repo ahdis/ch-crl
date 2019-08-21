@@ -87,5 +87,11 @@
             <path value="Practitioner.address.postalCode"/>
             <min value="1"/>
         </element>
+        <element id="Practitioner.gender">
+            <path value="Practitioner.gender"/>
+            <short value="male | female"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
     </differential>
 </StructureDefinition>
