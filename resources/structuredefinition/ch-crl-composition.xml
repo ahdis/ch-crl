@@ -33,7 +33,6 @@
             <path value="Composition.author"/>
             <short value="Practitioner if Resident Physician or Organization if Hospital"/>
             <min value="1"/>
-            <max value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>

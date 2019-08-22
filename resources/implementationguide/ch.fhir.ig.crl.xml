@@ -36,6 +36,11 @@
   <definition>
     <resource>
       <reference>
+        <reference value="Communication/CommMinimum"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Composition/CompFromOrganization"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>

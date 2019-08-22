@@ -20,4 +20,12 @@
     <reference value="Practitioner/EmmaMinimum"/>
   </author>
   <title value="Medical record"/>
+  <section>
+    <entry>
+      <reference value="DocumentReference/DocuMinimum"/>
+    </entry>
+    <entry>
+      <reference value="Communication/CommMinimum"/>
+    </entry>
+  </section>
 </Composition>

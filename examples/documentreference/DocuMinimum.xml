@@ -3,6 +3,9 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
   <id value="DocuMinimum"/>
   <status value="current"/>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
   <author>
     <reference value="Practitioner/EmmaMinimum"/>
   </author>
