@@ -1,0 +1,48 @@
+@host = http://test.fhir.ch/r4
+
+###
+PUT {{host}}/Patient/FranzMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./patient/FranzMinimum.xml
+
+###
+PUT {{host}}/Practitioner/EmmaMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./practitioner/EmmaMinimum.xml
+
+###
+PUT {{host}}/Organization/SpitalMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/SpitalMinimum.xml
+
+###
+PUT {{host}}/DocumentReference/DocuMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./documentreference/DocuMinimum.xml
+
+###
+PUT {{host}}/Communication/CommMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./communication/CommMinimum.xml
+
+###
+PUT {{host}}/Composition/CompFromOrganization HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompFromOrganization.xml
+
+###
+PUT {{host}}/Composition/CompFromPractitioner HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompFromPractitioner.xml
+
+
+###
+GET {{host}}/Patient/FranzMinimum HTTP/1.1
+Content-Type: application/fhir+xml
