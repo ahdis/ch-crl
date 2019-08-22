@@ -6,22 +6,9 @@
   <subject>
     <reference value="Patient/FranzMinimum"/>
   </subject>
-  <topic>
-    <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/communication-topic"/>
-      <code value="summary-report"/>
-      <display value="Summary Report"/>
-    </coding>
-  </topic>
+  <!-- topic Information des Patienten -->
   <sent value="2019-02-07T13:28:17-05:00"/>
   <sender>
     <reference value="Practitioner/EmmaMinimum"/>
   </sender>
-  <reasonCode>
-    <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="1663004"/>
-      <display value="Tumor grade G2"/>
-    </coding>
-  </reasonCode>
 </Communication>

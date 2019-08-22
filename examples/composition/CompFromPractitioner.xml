@@ -9,7 +9,8 @@
   <type>
     <coding>
       <system value="http://loinc.org"/>
-      <code value="11503-0"/>
+      <code value="72134-0"/>
+      <display value="Cancer event report"/>
     </coding>
   </type>
   <subject>
@@ -19,7 +20,7 @@
   <author>
     <reference value="Practitioner/EmmaMinimum"/>
   </author>
-  <title value="Medical record"/>
+  <title value="Report to the Cancer Registry"/>
   <section>
     <entry>
       <reference value="DocumentReference/DocuMinimum"/>

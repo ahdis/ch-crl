@@ -9,7 +9,16 @@
     <date value="2019-08-16T00:00:00+10:00"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Profile on Patient for Reporting to the Cancer Registry"/>
-    <fhirVersion value="4.0.0" />
+    <fhirVersion value="4.0.0"/>
+
+
+    <mapping>
+        <identity value="KRG"/>
+        <uri value="https://www.admin.ch/opc/de/classified-compilation/20121618/201806010000/818.33.pdf"/>
+        <name value="Krebsregistrierungsgesetz"/>
+    </mapping>
+
+
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Patient"/>
@@ -45,6 +54,10 @@
         <element id="Patient.name.family">
             <path value="Patient.name.family"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRG"/>
+                <map value="Name (Art. 3 Abs. 1 Bst. a)"/>
+            </mapping>
         </element>
         <element id="Patient.name.given">
             <path value="Patient.name.given"/>
