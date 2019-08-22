@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-communication"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
+    <version value="0.0.1"/>
+    <name value="CHCRLCommunication"/>
+    <title value="CH CRL Communication Profile"/>
+    <status value="draft"/>
+    <date value="2019-08-16T00:00:00+10:00"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on Communication for Reporting to the Cancer Registry"/>
+    <fhirVersion value="4.0.0" />
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Communication"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Communication"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Communication">
+            <path value="Communication"/>
+        </element>
+        <element id="Communication.subject">
+            <path value="Communication.subject"/>
+            <short value="Patient"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </type>
+        </element>
+        <element id="Communication.subject.reference">
+            <path value="Communication.subject.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Communication.sent">
+            <path value="Communication.sent"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

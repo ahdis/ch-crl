@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="DocuHospMinimum"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+  </meta>
+  <status value="current"/>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <author>
+    <reference value="Organization/SpitalMinimum"/>
+  </author>
+  <content>
+    <attachment>
+      <contentType value="application/pdf"/>
+      <data value="...base64Binary..."/>
+    </attachment>
+  </content>
+</DocumentReference>

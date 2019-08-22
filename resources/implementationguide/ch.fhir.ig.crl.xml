@@ -36,8 +36,19 @@
   <definition>
     <resource>
       <reference>
+        <reference value="Bundle/BundleFromOrganization"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/BundleFromPractitioner"/>
+      </reference>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Communication/CommMinimum"/>
       </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
     </resource>
     <resource>
       <reference>
@@ -53,8 +64,15 @@
     </resource>
     <resource>
       <reference>
-        <reference value="DocumentReference/DocuMinimum"/>
+        <reference value="DocumentReference/DocuHospMinimum"/>
       </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DocumentReference/DocuPractMinimum"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
     </resource>
     <resource>
       <reference>
@@ -82,7 +100,19 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-communication"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-composition"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-documentreference"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

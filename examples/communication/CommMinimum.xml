@@ -2,13 +2,13 @@
 
 <Communication xmlns="http://hl7.org/fhir">
   <id value="CommMinimum"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
+  </meta>
   <status value="completed"/>
   <subject>
     <reference value="Patient/FranzMinimum"/>
   </subject>
   <!-- topic Information des Patienten -->
   <sent value="2019-02-07T13:28:17-05:00"/>
-  <sender>
-    <reference value="Practitioner/EmmaMinimum"/>
-  </sender>
 </Communication>

@@ -19,6 +19,19 @@
         <element id="Composition">
             <path value="Composition"/>
         </element>
+        <element id="Composition.type">
+            <path value="Composition.type"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://loinc.org" />
+                    <code value="72134-0"/>
+                    <display value="Cancer event report"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+
+
         <element id="Composition.subject">
             <path value="Composition.subject"/>
             <short value="Patient"/>

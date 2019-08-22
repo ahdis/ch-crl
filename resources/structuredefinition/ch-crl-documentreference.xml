@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-documentreference"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+    <version value="0.0.1"/>
+    <name value="CHCRLDocumentReference"/>
+    <title value="CH CRL DocumentReference Profile"/>
+    <status value="draft"/>
+    <date value="2019-08-16T00:00:00+10:00"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on DocumentReference for Reporting to the Cancer Registry"/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="DocumentReference"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="DocumentReference">
+            <path value="DocumentReference"/>
+        </element>
+        <element id="DocumentReference.subject">
+            <path value="DocumentReference.subject"/>
+            <short value="Patient"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </type>
+        </element>
+        <element id="DocumentReference.subject.reference">
+            <path value="DocumentReference.subject.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="DocumentReference.author">
+            <path value="DocumentReference.author"/>
+            <short value="Practitioner if Resident Physician or Organization if Hospital"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+            </type>
+        </element>
+        <element id="DocumentReference.author.reference">
+            <path value="DocumentReference.author.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="DocumentReference.content">
+            <path value="DocumentReference.content"/>
+        </element>
+        <element id="DocumentReference.content.attachment">
+            <path value="DocumentReference.content.attachment"/>
+        </element>
+        <element id="DocumentReference.content.attachment.contentType">
+            <path value="DocumentReference.content.attachment.contentType"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

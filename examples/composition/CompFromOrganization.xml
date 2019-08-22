@@ -23,7 +23,7 @@
   <title value="Report to the Cancer Registry"/>
   <section>
     <entry>
-      <reference value="DocumentReference/DocuMinimum"/>
+      <reference value="DocumentReference/DocuHospMinimum"/>
     </entry>
     <entry>
       <reference value="Communication/CommMinimum"/>

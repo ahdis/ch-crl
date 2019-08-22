@@ -19,10 +19,16 @@ Content-Type: application/fhir+xml
 < ./organization/SpitalMinimum.xml
 
 ###
-PUT {{host}}/DocumentReference/DocuMinimum HTTP/1.1
+PUT {{host}}/DocumentReference/DocuHospMinimum HTTP/1.1
 Content-Type: application/fhir+xml
 
-< ./documentreference/DocuMinimum.xml
+< ./documentreference/DocuHospMinimum.xml
+
+###
+PUT {{host}}/DocumentReference/DocuPractMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./documentreference/DocuPractMinimum.xml
 
 ###
 PUT {{host}}/Communication/CommMinimum HTTP/1.1
@@ -45,4 +51,12 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Patient/FranzMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompFromOrganization/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompFromPractitioner/$document HTTP/1.1
 Content-Type: application/fhir+xml
