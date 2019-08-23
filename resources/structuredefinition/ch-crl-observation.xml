@@ -37,7 +37,7 @@
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject"/>
-      <short value="Observation"
+      <short value="Observation"/>
       <type>
         <code value="Reference"/>
         <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation"/>
