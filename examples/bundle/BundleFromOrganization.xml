@@ -2,6 +2,7 @@
    <id value="BundleFromOrganization"/>
    <meta>
       <lastUpdated value="2019-08-22T12:00:32.158+00:00"/>
+      <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
    </meta>
    <identifier>
       <system value="http://example.fhir"/>

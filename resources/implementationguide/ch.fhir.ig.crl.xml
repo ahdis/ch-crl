@@ -38,11 +38,13 @@
       <reference>
         <reference value="Bundle/BundleFromOrganization"/>
       </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
     </resource>
     <resource>
       <reference>
         <reference value="Bundle/BundleFromPractitioner"/>
       </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
     </resource>
     <resource>
       <reference>
@@ -95,6 +97,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/topography-of-metastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-bundle"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

@@ -9,7 +9,12 @@
     <date value="2019-08-19T00:00:00+10:00"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Profile on Organization for Reporting to the Cancer Registry"/>
-    <fhirVersion value="4.0.0" />
+    <fhirVersion value="4.0.0"/>
+    <mapping>
+        <identity value="KRV"/>
+        <uri value="https://www.admin.ch/opc/de/classified-compilation/20172625/201806010000/818.331.pdf"/>
+        <name value="Krebsregistrierungsverordnung"/>
+    </mapping>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Organization"/>
@@ -25,8 +30,15 @@
             <min value="1"/>
             <max value="1"/>
         </element>
+        <element id="Organization.name">
+            <path value="Organization.name"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Name der Institution (Art. 7 Abs. 2 Bst. a)"/>
+            </mapping>
+        </element>
         <element id="Organization.telecom">
-            <path value="Organization.telecom" />
+            <path value="Organization.telecom"/>
             <slicing>
                 <discriminator>
                     <type value="value" />
@@ -36,10 +48,14 @@
             </slicing>
         </element>
         <element id="Organization.telecom:phone">
-            <path value="Organization.telecom" />
+            <path value="Organization.telecom"/>
             <sliceName value="phone" />
             <short value="phone"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Telefonnummer (Art. 7 Abs. 2 Bst. c)"/>
+            </mapping>
         </element>
         <element id="Organization.telecom.system:phone">
             <path value="Organization.telecom.system" />
@@ -47,27 +63,35 @@
             <fixedCode value="phone"/>
         </element>
         <element id="Organization.telecom.value:phone">
-            <path value="Organization.telecom.value" />
+            <path value="Organization.telecom.value"/>
             <min value="1" />
         </element>
         <element id="Organization.telecom:email">
-            <path value="Organization.telecom" />
-            <sliceName value="email" />
-            <short value="email" />
+            <path value="Organization.telecom"/>
+            <sliceName value="email"/>
+            <short value="email"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="E-Mail-Adresse (Art. 7 Abs. 2 Bst. d)"/>
+            </mapping>
         </element>
         <element id="Organization.telecom:email.system">
-            <path value="Organization.telecom.system" />
+            <path value="Organization.telecom.system"/>
             <min value="1" />
             <fixedCode value="email"/>
         </element>
         <element id="Organization.telecom:email.value">
-            <path value="Organization.telecom.value" />
+            <path value="Organization.telecom.value"/>
             <min value="1" />
         </element>
         <element id="Organization.address">
             <path value="Organization.address"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Adresse (Art. 7 Abs. 2 Bst. d)"/>
+            </mapping>
         </element>
         <element id="Organization.address.line">
             <path value="Organization.address.line"/>
@@ -89,8 +113,8 @@
             <path value="Organization.contact.extension" />
             <slicing>
                 <discriminator>
-                    <type value="value" />
-                    <path value="url" />
+                    <type value="value"/>
+                    <path value="url"/>
                 </discriminator>
                 <rules value="open" />
             </slicing>
@@ -104,6 +128,10 @@
                 <code value="Extension" />
                 <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson" />
             </type>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Funktion der zuständigen Ansprechperson (Art. 7 Abs. 2 Bst. b)"/>
+            </mapping>
         </element>
         <element id="Organization.contact.name">
             <path value="Organization.contact.name"/>
@@ -116,10 +144,18 @@
         <element id="Organization.contact.name.family">
             <path value="Organization.contact.name.family"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Name der zuständigen Ansprechperson (Art. 7 Abs. 2 Bst. b)"/>
+            </mapping>
         </element>
         <element id="Organization.contact.name.given">
             <path value="Organization.contact.name.given"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Vorname der zuständigen Ansprechperson (Art. 7 Abs. 2 Bst. b)"/>
+            </mapping>
         </element>
     </differential>
 </StructureDefinition>

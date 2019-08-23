@@ -29,9 +29,6 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-
-
-
         <element id="Composition.subject">
             <path value="Composition.subject"/>
             <short value="Patient"/>

@@ -9,7 +9,12 @@
     <date value="2019-08-19T00:00:00+10:00"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Profile on Practitioner for Reporting to the Cancer Registry"/>
-    <fhirVersion value="4.0.0" />
+    <fhirVersion value="4.0.0"/>
+    <mapping>
+        <identity value="KRV"/>
+        <uri value="https://www.admin.ch/opc/de/classified-compilation/20172625/201806010000/818.331.pdf"/>
+        <name value="Krebsregistrierungsverordnung"/>
+    </mapping>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Practitioner"/>
@@ -26,10 +31,18 @@
         <element id="Practitioner.name.family">
             <path value="Practitioner.name.family"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Name (Art. 7 Abs. 1 Bst. a)"/>
+            </mapping>
         </element>
         <element id="Practitioner.name.given">
             <path value="Practitioner.name.given"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Vorname (Art. 7 Abs. 1 Bst. a)"/>
+            </mapping>
         </element>
         <element id="Practitioner.telecom">
             <path value="Practitioner.telecom" />
@@ -46,6 +59,10 @@
             <sliceName value="phone" />
             <short value="phone"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Telefonnummer (Art. 7 Abs. 1 Bst. b)"/>
+            </mapping>
         </element>
         <element id="Practitioner.telecom.system:phone">
             <path value="Practitioner.telecom.system" />
@@ -61,6 +78,10 @@
             <sliceName value="email" />
             <short value="email" />
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="E-Mail-Adresse (Art. 7 Abs. 1 Bst. c)"/>
+            </mapping>
         </element>
         <element id="Practitioner.telecom:email.system">
             <path value="Practitioner.telecom.system" />
@@ -74,6 +95,10 @@
         <element id="Practitioner.address">
             <path value="Practitioner.address"/>
             <min value="1"/>
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Adresse (Art. 7 Abs. 1 Bst. c)"/>
+            </mapping>
         </element>
         <element id="Practitioner.address.line">
             <path value="Practitioner.address.line"/>
