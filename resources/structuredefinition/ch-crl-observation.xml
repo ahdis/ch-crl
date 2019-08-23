@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ch-crl-observation"/>
+  <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation"/>
+  <version value="0.0.1"/>
+  <name value="CHCRLObservation"/>
+  <title value="CH CRL Observation Profile"/>
+  <status value="draft"/>
+  <date value="2019-08-23T00:00:00+10:00"/>
+  <publisher value="Bundesamt für Gesundheit BAG"/>
+  <description value="Profile on Observation for Reporting to the Cancer Registry"/>
+  <fhirVersion value="4.0.0" />
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Observation"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Observation">
+      <path value="Observation"/>
+    </element>
+    <element id="Observation.status">
+      <path value="Observation.status"/>
+      <min value="1"/>
+    </element>
+    <element id="Observation.code.coding.system">
+      <path value="Observation.code.coding.system"/>
+      <min value="1"/>
+    </element>
+    <element id="Observation.code.coding.code">
+      <path value="Observation.code.coding.code"/>
+      <min value="1"/>
+    </element>
+    <element id="Observation.code.coding.display">
+      <path value="Observation.code.coding.display"/>
+      <min value="1"/>
+    </element>
+    <element id="Observation.subject">
+      <path value="Observation.subject"/>
+      <short value="Observation"
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation"/>
+      </type>    
+    </element>
+    <element id="Procedure.effectiveDateTime">
+      <path value="Procedure.performedDateTime"/>
+    </element>
+    <element id="Observation.valueCodableConcept.coding.system">
+      <path value="Observation.valueCodableConcept.coding.system"/>
+    </element>
+    <element id="Observation.valueCodableConcept.coding.code">
+      <path value="Observation.valueCodableConcept.coding.code"/>
+    </element>
+    <element id="Observation.valueCodableConcept.coding.display">
+      <path value="Observation.valueCodableConcept.coding.display"/>
+    </element>
+    <element id="Observation.valueQuantity.coding.value">
+      <path value="Observation.valueQuantity.coding.value"/>
+    </element>
+    <element id="Observation.valueQuantity.coding.unit">
+      <path value="Observation.valueQuantity.coding.unit"/>
+    </element>
+  </differential>
+</StructureDefinition>
