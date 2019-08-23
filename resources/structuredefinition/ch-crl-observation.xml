@@ -19,12 +19,16 @@
     <element id="Observation">
       <path value="Observation"/>
     </element>
-    <element id="Observation.status">
-      <path value="Observation.status"/>
+    <element id="Observation.coding">
+      <path value="Observation.coding"/>
       <min value="1"/>
     </element>
     <element id="Observation.code.coding.system">
       <path value="Observation.code.coding.system"/>
+      <min value="1"/>
+    </element>
+    <element id="Observation.code.coding.version">
+      <path value="Observation.code.coding.version"/>
       <min value="1"/>
     </element>
     <element id="Observation.code.coding.code">
@@ -37,29 +41,40 @@
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject"/>
-      <short value="Observation"/>
+      <short value="Patient"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation"/>
-      </type>    
+        <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+      </type>
     </element>
-    <element id="Procedure.effectiveDateTime">
-      <path value="Procedure.performedDateTime"/>
+    <element id="Observation.effectiveDateTime">
+      <path value="Observation.performedDateTime"/>
+      <min value="1"/>
     </element>
-    <element id="Observation.valueCodableConcept.coding.system">
-      <path value="Observation.valueCodableConcept.coding.system"/>
+    <element id="Observation.valueCodeableConcept">
+      <path value="Observation.valueCodeableConcept"/>
+      <min value="1"/>
     </element>
-    <element id="Observation.valueCodableConcept.coding.code">
-      <path value="Observation.valueCodableConcept.coding.code"/>
+    <element id="Observation.valueCodeableConcept.coding">
+      <path value="Observation.valueCodeableConcept.coding"/>
     </element>
-    <element id="Observation.valueCodableConcept.coding.display">
-      <path value="Observation.valueCodableConcept.coding.display"/>
+     <element id="Observation.valueCodeableConcept.coding.system">
+      <path value="Observation.valueCodeableConcept.coding.system"/>
+      <min value="1"/>
     </element>
-    <element id="Observation.valueQuantity.coding.value">
-      <path value="Observation.valueQuantity.coding.value"/>
+    <element id="Observation.valueCodeableConcept.coding.version">
+      <path value="Observation.valueCodeableConcept.coding.version"/>
+      <min value="1"/>
     </element>
-    <element id="Observation.valueQuantity.coding.unit">
-      <path value="Observation.valueQuantity.coding.unit"/>
+    <element id="Observation.valueCodeableConcept.coding.code">
+      <path value="Observation.valueCodeableConcept.coding.code"/>
+      <min value="1"/>
     </element>
+    <element id="Observation.valueCodeableConcept.coding.display">
+      <path value="Observation.valueCodeableConcept.coding.display"/>
+      <min value="1"/>
+    </element>
+    <!-- value ?-->
+    <!-- unit ?-->
   </differential>
 </StructureDefinition>

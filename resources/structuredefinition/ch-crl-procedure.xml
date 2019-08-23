@@ -19,8 +19,12 @@
     <element id="Procedure">
       <path value="Procedure"/>
     </element>
-    <element id="Procedure.status">
-      <path value="Procedure.status"/>
+    <element id="Procedure.code">
+      <path value="Procedure.code"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.coding">
+      <path value="Procedure.coding"/>
       <min value="1"/>
     </element>
     <element id="Procedure.code.coding.system">
@@ -41,21 +45,36 @@
     </element>
     <element id="Procedure.subject">
       <path value="Procedure.subject"/>
-      <short value="Observation"/>
+      <short value="Patient"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+      </type>
+    </element>
+
+    <element id="Procedure.performedDateTime">
+      <path value="Procedure.performedDateTime"/>
       <min value="1"/>
+    </element>
+    <element id="Procedure.performedPeriod">
+      <path value="Procedure.performedPeriod"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.performedPeriod.start">
+      <path value="Procedure.performedPeriod.start"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.performedPeriod.end">
+      <path value="Procedure.performedPeriod.end"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.reasonReference">
+      <path value="Procedure.reasonReference"/>
+      <short value="Observation"/>
       <type>
         <code value="Reference"/>
         <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation"/>
-      </type>    
-    </element>
-    <element id="Procedure.performedDateTime">
-      <path value="Procedure.performedDateTime"/>
-    </element>
-    <element id="Procedure.PerformedPeriod.start">
-      <path value="Procedure.PerformedPeriod.start"/>
-    </element>
-    <element id="Procedure.PerformedPeriod.end">
-      <path value="Procedure.PerformedPeriod.end"/>
+      </type>
     </element>
   </differential>
 </StructureDefinition>
