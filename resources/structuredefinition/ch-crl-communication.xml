@@ -9,7 +9,12 @@
     <date value="2019-08-16T00:00:00+10:00"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Profile on Communication for Reporting to the Cancer Registry"/>
-    <fhirVersion value="4.0.0" />
+    <fhirVersion value="4.0.0"/>
+    <mapping>
+        <identity value="KRV"/>
+        <uri value="https://www.admin.ch/opc/de/classified-compilation/20172625/201806010000/818.331.pdf"/>
+        <name value="Krebsregistrierungsverordnung"/>
+    </mapping>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Communication"/>
@@ -31,6 +36,14 @@
         <element id="Communication.subject.reference">
             <path value="Communication.subject.reference"/>
             <min value="1"/>
+        </element>
+        <element id="Communication.topic">
+            <path value="Communication.topic"/>
+            <!--min value="1"/-->
+            <mapping>
+                <identity value="KRV"/>
+                <map value="Datum der Information der Patientin oder des Patienten (Art. 1 Abs. 1 Bst. d, Art. 13)"/>
+            </mapping>
         </element>
         <element id="Communication.sent">
             <path value="Communication.sent"/>
