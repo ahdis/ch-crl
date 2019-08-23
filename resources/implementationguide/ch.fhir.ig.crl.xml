@@ -150,6 +150,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-procedure"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/topography-of-metastases"/>
       </reference>
       <exampleBoolean value="false"/>

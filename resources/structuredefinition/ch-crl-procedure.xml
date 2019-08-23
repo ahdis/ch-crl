@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ch-crl-procedure"/>
+  <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure"/>
+  <version value="0.0.1"/>
+  <name value="CHCRLProcedure"/>
+  <title value="CH CRL Procedure Profile"/>
+  <status value="draft"/>
+  <date value="2019-08-23T00:00:00+10:00"/>
+  <publisher value="Bundesamt für Gesundheit BAG"/>
+  <description value="Profile on Procedure for Reporting to the Cancer Registry"/>
+  <fhirVersion value="4.0.0" />
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Procedure"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Procedure">
+      <path value="Procedure"/>
+    </element>
+    <element id="Procedure.status">
+      <path value="Procedure.status"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.code.coding.system">
+      <path value="Procedure.code.coding.system"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.code.coding.version">
+      <path value="Procedure.code.coding.version"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.code.coding.code">
+      <path value="Procedure.code.coding.code"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.code.coding.display">
+      <path value="Procedure.code.coding.display"/>
+      <min value="1"/>
+    </element>
+    <element id="Procedure.subject">
+      <path value="Procedure.subject"/>
+      <short value="Observation"/>
+      <min value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation"/>
+      </type>    
+    </element>
+    <element id="Procedure.performedDateTime">
+      <path value="Procedure.performedDateTime"/>
+    </element>
+    <element id="Procedure.PerformedPeriod.start">
+      <path value="Procedure.PerformedPeriod.start"/>
+    </element>
+    <element id="Procedure.PerformedPeriod.end">
+      <path value="Procedure.PerformedPeriod.end"/>
+    </element>
+  </differential>
+</StructureDefinition>
