@@ -41,7 +41,7 @@
     </element>
     <element id="Procedure.subject">
       <path value="Procedure.subject"/>
-      <short value="Observation"
+      <short value="Observation"/>
       <min value="1"/>
       <type>
         <code value="Reference"/>
