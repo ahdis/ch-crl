@@ -23,10 +23,6 @@
       <path value="Procedure.code"/>
       <min value="1"/>
     </element>
-    <element id="Procedure.coding">
-      <path value="Procedure.coding"/>
-      <min value="1"/>
-    </element>
     <element id="Procedure.code.coding.system">
       <path value="Procedure.code.coding.system"/>
       <min value="1"/>
