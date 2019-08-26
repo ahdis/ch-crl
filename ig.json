@@ -36,7 +36,7 @@
       "description": "Examples"
     }
   ],
-  "template": "https://github.com/ahdis/test-template",
+  "template": "https://github.com/ahdis/ig-template",
   "canonicalBase": "http://fhir.ch/ig/ch-crl",
   "dependencyList": [  
     {
