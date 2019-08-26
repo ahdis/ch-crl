@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-organization-contact-functionofcontactperson"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson"/>
-    <version value="0.0.1"/>
+    <version value="0.1.0"/>
     <name value="ChCrlOrganizationContactFunctionOfContactPerson"/>
     <title value="Function of contact person"/>
     <status value="draft"/>
-    <date value="2019-08-19T00:00:00+10:00"/>
+    <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Function of contact person"/>
     <fhirVersion value="4.0.0"/>

@@ -9,20 +9,13 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-crl/ImplementationGuide/ch.fhir.ig.crl"/>
-  <version value="0.0.1"/>
+  <version value="0.1.0"/>
   <name value="CH_CRL"/>
   <title value="CH-CRL"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-07-02"/>
+  <date value="2019-09-02"/>
   <publisher value="Bundesamt für Gesundheit BAG"/>
-  <contact>
-    <name value="HL7 Switzerland"/>
-    <telecom>
-      <system value="url"/>
-      <value value="https://www.hl7.ch/"/>
-    </telecom>
-  </contact>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
