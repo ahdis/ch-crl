@@ -119,6 +119,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-organization-department"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-organization"/>
       </reference>
       <exampleBoolean value="false"/>

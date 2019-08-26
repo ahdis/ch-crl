@@ -46,6 +46,10 @@
             <path value="DocumentReference.author.reference"/>
             <min value="1"/>
         </element>
+        <element id="DocumentReference.description">
+            <path value="DocumentReference.description"/>
+            <min value="1"/>
+        </element>
         <element id="DocumentReference.content">
             <path value="DocumentReference.content"/>
         </element>

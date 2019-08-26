@@ -12,6 +12,7 @@
   <author>
     <reference value="Organization/SpitalMinimum"/>
   </author>
+  <description value="Meldung an das Krebsregister"/>
   <content>
     <attachment>
       <contentType value="application/pdf"/>

@@ -26,9 +26,14 @@
         </element>
         <element id="Organization.type">
             <path value="Organization.type"/>
-            <short value="govt for BFS"/>
-            <min value="1"/>
-            <max value="1"/>
+            <binding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+                    <valueString value="OrganizationType"/>
+                </extension>
+                <strength value="extensible"/>
+                <description value="Used to categorize the organization."/>
+                <valueSet value="http://hl7.org/fhir/ValueSet/organization-type"/>
+            </binding>
         </element>
         <element id="Organization.name">
             <path value="Organization.name"/>
@@ -59,7 +64,7 @@
         </element>
         <element id="Organization.telecom.system:phone">
             <path value="Organization.telecom.system" />
-            <min value="1" />
+            <min value="1"/>
             <fixedCode value="phone"/>
         </element>
         <element id="Organization.telecom.value:phone">
@@ -105,6 +110,18 @@
             <path value="Organization.address.postalCode"/>
             <min value="1"/>
         </element>
+
+        <element id="Organization.partOf">
+            <path value="Organization.partOf"/>
+            <short value="Department of an Organization"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
+            </type>
+        </element>
+        
         <element id="Organization.contact">
             <path value="Organization.contact"/>
             <min value="1"/>
@@ -125,7 +142,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="Extension" />
+                <code value="Extension"/>
                 <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson" />
             </type>
             <mapping>
