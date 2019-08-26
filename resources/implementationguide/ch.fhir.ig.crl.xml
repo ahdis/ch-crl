@@ -15,7 +15,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2019-07-02"/>
-  <publisher value="HL7 Switzerland"/>
+  <publisher value="Bundesamt für Gesundheit BAG"/>
   <contact>
     <name value="HL7 Switzerland"/>
     <telecom>
@@ -96,12 +96,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/topography-of-metastases"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/ch-crl-bundle"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -126,12 +120,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-crl-observation"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/ch-crl-organization-contact-functionofcontactperson"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -151,18 +139,6 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-practitioner"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/ch-crl-procedure"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/topography-of-metastases"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
