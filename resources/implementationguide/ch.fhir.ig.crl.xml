@@ -71,6 +71,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Organization/AbteilungMinimum"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Organization/SpitalMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>

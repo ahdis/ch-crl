@@ -110,18 +110,6 @@
             <path value="Organization.address.postalCode"/>
             <min value="1"/>
         </element>
-
-        <element id="Organization.partOf">
-            <path value="Organization.partOf"/>
-            <short value="Department of an Organization"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
-            </type>
-        </element>
-        
         <element id="Organization.contact">
             <path value="Organization.contact"/>
             <min value="1"/>

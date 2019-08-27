@@ -19,6 +19,24 @@
         <element id="Organization">
             <path value="Organization"/>
         </element>
-        
+        <element id="Organization.type">
+            <path value="Organization.type"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.practiceSettingCode" />
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Organization.partOf">
+            <path value="Organization.partOf"/>
+            <short value="The organization of which this organization forms a part"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+            </type>
+        </element>
     </differential>
 </StructureDefinition>
