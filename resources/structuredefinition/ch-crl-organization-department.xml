@@ -38,5 +38,9 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
             </type>
         </element>
+        <element id="Organization.partOf.reference">
+            <path value="Organization.partOf.reference"/>
+            <min value="1"/>
+        </element>
     </differential>
 </StructureDefinition>

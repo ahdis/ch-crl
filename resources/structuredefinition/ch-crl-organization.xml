@@ -26,6 +26,7 @@
         </element>
         <element id="Organization.type">
             <path value="Organization.type"/>
+            <min value="1"/>
             <binding>
                 <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
                     <valueString value="OrganizationType"/>

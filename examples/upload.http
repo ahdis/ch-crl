@@ -19,6 +19,12 @@ Content-Type: application/fhir+xml
 < ./organization/SpitalMinimum.xml
 
 ###
+PUT {{host}}/Organization/AbteilungMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/AbteilungMinimum.xml
+
+###
 PUT {{host}}/DocumentReference/DocuHospMinimum HTTP/1.1
 Content-Type: application/fhir+xml
 
