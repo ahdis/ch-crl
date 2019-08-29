@@ -101,6 +101,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-cancerreport"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-communication"/>
       </reference>
       <exampleBoolean value="false"/>

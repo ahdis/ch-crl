@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-cancerreport"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-cancerreport"/>
+    <version value="0.1.0"/>
+    <name value="CHCRLCancerReport"/>
+    <title value="CH CRL Cancer Report Logical Model"/>
+    <status value="draft"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Logical Model for the Cancer Report"/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="logical"/>
+    <abstract value="false"/>
+    <type value="CancerReport"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+    <derivation value="specialization"/>
+    <differential>
+        <element id="CancerReport">
+            <path value="CancerReport"/>
+        </element>
+        <element id="CancerReport.Patient">
+            <path value="CancerReport.Patient" />
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="CancerReport.Patient.Name">
+            <path value="CancerReport.Patient.Name" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Vorname">
+            <path value="CancerReport.Patient.Vorname" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.AHV-Nummer">
+            <path value="CancerReport.Patient.AHV-Nummer" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Wohnadresse">
+            <path value="CancerReport.Patient.Wohnadresse" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Wohnadresse.Strasse">
+            <path value="CancerReport.Patient.Wohnadresse.Strasse" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Wohnadresse.Nummer">
+            <path value="CancerReport.Patient.Wohnadresse.Nummer" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Wohnadresse.Postfach">
+            <path value="CancerReport.Patient.Wohnadresse.Postfach" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Wohnadresse.PLZ">
+            <path value="CancerReport.Patient.Wohnadresse.PLZ" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Wohnadresse.Ort">
+            <path value="CancerReport.Patient.Wohnadresse.Ort" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Wohnadresse.Kanton">
+            <path value="CancerReport.Patient.Wohnadresse.Kanton" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Geburtsdatum">
+            <path value="CancerReport.Patient.Geburtsdatum" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Geschlecht">
+            <path value="CancerReport.Patient.Geschlecht" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatumDerInformationDesPatienten">
+            <path value="CancerReport.DatumDerInformationDesPatienten" />
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson">
+            <path value="CancerReport.MeldepflichtigePerson" />
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Name">
+            <path value="CancerReport.MeldepflichtigePerson.Name" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Vorname">
+            <path value="CancerReport.MeldepflichtigePerson.Vorname" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Telefonnummer">
+            <path value="CancerReport.MeldepflichtigePerson.Telefonnummer" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.EMailAdresse">
+            <path value="CancerReport.MeldepflichtigePerson.EMailAdresse" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Adresse">
+            <path value="CancerReport.MeldepflichtigePerson.Adresse" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Adresse.Strasse">
+            <path value="CancerReport.MeldepflichtigePerson.Adresse.Strasse" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Adresse.Nummer">
+            <path value="CancerReport.MeldepflichtigePerson.Adresse.Nummer" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Adresse.Postfach">
+            <path value="CancerReport.MeldepflichtigePerson.Adresse.Postfach" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Adresse.PLZ">
+            <path value="CancerReport.MeldepflichtigePerson.Adresse.PLZ" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Adresse.Ort">
+            <path value="CancerReport.MeldepflichtigePerson.Adresse.Ort" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Adresse.Kanton">
+            <path value="CancerReport.MeldepflichtigePerson.Adresse.Kanton" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution">
+            <path value="CancerReport.MeldepflichtigeInstitution" />
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.NameDerInsititution">
+            <path value="CancerReport.MeldepflichtigeInstitution.NameDerInsititution" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Abteilung">
+            <path value="CancerReport.MeldepflichtigeInstitution.Abteilung" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Name">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Name" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Vorname">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Vorname" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Funktion">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Funktion" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Adresse">
+            <path value="CancerReport.MeldepflichtigeInstitution.Adresse" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Strasse">
+            <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Strasse" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Nummer">
+            <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Nummer" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Postfach">
+            <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Postfach" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Adresse.PLZ">
+            <path value="CancerReport.MeldepflichtigeInstitution.Adresse.PLZ" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Ort">
+            <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Ort" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Kanton">
+            <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Kanton" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose">
+            <path value="CancerReport.DatenZurDiagnose" />
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="base64Binary"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurErstbehandlung">
+            <path value="CancerReport.DatenZurErstbehandlung" />
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="base64Binary"/>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>
