@@ -22,11 +22,19 @@
         <element id="Organization.type">
             <path value="Organization.type"/>
             <min value="1"/>
-            <patternCodeableConcept>
-                <coding>
-                    <system value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.practiceSettingCode" />
-                </coding>
-            </patternCodeableConcept>
+
+            
+
+            <binding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+                    <valueString value="OrganizationType"/>
+                </extension>
+                <strength value="preferred"/>
+                <description value="Used to categorize the organization."/>
+                <valueSet value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.practiceSettingCode"/>
+            </binding>
+
+
         </element>
         <element id="Organization.partOf">
             <path value="Organization.partOf"/>

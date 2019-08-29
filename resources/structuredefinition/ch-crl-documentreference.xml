@@ -56,9 +56,28 @@
         <element id="DocumentReference.content.attachment">
             <path value="DocumentReference.content.attachment"/>
         </element>
+        
         <element id="DocumentReference.content.attachment.contentType">
             <path value="DocumentReference.content.attachment.contentType"/>
             <min value="1"/>
+        </element>
+        <element id="DocumentReference.content.attachment.data">
+            <path value="DocumentReference.content.attachment.data"/>
+            <min value="1"/>
+        </element>
+        <element id="DocumentReference.content.attachment.size">
+            <path value="DocumentReference.content.attachment.size"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="DocumentReference.content.attachment.title">
+            <path value="DocumentReference.content.attachment.title"/>
+            <min value="1"/>
+        </element>
+        <element id="DocumentReference.content.attachment.creation">
+            <path value="DocumentReference.content.attachment.creation"/>
+            <min value="0"/>
+            <max value="1"/>
         </element>
     </differential>
 </StructureDefinition>

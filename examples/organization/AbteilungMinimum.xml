@@ -12,8 +12,9 @@
   <active value="true"/>
   <type>
     <coding>
-      <system value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.practiceSettingCode"/>
+      <system value="http://snomed.info/sct"/>
       <code value="394592004"/>
+      <display value="Clinical oncology"/>
     </coding>
   </type>
   <name value="Abteilung Minium"/>
