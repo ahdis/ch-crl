@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ch.fhir.ig.crl"/>
+  <id value="ch.fhir.ig.ch-crl"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
       ImplementationGuide for CH-CRL
     </div>
   </text>
-  <url value="http://fhir.ch/ig/ch-crl/ImplementationGuide/ch.fhir.ig.crl"/>
+  <url value="http://fhir.ch/ig/ch-crl/ImplementationGuide/ch.fhir.ig.ch-crl"/>
   <version value="0.1.0"/>
   <name value="CH_CRL"/>
   <title value="CH-CRL"/>
@@ -23,7 +23,7 @@
     </coding>
   </jurisdiction>
   <copyright value="CC-BY-SA-4.0"/>
-  <packageId value="ch.fhir.ig.crl"/>
+  <packageId value="ch.fhir.ig.ch-crl"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.0"/>
   <definition>
