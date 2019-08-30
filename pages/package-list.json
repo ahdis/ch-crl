@@ -1,6 +1,6 @@
 {
   "package-id": "ch.fhir.ig.ch-crl",
-  "title": "CH-IG (R4)",
+  "title": "CH-CRL (R4)",
   "introduction": "Implementation guide for the Cancer Registry Law (CRL)",
   "canonical": "http://fhir.ch/ig/ch-crl",
   "list": [
