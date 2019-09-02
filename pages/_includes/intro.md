@@ -2,8 +2,7 @@
 
 ## Introduction
 The documentation for the hearing is available on the website of the National Institute for Cancer Epidemiology and Registration  
-(<https://www.nicer.org> > Krebsregistrierung > Partner im Gesundheitswesen).  
-For further information please contact Martin Stierlin (<martin.stierlin@bag.admin.ch>) from Bundesamt für Gesundheit (BAG).
+(<https://www.nicer.org> > Krebsregistrierung > Partner im Gesundheitswesen).
 
 ## Scope
 
