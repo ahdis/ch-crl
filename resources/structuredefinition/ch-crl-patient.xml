@@ -50,7 +50,7 @@
             <min value="1" />
              <mapping>
                 <identity value="KRG"/>
-                <map value="Versichertennummer nach Artikel 50c des Bundesgesetzes vom 20. Dezember 19463 über die Alters- und Hinterlassenenversicherung (Versichertennummer) (Art. 3 Abs. 1 Bst. b)"/>
+                <map value="Versichertennummer nach Artikel 50c des Bundesgesetzes vom 20. Dezember 1946 über die Alters- und Hinterlassenenversicherung (Versichertennummer) (Art. 3 Abs. 1 Bst. b)"/>
             </mapping>
             <mapping>
                 <identity value="NICER-A"/>
