@@ -42,12 +42,12 @@
     {
       "name": "chcore",
       "package": "ch.fhir.ig.ch-core",
-      "version": "dev"
+      "version": "current"
     },
     {
       "name": "cheprterm",
       "package": "ch.fhir.ig.ch-epr-term",
-      "version": "dev"
+      "version": "current"
     }
   ],
   "source": "implementationguide/ch.fhir.ig.ch-crl.xml",
