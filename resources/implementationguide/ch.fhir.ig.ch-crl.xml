@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ch.fhir.ig.ch-crl"/>
   <text>
@@ -27,6 +26,8 @@
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.0"/>
   <definition>
+
+    <!-- references to examples -->
     <resource>
       <reference>
         <reference value="Bundle/BundleFromOrganization"/>
@@ -93,6 +94,8 @@
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
     </resource>
+
+    <!-- references to structureDefinitions -->
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-bundle"/>
@@ -125,6 +128,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-observation"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-organization-contact-functionofcontactperson"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -150,6 +159,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-practitioner"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-procedure"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

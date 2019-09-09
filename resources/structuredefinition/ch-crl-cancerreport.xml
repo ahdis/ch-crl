@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-cancerreport"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-cancerreport"/>
-    <version value="0.1.0"/>
+    <version value="0.2.0"/>
     <name value="CHCRLCancerReport"/>
     <title value="CH CRL Cancer Report Logical Model"/>
     <status value="draft"/>
-    <date value="2019-09-02"/>
+    <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Logical Model for the Cancer Report"/>
     <fhirVersion value="4.0.0"/>
