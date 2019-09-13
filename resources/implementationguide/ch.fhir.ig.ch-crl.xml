@@ -72,6 +72,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/FinalCauseOfDeath"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Organization/AbteilungMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
@@ -128,7 +134,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-crl-observation"/>
+        <reference value="StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -162,11 +168,11 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-procedure"/>
       </reference>
       <exampleBoolean value="false"/>
-    </resource>
+    </resource>-->
   </definition>
 </ImplementationGuide>

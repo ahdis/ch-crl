@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-observation-finalcauseofdeath"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
+    <version value="0.2.0"/>
+    <name value="CHCRLObservationFinalCauseOfDeath"/>
+    <title value="CH CRL Observation Final Cause of Death Profile"/>
+    <status value="draft"/>
+    <date value="2019-10-11"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on Observation about the final Cause of Death"/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation">
+            <path value="Observation"/>
+        </element>
+        <element id="Observation.code">
+            <path value="Observation.code"/>
+        </element>
+        <element id="Observation.coding">
+            <path value="Observation.coding"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://loinc.org"/>
+                    <code value="79378-6"/>
+                    <display value="Cause of death"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.code.coding.system">
+            <path value="Observation.code.coding.system"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.code.coding.code">
+            <path value="Observation.code.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.code.coding.display">
+            <path value="Observation.code.coding.display"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.subject">
+            <path value="Observation.subject"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </type>
+        </element>
+        <element id="Observation.effective[x]">
+            <path value="Observation.effective[x]"/>
+            <min value="1"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
+        </element>
+
+
+        <element id="Observation.value[x]">
+            <path value="Observation.value[x]"/>
+            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+
+        </element>
+
+        <element id="Observation.value[x].coding">
+            <path value="Observation.value[x].coding"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.value[x].coding.system">
+            <path value="Observation.value[x].coding.system"/>
+            <min value="1"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+            </binding>
+        </element>
+        <element id="Observation.value[x].coding.version">
+            <path value="Observation.value[x].coding.version"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.value[x].coding.code">
+            <path value="Observation.value[x].coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.value[x].coding.display">
+            <path value="Observation.value[x].coding.display"/>
+            <min value="1"/>
+        </element>
+
+
+    </differential>
+</StructureDefinition>
