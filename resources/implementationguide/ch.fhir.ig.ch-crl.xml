@@ -72,9 +72,33 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/ConcomitantDiseaseA"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/ConcomitantDiseaseB"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/FinalCauseOfDeath"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/PrimaryDisease"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/SecondaryDisease"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
     </resource>
     <resource>
       <reference>
@@ -135,6 +159,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-disease"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

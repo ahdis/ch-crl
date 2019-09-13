@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-crl-observation-finalcauseofdeath"/>
-    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
+    <id value="ch-crl-observation-disease"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
     <version value="0.2.0"/>
-    <name value="CHCRLObservationFinalCauseOfDeath"/>
-    <title value="CH CRL Observation Final Cause of Death Profile"/>
+    <name value="CHCRLObservationDisease"/>
+    <title value="CH CRL Observation Disease"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the final Cause of Death"/>
+    <description value="Profile on Observation about the Disease"/>
     <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>
@@ -28,8 +28,8 @@
             <patternCodeableConcept>
                 <coding>
                     <system value="http://loinc.org"/>
-                    <code value="79378-6"/>
-                    <display value="Cause of death"/>
+                    <code value="69441-4"/>
+                    <display value="Other significant causes or conditions of death"/>
                 </coding>
             </patternCodeableConcept>
         </element>
