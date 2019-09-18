@@ -10,6 +10,11 @@
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Profile on Observation about the final Cause of Death"/>
     <fhirVersion value="4.0.0"/>
+    <mapping>
+        <identity value="NICER-A"/>
+        <uri value="https://www.nicer.org/assets/files/Infowelle2/e_a_struktur_der_basisdaten.pdf"/>
+        <name value="NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"/>
+    </mapping>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Observation"/>
@@ -18,12 +23,13 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <mapping>
+                <identity value="NICER-A"/>
+                <map value="Principal cause of death (Variable number: 1.16)"/>
+            </mapping>
         </element>
         <element id="Observation.code">
             <path value="Observation.code"/>
-        </element>
-        <element id="Observation.coding">
-            <path value="Observation.coding"/>
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>

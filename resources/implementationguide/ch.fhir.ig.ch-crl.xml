@@ -90,6 +90,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/DateOfIncidence"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/FinalCauseOfDeath"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
@@ -130,6 +136,26 @@
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="Procedure/DiagnosticMethod"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+    </resource>
+
+    <!-- references to codeSystems -->
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-diagnosticmethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-topographyofmetastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
 
     <!-- references to structureDefinitions -->
     <resource>
@@ -159,6 +185,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-documentreference"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-dateofincidence"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -204,11 +236,26 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-    <!--<resource>
+    <resource>
       <reference>
-        <reference value="StructureDefinition/ch-crl-procedure"/>
+        <reference value="StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
       </reference>
       <exampleBoolean value="false"/>
-    </resource>-->
+    </resource>
+
+    <!-- references to valueSets -->
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-diagnosticmethod"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-topographyofmetastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
   </definition>
 </ImplementationGuide>

@@ -19,6 +19,8 @@
         <element id="CancerReport">
             <path value="CancerReport"/>
         </element>
+
+        <!-- Patient -->
         <element id="CancerReport.Patient">
             <path value="CancerReport.Patient" />
             <min value="1"/>
@@ -120,6 +122,8 @@
                 <code value="code"/>
             </type>
         </element>
+
+        <!-- Datum der Information des Patienten -->
         <element id="CancerReport.DatumDerInformationDesPatienten">
             <path value="CancerReport.DatumDerInformationDesPatienten" />
             <min value="0"/>
@@ -128,6 +132,8 @@
                 <code value="date"/>
             </type>
         </element>
+
+        <!-- Meldepflichtige Person -->
         <element id="CancerReport.MeldepflichtigePerson">
             <path value="CancerReport.MeldepflichtigePerson" />
             <min value="0"/>
@@ -221,6 +227,8 @@
                 <code value="string"/>
             </type>
         </element>
+
+        <!-- Meldepflichtige Institution -->
         <element id="CancerReport.MeldepflichtigeInstitution">
             <path value="CancerReport.MeldepflichtigeInstitution" />
             <min value="0"/>
@@ -330,6 +338,8 @@
                 <code value="string"/>
             </type>
         </element>
+
+        <!-- Daten zur Diagnose -->
         <element id="CancerReport.DatenZurDiagnose">
             <path value="CancerReport.DatenZurDiagnose" />
             <min value="0"/>
@@ -338,8 +348,58 @@
                 <code value="base64Binary"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.EndgültigeTodesursache">
+            <path value="CancerReport.DatenZurDiagnose.EndgültigeTodesursache"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose.Grundkrankheit">
+            <path value="CancerReport.DatenZurDiagnose.Grundkrankheit"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose.Folgekrankheit">
+            <path value="CancerReport.DatenZurDiagnose.Folgekrankheit"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose.Begleitkrankheit">
+            <path value="CancerReport.DatenZurDiagnose.Begleitkrankheit"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose.DatumDesAuftretens">
+            <path value="CancerReport.DatenZurDiagnose.DatumDesAuftretens"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose.VerwendeteDiagnosemethode">
+            <path value="CancerReport.DatenZurDiagnose.VerwendeteDiagnosemethode"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+        <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.DatenZurErstbehandlung">
-            <path value="CancerReport.DatenZurErstbehandlung" />
+            <path value="CancerReport.DatenZurErstbehandlung"/>
             <min value="0"/>
             <max value="*"/>
             <type>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-crl-observation-disease"/>
-    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+    <id value="ch-crl-observation-dateofincidence"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
     <version value="0.2.0"/>
-    <name value="CHCRLObservationDisease"/>
-    <title value="CH CRL Observation Disease"/>
+    <name value="CHCRLObservationDateOfIncidence"/>
+    <title value="CH CRL Observation Date of Incidence Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the Disease"/>
+    <description value="Profile on Observation about the Date of Incidence"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>
@@ -25,10 +25,7 @@
             <path value="Observation"/>
             <mapping>
                 <identity value="NICER-A"/>
-                <map value="Underlying cause of death (Variable number: 1.17.1) or
-                Intermediate cause of death (Variable number: 1.17.2) or
-                First concomitant cause of death (Variable number: 1.17.3) or
-                Second concomitant cause of death (Variable number: 1.17.4)"/>
+                <map value="Date of incidence (Variable number: 2.3.1)"/>
             </mapping>
         </element>
         <element id="Observation.code">
@@ -37,8 +34,8 @@
             <patternCodeableConcept>
                 <coding>
                     <system value="http://loinc.org"/>
-                    <code value="69441-4"/>
-                    <display value="Other significant causes or conditions of death"/>
+                    <code value="63931-0"/>
+                    <display value="Date of diagnosis"/>
                 </coding>
             </patternCodeableConcept>
         </element>
@@ -61,44 +58,12 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
             </type>
         </element>
-        <element id="Observation.effective[x]">
-            <path value="Observation.effective[x]"/>
-            <min value="1"/>
-            <type>
-                <code value="dateTime"/>
-            </type>
-        </element>
         <element id="Observation.value[x]">
             <path value="Observation.value[x]"/>
             <min value="1"/>
             <type>
-                <code value="CodeableConcept"/>
+                <code value="dateTime"/>
             </type>
-            <patternCodeableConcept>
-                <coding>
-                    <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
-                </coding>
-            </patternCodeableConcept>
-        </element>
-        <element id="Observation.value[x].coding">
-            <path value="Observation.value[x].coding"/>
-            <min value="1"/>
-        </element>
-        <element id="Observation.value[x].coding.system">
-            <path value="Observation.value[x].coding.system"/>
-            <min value="1"/>
-        </element>
-        <element id="Observation.value[x].coding.version">
-            <path value="Observation.value[x].coding.version"/>
-            <min value="1"/>
-        </element>
-        <element id="Observation.value[x].coding.code">
-            <path value="Observation.value[x].coding.code"/>
-            <min value="1"/>
-        </element>
-        <element id="Observation.value[x].coding.display">
-            <path value="Observation.value[x].coding.display"/>
-            <min value="1"/>
         </element>
     </differential>
 </StructureDefinition>

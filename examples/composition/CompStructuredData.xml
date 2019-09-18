@@ -40,5 +40,11 @@
     <entry>
       <reference value="Observation/ConcomitantDiseaseB"/>
     </entry>
+    <entry>
+      <reference value="Observation/DateOfIncidence"/>
+    </entry>
+    <entry>
+      <reference value="Procedure/DiagnosticMethod"/>
+    </entry>
   </section>
 </Composition>

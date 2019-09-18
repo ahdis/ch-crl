@@ -1,0 +1,79 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nicer-topographyofmetastases"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-topographyofmetastases" />
+    <version value="0.0.1"/>
+    <name value="NicerTopographyOfMetastases"/>
+    <title value="Nicer Topography of Metastases at Diagnosis"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Nicer defines different Topography of Metastases.
+        See **Topography of metastases at diagnosis (Variable number: 4.42)** in \'E A Struktur der Basisdaten.pdf\'  
+        (https://www.nicer.org/de/krebsregistrierung/krebsregistrierung-nach-krg-ab-112020/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-topographyofmetastases"/>
+    <compositional value="false"/>
+    <versionNeeded value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="PUL"/>
+        <definition value="Pulmonary (C34)"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="OSS"/>
+        <definition value="Osseous (C41, C41)"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="HEP"/>
+        <definition value="Hepatic (C22)"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="BRA"/>
+        <definition value="Brain (C71)"/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="LYM"/>
+        <definition value="Lymph nodes (C77)"/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="MAR"/>
+        <definition value="Bone marrow (C42.1)"/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="PLE"/>
+        <definition value="Pleura (C38.4)"/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="PER"/>
+        <definition value="Peritoneum (C48.1, 2)"/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="ADR"/>
+        <definition value="Adrenals (C74)"/>
+    </concept>
+    <concept>
+        <code value="10"/>
+        <display value="SKI"/>
+        <definition value="Skin (C44)"/>
+    </concept>
+    <concept>
+        <code value="11"/>
+        <display value="OTH"/>
+        <definition value="Others"/>
+    </concept>
+    <concept>
+        <code value="99"/>
+        <display value="UNK"/>
+        <definition value="No information on the topography of metastases available"/>
+    </concept>
+</CodeSystem>

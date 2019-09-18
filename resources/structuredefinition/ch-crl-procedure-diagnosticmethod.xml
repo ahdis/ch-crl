@@ -1,0 +1,108 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-procedure-diagnosticmethod"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+    <version value="0.1.0"/>
+    <name value="CHCRLProcedureDiagnosticMethod"/>
+    <title value="CH CRL Procedure Diagnostic Method Profile"/>
+    <status value="draft"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on Procedure Diagnostic Method for Reporting to the Cancer Registry"/>
+    <fhirVersion value="4.0.0"/>
+    <mapping>
+        <identity value="NICER-A"/>
+        <uri value="https://www.nicer.org/assets/files/Infowelle2/e_a_struktur_der_basisdaten.pdf"/>
+        <name value="NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"/>
+    </mapping>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Procedure"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Procedure">
+            <path value="Procedure"/>
+            <mapping>
+                <identity value="NICER-A"/>
+                <map value="Diagnostic method(s) used (Variable number: 2.8)"/>
+            </mapping>
+        </element>
+        <element id="Procedure.category">
+            <path value="Procedure.category"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://loinc.org"/>
+                    <code value="67183-4"/>
+                    <display value="Diagnostic staging procedure PhenX"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Procedure.category.coding.system">
+            <path value="Procedure.category.coding.system"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.category.coding.code">
+            <path value="Procedure.category.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.category.coding.display">
+            <path value="Procedure.category.coding.display"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.code">
+            <path value="Procedure.code"/>
+            <min value="1"/>
+            <binding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+                    <valueString value="ProcedureCode"/>
+                </extension>
+                <strength value="preferred"/>
+                <description value="A code to identify a specific procedure."/>
+                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-diagnosticmethod"/>
+            </binding>
+        </element>
+        <element id="Procedure.code.coding">
+            <path value="Procedure.code.coding"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.code.coding.system">
+            <path value="Procedure.code.coding.system"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.code.coding.code">
+            <path value="Procedure.code.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.code.coding.display">
+            <path value="Procedure.code.coding.display"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.subject">
+            <path value="Procedure.subject"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </type>
+        </element>
+        <element id="Procedure.performed[x]">
+            <path value="Procedure.performed[x]"/>
+            <min value="1"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
+            <type>
+                <code value="Period"/>
+            </type>
+        </element>
+        <element id="Procedure.reasonReference">
+            <path value="Procedure.reasonReference"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <!-- TBD: ICD10 Element 13-->
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>

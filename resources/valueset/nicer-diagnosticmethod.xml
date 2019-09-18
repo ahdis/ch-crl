@@ -1,0 +1,17 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nicer-diagnosticmethod"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-diagnosticmethod"/>
+    <version value="0.0.1"/>
+    <name value="NicerDiagnosticMethod"/>
+    <title value="Nicer Diagnostic Method(s) used"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Nicer defines different Methods of Diagnostic." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-diagnosticmethod"/>
+        </include>
+    </compose>
+</ValueSet>

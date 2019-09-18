@@ -169,5 +169,37 @@
             </type>
         </element>
 
+        <!-- Section date of incidence -->
+        <element id="Composition.section.entry:dateOfIncidence">
+            <path value="Composition.section.entry"/>
+            <sliceName value="dateOfIncidence"/>
+            <short value="Date of Incidence"/>
+        </element>
+        <element id="Composition.section.entry:dateOfIncidence.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
+            </type>
+        </element>
+
+        <!-- Section diagnostic method -->
+        <element id="Composition.section.entry:diagnosticMethod">
+            <path value="Composition.section.entry"/>
+            <sliceName value="diagnosticMethod"/>
+            <short value="Diagnostic Method used"/>
+        </element>
+        <element id="Composition.section.entry:diagnosticMethod.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+            </type>
+        </element>
+
     </differential>
 </StructureDefinition>

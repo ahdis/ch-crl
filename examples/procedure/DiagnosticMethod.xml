@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="DiagnosticMethod"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+  </meta>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="67183-4"/>
+      <display value="Diagnostic staging procedure PhenX"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-diagnosticmethod"/>
+      <code value="7"/>
+      <display value="CT scan of tumour"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <performedDateTime value="2019-09-11T13:28:17-05:00"/>
+  <reasonReference>
+    <!-- TBD: ICD10 Element 13-->
+    <reference value="Observation/PrimaryDisease"/>
+  </reasonReference>
+</Procedure>
