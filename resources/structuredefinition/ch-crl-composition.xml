@@ -19,6 +19,7 @@
         <element id="Composition">
             <path value="Composition"/>
         </element>
+
         <element id="Composition.type">
             <path value="Composition.type"/>
             <patternCodeableConcept>
@@ -29,6 +30,7 @@
                 </coding>
             </patternCodeableConcept>
         </element>
+
         <element id="Composition.subject">
             <path value="Composition.subject"/>
             <short value="Patient"/>
@@ -39,6 +41,7 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
             </type>
         </element>
+
         <element id="Composition.author">
             <path value="Composition.author"/>
             <short value="Practitioner if Resident Physician or Organization Department if Hospital"/>
@@ -53,6 +56,8 @@
             <path value="Composition.author.reference"/>
             <min value="1"/>
         </element>
+
+        <!-- Different sections of the composition -->
         <element id="Composition.section">
             <path value="Composition.section"/>
             <min value="1"/>
@@ -67,29 +72,102 @@
                 <rules value="open"/>
             </slicing>
         </element>
+
+        <!-- Section document reference -->
         <element id="Composition.section.entry:documentReference">
             <path value="Composition.section.entry"/>
             <sliceName value="documentReference"/>
+            <short value="Report as base64Binary"/>
         </element>
         <element id="Composition.section.entry:documentReference.reference">
             <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
                 <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
             </type>
         </element>
+
+        <!-- Section communication -->
         <element id="Composition.section.entry:communication">
             <path value="Composition.section.entry"/>
             <sliceName value="communication"/>
+            <short value="Date of Patient Information"/>
         </element>
         <element id="Composition.section.entry:communication.reference">
             <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
                 <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
             </type>
         </element>
+
+        <!-- Section final cause of death -->
+        <element id="Composition.section.entry:finalCauseOfDeath">
+            <path value="Composition.section.entry"/>
+            <sliceName value="finalCauseOfDeath"/>
+            <short value="Final Cause of Death"/>
+        </element>
+        <element id="Composition.section.entry:finalCauseOfDeath.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
+            </type>
+        </element>
+
+        <!-- Section primary disease -->
+        <element id="Composition.section.entry:primaryDisease">
+            <path value="Composition.section.entry"/>
+            <sliceName value="primaryDisease"/>
+            <short value="Primary Disease"/>
+        </element>
+        <element id="Composition.section.entry:primaryDisease.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+            </type>
+        </element>
+
+        <!-- Section secondary disease -->
+        <element id="Composition.section.entry:secondaryDisease">
+            <path value="Composition.section.entry"/>
+            <sliceName value="secondaryDisease"/>
+            <short value="Secondary Disease"/>
+        </element>
+        <element id="Composition.section.entry:secondaryDisease.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+            </type>
+        </element>
+
+        <!-- Section concomitant disease -->
+        <element id="Composition.section.entry:concomitantDisease">
+            <path value="Composition.section.entry"/>
+            <sliceName value="concomitantDisease"/>
+            <short value="Concomitant Disease"/>
+        </element>
+        <element id="Composition.section.entry:concomitantDisease.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+            </type>
+        </element>
+
     </differential>
 </StructureDefinition>

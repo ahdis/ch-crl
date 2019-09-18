@@ -60,6 +60,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Composition/CompStructuredData"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="DocumentReference/DocuHospMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
