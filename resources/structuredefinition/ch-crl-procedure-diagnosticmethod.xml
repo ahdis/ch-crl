@@ -101,7 +101,7 @@
             <type>
                 <code value="Reference"/>
                 <!-- TBD: ICD10 Element 13-->
-                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </type>
         </element>
     </differential>

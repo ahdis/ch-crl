@@ -117,7 +117,7 @@
             <min value="1"/>
             <type>
                 <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-finalcauseofdeath"/>
             </type>
         </element>
 
@@ -133,7 +133,7 @@
             <min value="1"/>
             <type>
                 <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </type>
         </element>
 
@@ -149,7 +149,7 @@
             <min value="1"/>
             <type>
                 <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </type>
         </element>
 
@@ -165,7 +165,7 @@
             <min value="1"/>
             <type>
                 <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </type>
         </element>
 

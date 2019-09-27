@@ -339,6 +339,54 @@
             </type>
         </element>
 
+        <!-- BFS-Daten -->
+        <element id="CancerReport.BFS-Daten">
+            <path value="CancerReport.BFS-Daten" />
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="CancerReport.BFS-Daten.EndgültigeTodesursache">
+            <path value="CancerReport.BFS-Daten.EndgültigeTodesursache"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.BFS-Daten.Grundkrankheit">
+            <path value="CancerReport.BFS-Daten.Grundkrankheit"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.BFS-Daten.Folgekrankheit">
+            <path value="CancerReport.BFS-Daten.Folgekrankheit"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.BFS-Daten.BegleitkrankheitA">
+            <path value="CancerReport.BFS-Daten.BegleitkrankheitA"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.BFS-Daten.BegleitkrankheitB">
+            <path value="CancerReport.BFS-Daten.BegleitkrankheitB"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+
         <!-- Daten zur Diagnose -->
         <element id="CancerReport.DatenZurDiagnose">
             <path value="CancerReport.DatenZurDiagnose" />
@@ -346,38 +394,6 @@
             <max value="*"/>
             <type>
                 <code value="base64Binary"/>
-            </type>
-        </element>
-        <element id="CancerReport.DatenZurDiagnose.EndgültigeTodesursache">
-            <path value="CancerReport.DatenZurDiagnose.EndgültigeTodesursache"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.DatenZurDiagnose.Grundkrankheit">
-            <path value="CancerReport.DatenZurDiagnose.Grundkrankheit"/>
-            <min value="0"/>
-            <max value="*"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.DatenZurDiagnose.Folgekrankheit">
-            <path value="CancerReport.DatenZurDiagnose.Folgekrankheit"/>
-            <min value="0"/>
-            <max value="*"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.DatenZurDiagnose.Begleitkrankheit">
-            <path value="CancerReport.DatenZurDiagnose.Begleitkrankheit"/>
-            <min value="0"/>
-            <max value="*"/>
-            <type>
-                <code value="code"/>
             </type>
         </element>
         <element id="CancerReport.DatenZurDiagnose.DatumDesAuftretens">

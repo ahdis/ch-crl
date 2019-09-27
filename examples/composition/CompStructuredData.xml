@@ -26,19 +26,19 @@
       <reference value="Communication/CommMinimum"/>
     </entry>
     <entry>
-      <reference value="Observation/FinalCauseOfDeath"/>
+      <reference value="Condition/FinalCauseOfDeath"/>
     </entry>
     <entry>
-      <reference value="Observation/PrimaryDisease"/>
+      <reference value="Condition/PrimaryDisease"/>
     </entry>
     <entry>
-      <reference value="Observation/SecondaryDisease"/>
+      <reference value="Condition/SecondaryDisease"/>
     </entry>
     <entry>
-      <reference value="Observation/ConcomitantDiseaseA"/>
+      <reference value="Condition/ConcomitantDiseaseA"/>
     </entry>
     <entry>
-      <reference value="Observation/ConcomitantDiseaseB"/>
+      <reference value="Condition/ConcomitantDiseaseB"/>
     </entry>
     <entry>
       <reference value="Observation/DateOfIncidence"/>

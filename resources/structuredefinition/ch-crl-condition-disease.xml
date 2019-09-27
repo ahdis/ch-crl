@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-condition-disease"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
+    <version value="0.2.0"/>
+    <name value="CHCRLConditionDisease"/>
+    <title value="CH CRL Condition Disease"/>
+    <status value="draft"/>
+    <date value="2019-10-11"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on Condition about the Disease"/>
+    <fhirVersion value="4.0.0"/>
+    <mapping>
+        <identity value="NICER-A"/>
+        <uri value="https://www.nicer.org/assets/files/Infowelle2/e_a_struktur_der_basisdaten.pdf"/>
+        <name value="NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"/>
+    </mapping>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Condition"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Condition">
+            <path value="Condition"/>
+            <mapping>
+                <identity value="NICER-A"/>
+                <map value="Underlying cause of death (Variable number: 1.17.1) or
+                Intermediate cause of death (Variable number: 1.17.2) or
+                First concomitant cause of death (Variable number: 1.17.3) or
+                Second concomitant cause of death (Variable number: 1.17.4)"/>
+            </mapping>
+        </element>
+        <element id="Condition.extension">
+            <path value="Condition.extension"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="url"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Condition.extension:dateOfDiagnosis">
+            <path value="Condition.extension"/>
+            <sliceName value="dateOfDiagnosis"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/condition-assertedDate"/>
+            </type>
+        </element>
+
+        <element id="Condition.category">
+            <path value="Condition.category"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Condition.category.coding">
+            <path value="Condition.category.coding"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Condition.category.coding.system">
+            <path value="Condition.category.coding.system"/>
+            <min value="1"/>
+            <fixedUri value="http://loinc.org"/>
+        </element>
+        <element id="Condition.category.coding.code">
+            <path value="Condition.category.coding.code"/>
+            <min value="1"/>
+            <fixedCode value="69441-4"/>
+        </element>
+        <element id="Condition.category.coding.display">
+            <path value="Condition.category.coding.display"/>
+            <min value="1"/>
+            <fixedString value="Other significant causes or conditions of death"/>
+        </element>
+        <element id="Condition.code">
+            <path value="Condition.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Condition.code.coding">
+            <path value="Condition.code.coding"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Condition.code.coding.system">
+            <path value="Condition.code.coding.system"/>
+            <min value="1"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+            </binding>
+        </element>
+        <element id="Condition.code.coding.version">
+            <path value="Condition.code.coding.version"/>
+            <min value="1"/>
+        </element>
+        <element id="Condition.code.coding.code">
+            <path value="Condition.code.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Condition.code.coding.display">
+            <path value="Condition.code.coding.display"/>
+            <min value="1"/>
+        </element>
+        <element id="Condition.subject">
+            <path value="Condition.subject"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </type>
+        </element>
+        <element id="Condition.subject.reference">
+            <path value="Condition.subject.reference"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

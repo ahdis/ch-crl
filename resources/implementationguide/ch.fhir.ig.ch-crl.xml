@@ -66,6 +66,36 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Condition/ConcomitantDiseaseA"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Condition/ConcomitantDiseaseB"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Condition/FinalCauseOfDeath"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-finalcauseofdeath"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Condition/PrimaryDisease"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Condition/SecondaryDisease"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="DocumentReference/DocuHospMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
@@ -78,39 +108,9 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/ConcomitantDiseaseA"/>
-      </reference>
-      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/ConcomitantDiseaseB"/>
-      </reference>
-      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="Observation/DateOfIncidence"/>
       </reference>
-      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/FinalCauseOfDeath"/>
-      </reference>
-      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/PrimaryDisease"/>
-      </reference>
-      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/SecondaryDisease"/>
-      </reference>
-      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-disease"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
     </resource>
     <resource>
       <reference>
@@ -184,6 +184,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-condition-disease"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-condition-finalcauseofdeath"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-documentreference"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -191,18 +203,6 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-dateofincidence"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/ch-crl-observation-finalcauseofdeath"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/ch-crl-observation-disease"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
