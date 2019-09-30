@@ -1,6 +1,6 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="nicer-diagnosticmethod"/>
-    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-diagnosticmethod" />
+    <id value="nicer-diagnosticmethodsused"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-diagnosticmethodsused" />
     <version value="0.0.1"/>
     <name value="NicerDiagnosticMethod"/>
     <title value="Nicer Diagnostic Method(s) used"/>
@@ -12,7 +12,7 @@
         See **Diagnostic method(s) used (Variable number: 2.8)** in \'E A Struktur der Basisdaten.pdf\'  
         (https://www.nicer.org/de/krebsregistrierung/krebsregistrierung-nach-krg-ab-112020/)."/>
     <caseSensitive value="true"/>
-    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-diagnosticmethod"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-diagnosticmethodsused"/>
     <compositional value="false"/>
     <versionNeeded value="true"/>
     <content value="complete"/>

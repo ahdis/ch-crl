@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="cT"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="21905-5"/>
+      <display value="Primary tumor.clinical [Class] Cancer"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <effectiveDateTime value="2019-09-10"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-ct"/>
+      <code value="1"/>
+      <display value="cT1"/>
+    </coding>
+  </valueCodeableConcept>
+  <method>
+    <text value="UICC TNM Version 8"/>
+  </method>
+</Observation>

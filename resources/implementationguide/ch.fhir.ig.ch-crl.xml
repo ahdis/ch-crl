@@ -108,6 +108,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/cT"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/DateOfIncidence"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
@@ -146,7 +152,7 @@
     <!-- references to codeSystems -->
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-diagnosticmethod"/>
+        <reference value="CodeSystem/nicer-diagnosticmethodsused"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -202,6 +208,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-observation-ct"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-observation-dateofincidence"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -246,7 +258,7 @@
     <!-- references to valueSets -->
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-diagnosticmethod"/>
+        <reference value="ValueSet/nicer-diagnosticmethodsused"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
