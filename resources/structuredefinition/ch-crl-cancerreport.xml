@@ -50,6 +50,30 @@
                 <code value="string"/>
             </type>
         </element>
+        <element id="CancerReport.Patient.Geschlecht">
+            <path value="CancerReport.Patient.Geschlecht" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Geburtsdatum">
+            <path value="CancerReport.Patient.Geburtsdatum" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Todesdatum">
+            <path value="CancerReport.Patient.Todesdatum" />
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
         <element id="CancerReport.Patient.Wohnadresse">
             <path value="CancerReport.Patient.Wohnadresse" />
             <min value="1"/>
@@ -104,22 +128,6 @@
             <max value="1"/>
             <type>
                 <code value="string"/>
-            </type>
-        </element>
-        <element id="CancerReport.Patient.Geburtsdatum">
-            <path value="CancerReport.Patient.Geburtsdatum" />
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="date"/>
-            </type>
-        </element>
-        <element id="CancerReport.Patient.Geschlecht">
-            <path value="CancerReport.Patient.Geschlecht" />
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
             </type>
         </element>
 

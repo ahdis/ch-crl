@@ -42,13 +42,13 @@
         <element id="Patient.identifier:EPR-SPID">
             <path value="Patient.identifier" />
             <sliceName value="EPR-SPID"/>
-            <max value="0"/>    
+            <max value="0"/>
         </element>
         <element id="Patient.identifier:AHVN13">
             <path value="Patient.identifier" />
             <sliceName value="AHVN13" />
             <min value="1" />
-             <mapping>
+            <mapping>
                 <identity value="KRG"/>
                 <map value="Versichertennummer nach Artikel 50c des Bundesgesetzes vom 20. Dezember 1946 über die Alters- und Hinterlassenenversicherung (Versichertennummer) (Art. 3 Abs. 1 Bst. b)"/>
             </mapping>
@@ -111,6 +111,10 @@
                 <identity value="NICER-A"/>
                 <map value="Date of Birth (Variable number: 1.3.1)"/>
             </mapping>
+        </element>
+        <element id="Patient.deceased[x]">
+            <path value="Patient.deceased[x]"/>
+            <min value="1"/>
         </element>
         <element id="Patient.address">
             <path value="Patient.address"/>

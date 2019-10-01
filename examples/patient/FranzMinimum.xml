@@ -15,6 +15,7 @@
   </name>
   <gender value="male"/>
   <birthDate value="1995-01-27"/>
+  <deceasedBoolean value="false"/>
   <address>
     <postalCode value="8001" />
   </address>
