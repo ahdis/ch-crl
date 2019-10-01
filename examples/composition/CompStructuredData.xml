@@ -46,6 +46,9 @@
     <entry>
       <reference value="Observation/cT"/>
     </entry>
+    <entry>
+      <reference value="Observation/cN"/>
+    </entry>
 
     <entry>
       <reference value="Procedure/DiagnosticMethod"/>

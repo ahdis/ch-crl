@@ -420,6 +420,14 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.KlinischeKategorieRegionaleKnoten">
+            <path value="CancerReport.DatenZurDiagnose.KlinischeKategorieRegionaleKnoten"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <element id="CancerReport.DatenZurDiagnose.VerwendeteDiagnosemethode">
             <path value="CancerReport.DatenZurDiagnose.VerwendeteDiagnosemethode"/>
