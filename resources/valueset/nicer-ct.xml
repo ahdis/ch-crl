@@ -1,0 +1,17 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nicer-ct"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-ct"/>
+    <version value="0.0.1"/>
+    <name value="NicercT"/>
+    <title value="Nicer cT"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Nicer defines different Clinical Categories for the Primary Tumor." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-ct"/>
+        </include>
+    </compose>
+</ValueSet>

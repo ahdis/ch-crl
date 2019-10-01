@@ -51,7 +51,6 @@
                 <profile value="http://hl7.org/fhir/StructureDefinition/condition-assertedDate"/>
             </type>
         </element>
-
         <element id="Condition.category">
             <path value="Condition.category"/>
             <min value="1"/>
@@ -60,7 +59,7 @@
         <element id="Condition.category.coding">
             <path value="Condition.category.coding"/>
             <min value="1"/>
-            <max value="1"/>
+            <max value="*"/>
         </element>
         <element id="Condition.category.coding.system">
             <path value="Condition.category.coding.system"/>
@@ -80,19 +79,22 @@
         <element id="Condition.code">
             <path value="Condition.code"/>
             <min value="1"/>
-        </element>
-        <element id="Condition.code.coding">
-            <path value="Condition.code.coding"/>
-            <min value="1"/>
-            <max value="1"/>
-        </element>
-        <element id="Condition.code.coding.system">
-            <path value="Condition.code.coding.system"/>
-            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
             <binding>
                 <strength value="preferred"/>
                 <valueSet value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
             </binding>
+        </element>
+        <element id="Condition.code.coding">
+            <path value="Condition.code.coding"/>
+            <min value="1"/>
+            <max value="*"/>
+        </element>
+        <element id="Condition.code.coding.system">
+            <path value="Condition.code.coding.system"/>
+            <min value="1"/>
         </element>
         <element id="Condition.code.coding.version">
             <path value="Condition.code.coding.version"/>

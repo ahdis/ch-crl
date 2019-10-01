@@ -5,7 +5,7 @@
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
-    <assertedDate value="2019-09-11T13:28:17-05:00"/>
+    <valueDateTime value="2019-09-11T13:28:17+02:00"/>
   </extension>
   <category>
     <coding>

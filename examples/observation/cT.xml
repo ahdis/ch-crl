@@ -23,7 +23,4 @@
       <display value="cT1"/>
     </coding>
   </valueCodeableConcept>
-  <method>
-    <text value="UICC TNM Version 8"/>
-  </method>
 </Observation>

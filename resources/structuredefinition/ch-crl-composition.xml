@@ -41,6 +41,10 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
             </type>
         </element>
+        <element id="Composition.subject.reference">
+            <path value="Composition.subject.reference"/>
+            <min value="1"/>
+        </element>
 
         <element id="Composition.author">
             <path value="Composition.author"/>
@@ -184,6 +188,23 @@
                 <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
             </type>
         </element>
+
+        <!-- Section TNM clinical primary tumor category -->
+        <element id="Composition.section.entry:TNMClinicalPrimaryTumorCategory">
+            <path value="Composition.section.entry"/>
+            <sliceName value="TNMClinicalPrimaryTumorCategory"/>
+            <short value="TNM Clinical Primary Tumor Category"/>
+        </element>
+        <element id="Composition.section.entry:TNMClinicalPrimaryTumorCategory.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
+            </type>
+        </element>
+
 
         <!-- Section diagnostic method -->
         <element id="Composition.section.entry:diagnosticMethod">

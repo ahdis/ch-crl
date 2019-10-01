@@ -35,7 +35,7 @@
                 <description value="Used to categorize the organization."/>
                 <valueSet value="http://hl7.org/fhir/ValueSet/organization-type"/>
             </binding>
-        </element>
+        </element>      
         <element id="Organization.name">
             <path value="Organization.name"/>
             <mapping>

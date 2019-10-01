@@ -57,7 +57,7 @@
                 <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
                     <valueString value="ProcedureCode"/>
                 </extension>
-                <strength value="preferred"/>
+                <strength value="required"/>
                 <description value="A code to identify a specific procedure."/>
                 <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-diagnosticmethodsused"/>
             </binding>
@@ -85,6 +85,10 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
             </type>
         </element>
+        <element id="Procedure.subject.reference">
+            <path value="Procedure.subject.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Procedure.performed[x]">
             <path value="Procedure.performed[x]"/>
             <min value="1"/>
@@ -103,6 +107,10 @@
                 <!-- TBD: ICD10 Element 13-->
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </type>
+        </element>
+        <element id="Procedure.reasonReference.reference">
+            <path value="Procedure.reasonReference.reference"/>
+            <min value="1"/>
         </element>
     </differential>
 </StructureDefinition>

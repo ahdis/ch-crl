@@ -44,6 +44,10 @@
       <reference value="Observation/DateOfIncidence"/>
     </entry>
     <entry>
+      <reference value="Observation/cT"/>
+    </entry>
+
+    <entry>
       <reference value="Procedure/DiagnosticMethod"/>
     </entry>
   </section>
