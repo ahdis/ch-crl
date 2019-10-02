@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-crl-observation-dateofincidence"/>
-    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
+    <id value="ch-crl-observation-icd10"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
     <version value="0.2.0"/>
-    <name value="CHCRLObservationDateOfIncidence"/>
-    <title value="CH CRL Observation Date of Incidence Profile"/>
+    <name value="CHCRLObservationICD10"/>
+    <title value="CH CRL Observation ICD-10 Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the Date of Incidence"/>
+    <description value="Profile on Observation about the ICD-10 Code"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>
@@ -25,7 +25,7 @@
             <path value="Observation"/>
             <mapping>
                 <identity value="NICER-A"/>
-                <map value="Date of incidence (Variable number: 2.3.1)"/>
+                <map value="ICD code (Variable number: 3.3)"/>
             </mapping>
         </element>
         <element id="Observation.code">
@@ -34,8 +34,8 @@
             <patternCodeableConcept>
                 <coding>
                     <system value="http://loinc.org"/>
-                    <code value="63931-0"/>
-                    <display value="Date of diagnosis"/>
+                    <code value="86255-7"/>
+                    <display value="Primary diagnosis ICD code"/>
                 </coding>
             </patternCodeableConcept>
         </element>
@@ -63,6 +63,15 @@
             <path value="Observation.subject.reference"/>
             <min value="1"/>
         </element>
+        <element id="Observation.effective[x]">
+            <path value="Observation.effective[x]"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
+            <type>
+                <code value="Period"/>
+            </type>
+        </element>
         <element id="Observation.performer">
             <path value="Observation.performer"/>
             <type>
@@ -75,12 +84,38 @@
             <path value="Observation.performer.reference"/>
             <min value="1"/>
         </element>
-        <element id="Observation.valueDateTime">
-            <path value="Observation.valueDateTime"/>
+		
+		
+        <element id="Observation.valueCodeableConcept">
+            <path value="Observation.valueCodeableConcept"/>
             <min value="1"/>
+            <max value="1"/>
             <type>
-                <code value="dateTime"/>
+                <code value="CodeableConcept"/>
             </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+            </binding>
         </element>
+        <element id="Observation.valueCodeableConcept.coding">
+            <path value="Observation.valueCodeableConcept.coding"/>
+            <min value="1"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation.valueCodeableConcept.coding.system">
+            <path value="Observation.valueCodeableConcept.coding.system"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.valueCodeableConcept.coding.code">
+            <path value="Observation.valueCodeableConcept.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.valueCodeableConcept.coding.display">
+            <path value="Observation.valueCodeableConcept.coding.display"/>
+            <min value="1"/>
+        </element>
+
+
     </differential>
 </StructureDefinition>

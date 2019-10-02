@@ -124,6 +124,12 @@
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
     </resource>
+     <resource>
+      <reference>
+        <reference value="Observation/ICD-10"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+    </resource>
     <resource>
       <reference>
         <reference value="Organization/AbteilungMinimum"/>
@@ -239,6 +245,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-dateofincidence"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-icd10"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

@@ -24,7 +24,6 @@
   </subject>
   <performedDateTime value="2019-09-11T13:28:17+02:00"/>
   <reasonReference>
-    <!-- TBD: ICD10 Element 13-->
-    <reference value="Condition/PrimaryDisease"/>
+    <reference value="Observation/ICD-10"/>
   </reasonReference>
 </Procedure>

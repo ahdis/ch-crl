@@ -99,13 +99,33 @@
                 <code value="Period"/>
             </type>
         </element>
+        <element id="Procedure.performer">
+            <path value="Procedure.performer"/>
+        </element>
+        <element id="Procedure.performer.function">
+            <path value="Procedure.performer.function"/>
+        </element>
+        <element id="Procedure.performer.actor">
+            <path value="Procedure.performer.actor"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
+            </type>
+        </element>
+        <element id="Procedure.performer.onBehalfOf">
+            <path value="Procedure.performer.onBehalfOf"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
+            </type>
+        </element>
         <element id="Procedure.reasonReference">
             <path value="Procedure.reasonReference"/>
             <min value="1"/>
             <type>
                 <code value="Reference"/>
-                <!-- TBD: ICD10 Element 13-->
-                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
             </type>
         </element>
         <element id="Procedure.reasonReference.reference">

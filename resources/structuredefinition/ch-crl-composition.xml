@@ -222,6 +222,23 @@
         </element>
 
 
+        <!-- Section ICD-10 code -->
+        <element id="Composition.section.entry:ICD-10">
+            <path value="Composition.section.entry"/>
+            <sliceName value="ICD-10"/>
+            <short value="ICD-10 code"/>
+        </element>
+        <element id="Composition.section.entry:ICD-10.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+            </type>
+        </element>
+
+
         <!-- Section diagnostic method -->
         <element id="Composition.section.entry:diagnosticMethod">
             <path value="Composition.section.entry"/>

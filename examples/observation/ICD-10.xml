@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ICD-10"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="86255-7"/>
+      <display value="Primary diagnosis ICD code"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+      <code value="C25"/>
+      <display value="Bösartige Neubildung des Pankreas"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

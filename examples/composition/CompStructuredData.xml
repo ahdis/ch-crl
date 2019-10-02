@@ -51,6 +51,10 @@
     </entry>
 
     <entry>
+      <reference value="Observation/ICD-10"/>
+    </entry>
+
+    <entry>
       <reference value="Procedure/DiagnosticMethod"/>
     </entry>
   </section>
