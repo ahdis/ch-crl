@@ -16,9 +16,13 @@
     <compositional value="false"/>
     <versionNeeded value="true"/>
     <content value="complete"/>
-    <concept>
+   <concept>
         <code value="99"/>
         <display value="Unknown"/>
+    </concept>
+    <concept>
+        <code value="88"/>
+        <display value="NA"/>
     </concept>
     <concept>
         <code value="X"/>

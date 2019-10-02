@@ -108,6 +108,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/cM"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/cN"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cn"/>
@@ -174,6 +180,12 @@
     </resource>
 
     <!-- references to codeSystems -->
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-cm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/nicer-cn"/>
@@ -245,6 +257,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-documentreference"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-cm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -322,6 +340,12 @@
     </resource>
 
     <!-- references to valueSets -->
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-cm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <reference>
         <reference value="ValueSet/nicer-cn"/>

@@ -49,9 +49,11 @@
     <entry>
       <reference value="Observation/cN"/>
     </entry>
+    <entry>
+      <reference value="Observation/cM"/>
+    </entry>
 
     <!--
-cM
 pT
 pN
 pM
@@ -74,11 +76,11 @@ ICD-O3 Laterality
 ICD-O Histological grade
 -->
 
-<entry>
+    <entry>
       <reference value="Observation/y-PrefixOfcTNM"/>
     </entry>
 
-<!--
+    <!--
 a-Prefix of pTNM
 y-Prefix of pTNM
 m-Suffix of pT

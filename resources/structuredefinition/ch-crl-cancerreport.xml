@@ -422,16 +422,24 @@
                 <code value="date"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategoriePrimärTumor">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategoriePrimärTumor"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategoriePrimärTumor(cT)">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategoriePrimärTumor(cT)"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieRegionaleKnoten">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieRegionaleKnoten"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieRegionaleKnoten(cN)">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieRegionaleKnoten(cN)"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieFernMetastasen(cM)">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieFernMetastasen(cM)"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -440,7 +448,6 @@
         </element>
 
         <!--
-cM
 pT
 pN
 pM

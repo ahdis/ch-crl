@@ -221,8 +221,23 @@
             </type>
         </element>
 
+        <!-- Section TNM Clinical Distant Metastases Category -->
+        <element id="Composition.section.entry:TNMClinicalDistantMetastasesCategory">
+            <path value="Composition.section.entry"/>
+            <sliceName value="TNMClinicalDistantMetastasesCategory"/>
+            <short value="TNM Clinical Distant Metastases Category"/>
+        </element>
+        <element id="Composition.section.entry:TNMClinicalDistantMetastasesCategory.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
+            </type>
+        </element>
+
         <!--
-cM
 pT
 pN
 pM
