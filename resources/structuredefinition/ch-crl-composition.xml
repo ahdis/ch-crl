@@ -221,6 +221,13 @@
             </type>
         </element>
 
+        <!--
+cM
+pT
+pN
+pM
+-->
+
 
         <!-- Section ICD-10 code -->
         <element id="Composition.section.entry:ICD-10">
@@ -237,6 +244,41 @@
                 <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
             </type>
         </element>
+
+        <!--
+ICD-O3 Morphology
+-->
+        <!-- Section ICD-O-3 Topography -->
+        <element id="Composition.section.entry:ICD-O-3-Topography">
+            <path value="Composition.section.entry"/>
+            <sliceName value="ICD-O-3-Topography"/>
+            <short value="ICD-O-3 Topography code"/>
+        </element>
+        <element id="Composition.section.entry:ICD-O-3-Topography.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
+            </type>
+        </element>
+
+        <!--
+ICD-O-3 Behavior
+ICD-O3 Laterality
+ICD-O Histological grade
+y-Prefix of cTNM
+a-Prefix of pTNM
+y-Prefix of pTNM
+m-Suffix of pT
+Number of involved regional lymph nodes
+Number of examined regional lymph nodes
+Lymphatic invasion
+Venous invasion
+Perineural invasion
+TNM stage group
+-->
 
 
         <!-- Section diagnostic method -->

@@ -124,11 +124,17 @@
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
     </resource>
-     <resource>
+    <resource>
       <reference>
         <reference value="Observation/ICD-10"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/ICD-O-3-Topography"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
     </resource>
     <resource>
       <reference>
@@ -251,6 +257,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-icd10"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-icdo3topography"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

@@ -50,9 +50,39 @@
       <reference value="Observation/cN"/>
     </entry>
 
+    <!--
+cM
+pT
+pN
+pM
+-->
+
     <entry>
       <reference value="Observation/ICD-10"/>
     </entry>
+
+    <!--
+ICD-O3 Morphology
+-->
+    <entry>
+      <reference value="Observation/ICD-O-3-Topography"/>
+    </entry>
+
+    <!--
+ICD-O-3 Behavior
+ICD-O3 Laterality
+ICD-O Histological grade
+y-Prefix of cTNM
+a-Prefix of pTNM
+y-Prefix of pTNM
+m-Suffix of pT
+Number of involved regional lymph nodes
+Number of examined regional lymph nodes
+Lymphatic invasion
+Venous invasion
+Perineural invasion
+TNM stage group
+-->
 
     <entry>
       <reference value="Procedure/DiagnosticMethod"/>
