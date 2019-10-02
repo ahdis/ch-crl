@@ -461,7 +461,18 @@ ICD-O Morphology
 ICD-O-3 Behavior
 ICD-O-3 Laterality
 ICD-O Histological grade
-y-Prefix of cTNM
+-->
+
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-klinischesTNM">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-klinischesTNM"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+        <!--
 a-Prefix of pTNM
 y-Prefix of pTNM
 m-Suffix of pT

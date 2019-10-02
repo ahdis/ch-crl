@@ -138,6 +138,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/y-PrefixOfcTNM"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Organization/AbteilungMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
@@ -189,6 +195,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/nicer-topographyofmetastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-yprefixctnm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -268,6 +280,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-observation-yprefixofctnm"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-organization-contact-functionofcontactperson"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -325,6 +343,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/nicer-topographyofmetastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-yprefixctnm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

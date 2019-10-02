@@ -268,7 +268,26 @@ ICD-O3 Morphology
 ICD-O-3 Behavior
 ICD-O3 Laterality
 ICD-O Histological grade
-y-Prefix of cTNM
+-->
+
+
+        <!-- Section y-Prefix of cTNM -->
+        <element id="Composition.section.entry:y-Prefix-cTNM">
+            <path value="Composition.section.entry"/>
+            <sliceName value="y-Prefix-cTNM"/>
+            <short value="y-Prefix of cTNM"/>
+        </element>
+        <element id="Composition.section.entry:y-Prefix-cTNM.reference">
+            <path value="Composition.section.entry.reference"/>
+            <short value="A reference to data that supports this section"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
+            </type>
+        </element>
+
+        <!--
 a-Prefix of pTNM
 y-Prefix of pTNM
 m-Suffix of pT

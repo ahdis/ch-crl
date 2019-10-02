@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="y-PrefixOfcTNM"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <!-- TBD: change code & display -->
+      <system value="http://loinc.org"/>
+      <code value="86255-7"/>
+      <display value="Primary diagnosis ICD code"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-yprefixctnm"/>
+      <code value="0"/>
+      <display value="No"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

@@ -72,7 +72,13 @@ ICD-O3 Morphology
 ICD-O-3 Behavior
 ICD-O3 Laterality
 ICD-O Histological grade
-y-Prefix of cTNM
+-->
+
+<entry>
+      <reference value="Observation/y-PrefixOfcTNM"/>
+    </entry>
+
+<!--
 a-Prefix of pTNM
 y-Prefix of pTNM
 m-Suffix of pT
