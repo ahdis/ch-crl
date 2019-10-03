@@ -1,0 +1,131 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nicer-pn"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-pn" />
+    <version value="0.0.1"/>
+    <name value="NicerpN"/>
+    <title value="Nicer pN"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Nicer defines different Pathologic Categories for the Regional Nodes.
+        See **pN (Variable number: 4.10)** in \'E A Struktur der Basisdaten.pdf\'  
+        (https://www.nicer.org/de/krebsregistrierung/krebsregistrierung-nach-krg-ab-112020/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-pn"/>
+    <compositional value="false"/>
+    <versionNeeded value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="88"/>
+        <display value="NA"/>
+    </concept>
+    <concept>
+        <code value="99"/>
+        <display value="Unknown"/>
+    </concept>
+    <concept>
+        <code value="X"/>
+        <display value="pNX"/>
+    </concept>
+    <concept>
+        <code value="0"/>
+        <display value="pN0"/>
+    </concept>
+    <concept>
+        <code value="1"/>
+        <display value="pN1"/>
+    </concept>
+    <concept>
+        <code value="1mi"/>
+        <display value="pN1mi"/>
+    </concept>
+    <concept>
+        <code value="1(sn)"/>
+        <display value="pN1(sn)"/>
+    </concept>
+    <concept>
+        <code value="1a(sn)"/>
+        <display value="pN1a(sn)"/>
+    </concept>
+    <concept>
+        <code value="1a"/>
+        <display value="pN1a"/>
+    </concept>
+    <concept>
+        <code value="1b"/>
+        <display value="pN1b"/>
+    </concept>
+    <concept>
+        <code value="1c"/>
+        <display value="pN1c"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="pN2"/>
+    </concept>
+    <concept>
+        <code value="2a"/>
+        <display value="pN2a"/>
+    </concept>
+    <concept>
+        <code value="2b"/>
+        <display value="pN2b"/>
+    </concept>
+    <concept>
+        <code value="2c"/>
+        <display value="pN2c"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="pN3"/>
+    </concept>
+    <concept>
+        <code value="3a"/>
+        <display value="pN3a"/>
+    </concept>
+    <concept>
+        <code value="3b"/>
+        <display value="pN3b"/>
+    </concept>
+    <concept>
+        <code value="3c"/>
+        <display value="pN3c"/>
+    </concept>
+    <concept>
+        <code value="0i-"/>
+        <display value="pN0i-"/>
+    </concept>
+    <concept>
+        <code value="0i+"/>
+        <display value="pN0i+"/>
+    </concept>
+    <concept>
+        <code value="0mol-"/>
+        <display value="pN0mol-"/>
+    </concept>
+    <concept>
+        <code value="0mol+"/>
+        <display value="pN0mol+"/>
+    </concept>
+    <concept>
+        <code value="0(sn)"/>
+        <display value="pN0(sn)"/>
+    </concept>
+    <concept>
+        <code value="X(sn)"/>
+        <display value="pNX(sn)"/>
+    </concept>
+    <concept>
+        <code value="0(i-)(sn)"/>
+        <display value="pN0(i-)(sn)"/>
+    </concept>
+    <concept>
+        <code value="0(mol-)(sn)"/>
+        <display value="pN0(mol-)(sn)"/>
+    </concept>
+    <concept>
+        <code value="0(mol+)(sn)"/>
+        <display value="pN0(mol+)(sn)"/>
+    </concept>
+</CodeSystem>

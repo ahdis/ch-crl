@@ -454,9 +454,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategorieRegionaleKnoten-pN">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategorieRegionaleKnoten-pN"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!--
-pN
 pM
 
 ICD-O Morphology

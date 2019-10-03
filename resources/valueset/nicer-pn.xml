@@ -1,0 +1,17 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nicer-pn"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-pn"/>
+    <version value="0.0.1"/>
+    <name value="NicerpN"/>
+    <title value="Nicer pN"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Nicer defines different Pathologic Categories for the Regional Nodes." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-pn"/>
+        </include>
+    </compose>
+</ValueSet>

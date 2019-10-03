@@ -242,8 +242,22 @@
             </type>
         </element>
 
+        <!-- Section TNM pathologic regional nodes category -->
+        <element id="Composition.section.entry:TNMPathologicRegionalNodesCategory">
+            <path value="Composition.section.entry"/>
+            <sliceName value="TNMPathologicRegionalNodesCategory"/>
+            <short value="TNM Pathologic Regional Nodes Category"/>
+        </element>
+        <element id="Composition.section.entry:TNMPathologicRegionalNodesCategory.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
+            </type>
+        </element>
+
         <!--
-pN
 pM
 -->
 
