@@ -518,9 +518,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.a-Präfix-pathologischesTNM">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.a-Präfix-pathologischesTNM"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!--
-a-Prefix of pTNM
 y-Prefix of pTNM
 m-Suffix of pT
 Number of involved regional lymph nodes
