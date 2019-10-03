@@ -1,0 +1,52 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nicer-msuffixpt"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-msuffixpt" />
+    <version value="0.0.1"/>
+    <name value="NicermSuffixpT"/>
+    <title value="Nicer m-Suffix pT"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="The suffix m, in parentheses, is used to indicate the presence of multiple primary tumours at a single site.
+        See **m-Suffix of pTN (Variable number: 4.9)** in \'E A Struktur der Basisdaten.pdf\'  
+        (https://www.nicer.org/de/krebsregistrierung/krebsregistrierung-nach-krg-ab-112020/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-msuffixpt"/>
+    <compositional value="false"/>
+    <versionNeeded value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="m"/>
+        <display value="(m)"/>
+        <definition value="Unspecified multiplicity."/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="(2)"/>
+        <definition value="Two primary tumours."/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="(3)"/>
+        <definition value="Three primary tumours."/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="(4)"/>
+        <definition value="Four primary tumours."/>
+    </concept>
+
+<!-- TBD: 5-98 -->
+
+    <concept>
+        <code value="99"/>
+        <display value="(99)"/>
+        <definition value="99 or more primary tumours."/>
+    </concept>
+    <concept>
+        <code value="999"/>
+        <display value="Missing"/>
+        <definition value="Not stated / Not assessed."/>
+    </concept>
+</CodeSystem>

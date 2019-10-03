@@ -534,9 +534,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.m-Suffix-pathologischesT">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.m-Suffix-pathologischesT"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!--
-m-Suffix of pT
 Number of involved regional lymph nodes
 Number of examined regional lymph nodes
 Lymphatic invasion

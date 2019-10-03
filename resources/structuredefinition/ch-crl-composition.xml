@@ -407,8 +407,22 @@
             </type>
         </element>
 
+        <!-- Section m-Suffix of pT -->
+        <element id="Composition.section.entry:m-Suffix-pT">
+            <path value="Composition.section.entry"/>
+            <sliceName value="m-Suffix-pT"/>
+            <short value="m-Suffix of pT"/>
+        </element>
+        <element id="Composition.section.entry:m-Suffix-pT.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+            </type>
+        </element>
+
         <!--
-m-Suffix of pT
 Number of involved regional lymph nodes
 Number of examined regional lymph nodes
 Lymphatic invasion

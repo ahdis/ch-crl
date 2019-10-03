@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="m-SuffixOfpT"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="42030-7"/>
+      <display value="Multiple tumors reported as single primary Cancer"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-msuffixpt"/>
+      <code value="4"/>
+      <display value="(4)"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

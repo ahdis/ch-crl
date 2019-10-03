@@ -88,9 +88,11 @@
     <entry>
       <reference value="Observation/y-PrefixOfpTNM"/>
     </entry>
+    <entry>
+      <reference value="Observation/m-SuffixOfpT"/>
+    </entry>
 
     <!--
-m-Suffix of pT
 Number of involved regional lymph nodes
 Number of examined regional lymph nodes
 Lymphatic invasion
