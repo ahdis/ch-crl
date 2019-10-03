@@ -1,0 +1,17 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nicer-icdo3laterality"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-icdo3laterality"/>
+    <version value="0.0.1"/>
+    <name value="NicerICDO3Laterality"/>
+    <title value="Nicer ICD-O-3 Laterality"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Nicer defines the side of a paired organ or side of the body on which the reportable cancer originated." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-icdo3laterality"/>
+        </include>
+    </compose>
+</ValueSet>

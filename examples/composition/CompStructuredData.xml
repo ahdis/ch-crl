@@ -73,9 +73,11 @@
     <entry>
       <reference value="Observation/ICD-O-3-Behaviour"/>
     </entry>
+    <entry>
+      <reference value="Observation/ICD-O-3-Laterality"/>
+    </entry>
 
     <!--
-ICD-O3 Laterality
 ICD-O Histological grade
 -->
 

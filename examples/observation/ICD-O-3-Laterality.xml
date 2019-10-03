@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ICD-O-3-Laterality"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="63930-2"/>
+      <display value="Laterality [PhenX]"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-icdo3laterality"/>
+      <code value="3"/>
+      <display value="Unilateral, NOS"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

@@ -144,6 +144,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/ICD-O-3-Laterality"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/ICD-O-3-Morphology"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphology"/>
@@ -237,6 +243,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/nicer-icdo3behaviour"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-icdo3laterality"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -350,6 +362,12 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+     <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-icdo3laterality"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-icdo3morphology"/>
@@ -451,6 +469,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/nicer-icdo3behaviour"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-icdo3laterality"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

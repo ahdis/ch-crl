@@ -494,10 +494,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Seitigkeit">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Seitigkeit"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!--
-
-ICD-O-3 Laterality
 ICD-O Histological grade
 -->
 
