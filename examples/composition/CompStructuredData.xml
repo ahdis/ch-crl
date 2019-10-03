@@ -76,11 +76,9 @@
     <entry>
       <reference value="Observation/ICD-O-3-Laterality"/>
     </entry>
-
-    <!--
-ICD-O Histological grade
--->
-
+    <entry>
+      <reference value="Observation/ICD-O-3-HistologicalGrade"/>
+    </entry>
     <entry>
       <reference value="Observation/y-PrefixOfcTNM"/>
     </entry>

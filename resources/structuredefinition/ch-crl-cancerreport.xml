@@ -502,11 +502,14 @@
                 <code value="code"/>
             </type>
         </element>
-
-        <!--
-ICD-O Histological grade
--->
-
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-HistologischerGrad">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-HistologischerGrad"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-klinischesTNM">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-klinischesTNM"/>
             <min value="0"/>

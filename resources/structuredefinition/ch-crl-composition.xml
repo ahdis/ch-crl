@@ -347,10 +347,20 @@
             </type>
         </element>
 
-        <!--
-ICD-O Histological grade
--->
-
+        <!-- Section ICD-O-3 Histological Grade -->
+        <element id="Composition.section.entry:ICD-O-3-HistologicalGrade">
+            <path value="Composition.section.entry"/>
+            <sliceName value="ICD-O-3-HistologicalGrade"/>
+            <short value="ICD-O-3 Histological Grade code"/>
+        </element>
+        <element id="Composition.section.entry:ICD-O-3-HistologicalGrade.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
+            </type>
+        </element>
 
         <!-- Section y-Prefix of cTNM -->
         <element id="Composition.section.entry:y-Prefix-cTNM">

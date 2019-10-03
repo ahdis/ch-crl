@@ -144,6 +144,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/ICD-O-3-HistologicalGrade"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/ICD-O-3-Laterality"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
@@ -246,7 +252,13 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-     <resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-icdo3histologicalgrade"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
       <reference>
         <reference value="CodeSystem/nicer-icdo3laterality"/>
       </reference>
@@ -362,7 +374,13 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-     <resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-icdo3laterality"/>
       </reference>
@@ -469,6 +487,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/nicer-icdo3behaviour"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-icdo3histologicalgrade"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
