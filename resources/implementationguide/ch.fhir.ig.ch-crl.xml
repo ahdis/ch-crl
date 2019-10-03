@@ -144,6 +144,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/pT"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/y-PrefixOfcTNM"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
@@ -201,6 +207,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/nicer-diagnosticmethodsused"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-pt"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -298,6 +310,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-observation-pt"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-observation-yprefixofctnm"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -361,6 +379,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/nicer-diagnosticmethodsused"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-pt"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

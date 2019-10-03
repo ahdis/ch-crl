@@ -85,7 +85,6 @@
         </element>
         <element id="Composition.section.entry:documentReference.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -101,7 +100,6 @@
         </element>
         <element id="Composition.section.entry:communication.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -117,7 +115,6 @@
         </element>
         <element id="Composition.section.entry:finalCauseOfDeath.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -133,7 +130,6 @@
         </element>
         <element id="Composition.section.entry:primaryDisease.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -149,7 +145,6 @@
         </element>
         <element id="Composition.section.entry:secondaryDisease.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -165,7 +160,6 @@
         </element>
         <element id="Composition.section.entry:concomitantDisease.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -181,7 +175,6 @@
         </element>
         <element id="Composition.section.entry:dateOfIncidence.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -197,7 +190,6 @@
         </element>
         <element id="Composition.section.entry:TNMClinicalPrimaryTumorCategory.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -213,7 +205,6 @@
         </element>
         <element id="Composition.section.entry:TNMClinicalRegionalNodesCategory.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -229,7 +220,6 @@
         </element>
         <element id="Composition.section.entry:TNMClinicalDistantMetastasesCategory.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -237,8 +227,22 @@
             </type>
         </element>
 
+        <!-- Section TNM pathologic primary tumor category -->
+        <element id="Composition.section.entry:TNMPathologicPrimaryTumorCategory">
+            <path value="Composition.section.entry"/>
+            <sliceName value="TNMPathologicPrimaryTumorCategory"/>
+            <short value="TNM Pathologic Primary Tumor Category"/>
+        </element>
+        <element id="Composition.section.entry:TNMPathologicPrimaryTumorCategory.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
+            </type>
+        </element>
+
         <!--
-pT
 pN
 pM
 -->
@@ -252,7 +256,6 @@ pM
         </element>
         <element id="Composition.section.entry:ICD-10.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -271,7 +274,6 @@ ICD-O3 Morphology
         </element>
         <element id="Composition.section.entry:ICD-O-3-Topography.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -294,7 +296,6 @@ ICD-O Histological grade
         </element>
         <element id="Composition.section.entry:y-Prefix-cTNM.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>
@@ -323,7 +324,6 @@ TNM stage group
         </element>
         <element id="Composition.section.entry:diagnosticMethod.reference">
             <path value="Composition.section.entry.reference"/>
-            <short value="A reference to data that supports this section"/>
             <min value="1"/>
             <type>
                 <code value="string"/>

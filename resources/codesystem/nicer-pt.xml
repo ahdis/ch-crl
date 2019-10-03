@@ -1,175 +1,191 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="nicer-ct"/>
-    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-ct" />
+    <id value="nicer-pt"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-pt" />
     <version value="0.0.1"/>
-    <name value="NicercT"/>
-    <title value="Nicer cT"/>
+    <name value="NicerpT"/>
+    <title value="Nicer pT"/>
     <status value="draft"/>
     <experimental value="false"/>
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Nicer defines different Clinical Categories for the Primary Tumor.
-        See **cT (Variable number: 4.3)** in \'E A Struktur der Basisdaten.pdf\'  
+    <description value="Nicer defines different Pathologic Categories for the Primary Tumor.
+        See **pT (Variable number: 4.8)** in \'E A Struktur der Basisdaten.pdf\'  
         (https://www.nicer.org/de/krebsregistrierung/krebsregistrierung-nach-krg-ab-112020/)."/>
     <caseSensitive value="true"/>
-    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-ct"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-pt"/>
     <compositional value="false"/>
     <versionNeeded value="true"/>
     <content value="complete"/>
-    <concept>
-        <code value="99"/>
-        <display value="Unknown"/>
-    </concept>
     <concept>
         <code value="88"/>
         <display value="NA"/>
     </concept>
     <concept>
+        <code value="99"/>
+        <display value="Unknown"/>
+    </concept>
+    <concept>
         <code value="X"/>
-        <display value="cTX"/>
+        <display value="pTX"/>
     </concept>
     <concept>
         <code value="0"/>
-        <display value="cT0"/>
-    </concept>
-    <concept>
-        <code value="a"/>
-        <display value="cTa"/>
+        <display value="pT0"/>
     </concept>
     <concept>
         <code value="is"/>
-        <display value="cTis"/>
+        <display value="pTis"/>
+    </concept>
+    <concept>
+        <code value="is_DCIS"/>
+        <display value="pTis_DCIS"/>
+    </concept>
+    <concept>
+        <code value="is_LCIS"/>
+        <display value="pTis_LCIS"/>
+    </concept>
+    <concept>
+        <code value="is_Paget"/>
+        <display value="pTis_Paget"/>
+    </concept>
+    <concept>
+        <code value="is_pu"/>
+        <display value="pTis_pu"/>
     </concept>
     <concept>
         <code value="is(LAMN)"/>
-        <display value="cTisLAMN"/>
+        <display value="pTis (LAMN)"/>
+    </concept>
+    <concept>
+        <code value="a"/>
+        <display value="pTa"/>
     </concept>
     <concept>
         <code value="1"/>
-        <display value="cT1"/>
+        <display value="pT1"/>
     </concept>
     <concept>
         <code value="1a"/>
-        <display value="cT1a"/>
+        <display value="pT1a"/>
     </concept>
     <concept>
         <code value="1a1"/>
-        <display value="cT1a1"/>
+        <display value="pT1a1"/>
     </concept>
     <concept>
         <code value="1a2"/>
-        <display value="cT1a2"/>
+        <display value="pT1a2"/>
     </concept>
     <concept>
         <code value="1b"/>
-        <display value="cT1b"/>
+        <display value="pT1b"/>
     </concept>
     <concept>
         <code value="1b1"/>
-        <display value="cT1b1"/>
+        <display value="pT1b1"/>
     </concept>
     <concept>
         <code value="1b2"/>
-        <display value="cT1b2"/>
+        <display value="pT1b2"/>
     </concept>
     <concept>
         <code value="1c"/>
-        <display value="cT1c"/>
+        <display value="pT1c"/>
     </concept>
     <concept>
         <code value="1c1"/>
-        <display value="cT1c1"/>
+        <display value="pT1c1"/>
     </concept>
     <concept>
         <code value="1c2"/>
-        <display value="cT1c2"/>
+        <display value="pT1c2"/>
     </concept>
     <concept>
         <code value="1c3"/>
-        <display value="cT1c3"/>
+        <display value="pT1c3"/>
     </concept>
     <concept>
         <code value="1d"/>
-        <display value="cT1d"/>
+        <display value="pT1d"/>
     </concept>
     <concept>
-        <code value="1m1"/>
-        <display value="cT1mi"/>
+        <code value="1mi"/>
+        <display value="pT1mi"/>
     </concept>
     <concept>
         <code value="2"/>
-        <display value="cT2"/>
+        <display value="pT2"/>
     </concept>
     <concept>
         <code value="2a"/>
-        <display value="cT2a"/>
+        <display value="pT2a"/>
     </concept>
     <concept>
         <code value="2a1"/>
-        <display value="cT2a1"/>
+        <display value="pT2a1"/>
     </concept>
     <concept>
         <code value="2a2"/>
-        <display value="cT2a2"/>
+        <display value="pT2a2"/>
     </concept>
     <concept>
         <code value="2b"/>
-        <display value="cT2b"/>
+        <display value="pT2b"/>
     </concept>
     <concept>
         <code value="2c"/>
-        <display value="cT2c"/>
+        <display value="pT2c"/>
     </concept>
     <concept>
         <code value="2d"/>
-        <display value="cT2d"/>
+        <display value="pT2d"/>
     </concept>
     <concept>
         <code value="3"/>
-        <display value="cT3"/>
+        <display value="pT3"/>
     </concept>
     <concept>
         <code value="3a"/>
-        <display value="cT3a"/>
+        <display value="pT3a"/>
     </concept>
     <concept>
         <code value="3b"/>
-        <display value="cT3b"/>
+        <display value="pT3b"/>
     </concept>
     <concept>
         <code value="3c"/>
-        <display value="cT3c"/>
+        <display value="pT3c"/>
     </concept>
     <concept>
         <code value="3d"/>
-        <display value="cT3d"/>
+        <display value="pT3d"/>
     </concept>
     <concept>
         <code value="3e"/>
-        <display value="cT3e"/>
+        <display value="pT3e"/>
     </concept>
     <concept>
         <code value="4"/>
-        <display value="cT4"/>
+        <display value="pT4"/>
     </concept>
     <concept>
         <code value="4a"/>
-        <display value="cT4a"/>
+        <display value="pT4a"/>
     </concept>
     <concept>
         <code value="4b"/>
-        <display value="cT4b"/>
+        <display value="pT4b"/>
     </concept>
     <concept>
         <code value="4c"/>
-        <display value="cT4c"/>
+        <display value="pT4c"/>
     </concept>
     <concept>
         <code value="4d"/>
-        <display value="cT4d"/>
+        <display value="pT4d"/>
     </concept>
     <concept>
         <code value="4e"/>
-        <display value="cT4e"/>
+        <display value="pT4e"/>
     </concept>
 </CodeSystem>
