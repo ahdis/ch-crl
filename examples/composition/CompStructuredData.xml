@@ -85,9 +85,11 @@
     <entry>
       <reference value="Observation/a-PrefixOfpTNM"/>
     </entry>
+    <entry>
+      <reference value="Observation/y-PrefixOfpTNM"/>
+    </entry>
 
     <!--
-y-Prefix of pTNM
 m-Suffix of pT
 Number of involved regional lymph nodes
 Number of examined regional lymph nodes
