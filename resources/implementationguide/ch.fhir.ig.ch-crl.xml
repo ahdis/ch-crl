@@ -138,6 +138,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/ICD-O-3-Morphology"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphology"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/ICD-O-3-Topography"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
@@ -323,6 +329,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-icd10"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-icdo3morphology"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

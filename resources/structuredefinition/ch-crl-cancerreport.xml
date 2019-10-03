@@ -470,11 +470,14 @@
                 <code value="code"/>
             </type>
         </element>
-
-        <!--
-ICD-O Morphology
--->
-
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Morphologie">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Morphologie"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Topografie">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Topografie"/>
             <min value="0"/>
