@@ -317,8 +317,22 @@
             </type>
         </element>
 
+        <!-- Section ICD-O-3 Behaviour -->
+        <element id="Composition.section.entry:ICD-O-3-Behaviour">
+            <path value="Composition.section.entry"/>
+            <sliceName value="ICD-O-3-Behaviour"/>
+            <short value="ICD-O-3 Behaviour code"/>
+        </element>
+        <element id="Composition.section.entry:ICD-O-3-Behaviour.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3behaviour"/>
+            </type>
+        </element>
+
         <!--
-ICD-O-3 Behavior
 ICD-O3 Laterality
 ICD-O Histological grade
 -->

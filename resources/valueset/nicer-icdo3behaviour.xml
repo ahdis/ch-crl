@@ -1,0 +1,17 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nicer-icdo3behaviour"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-icdo3behaviour"/>
+    <version value="0.0.1"/>
+    <name value="NicerICDO3Behaviour"/>
+    <title value="Nicer ICD-O-3 Behaviour"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Nicer defines different Behaviour of the Neoplasm at Time of Diagnosis according to ICD-O." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-icdo3behaviour"/>
+        </include>
+    </compose>
+</ValueSet>

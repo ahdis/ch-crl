@@ -486,9 +486,17 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Verhalten">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Verhalten"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!--
-ICD-O-3 Behavior
+
 ICD-O-3 Laterality
 ICD-O Histological grade
 -->

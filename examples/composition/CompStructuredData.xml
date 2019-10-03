@@ -58,22 +58,23 @@
     <entry>
       <reference value="Observation/pN"/>
     </entry>
-     <entry>
+    <entry>
       <reference value="Observation/pM"/>
     </entry>
     <entry>
       <reference value="Observation/ICD-10"/>
     </entry>
-
-    <!--
-ICD-O3 Morphology
--->
+    <entry>
+      <reference value="Observation/ICD-O-3-Morphology"/>
+    </entry>
     <entry>
       <reference value="Observation/ICD-O-3-Topography"/>
     </entry>
+    <entry>
+      <reference value="Observation/ICD-O-3-Behaviour"/>
+    </entry>
 
     <!--
-ICD-O-3 Behavior
 ICD-O3 Laterality
 ICD-O Histological grade
 -->
