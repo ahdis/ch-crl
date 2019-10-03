@@ -58,11 +58,9 @@
     <entry>
       <reference value="Observation/pN"/>
     </entry>
-
-    <!--
-pM
--->
-
+     <entry>
+      <reference value="Observation/pM"/>
+    </entry>
     <entry>
       <reference value="Observation/ICD-10"/>
     </entry>
