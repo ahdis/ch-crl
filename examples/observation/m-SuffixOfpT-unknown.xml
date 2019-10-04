@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Observation xmlns="http://hl7.org/fhir">
-  <id value="m-SuffixOfpT"/>
+  <id value="m-SuffixOfpT-unknown"/>
   <meta>
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
   </meta>
@@ -16,7 +16,11 @@
     <reference value="Patient/FranzMinimum"/>
   </subject>
   <effectiveDateTime value="2018-12-15"/>
-  <valueQuantity>
-    <value value="4"/>
-  </valueQuantity>
+  <dataAbsentReason>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+      <code value="not-performed"/>
+      <display value="Not Performed"/>
+    </coding>
+  </dataAbsentReason>
 </Observation>

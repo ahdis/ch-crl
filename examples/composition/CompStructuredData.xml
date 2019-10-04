@@ -91,9 +91,11 @@
     <entry>
       <reference value="Observation/m-SuffixOfpT"/>
     </entry>
+    <entry>
+      <reference value="Observation/NumberInvolvedRegionalLymphNodes"/>
+    </entry>
 
     <!--
-Number of involved regional lymph nodes
 Number of examined regional lymph nodes
 Lymphatic invasion
 Venous invasion

@@ -542,6 +542,14 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.AnzahlBeteiligteRegionaleLymphknoten">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.AnzahlBeteiligteRegionaleLymphknoten"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
 
         <!--
 Number of involved regional lymph nodes

@@ -422,8 +422,22 @@
             </type>
         </element>
 
+        <!-- Section Number of involved regional lymph nodes -->
+        <element id="Composition.section.entry:NumberInvolvedRegionalLymphNodes">
+            <path value="Composition.section.entry"/>
+            <sliceName value="NumberInvolvedRegionalLymphNodes"/>
+            <short value="Number of involved regional Lymph Nodes"/>
+        </element>
+        <element id="Composition.section.entry:NumberInvolvedRegionalLymphNodes.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
+            </type>
+        </element>
+
         <!--
-Number of involved regional lymph nodes
 Number of examined regional lymph nodes
 Lymphatic invasion
 Venous invasion

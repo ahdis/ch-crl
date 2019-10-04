@@ -174,9 +174,27 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/m-SuffixOfpT-unknown"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/m-SuffixOfpT"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/NumberInvolvedRegionalLymphNodes-unknown"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/NumberInvolvedRegionalLymphNodes"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
     </resource>
     <resource>
       <reference>
@@ -285,12 +303,6 @@
     <resource>
       <reference>
         <reference value="CodeSystem/nicer-icdo3laterality"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/nicer-msuffixpt"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -448,6 +460,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-observation-pm"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -559,12 +577,6 @@
     <resource>
       <reference>
         <reference value="ValueSet/nicer-icdo3laterality"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/nicer-msuffixpt"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

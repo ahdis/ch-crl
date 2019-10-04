@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-crl-observation-msuffixofpt"/>
-    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+    <id value="ch-crl-observation-numberinvolvedregionallymphnodes"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
     <version value="0.2.0"/>
-    <name value="CHCRLObservationmSuffixOfpT"/>
-    <title value="CH CRL Observation m-Suffix of pT Profile"/>
+    <name value="CHCRLObservationNumberInvolvedRegionalLymphNodes"/>
+    <title value="CH CRL Observation Number Involved Regional Lymph Nodes"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the m-Suffix of pT"/>
+    <description value="Profile on Observation about the Number Involved Regional Lymph Nodes"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>
@@ -25,7 +25,7 @@
             <path value="Observation"/>
             <mapping>
                 <identity value="NICER-A"/>
-                <map value="m-Suffix of pT (Variable number: 4.9)"/>
+                <map value="Number of involved regional lymph nodes (Variable number: 4.11)"/>
             </mapping>
         </element>
         <element id="Observation.code">
@@ -34,8 +34,8 @@
             <patternCodeableConcept>
                 <coding>
                     <system value="http://loinc.org"/>
-                    <code value="42030-7"/>
-                    <display value="Multiple tumors reported as single primary Cancer"/>
+                    <code value="21893-3"/>
+                    <display value="Regional lymph nodes positive [#] Specimen"/>
                 </coding>
             </patternCodeableConcept>
         </element>
@@ -84,7 +84,7 @@
         </element>
         <element id="Observation.valueQuantity">
             <path value="Observation.valueQuantity"/>
-            <short value="Number of primary tumours if known"/>
+            <short value="Number of regional lymph nodes if known"/>
             <type>
                 <code value="Quantity"/>
             </type>
@@ -95,7 +95,7 @@
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="If the number of primary tumours is unknown (unspecified multiplicity, not stated/assessed)"/>
+            <short value="No information whether regional lymph nodes were invaded or not. OR Regional lymph nodes were invaded, but no information on the number."/>
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>
@@ -109,12 +109,13 @@
         </element>
         <element id="Observation.dataAbsentReason.coding.code">
             <path value="Observation.dataAbsentReason.coding.code"/>
-            <short value="'not-applicable' if unspecified multiplicity, 'not-performed' if not stated/assessed"/>
             <min value="1"/>
+            <fixedCode value="unknown"/>
         </element>
         <element id="Observation.dataAbsentReason.coding.display">
             <path value="Observation.dataAbsentReason.coding.display"/>
             <min value="1"/>
+            <fixedString value="Unknown"/>
         </element>
     </differential>
 </StructureDefinition>
