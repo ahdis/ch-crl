@@ -36,9 +36,476 @@
         <display value="(4)"/>
         <definition value="Four primary tumours."/>
     </concept>
-
-<!-- TBD: 5-98 -->
-
+    <concept>
+        <code value="5"/>
+        <display value="(5)"/>
+        <definition value="Five primary tumours."/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="(6)"/>
+        <definition value="Six primary tumours."/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="(7)"/>
+        <definition value="Seven primary tumours."/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="(8)"/>
+        <definition value="Eight primary tumours."/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="(9)"/>
+        <definition value="Nine primary tumours."/>
+    </concept>
+    <concept>
+        <code value="10"/>
+        <display value="(10)"/>
+        <definition value="Ten primary tumours."/>
+    </concept>
+    <concept>
+        <code value="11"/>
+        <display value="(11)"/>
+        <definition value="Eleven primary tumours."/>
+    </concept>
+    <concept>
+        <code value="12"/>
+        <display value="(12)"/>
+        <definition value="Twelve primary tumours."/>
+    </concept>
+    <concept>
+        <code value="13"/>
+        <display value="(13)"/>
+        <definition value="13 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="14"/>
+        <display value="(14)"/>
+        <definition value="14 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="15"/>
+        <display value="(15)"/>
+        <definition value="15 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="16"/>
+        <display value="(16)"/>
+        <definition value="16 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="17"/>
+        <display value="(17)"/>
+        <definition value="17 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="18"/>
+        <display value="(18)"/>
+        <definition value="18 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="19"/>
+        <display value="(19)"/>
+        <definition value="19 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="20"/>
+        <display value="(20)"/>
+        <definition value="20 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="21"/>
+        <display value="(21)"/>
+        <definition value="21 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="22"/>
+        <display value="(22)"/>
+        <definition value="22 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="23"/>
+        <display value="(23)"/>
+        <definition value="23 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="24"/>
+        <display value="(24)"/>
+        <definition value="24 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="25"/>
+        <display value="(25)"/>
+        <definition value="25 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="26"/>
+        <display value="(26)"/>
+        <definition value="26 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="27"/>
+        <display value="(27)"/>
+        <definition value="27 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="28"/>
+        <display value="(28)"/>
+        <definition value="28 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="29"/>
+        <display value="(29)"/>
+        <definition value="29 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="30"/>
+        <display value="(30)"/>
+        <definition value="30 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="31"/>
+        <display value="(31)"/>
+        <definition value="31 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="32"/>
+        <display value="(32)"/>
+        <definition value="32 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="33"/>
+        <display value="(33)"/>
+        <definition value="33 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="34"/>
+        <display value="(34)"/>
+        <definition value="34 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="35"/>
+        <display value="(35)"/>
+        <definition value="35 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="36"/>
+        <display value="(36)"/>
+        <definition value="36 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="37"/>
+        <display value="(37)"/>
+        <definition value="37 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="38"/>
+        <display value="(38)"/>
+        <definition value="38 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="39"/>
+        <display value="(39)"/>
+        <definition value="39 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="40"/>
+        <display value="(40)"/>
+        <definition value="40 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="41"/>
+        <display value="(41)"/>
+        <definition value="41 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="42"/>
+        <display value="(42)"/>
+        <definition value="42 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="43"/>
+        <display value="(43)"/>
+        <definition value="43 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="44"/>
+        <display value="(44)"/>
+        <definition value="44 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="45"/>
+        <display value="(45)"/>
+        <definition value="45 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="46"/>
+        <display value="(46)"/>
+        <definition value="46 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="47"/>
+        <display value="(47)"/>
+        <definition value="47 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="48"/>
+        <display value="(48)"/>
+        <definition value="48 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="49"/>
+        <display value="(49)"/>
+        <definition value="49 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="50"/>
+        <display value="(50)"/>
+        <definition value="50 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="51"/>
+        <display value="(51)"/>
+        <definition value="51 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="52"/>
+        <display value="(52)"/>
+        <definition value="52 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="53"/>
+        <display value="(53)"/>
+        <definition value="53 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="54"/>
+        <display value="(54)"/>
+        <definition value="54 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="55"/>
+        <display value="(55)"/>
+        <definition value="55 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="56"/>
+        <display value="(56)"/>
+        <definition value="56 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="57"/>
+        <display value="(57)"/>
+        <definition value="57 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="58"/>
+        <display value="(58)"/>
+        <definition value="58 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="59"/>
+        <display value="(59)"/>
+        <definition value="59 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="60"/>
+        <display value="(60)"/>
+        <definition value="60 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="61"/>
+        <display value="(61)"/>
+        <definition value="61 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="62"/>
+        <display value="(62)"/>
+        <definition value="62 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="63"/>
+        <display value="(63)"/>
+        <definition value="63 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="64"/>
+        <display value="(64)"/>
+        <definition value="64 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="65"/>
+        <display value="(65)"/>
+        <definition value="65 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="66"/>
+        <display value="(66)"/>
+        <definition value="66 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="67"/>
+        <display value="(67)"/>
+        <definition value="67 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="68"/>
+        <display value="(68)"/>
+        <definition value="68 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="69"/>
+        <display value="(69)"/>
+        <definition value="69 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="70"/>
+        <display value="(70)"/>
+        <definition value="70 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="71"/>
+        <display value="(71)"/>
+        <definition value="71 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="72"/>
+        <display value="(72)"/>
+        <definition value="72 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="73"/>
+        <display value="(73)"/>
+        <definition value="73 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="74"/>
+        <display value="(74)"/>
+        <definition value="74 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="75"/>
+        <display value="(75)"/>
+        <definition value="75 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="76"/>
+        <display value="(76)"/>
+        <definition value="76 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="77"/>
+        <display value="(77)"/>
+        <definition value="77 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="78"/>
+        <display value="(78)"/>
+        <definition value="78 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="79"/>
+        <display value="(79)"/>
+        <definition value="79 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="80"/>
+        <display value="(80)"/>
+        <definition value="80 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="81"/>
+        <display value="(81)"/>
+        <definition value="81 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="82"/>
+        <display value="(82)"/>
+        <definition value="82 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="83"/>
+        <display value="(83)"/>
+        <definition value="83 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="84"/>
+        <display value="(84)"/>
+        <definition value="84 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="85"/>
+        <display value="(85)"/>
+        <definition value="85 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="86"/>
+        <display value="(86)"/>
+        <definition value="86 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="87"/>
+        <display value="(87)"/>
+        <definition value="87 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="88"/>
+        <display value="(88)"/>
+        <definition value="88 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="89"/>
+        <display value="(89)"/>
+        <definition value="89 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="90"/>
+        <display value="(90)"/>
+        <definition value="90 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="91"/>
+        <display value="(91)"/>
+        <definition value="91 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="92"/>
+        <display value="(92)"/>
+        <definition value="92 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="93"/>
+        <display value="(93)"/>
+        <definition value="93 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="94"/>
+        <display value="(94)"/>
+        <definition value="94 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="95"/>
+        <display value="(95)"/>
+        <definition value="95 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="96"/>
+        <display value="(96)"/>
+        <definition value="96 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="97"/>
+        <display value="(97)"/>
+        <definition value="97 primary tumours."/>
+    </concept>
+    <concept>
+        <code value="98"/>
+        <display value="(98)"/>
+        <definition value="98 primary tumours."/>
+    </concept>
     <concept>
         <code value="99"/>
         <display value="(99)"/>
