@@ -97,9 +97,11 @@
     <entry>
       <reference value="Observation/NumberExaminedRegionalLymphNodes"/>
     </entry>
+    <entry>
+      <reference value="Observation/LymphaticInvasion"/>
+    </entry>
 
     <!--
-Lymphatic invasion
 Venous invasion
 Perineural invasion
 TNM stage group

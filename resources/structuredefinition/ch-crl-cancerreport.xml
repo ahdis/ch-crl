@@ -539,7 +539,7 @@
             <min value="0"/>
             <max value="1"/>
             <type>
-                <code value="code"/>
+                <code value="decimal"/>
             </type>
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.AnzahlBeteiligteRegionaleLymphknoten">
@@ -558,15 +558,20 @@
                 <code value="decimal"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.LymphatischerBefall">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.LymphatischerBefall"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!--
-Lymphatic invasion
 Venous invasion
 Perineural invasion
 TNM stage group
 -->
-
-
 
         <element id="CancerReport.DatenZurDiagnose.ICD-10.VerwendeteDiagnosemethode">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.VerwendeteDiagnosemethode"/>

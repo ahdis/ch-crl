@@ -452,8 +452,22 @@
             </type>
         </element>
 
+        <!-- Section Lymphatic Invasion -->
+        <element id="Composition.section.entry:LymphaticInvasion">
+            <path value="Composition.section.entry"/>
+            <sliceName value="LymphaticInvasion"/>
+            <short value="Lymphatic Invasion"/>
+        </element>
+        <element id="Composition.section.entry:LymphaticInvasion.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-lymphaticinvasion"/>
+            </type>
+        </element>
+
         <!--
-Lymphatic invasion
 Venous invasion
 Perineural invasion
 TNM stage group
