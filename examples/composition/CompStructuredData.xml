@@ -103,11 +103,12 @@
     <entry>
       <reference value="Observation/VenousInvasion"/>
     </entry>
-
-    <!--
-Perineural invasion
-TNM stage group
--->
+    <entry>
+      <reference value="Observation/PerineuralInvasion"/>
+    </entry>
+    <entry>
+      <reference value="Observation/TNM-StageGroup"/>
+    </entry>
 
     <entry>
       <reference value="Procedure/DiagnosticMethod"/>

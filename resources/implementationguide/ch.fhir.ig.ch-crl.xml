@@ -240,6 +240,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/TNM-StageGroup"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/VenousInvasion"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
@@ -363,6 +369,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/nicer-pt"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-tnmstagegroup"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -550,6 +562,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-observation-tnmstagegroup"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-observation-venousinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -679,6 +697,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/nicer-pt"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-tnmstagegroup"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

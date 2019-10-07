@@ -582,10 +582,14 @@
                 <code value="code"/>
             </type>
         </element>
-
-        <!--
-TNM stage group
--->
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <element id="CancerReport.DatenZurDiagnose.ICD-10.VerwendeteDiagnosemethode">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.VerwendeteDiagnosemethode"/>

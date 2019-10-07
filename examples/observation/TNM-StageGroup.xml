@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="TNM-StageGroup"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-tnmstagegroup"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="21914-7"/>
+      <display value="Stage group.other Cancer"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/FranzMinimum"/>
+  </subject>
+  <effectiveDateTime value="2018-12-15"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-tnmstagegroup"/>
+      <code value="IV"/>
+      <display value="Stage IV"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>
