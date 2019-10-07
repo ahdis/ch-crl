@@ -1,0 +1,44 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nicer-venousinvasion"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-venousinvasion" />
+    <version value="0.0.1"/>
+    <name value="NicerVenousInvasion"/>
+    <title value="Nicer Venous invasion"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="The presence or absence of tumour cells in the walls of venous blood vessels.
+        See **Venous invasion (Variable number: 4.15)** in \'E A Struktur der Basisdaten.pdf\'  
+        (https://www.nicer.org/de/krebsregistrierung/krebsregistrierung-nach-krg-ab-112020/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-venousinvasion"/>
+    <compositional value="false"/>
+    <versionNeeded value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="0"/>
+        <display value="V0"/>
+        <definition value="No venous invasion."/>
+    </concept>
+    <concept>
+        <code value="1"/>
+        <display value="V1"/>
+        <definition value="Microscopic venous invasion."/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="V2"/>
+        <definition value="Macroscopic venous invasion."/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="VX"/>
+        <definition value="Venous invasion cannot be assessed."/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="Unknown"/>
+        <definition value="Not stated / Not assessed."/>
+    </concept>
+</CodeSystem>

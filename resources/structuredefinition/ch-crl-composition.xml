@@ -467,8 +467,22 @@
             </type>
         </element>
 
+        <!-- Section Venous Invasion -->
+        <element id="Composition.section.entry:VenousInvasion">
+            <path value="Composition.section.entry"/>
+            <sliceName value="VenousInvasion"/>
+            <short value="Venous Invasion"/>
+        </element>
+        <element id="Composition.section.entry:VenousInvasion.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+            <type>
+                <code value="string"/>
+                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
+            </type>
+        </element>
+
         <!--
-Venous invasion
 Perineural invasion
 TNM stage group
 -->

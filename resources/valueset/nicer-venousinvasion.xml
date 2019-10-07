@@ -1,0 +1,17 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nicer-venousinvasion"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-venousinvasion"/>
+    <version value="0.0.1"/>
+    <name value="NicerVenousInvasion"/>
+    <title value="Nicer Venous Invasion"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="The presence or absence of tumour cells in the walls of venous blood vessels." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-venousinvasion"/>
+        </include>
+    </compose>
+</ValueSet>

@@ -100,9 +100,11 @@
     <entry>
       <reference value="Observation/LymphaticInvasion"/>
     </entry>
+    <entry>
+      <reference value="Observation/VenousInvasion"/>
+    </entry>
 
     <!--
-Venous invasion
 Perineural invasion
 TNM stage group
 -->

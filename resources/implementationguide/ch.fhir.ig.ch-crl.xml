@@ -234,6 +234,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/VenousInvasion"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/y-PrefixOfcTNM"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
@@ -351,6 +357,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/nicer-topographyofmetastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/nicer-venousinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -520,6 +532,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-crl-observation-venousinvasion"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-crl-observation-yprefixofctnm"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -643,6 +661,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/nicer-topographyofmetastases"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nicer-venousinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
