@@ -574,9 +574,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.PerineuralerBefall">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.PerineuralerBefall"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!--
-Perineural invasion
 TNM stage group
 -->
 

@@ -1,0 +1,39 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nicer-perineuralinvasion"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-perineuralinvasion" />
+    <version value="0.0.1"/>
+    <name value="NicerPerineuralInvasion"/>
+    <title value="Nicer Perineural invasion"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-09-02"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="The process of neoplastic invasion of nerves.
+        See **Perineural invasion (Variable number: 4.16)** in \'E A Struktur der Basisdaten.pdf\'  
+        (https://www.nicer.org/de/krebsregistrierung/krebsregistrierung-nach-krg-ab-112020/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-perineuralinvasion"/>
+    <compositional value="false"/>
+    <versionNeeded value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="0"/>
+        <display value="Pn0"/>
+        <definition value="No perineural invasion."/>
+    </concept>
+    <concept>
+        <code value="1"/>
+        <display value="Pn1"/>
+        <definition value="Perineural invasion."/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="PnX"/>
+        <definition value="Perineural invasion cannot be assessed."/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="Unknown"/>
+        <definition value="Not stated / Not assessed."/>
+    </concept>
+</CodeSystem>
