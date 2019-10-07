@@ -186,6 +186,18 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/NumberExaminedRegionalLymphNodes-unknown"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/NumberExaminedRegionalLymphNodes"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/NumberInvolvedRegionalLymphNodes-unknown"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
@@ -455,6 +467,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-crl-observation-msuffixofpt"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

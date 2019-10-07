@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-crl-observation-numberexaminedregionallymphnodes"/>
+    <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
+    <version value="0.2.0"/>
+    <name value="CHCRLObservationNumberExaminedRegionalLymphNodes"/>
+    <title value="CH CRL Observation Number Examined Regional Lymph Nodes"/>
+    <status value="draft"/>
+    <date value="2019-10-11"/>
+    <publisher value="Bundesamt für Gesundheit BAG"/>
+    <description value="Profile on Observation about the Number Examined Regional Lymph Nodes"/>
+    <fhirVersion value="4.0.0"/>
+    <mapping>
+        <identity value="NICER-A"/>
+        <uri value="https://www.nicer.org/assets/files/Infowelle2/e_a_struktur_der_basisdaten.pdf"/>
+        <name value="NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"/>
+    </mapping>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation">
+            <path value="Observation"/>
+            <mapping>
+                <identity value="NICER-A"/>
+                <map value="Number of examined regional lymph nodes (Variable number: 4.12)"/>
+            </mapping>
+        </element>
+        <element id="Observation.code">
+            <path value="Observation.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://loinc.org"/>
+                    <code value="21894-1"/>
+                    <display value="Regional lymph nodes examined [#] Specimen"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.code.coding.system">
+            <path value="Observation.code.coding.system"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.code.coding.code">
+            <path value="Observation.code.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.code.coding.display">
+            <path value="Observation.code.coding.display"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.subject">
+            <path value="Observation.subject"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </type>
+        </element>
+        <element id="Observation.subject.reference">
+            <path value="Observation.subject.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.effectiveDateTime">
+            <path value="Observation.effectiveDateTime"/>
+            <min value="1"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
+        </element>
+        <element id="Observation.performer">
+            <path value="Observation.performer"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
+            </type>
+        </element>
+        <element id="Observation.performer.reference">
+            <path value="Observation.performer.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <short value="Number of regional lymph nodes that were excised and examined if known"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+        </element>
+        <element id="Observation.valueQuantity.value">
+            <path value="Observation.valueQuantity.value"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.dataAbsentReason">
+            <path value="Observation.dataAbsentReason"/>
+            <short value="No information whether regional lymph nodes were examined or not. OR Regional lymph nodes were examined, but no information on the number."/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding">
+            <path value="Observation.dataAbsentReason.coding"/>
+            <min value="1"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding.system">
+            <path value="Observation.dataAbsentReason.coding.system"/>
+            <min value="1"/>
+            <fixedUri value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding.code">
+            <path value="Observation.dataAbsentReason.coding.code"/>
+            <min value="1"/>
+            <fixedCode value="unknown"/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding.display">
+            <path value="Observation.dataAbsentReason.coding.display"/>
+            <min value="1"/>
+            <fixedString value="Unknown"/>
+        </element>
+    </differential>
+</StructureDefinition>

@@ -94,9 +94,11 @@
     <entry>
       <reference value="Observation/NumberInvolvedRegionalLymphNodes"/>
     </entry>
+    <entry>
+      <reference value="Observation/NumberExaminedRegionalLymphNodes"/>
+    </entry>
 
     <!--
-Number of examined regional lymph nodes
 Lymphatic invasion
 Venous invasion
 Perineural invasion
