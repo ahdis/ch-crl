@@ -23,6 +23,7 @@
     <differential>
         <element id="Condition">
             <path value="Condition"/>
+            <short value="CH CRL Condition Final Cause of Death"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Principal cause of death (Variable number: 1.16)"/>

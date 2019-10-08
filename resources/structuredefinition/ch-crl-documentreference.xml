@@ -18,6 +18,7 @@
     <differential>
         <element id="DocumentReference">
             <path value="DocumentReference"/>
+            <short value="CH CRL DocumentReference"/>
         </element>
         <element id="DocumentReference.subject">
             <path value="DocumentReference.subject"/>

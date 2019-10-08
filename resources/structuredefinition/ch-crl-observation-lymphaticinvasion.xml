@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation Lymphatic Invasion"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Lymphatic invasion (Variable number: 4.14)"/>

@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation Perineural Invasion"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Perineural invasion (Variable number: 4.16)"/>

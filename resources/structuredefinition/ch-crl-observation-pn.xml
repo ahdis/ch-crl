@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation pN"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="pN (Variable number: 4.10)"/>

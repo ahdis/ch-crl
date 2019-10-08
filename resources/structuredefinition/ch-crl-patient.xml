@@ -28,6 +28,7 @@
     <differential>
         <element id="Patient">
             <path value="Patient"/>
+            <short value="CH CRL Patient"/>
         </element>
         <element id="Patient.identifier">
             <path value="Patient.identifier" />

@@ -28,6 +28,7 @@
     <differential>
         <element id="Communication">
             <path value="Communication"/>
+            <short value="CH CRL Communication"/>
         </element>
         <element id="Communication.subject">
             <path value="Communication.subject"/>

@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation ICD-O-3 Behaviour"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="ICD-O Behaviour (Variable number: 3.6.1)"/>

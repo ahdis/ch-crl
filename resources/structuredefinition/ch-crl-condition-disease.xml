@@ -23,6 +23,7 @@
     <differential>
         <element id="Condition">
             <path value="Condition"/>
+            <short value="CH CRL Condition Disease"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Underlying cause of death (Variable number: 1.17.1) or

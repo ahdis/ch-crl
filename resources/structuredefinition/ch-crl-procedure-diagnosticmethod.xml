@@ -22,6 +22,7 @@
     <differential>
         <element id="Procedure">
             <path value="Procedure"/>
+            <short value="CH CRL Procedure Diagnostic Method"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Diagnostic method(s) used (Variable number: 2.8)"/>

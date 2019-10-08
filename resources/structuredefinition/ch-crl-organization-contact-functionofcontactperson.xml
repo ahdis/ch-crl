@@ -22,7 +22,7 @@
     <differential>
         <element id="Extension">
             <path value="Extension"/>
-            <short value="Function of contact person, e.g. assistant physician, medical assistant"/>
+            <short value="CH CRL Function of Contact Person"/>
         </element>
         <element id="Extension.extension">
             <path value="Extension.extension"/>

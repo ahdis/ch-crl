@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation m-Suffix of pT"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="m-Suffix of pT (Variable number: 4.9)"/>

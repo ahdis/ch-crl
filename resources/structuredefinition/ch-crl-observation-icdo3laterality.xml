@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation ICD-O-3 Laterality"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Laterality (Variable number: 3.8)"/>

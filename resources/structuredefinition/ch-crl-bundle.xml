@@ -18,6 +18,7 @@
     <differential>
         <element id="Bundle">
             <path value="Bundle"/>
+            <short value="CH CRL Bundle"/>
         </element>
         <element id="Bundle.identifier">
             <path value="Bundle.identifier"/>

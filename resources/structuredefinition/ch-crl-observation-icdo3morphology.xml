@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation ICD-O-3 Morphology"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="ICD-O Morphology (Variable number: 3.5)"/>

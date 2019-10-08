@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation Number of Examined Regional Lymph Nodes"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Number of examined regional lymph nodes (Variable number: 4.12)"/>

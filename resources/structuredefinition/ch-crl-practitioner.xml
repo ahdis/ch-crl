@@ -23,6 +23,7 @@
     <differential>
         <element id="Practitioner">
             <path value="Practitioner"/>
+            <short value="CH CRL Practitioner"/>
         </element>
         <element id="Practitioner.name">
             <path value="Practitioner.name"/>

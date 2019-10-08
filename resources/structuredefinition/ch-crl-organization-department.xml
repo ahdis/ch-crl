@@ -18,6 +18,7 @@
     <differential>
         <element id="Organization">
             <path value="Organization"/>
+            <short value="CH CRL Organization Department"/>
         </element>
         <element id="Organization.type">
             <path value="Organization.type"/>

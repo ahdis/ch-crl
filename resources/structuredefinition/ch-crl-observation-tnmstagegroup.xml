@@ -23,6 +23,7 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
+            <short value="CH CRL Observation TNM Stage Group"/>
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="TNM stage group (Variable number: 4.17)"/>

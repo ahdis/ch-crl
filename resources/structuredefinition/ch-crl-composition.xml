@@ -18,8 +18,8 @@
     <differential>
         <element id="Composition">
             <path value="Composition"/>
+            <short value="CH CRL Composition"/>
         </element>
-
         <element id="Composition.type">
             <path value="Composition.type"/>
             <patternCodeableConcept>
