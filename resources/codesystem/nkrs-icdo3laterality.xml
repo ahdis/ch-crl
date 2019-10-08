@@ -44,9 +44,4 @@
         <display value="Bilateral"/>
         <definition value="Origin of primary tumour is on both sides of a paired organ (when tumours of the same morphology are diagnosed simultaneously in both sides of a paired organ). Bilateral cancers are very rare, e.g. bilateral retinoblastoma, bilateral Wilms tumour of the kidney, or both ovaries involved simultaneously."/>
     </concept>
-    <concept>
-        <code value="9"/>
-        <display value="Unknown"/>
-        <definition value="It is unknown whether, for a paired organ, the origin of the cancer was on the left or right side of the body."/>
-    </concept>
 </CodeSystem>

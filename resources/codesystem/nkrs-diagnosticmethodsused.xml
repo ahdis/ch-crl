@@ -129,8 +129,4 @@
         <code value="26"/>
         <display value="Autopsy with histological confirmation"/>
     </concept>
-    <concept>
-        <code value="99"/>
-        <display value="Unknown"/>
-    </concept>
 </CodeSystem>

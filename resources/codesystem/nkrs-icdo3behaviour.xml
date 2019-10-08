@@ -41,9 +41,4 @@
         <display value="Malignant"/>
         <definition value="Invasive behaviour."/>
     </concept>
-    <concept>
-        <code value="9"/>
-        <display value="Unknown"/>
-        <definition value="Not stated / Not assessed."/>
-    </concept>
 </CodeSystem>

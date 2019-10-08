@@ -22,14 +22,6 @@
     <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-pn"/>
     <content value="complete"/>
     <concept>
-        <code value="88"/>
-        <display value="NA"/>
-    </concept>
-    <concept>
-        <code value="99"/>
-        <display value="Unknown"/>
-    </concept>
-    <concept>
         <code value="X"/>
         <display value="pNX"/>
     </concept>

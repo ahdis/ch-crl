@@ -95,7 +95,7 @@
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="If the number of primary tumours is unknown (unspecified multiplicity, not stated/assessed)"/>
+            <short value="If the number of primary tumours is unknown (unspecified multiplicity, not stated / not assessed)"/>
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>
@@ -109,7 +109,7 @@
         </element>
         <element id="Observation.dataAbsentReason.coding.code">
             <path value="Observation.dataAbsentReason.coding.code"/>
-            <short value="'not-applicable' if unspecified multiplicity, 'not-performed' if not stated/assessed"/>
+            <short value="If unspecified multiplicity than 'value=not-applicable'. If not stated / not assessed than 'value=unknown'."/>
             <min value="1"/>
         </element>
         <element id="Observation.dataAbsentReason.coding.display">

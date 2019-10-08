@@ -41,9 +41,4 @@
         <display value="VX"/>
         <definition value="Venous invasion cannot be assessed."/>
     </concept>
-    <concept>
-        <code value="9"/>
-        <display value="Unknown"/>
-        <definition value="Not stated / Not assessed."/>
-    </concept>
 </CodeSystem>

@@ -84,8 +84,6 @@
         </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
-            <min value="1"/>
-            <max value="1"/>
             <type>
                 <code value="CodeableConcept"/>
             </type>
@@ -110,6 +108,30 @@
         <element id="Observation.valueCodeableConcept.coding.display">
             <path value="Observation.valueCodeableConcept.coding.display"/>
             <min value="1"/>
+        </element>
+        <element id="Observation.dataAbsentReason">
+            <path value="Observation.dataAbsentReason"/>
+            <short value="Not stated / Not assessed."/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding">
+            <path value="Observation.dataAbsentReason.coding"/>
+            <min value="1"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding.system">
+            <path value="Observation.dataAbsentReason.coding.system"/>
+            <min value="1"/>
+            <fixedUri value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding.code">
+            <path value="Observation.dataAbsentReason.coding.code"/>
+            <min value="1"/>
+            <fixedCode value="unknown"/>
+        </element>
+        <element id="Observation.dataAbsentReason.coding.display">
+            <path value="Observation.dataAbsentReason.coding.display"/>
+            <min value="1"/>
+            <fixedString value="Unknown"/>
         </element>
     </differential>
 </StructureDefinition>

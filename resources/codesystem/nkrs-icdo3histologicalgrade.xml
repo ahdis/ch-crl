@@ -61,9 +61,4 @@
         <display value="NK cell"/>
         <definition value="NK cell; Natural killer cell."/>
     </concept>
-    <concept>
-        <code value="9"/>
-        <display value="Unknown"/>
-        <definition value="Grade or differentiation not determined, not stated, or not applicable. Unknown primary."/>
-    </concept>
 </CodeSystem>

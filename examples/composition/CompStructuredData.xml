@@ -59,7 +59,7 @@
       <reference value="Observation/pN"/>
     </entry>
     <entry>
-      <reference value="Observation/pM"/>
+      <reference value="Observation/pM-unknown"/>
     </entry>
     <entry>
       <reference value="Observation/ICD-10"/>
@@ -77,7 +77,7 @@
       <reference value="Observation/ICD-O-3-Laterality"/>
     </entry>
     <entry>
-      <reference value="Observation/ICD-O-3-HistologicalGrade"/>
+      <reference value="Observation/ICD-O-3-HistologicalGrade-unknown"/>
     </entry>
     <entry>
       <reference value="Observation/y-PrefixOfcTNM"/>

@@ -19,8 +19,8 @@
   <dataAbsentReason>
     <coding>
       <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
-      <code value="not-performed"/>
-      <display value="Not Performed"/>
+      <code value="unknown"/>
+      <display value="Unknown"/>
     </coding>
   </dataAbsentReason>
 </Observation>

@@ -150,7 +150,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/ICD-O-3-HistologicalGrade"/>
+        <reference value="Observation/ICD-O-3-HistologicalGrade-unknown"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
     </resource>
@@ -222,7 +222,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/pM"/>
+        <reference value="Observation/pM-unknown"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
     </resource>
