@@ -515,7 +515,7 @@
             <min value="0"/>
             <max value="1"/>
             <type>
-                <code value="code"/>
+                <code value="boolean"/>
             </type>
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.a-Präfix-pathologischesTNM">
@@ -523,7 +523,7 @@
             <min value="0"/>
             <max value="1"/>
             <type>
-                <code value="code"/>
+                <code value="boolean"/>
             </type>
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-pathologischesTNM">
@@ -531,7 +531,7 @@
             <min value="0"/>
             <max value="1"/>
             <type>
-                <code value="code"/>
+                <code value="boolean"/>
             </type>
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.m-Suffix-pathologischesT">

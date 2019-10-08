@@ -19,7 +19,7 @@
   <effectiveDateTime value="2018-12-15"/>
   <valueCodeableConcept>
     <coding>
-      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-venousinvasion"/>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-venousinvasion"/>
       <code value="1"/>
       <display value="V1"/>
     </coding>

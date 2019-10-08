@@ -1,0 +1,23 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nkrs-lymphaticinvasion"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-lymphaticinvasion"/>
+    <version value="0.2.0"/>
+    <name value="NkrsLymphaticInvasion"/>
+    <title value="NKRS - Lymphatic Invasion"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item indicates the presence or absence of tumour cells in lymphatic vessels within and at the margins of the primary tumour, as well as afferent and efferent lymphatics, as noted microscopically by the pathologist." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-lymphaticinvasion"/>
+        </include>
+    </compose>
+</ValueSet>

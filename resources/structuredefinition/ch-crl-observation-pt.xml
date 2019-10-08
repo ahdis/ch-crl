@@ -91,7 +91,7 @@
             </type>
             <binding>
                 <strength value="required"/>
-                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-pt"/>
+                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-pt"/>
             </binding>
         </element>
         <element id="Observation.valueCodeableConcept.coding">

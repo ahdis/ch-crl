@@ -1,0 +1,69 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nkrs-icdo3histologicalgrade"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-icdo3histologicalgrade" />
+    <version value="0.2.0"/>
+    <name value="NkrsIcdO3HistologicalGrade"/>
+    <title value="NKRS - ICD-O-3 Histological Grade"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item describes the neoplasm’s resemblance to normal (parent) tissue according to ICD-O.  
+        **ICD-O Histological Grade (Variable number: 3.7)** in 
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
+        see [NICER](https://www.nicer.org/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-icdo3histologicalgrade"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="Grade I"/>
+        <definition value="Well differentiated; Differentiated, NOS; Low grade"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="Grade II"/>
+        <definition value="Moderately (well) differentiated; Intermediate differentiation."/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="Grade III"/>
+        <definition value="Poorly differentiated; Dedifferentiated; High grade."/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="Grade IV"/>
+        <definition value="Undifferentiated; Anaplastic."/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="T-cell"/>
+        <definition value="T-cell; T-precursor."/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="B-cell"/>
+        <definition value="B-cell; Pre-B; B-precursor."/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="Null cell"/>
+        <definition value="Null cell; Non-T-non-B."/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="NK cell"/>
+        <definition value="NK cell; Natural killer cell."/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="Unknown"/>
+        <definition value="Grade or differentiation not determined, not stated, or not applicable. Unknown primary."/>
+    </concept>
+</CodeSystem>

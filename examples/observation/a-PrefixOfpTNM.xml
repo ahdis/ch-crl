@@ -16,11 +16,5 @@
     <reference value="Patient/FranzMinimum"/>
   </subject>
   <effectiveDateTime value="2018-12-15"/>
-  <valueCodeableConcept>
-    <coding>
-      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-aprefixptnm"/>
-      <code value="1"/>
-      <display value="Yes"/>
-    </coding>
-  </valueCodeableConcept>
+  <valueBoolean value="true"/>
 </Observation>

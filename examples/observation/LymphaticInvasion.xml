@@ -19,7 +19,7 @@
   <effectiveDateTime value="2018-12-15"/>
   <valueCodeableConcept>
     <coding>
-      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-lymphaticinvasion"/>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-lymphaticinvasion"/>
       <code value="0"/>
       <display value="L0"/>
     </coding>

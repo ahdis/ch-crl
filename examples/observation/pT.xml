@@ -18,7 +18,7 @@
   <effectiveDateTime value="2018-12-15"/>
   <valueCodeableConcept>
     <coding>
-      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-pt"/>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pt"/>
       <code value="1b2"/>
       <display value="pT1b2"/>
     </coding>

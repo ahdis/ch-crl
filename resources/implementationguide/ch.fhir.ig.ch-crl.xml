@@ -296,109 +296,85 @@
     <!-- references to codeSystems -->
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-aprefixptnm"/>
+        <reference value="CodeSystem/nkrs-cm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-cm"/>
+        <reference value="CodeSystem/nkrs-cn"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-cn"/>
+        <reference value="CodeSystem/nkrs-ct"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-ct"/>
+        <reference value="CodeSystem/nkrs-diagnosticmethodsused"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-diagnosticmethodsused"/>
+        <reference value="CodeSystem/nkrs-icdo3behaviour"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-icdo3behaviour"/>
+        <reference value="CodeSystem/nkrs-icdo3histologicalgrade"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-icdo3histologicalgrade"/>
+        <reference value="CodeSystem/nkrs-icdo3laterality"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-icdo3laterality"/>
+        <reference value="CodeSystem/nkrs-lymphaticinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-lymphaticinvasion"/>
+        <reference value="CodeSystem/nkrs-perineuralinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-perineuralinvasion"/>
+        <reference value="CodeSystem/nkrs-pm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-pm"/>
+        <reference value="CodeSystem/nkrs-pn"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-pn"/>
+        <reference value="CodeSystem/nkrs-pt"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-pt"/>
+        <reference value="CodeSystem/nkrs-tnmstagegroup"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/nicer-tnmstagegroup"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/nicer-topographyofmetastases"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/nicer-venousinvasion"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/nicer-yprefixctnm"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="CodeSystem/nicer-yprefixptnm"/>
+        <reference value="CodeSystem/nkrs-venousinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -624,109 +600,85 @@
     <!-- references to valueSets -->
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-aprefixptnm"/>
+        <reference value="ValueSet/nkrs-cm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-cm"/>
+        <reference value="ValueSet/nkrs-cn"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-cn"/>
+        <reference value="ValueSet/nkrs-ct"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-ct"/>
+        <reference value="ValueSet/nkrs-diagnosticmethodsused"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-diagnosticmethodsused"/>
+        <reference value="ValueSet/nkrs-icdo3behaviour"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-icdo3behaviour"/>
+        <reference value="ValueSet/nkrs-icdo3histologicalgrade"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-icdo3histologicalgrade"/>
+        <reference value="ValueSet/nkrs-icdo3laterality"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-icdo3laterality"/>
+        <reference value="ValueSet/nkrs-lymphaticinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-lymphaticinvasion"/>
+        <reference value="ValueSet/nkrs-perineuralinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-perineuralinvasion"/>
+        <reference value="ValueSet/nkrs-pm"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-pm"/>
+        <reference value="ValueSet/nkrs-pn"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-pn"/>
+        <reference value="ValueSet/nkrs-pt"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-pt"/>
+        <reference value="ValueSet/nkrs-tnmstagegroup"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nicer-tnmstagegroup"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/nicer-topographyofmetastases"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/nicer-venousinvasion"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/nicer-yprefixctnm"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/nicer-yprefixptnm"/>
+        <reference value="ValueSet/nkrs-venousinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

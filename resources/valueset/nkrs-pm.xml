@@ -1,0 +1,23 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nkrs-pm"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-pm"/>
+    <version value="0.2.0"/>
+    <name value="NkrspM"/>
+    <title value="NKRS - pM"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item records the absence or presence of distant metastasis, based on pathological evidence after completion of surgical therapy or microscopic examination of metastasis." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pm"/>
+        </include>
+    </compose>
+</ValueSet>

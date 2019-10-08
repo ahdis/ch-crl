@@ -91,7 +91,7 @@
             </type>
             <binding>
                 <strength value="required"/>
-                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-icdo3behaviour"/>
+                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-icdo3behaviour"/>
             </binding>
         </element>
         <element id="Observation.valueCodeableConcept.coding">

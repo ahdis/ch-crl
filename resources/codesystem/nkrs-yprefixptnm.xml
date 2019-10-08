@@ -1,0 +1,34 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nkrs-yprefixptnm"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-yprefixptnm" />
+    <version value="0.2.0"/>
+    <name value="NkrsyPrefixpTnm"/>
+    <title value="NKRS - y-Prefix pTNM"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item indicates whether TNM classification is performed during or following multimodality therapy (neoadjuvant radio- and/or chemotherapy prior to surgery).  
+        **y-Prefix of pTNM (Variable number: 4.7)** in 
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
+        see [NICER](https://www.nicer.org/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-yprefixptnm"/>
+    <content value="complete"/>
+    <concept>
+        <code value="0"/>
+        <display value="No"/>
+        <definition value="TNM assigned before any therapy."/>
+    </concept>
+    <concept>
+        <code value="1"/>
+        <display value="Yes"/>
+        <definition value="TNM assigned during or after neoadjuvant therapy."/>
+    </concept>
+</CodeSystem>

@@ -59,7 +59,7 @@
                 </extension>
                 <strength value="required"/>
                 <description value="A code to identify a specific procedure."/>
-                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-diagnosticmethodsused"/>
+                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-diagnosticmethodsused"/>
             </binding>
         </element>
         <element id="Procedure.code.coding">

@@ -1,0 +1,23 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nkrs-cn"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-cn"/>
+    <version value="0.2.0"/>
+    <name value="NkrscN"/>
+    <title value="NKRS - cN"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item records regional lymph nodes involvement based on clinical investigation, imaging, endoscopy, biopsy or surgical exploration." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-cn"/>
+        </include>
+    </compose>
+</ValueSet>

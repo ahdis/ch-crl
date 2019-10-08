@@ -1,0 +1,104 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nkrs-pm"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pm" />
+    <version value="0.2.0"/>
+    <name value="NkrspM"/>
+    <title value="NKRS - pM"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item records the absence or presence of distant metastasis, based on pathological evidence after completion of surgical therapy or microscopic examination of metastasis.  
+        **pM (Variable number: 4.13)** in 
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
+        see [NICER](https://www.nicer.org/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-pm"/>
+    <content value="complete"/>
+    <concept>
+        <code value="88"/>
+        <display value="NA"/>
+    </concept>
+    <concept>
+        <code value="99"/>
+        <display value="Unknown"/>
+    </concept>
+    <concept>
+        <code value="0"/>
+        <display value="M0"/>
+    </concept>
+    <concept>
+        <code value="0i+"/>
+        <display value="M0i+"/>
+    </concept>
+    <concept>
+        <code value="0i-"/>
+        <display value="M0i-"/>
+    </concept>
+    <concept>
+        <code value="0mol+"/>
+        <display value="M0mol+"/>
+    </concept>
+    <concept>
+        <code value="0mol-"/>
+        <display value="M0mol-"/>
+    </concept>
+    <concept>
+        <code value="1"/>
+        <display value="M1"/>
+    </concept>
+    <concept>
+        <code value="1a"/>
+        <display value="M1a"/>
+    </concept>
+    <concept>
+        <code value="1a(0)"/>
+        <display value="M1a(0)"/>
+    </concept>
+    <concept>
+        <code value="1a(1)"/>
+        <display value="M1a(1)"/>
+    </concept>
+    <concept>
+        <code value="1b(0)"/>
+        <display value="M1b(0)"/>
+    </concept>
+    <concept>
+        <code value="1b(1)"/>
+        <display value="M1b(1)"/>
+    </concept>
+    <concept>
+        <code value="1c(0)"/>
+        <display value="M1c(0)"/>
+    </concept>
+    <concept>
+        <code value="1c(1)"/>
+        <display value="M1c(1)"/>
+    </concept>
+    <concept>
+        <code value="1d(0)"/>
+        <display value="M1d(0)"/>
+    </concept>
+    <concept>
+        <code value="1d(1)"/>
+        <display value="M1d(1)"/>
+    </concept>
+    <concept>
+        <code value="1b"/>
+        <display value="M1b"/>
+    </concept>
+    <concept>
+        <code value="1c"/>
+        <display value="M1c"/>
+    </concept>
+    <concept>
+        <code value="1d"/>
+        <display value="M1d"/>
+    </concept>
+</CodeSystem>

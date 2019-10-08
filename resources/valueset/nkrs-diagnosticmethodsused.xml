@@ -1,0 +1,23 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nkrs-diagnosticmethodsused"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-diagnosticmethodsused"/>
+    <version value="0.2.0"/>
+    <name value="NkrsDiagnosticMethodsUsed"/>
+    <title value="NKRS - Diagnostic Methods Used"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item records all diagnostic methods used." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diagnosticmethodsused"/>
+        </include>
+    </compose>
+</ValueSet>

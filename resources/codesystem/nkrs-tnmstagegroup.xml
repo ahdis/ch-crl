@@ -1,0 +1,180 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nkrs-tnmstagegroup"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-tnmstagegroup" />
+    <version value="0.2.0"/>
+    <name value="NkrsTnmStageGroup"/>
+    <title value="NKRS - TNM Stage Group"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item records the UICC TNM stage group.  
+        **TNM stage group (Variable number: 4.17)** in 
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
+        see [NICER](https://www.nicer.org/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-tnmstagegroup"/>
+    <content value="complete"/>
+    <concept>
+        <code value="88"/>
+        <display value="NA"/>
+    </concept>
+    <concept>
+        <code value="99"/>
+        <display value="Unknown"/>
+    </concept>
+    <concept>
+        <code value="0"/>
+        <display value="Stage 0"/>
+    </concept>
+    <concept>
+        <code value="0a"/>
+        <display value="Stage 0a"/>
+    </concept>
+    <concept>
+        <code value="0is"/>
+        <display value="Stage 0is"/>
+    </concept>
+    <concept>
+        <code value="I"/>
+        <display value="Stage I"/>
+    </concept>
+    <concept>
+        <code value="IA"/>
+        <display value="Stage IA"/>
+    </concept>
+    <concept>
+        <code value="IA1"/>
+        <display value="Stage IA1"/>
+    </concept>
+    <concept>
+        <code value="IA2"/>
+        <display value="Stage IA2"/>
+    </concept>
+    <concept>
+        <code value="IA3"/>
+        <display value="Stage IA3"/>
+    </concept>
+    <concept>
+        <code value="IB"/>
+        <display value="Stage IB"/>
+    </concept>
+    <concept>
+        <code value="IB1"/>
+        <display value="Stage IB1"/>
+    </concept>
+    <concept>
+        <code value="IB2"/>
+        <display value="Stage IB2"/>
+    </concept>
+    <concept>
+        <code value="IC"/>
+        <display value="Stage IC"/>
+    </concept>
+    <concept>
+        <code value="IS"/>
+        <display value="Stage IS"/>
+    </concept>
+    <concept>
+        <code value="II"/>
+        <display value="Stage II"/>
+    </concept>
+    <concept>
+        <code value="IIA"/>
+        <display value="Stage IIA"/>
+    </concept>
+    <concept>
+        <code value="IIA1"/>
+        <display value="Stage IIA1"/>
+    </concept>
+    <concept>
+        <code value="IIA2"/>
+        <display value="Stage IIA2"/>
+    </concept>
+    <concept>
+        <code value="IIB"/>
+        <display value="Stage IIB"/>
+    </concept>
+    <concept>
+        <code value="IIC"/>
+        <display value="Stage IIC"/>
+    </concept>
+    <concept>
+        <code value="III"/>
+        <display value="Stage III"/>
+    </concept>
+    <concept>
+        <code value="IIIA"/>
+        <display value="Stage IIIA"/>
+    </concept>
+    <concept>
+        <code value="IIIA1"/>
+        <display value="Stage IIIA1"/>
+    </concept>
+    <concept>
+        <code value="IIIA2"/>
+        <display value="Stage IIIA2"/>
+    </concept>
+    <concept>
+        <code value="IIIB"/>
+        <display value="Stage IIIB"/>
+    </concept>
+    <concept>
+        <code value="IIIC"/>
+        <display value="Stage IIIC"/>
+    </concept>
+    <concept>
+        <code value="IIIC1"/>
+        <display value="Stage IIIC1"/>
+    </concept>
+    <concept>
+        <code value="IIIC2"/>
+        <display value="Stage IIIC2"/>
+    </concept>
+    <concept>
+        <code value="IV"/>
+        <display value="Stage IV"/>
+    </concept>
+    <concept>
+        <code value="IVA"/>
+        <display value="Stage IVA"/>
+    </concept>
+    <concept>
+        <code value="IVB"/>
+        <display value="Stage IVB"/>
+    </concept>
+    <concept>
+        <code value="IVC"/>
+        <display value="Stage IVC"/>
+    </concept>
+    <concept>
+        <code value="A"/>
+        <display value="Stage A"/>
+    </concept>
+    <concept>
+        <code value="AP"/>
+        <display value="Stage AP"/>
+    </concept>
+    <concept>
+        <code value="B"/>
+        <display value="Stage B"/>
+    </concept>
+    <concept>
+        <code value="BP"/>
+        <display value="Stage BP"/>
+    </concept>
+    <concept>
+        <code value="C"/>
+        <display value="Stage C"/>
+    </concept>
+    <concept>
+        <code value="CP"/>
+        <display value="Stage CP"/>
+    </concept>
+</CodeSystem>

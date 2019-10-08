@@ -92,7 +92,7 @@
             </type>
             <binding>
                 <strength value="required"/>
-                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nicer-lymphaticinvasion"/>
+                <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-lymphaticinvasion"/>
             </binding>
         </element>
         <element id="Observation.valueCodeableConcept.coding">

@@ -1,0 +1,34 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nkrs-aprefixptnm"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-aprefixptnm" />
+    <version value="0.2.0"/>
+    <name value="NkrsaPrefixpTnm"/>
+    <title value="NKRS - a-Prefix pTNM"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The prefix a indicates that classification is first determined at autopsy.  
+        **a-Prefix of pTNM (Variable number: 4.6)** in 
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
+        see [NICER](https://www.nicer.org/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-aprefixptnm"/>
+    <content value="complete"/>
+    <concept>
+        <code value="0"/>
+        <display value="No"/>
+        <definition value="pTNM classification is not determined at autopsy."/>
+    </concept>
+    <concept>
+        <code value="1"/>
+        <display value="Yes"/>
+        <definition value="pTNM classification is first determined at autopsy."/>
+    </concept>
+</CodeSystem>

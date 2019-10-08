@@ -1,0 +1,23 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nkrs-pn"/>
+    <url value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-pn"/>
+    <version value="0.2.0"/>
+    <name value="NkrspN"/>
+    <title value="NKRS - pN"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item records the absence or presence and extent of regional lymph node metastasis, based on pathological evidence after completion of surgical therapy." />
+    <compose>
+        <include>
+            <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pn"/>
+        </include>
+    </compose>
+</ValueSet>

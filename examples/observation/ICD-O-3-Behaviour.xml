@@ -18,7 +18,7 @@
   <effectiveDateTime value="2018-12-15"/>
   <valueCodeableConcept>
     <coding>
-      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nicer-icdo3behaviour"/>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-icdo3behaviour"/>
       <code value="3"/>
       <display value="Malignant"/>
     </coding>
