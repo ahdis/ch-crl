@@ -6,7 +6,7 @@
     <name value="CHCRLObservationNumberExaminedRegionalLymphNodes"/>
     <title value="CH CRL Observation Number of Examined Regional Lymph Nodes Profile"/>
     <status value="draft"/>
-    <date value="2019-10-11"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Observation for the number of examined regional lymph nodes"/>
     <fhirVersion value="4.0.0"/>

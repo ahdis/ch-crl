@@ -6,7 +6,7 @@
     <name value="CHCRLConditionDisease"/>
     <title value="CH CRL Condition Disease Profile"/>
     <status value="draft"/>
-    <date value="2019-10-11"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Condition for diseases"/>
     <fhirVersion value="4.0.0"/>

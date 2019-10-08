@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-documentreference"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
-    <version value="0.1.0"/>
+    <version value="0.2.0"/>
     <name value="CHCRLDocumentReference"/>
     <title value="CH CRL DocumentReference Profile"/>
     <status value="draft"/>
-    <date value="2019-09-02"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Document reference for the report as pdf"/>
     <fhirVersion value="4.0.0"/>

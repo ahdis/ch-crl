@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-communication"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
-    <version value="0.1.0"/>
+    <version value="0.2.0"/>
     <name value="CHCRLCommunication"/>
     <title value="CH CRL Communication Profile"/>
     <status value="draft"/>
-    <date value="2019-09-02"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Communication for the date of informing the patient about the cancer registration"/> 
     <fhirVersion value="4.0.0"/>

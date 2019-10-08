@@ -6,7 +6,7 @@
     <name value="CHCRLObservationICDO3Laterality"/>
     <title value="CH CRL Observation ICD-O-3 Laterality Profile"/>
     <status value="draft"/>
-    <date value="2019-10-11"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Observation for the ICD-O-3 laterality code"/>
     <fhirVersion value="4.0.0"/>

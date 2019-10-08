@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-procedure-diagnosticmethod"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
-    <version value="0.1.0"/>
+    <version value="0.2.0"/>
     <name value="CHCRLProcedureDiagnosticMethod"/>
     <title value="CH CRL Procedure Diagnostic Method Profile"/>
     <status value="draft"/>
-    <date value="2019-09-02"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Procedure for the diagnostic method(s)"/>
     <fhirVersion value="4.0.0"/>

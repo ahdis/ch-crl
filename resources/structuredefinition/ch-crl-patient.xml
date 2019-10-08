@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-patient"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
-    <version value="0.1.0"/>
+    <version value="0.2.0"/>
     <name value="CHCRLPatient"/>
     <title value="CH CRL Patient Profile"/>
     <status value="draft"/>
-    <date value="2019-09-02"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Definition of the patient for reporting to the cancer registry"/>
     <fhirVersion value="4.0.0"/>

@@ -6,7 +6,7 @@
     <name value="CHCRLObservationICDO3Topography"/>
     <title value="CH CRL Observation ICD-O-3 Topography Profile"/>
     <status value="draft"/>
-    <date value="2019-10-11"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Observation for the ICD-O-3 topography code"/>
     <fhirVersion value="4.0.0"/>
