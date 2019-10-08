@@ -46,9 +46,10 @@
             <max value="0"/>
         </element>
         <element id="Patient.identifier:AHVN13">
-            <path value="Patient.identifier" />
-            <sliceName value="AHVN13" />
-            <min value="1" />
+            <path value="Patient.identifier"/>
+            <sliceName value="AHVN13"/>
+            <short value="AHVN13 / NAVS13"/>
+            <min value="1"/>
             <mapping>
                 <identity value="KRG"/>
                 <map value="Versichertennummer nach Artikel 50c des Bundesgesetzes vom 20. Dezember 1946 über die Alters- und Hinterlassenenversicherung (Versichertennummer) (Art. 3 Abs. 1 Bst. b)"/>
@@ -101,7 +102,7 @@
         </element>
         <element id="Patient.birthDate">
             <path value="Patient.birthDate"/>
-            <short value="YYYY-MM-DD"/>
+            <short value="Format: YYYY-MM-DD"/>
             <min value="1"/>
             <max value="1"/>
             <mapping>
@@ -119,7 +120,7 @@
         </element>
         <element id="Patient.address">
             <path value="Patient.address"/>
-            <short value="An address for the individual ('Wohnsitz')"/>
+            <short value="Residential address ('Wohnsitz')"/>
             <min value="1"/>
             <max value="1"/>
             <mapping>

@@ -58,7 +58,7 @@
         <element id="Practitioner.telecom:phone">
             <path value="Practitioner.telecom" />
             <sliceName value="phone" />
-            <short value="phone"/>
+            <short value="Phone number"/>
             <min value="1"/>
             <mapping>
                 <identity value="KRV"/>
@@ -77,7 +77,7 @@
         <element id="Practitioner.telecom:email">
             <path value="Practitioner.telecom" />
             <sliceName value="email" />
-            <short value="email" />
+            <short value="Email address" />
             <min value="1"/>
             <mapping>
                 <identity value="KRV"/>

@@ -27,16 +27,32 @@
         </element>
         <element id="Organization.type">
             <path value="Organization.type"/>
+            <short value="Kind of organization"/>
             <min value="1"/>
             <binding>
                 <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
                     <valueString value="OrganizationType"/>
                 </extension>
                 <strength value="extensible"/>
-                <description value="Used to categorize the organization."/>
                 <valueSet value="http://hl7.org/fhir/ValueSet/organization-type"/>
             </binding>
-        </element>      
+        </element>
+        <element id="Organization.type.coding">
+            <path value="Organization.type.coding"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.type.coding.system">
+            <path value="Organization.type.coding.system"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.type.coding.code">
+            <path value="Organization.type.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.type.coding.display">
+            <path value="Organization.type.coding.display"/>
+            <min value="1"/>
+        </element>    
         <element id="Organization.name">
             <path value="Organization.name"/>
             <mapping>
@@ -57,7 +73,7 @@
         <element id="Organization.telecom:phone">
             <path value="Organization.telecom"/>
             <sliceName value="phone" />
-            <short value="phone"/>
+            <short value="Phone number"/>
             <min value="1"/>
             <mapping>
                 <identity value="KRV"/>
@@ -76,7 +92,7 @@
         <element id="Organization.telecom:email">
             <path value="Organization.telecom"/>
             <sliceName value="email"/>
-            <short value="email"/>
+            <short value="Email address"/>
             <min value="1"/>
             <mapping>
                 <identity value="KRV"/>

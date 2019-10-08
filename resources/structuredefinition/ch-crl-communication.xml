@@ -45,7 +45,7 @@
         </element>
         <element id="Communication.topic">
             <path value="Communication.topic"/>
-            <short value="Date of informing the patient"/>
+            <short value="Date of informing the patient about the cancer registration"/>
             <min value="1"/>
             <mapping>
                 <identity value="KRV"/>
@@ -63,11 +63,12 @@
         </element>
         <element id="Communication.topic.coding.display">
             <path value="Communication.topic.coding.display"/>
-            <short value="Date (YYYY-MM-DD)"/>
+            <short value="Date (format: YYYY-MM-DD)"/>
             <min value="1"/>
         </element>
         <element id="Communication.sent">
             <path value="Communication.sent"/>
+            <short value="When sent to the cancer registry"/>
             <min value="1"/>
         </element>
     </differential>

@@ -35,7 +35,7 @@
         </element>
         <element id="DocumentReference.author">
             <path value="DocumentReference.author"/>
-            <short value="Practitioner if Resident Physician or Organization if Hospital"/>
+            <short value="Practitioner if resident physician or Organization Department if hospital"/>
             <min value="1"/>
             <type>
                 <code value="Reference"/>

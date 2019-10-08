@@ -30,7 +30,6 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-
         <element id="Composition.subject">
             <path value="Composition.subject"/>
             <short value="Patient"/>
@@ -45,10 +44,9 @@
             <path value="Composition.subject.reference"/>
             <min value="1"/>
         </element>
-
         <element id="Composition.author">
             <path value="Composition.author"/>
-            <short value="Practitioner if Resident Physician or Organization Department if Hospital"/>
+            <short value="Practitioner if resident physician or Organization Department if hospital"/>
             <min value="1"/>
             <type>
                 <code value="Reference"/>
@@ -81,7 +79,7 @@
         <element id="Composition.section.entry:documentReference">
             <path value="Composition.section.entry"/>
             <sliceName value="documentReference"/>
-            <short value="Report as base64Binary"/>
+            <short value="Report as pdf"/>
         </element>
         <element id="Composition.section.entry:documentReference.reference">
             <path value="Composition.section.entry.reference"/>
@@ -96,7 +94,7 @@
         <element id="Composition.section.entry:communication">
             <path value="Composition.section.entry"/>
             <sliceName value="communication"/>
-            <short value="Date of Patient Information"/>
+            <short value="Date of informing the patient about the cancer registration"/>
         </element>
         <element id="Composition.section.entry:communication.reference">
             <path value="Composition.section.entry.reference"/>
@@ -111,7 +109,7 @@
         <element id="Composition.section.entry:finalCauseOfDeath">
             <path value="Composition.section.entry"/>
             <sliceName value="finalCauseOfDeath"/>
-            <short value="Final Cause of Death"/>
+            <short value="Final cause of death"/>
         </element>
         <element id="Composition.section.entry:finalCauseOfDeath.reference">
             <path value="Composition.section.entry.reference"/>
@@ -126,7 +124,7 @@
         <element id="Composition.section.entry:primaryDisease">
             <path value="Composition.section.entry"/>
             <sliceName value="primaryDisease"/>
-            <short value="Primary Disease"/>
+            <short value="Primary disease"/>
         </element>
         <element id="Composition.section.entry:primaryDisease.reference">
             <path value="Composition.section.entry.reference"/>
@@ -141,7 +139,7 @@
         <element id="Composition.section.entry:secondaryDisease">
             <path value="Composition.section.entry"/>
             <sliceName value="secondaryDisease"/>
-            <short value="Secondary Disease"/>
+            <short value="Secondary disease"/>
         </element>
         <element id="Composition.section.entry:secondaryDisease.reference">
             <path value="Composition.section.entry.reference"/>
@@ -156,7 +154,7 @@
         <element id="Composition.section.entry:concomitantDisease">
             <path value="Composition.section.entry"/>
             <sliceName value="concomitantDisease"/>
-            <short value="Concomitant Disease"/>
+            <short value="Concomitant disease"/>
         </element>
         <element id="Composition.section.entry:concomitantDisease.reference">
             <path value="Composition.section.entry.reference"/>
@@ -171,7 +169,7 @@
         <element id="Composition.section.entry:dateOfIncidence">
             <path value="Composition.section.entry"/>
             <sliceName value="dateOfIncidence"/>
-            <short value="Date of Incidence"/>
+            <short value="Date of incidence"/>
         </element>
         <element id="Composition.section.entry:dateOfIncidence.reference">
             <path value="Composition.section.entry.reference"/>
@@ -183,12 +181,12 @@
         </element>
 
         <!-- Section TNM clinical primary tumor category -->
-        <element id="Composition.section.entry:TNMClinicalPrimaryTumorCategory">
+        <element id="Composition.section.entry:cT">
             <path value="Composition.section.entry"/>
-            <sliceName value="TNMClinicalPrimaryTumorCategory"/>
-            <short value="TNM Clinical Primary Tumor Category"/>
+            <sliceName value="cT"/>
+            <short value="TNM clinical primary tumor category"/>
         </element>
-        <element id="Composition.section.entry:TNMClinicalPrimaryTumorCategory.reference">
+        <element id="Composition.section.entry:cT.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -198,12 +196,12 @@
         </element>
 
         <!-- Section TNM clinical regional nodes category -->
-        <element id="Composition.section.entry:TNMClinicalRegionalNodesCategory">
+        <element id="Composition.section.entry:cN">
             <path value="Composition.section.entry"/>
-            <sliceName value="TNMClinicalRegionalNodesCategory"/>
-            <short value="TNM Clinical Regional Nodes Category"/>
+            <sliceName value="cN"/>
+            <short value="TNM clinical regional nodes category"/>
         </element>
-        <element id="Composition.section.entry:TNMClinicalRegionalNodesCategory.reference">
+        <element id="Composition.section.entry:cN.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -213,12 +211,12 @@
         </element>
 
         <!-- Section TNM Clinical Distant Metastases Category -->
-        <element id="Composition.section.entry:TNMClinicalDistantMetastasesCategory">
+        <element id="Composition.section.entry:cM">
             <path value="Composition.section.entry"/>
-            <sliceName value="TNMClinicalDistantMetastasesCategory"/>
-            <short value="TNM Clinical Distant Metastases Category"/>
+            <sliceName value="cM"/>
+            <short value="TNM clinical distant metastases category"/>
         </element>
-        <element id="Composition.section.entry:TNMClinicalDistantMetastasesCategory.reference">
+        <element id="Composition.section.entry:cM.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -228,12 +226,12 @@
         </element>
 
         <!-- Section TNM pathologic primary tumor category -->
-        <element id="Composition.section.entry:TNMPathologicPrimaryTumorCategory">
+        <element id="Composition.section.entry:pT">
             <path value="Composition.section.entry"/>
-            <sliceName value="TNMPathologicPrimaryTumorCategory"/>
-            <short value="TNM Pathologic Primary Tumor Category"/>
+            <sliceName value="pT"/>
+            <short value="TNM pathologic primary tumor category"/>
         </element>
-        <element id="Composition.section.entry:TNMPathologicPrimaryTumorCategory.reference">
+        <element id="Composition.section.entry:pT.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -243,12 +241,12 @@
         </element>
 
         <!-- Section TNM pathologic regional nodes category -->
-        <element id="Composition.section.entry:TNMPathologicRegionalNodesCategory">
+        <element id="Composition.section.entry:pN">
             <path value="Composition.section.entry"/>
-            <sliceName value="TNMPathologicRegionalNodesCategory"/>
-            <short value="TNM Pathologic Regional Nodes Category"/>
+            <sliceName value="pN"/>
+            <short value="TNM pathologic regional nodes category"/>
         </element>
-        <element id="Composition.section.entry:TNMPathologicRegionalNodesCategory.reference">
+        <element id="Composition.section.entry:pN.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -258,12 +256,12 @@
         </element>
 
         <!-- Section TNM Pathologic Distant Metastases Category -->
-        <element id="Composition.section.entry:TNMPathologicDistantMetastasesCategory">
+        <element id="Composition.section.entry:pM">
             <path value="Composition.section.entry"/>
-            <sliceName value="TNMPathologicDistantMetastasesCategory"/>
-            <short value="TNM Pathologic Distant Metastases Category"/>
+            <sliceName value="pM"/>
+            <short value="TNM pathologic distant metastases category"/>
         </element>
-        <element id="Composition.section.entry:TNMPathologicDistantMetastasesCategory.reference">
+        <element id="Composition.section.entry:pM.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -291,7 +289,7 @@
         <element id="Composition.section.entry:ICD-O-3-Morphology">
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Morphology"/>
-            <short value="ICD-O-3 Morphology code"/>
+            <short value="ICD-O-3 morphology code"/>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Morphology.reference">
             <path value="Composition.section.entry.reference"/>
@@ -306,7 +304,7 @@
         <element id="Composition.section.entry:ICD-O-3-Topography">
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Topography"/>
-            <short value="ICD-O-3 Topography code"/>
+            <short value="ICD-O-3 topography code"/>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Topography.reference">
             <path value="Composition.section.entry.reference"/>
@@ -321,7 +319,7 @@
         <element id="Composition.section.entry:ICD-O-3-Behaviour">
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Behaviour"/>
-            <short value="ICD-O-3 Behaviour code"/>
+            <short value="ICD-O-3 behaviour code"/>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Behaviour.reference">
             <path value="Composition.section.entry.reference"/>
@@ -336,7 +334,7 @@
         <element id="Composition.section.entry:ICD-O-3-Laterality">
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Laterality"/>
-            <short value="ICD-O-3 Laterality code"/>
+            <short value="ICD-O-3 laterality code"/>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Laterality.reference">
             <path value="Composition.section.entry.reference"/>
@@ -351,7 +349,7 @@
         <element id="Composition.section.entry:ICD-O-3-HistologicalGrade">
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-HistologicalGrade"/>
-            <short value="ICD-O-3 Histological Grade code"/>
+            <short value="ICD-O-3 histological grade code"/>
         </element>
         <element id="Composition.section.entry:ICD-O-3-HistologicalGrade.reference">
             <path value="Composition.section.entry.reference"/>
@@ -423,12 +421,12 @@
         </element>
 
         <!-- Section Number of involved regional lymph nodes -->
-        <element id="Composition.section.entry:NumberInvolvedRegionalLymphNodes">
+        <element id="Composition.section.entry:numberInvolvedRegionalLymphNodes">
             <path value="Composition.section.entry"/>
-            <sliceName value="NumberInvolvedRegionalLymphNodes"/>
-            <short value="Number of involved regional Lymph Nodes"/>
+            <sliceName value="numberInvolvedRegionalLymphNodes"/>
+            <short value="Number of involved regional lymph nodes"/>
         </element>
-        <element id="Composition.section.entry:NumberInvolvedRegionalLymphNodes.reference">
+        <element id="Composition.section.entry:numberInvolvedRegionalLymphNodes.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -438,12 +436,12 @@
         </element>
 
         <!-- Section Number of examined regional lymph nodes -->
-        <element id="Composition.section.entry:NumberExaminedRegionalLymphNodes">
+        <element id="Composition.section.entry:numberExaminedRegionalLymphNodes">
             <path value="Composition.section.entry"/>
-            <sliceName value="NumberExaminedRegionalLymphNodes"/>
-            <short value="Number of examined regional Lymph Nodes"/>
+            <sliceName value="numberExaminedRegionalLymphNodes"/>
+            <short value="Number of examined regional lymph nodes"/>
         </element>
-        <element id="Composition.section.entry:NumberExaminedRegionalLymphNodes.reference">
+        <element id="Composition.section.entry:numberExaminedRegionalLymphNodes.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -453,12 +451,12 @@
         </element>
 
         <!-- Section Lymphatic Invasion -->
-        <element id="Composition.section.entry:LymphaticInvasion">
+        <element id="Composition.section.entry:lymphaticInvasion">
             <path value="Composition.section.entry"/>
-            <sliceName value="LymphaticInvasion"/>
-            <short value="Lymphatic Invasion"/>
+            <sliceName value="lymphaticInvasion"/>
+            <short value="Lymphatic invasion"/>
         </element>
-        <element id="Composition.section.entry:LymphaticInvasion.reference">
+        <element id="Composition.section.entry:lymphaticInvasion.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -468,12 +466,12 @@
         </element>
 
         <!-- Section Venous Invasion -->
-        <element id="Composition.section.entry:VenousInvasion">
+        <element id="Composition.section.entry:venousInvasion">
             <path value="Composition.section.entry"/>
-            <sliceName value="VenousInvasion"/>
-            <short value="Venous Invasion"/>
+            <sliceName value="venousInvasion"/>
+            <short value="Venous invasion"/>
         </element>
-        <element id="Composition.section.entry:VenousInvasion.reference">
+        <element id="Composition.section.entry:venousInvasion.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -483,12 +481,12 @@
         </element>
 
         <!-- Section Perineural Invasion -->
-        <element id="Composition.section.entry:PerineuralInvasion">
+        <element id="Composition.section.entry:perineuralInvasion">
             <path value="Composition.section.entry"/>
-            <sliceName value="PerineuralInvasion"/>
-            <short value="Perineural Invasion"/>
+            <sliceName value="perineuralInvasion"/>
+            <short value="Perineural invasion"/>
         </element>
-        <element id="Composition.section.entry:PerineuralInvasion.reference">
+        <element id="Composition.section.entry:perineuralInvasion.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
             <type>
@@ -501,7 +499,7 @@
         <element id="Composition.section.entry:TNM-StageGroup">
             <path value="Composition.section.entry"/>
             <sliceName value="TNM-StageGroup"/>
-            <short value="TNM Stage Group"/>
+            <short value="TNM stage group"/>
         </element>
         <element id="Composition.section.entry:TNM-StageGroup.reference">
             <path value="Composition.section.entry.reference"/>
@@ -517,7 +515,7 @@
         <element id="Composition.section.entry:diagnosticMethod">
             <path value="Composition.section.entry"/>
             <sliceName value="diagnosticMethod"/>
-            <short value="Diagnostic Method used"/>
+            <short value="Diagnostic method(s)"/>
         </element>
         <element id="Composition.section.entry:diagnosticMethod.reference">
             <path value="Composition.section.entry.reference"/>

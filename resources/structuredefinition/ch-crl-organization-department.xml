@@ -22,15 +22,31 @@
         </element>
         <element id="Organization.type">
             <path value="Organization.type"/>
+            <short value="Kind of department"/>
             <min value="1"/>
             <binding>
                 <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
                     <valueString value="OrganizationType"/>
                 </extension>
                 <strength value="preferred"/>
-                <description value="Used to categorize the organization."/>
                 <valueSet value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.practiceSettingCode"/>
             </binding>
+        </element>
+        <element id="Organization.type.coding">
+            <path value="Organization.type.coding"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.type.coding.system">
+            <path value="Organization.type.coding.system"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.type.coding.code">
+            <path value="Organization.type.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Organization.type.coding.display">
+            <path value="Organization.type.coding.display"/>
+            <min value="1"/>
         </element>
         <element id="Organization.partOf">
             <path value="Organization.partOf"/>

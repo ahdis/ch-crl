@@ -50,15 +50,12 @@
         <element id="Bundle.entry:composition">
             <path value="Bundle.entry"/>
             <sliceName value="composition"/>
-            <short value="A resource in the bundle"/>
-            <definition value="The Resources for the entry."/>
+            <short value="Composition for reporting to the cancer registry"/>
             <min value="1"/>
             <max value="1"/>
         </element>
         <element id="Bundle.entry.resource:composition">
             <path value="Bundle.entry.resource"/>
-            <short value="A resource in the bundle"/>
-            <definition value="The Resources for the entry."/>
             <min value="1"/>
             <type>
                 <code value="Composition"/>

@@ -79,6 +79,7 @@
         </element>
         <element id="Condition.code">
             <path value="Condition.code"/>
+            <short value="Identification of the disease"/>
             <min value="1"/>
             <type>
                 <code value="CodeableConcept"/>
@@ -111,6 +112,7 @@
         </element>
         <element id="Condition.subject">
             <path value="Condition.subject"/>
+            <short value="Patient"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
