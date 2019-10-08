@@ -8,7 +8,7 @@
     <status value="draft"/>
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on DocumentReference for Reporting to the Cancer Registry"/>
+    <description value="Document reference for the report as pdf"/>
     <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>

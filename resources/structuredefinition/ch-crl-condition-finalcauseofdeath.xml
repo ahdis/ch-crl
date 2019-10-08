@@ -8,7 +8,7 @@
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Condition about the final Cause of Death"/>
+    <description value="Condition for the final cause of death"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

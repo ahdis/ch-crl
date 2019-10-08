@@ -8,7 +8,7 @@
     <status value="draft"/>
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Organization for Reporting to the Cancer Registry"/>
+    <description value="Organization of which the organization department forms a part"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="KRV"/>

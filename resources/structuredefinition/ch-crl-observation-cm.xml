@@ -4,11 +4,11 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
     <version value="0.2.0"/>
     <name value="CHCRLObservationCM"/>
-    <title value="CH CRL Observation TNM Clinical Distant Metastases Category"/>
+    <title value="CH CRL Observation cM Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the TNM Clinical Distant Metastases Category"/>
+    <description value="Observation for the TNM clinical distant metastases category"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

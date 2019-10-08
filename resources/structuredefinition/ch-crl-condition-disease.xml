@@ -4,11 +4,11 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
     <version value="0.2.0"/>
     <name value="CHCRLConditionDisease"/>
-    <title value="CH CRL Condition Disease"/>
+    <title value="CH CRL Condition Disease Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Condition about the Disease"/>
+    <description value="Condition for diseases"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

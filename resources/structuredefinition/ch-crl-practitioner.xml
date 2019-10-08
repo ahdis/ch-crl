@@ -8,7 +8,7 @@
     <status value="draft"/>
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Practitioner for Reporting to the Cancer Registry"/>
+    <description value="Definition of the practitioner (resident physician) for reporting to the cancer registry"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="KRV"/>

@@ -8,7 +8,7 @@
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the a-Prefix of pTNM"/>
+    <description value="Observation for the a-Prefix of pTNM"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

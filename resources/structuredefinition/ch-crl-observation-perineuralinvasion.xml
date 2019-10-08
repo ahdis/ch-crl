@@ -4,11 +4,11 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-perineuralinvasion"/>
     <version value="0.2.0"/>
     <name value="CHCRLObservationPerineuralInvasion"/>
-    <title value="CH CRL Observation Perineural invasion Profile"/>
+    <title value="CH CRL Observation Perineural Invasion Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the Perineural invasion"/>
+    <description value="Observation for the perineural invasion"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

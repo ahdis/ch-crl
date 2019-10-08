@@ -4,11 +4,11 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
     <version value="0.2.0"/>
     <name value="CHCRLObservationNumberInvolvedRegionalLymphNodes"/>
-    <title value="CH CRL Observation Number Involved Regional Lymph Nodes"/>
+    <title value="CH CRL Observation Number of Involved Regional Lymph Nodes Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the Number Involved Regional Lymph Nodes"/>
+    <description value="Observation for the number of involved regional lymph nodes"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

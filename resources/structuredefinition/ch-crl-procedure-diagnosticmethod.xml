@@ -7,7 +7,7 @@
     <status value="draft"/>
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Procedure Diagnostic Method for Reporting to the Cancer Registry"/>
+    <description value="Procedure for the diagnostic method(s)"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

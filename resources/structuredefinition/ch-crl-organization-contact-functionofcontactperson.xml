@@ -3,12 +3,12 @@
     <id value="ch-crl-organization-contact-functionofcontactperson"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson"/>
     <version value="0.1.0"/>
-    <name value="ChCrlOrganizationContactFunctionOfContactPerson"/>
-    <title value="Function of contact person"/>
+    <name value="CHCRLOrganizationContactFunctionOfContactPerson"/>
+    <title value="CH CRL Function of Contact Person Extension"/>
     <status value="draft"/>
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Function of contact person"/>
+    <description value="Extension to define the function of contact person of an organization"/>
     <fhirVersion value="4.0.0"/>
     <kind value="primitive-type"/>
     <abstract value="false"/>

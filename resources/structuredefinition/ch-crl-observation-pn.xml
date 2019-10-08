@@ -4,11 +4,11 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
     <version value="0.2.0"/>
     <name value="CHCRLObservationPN"/>
-    <title value="CH CRL Observation TNM Pathologic Regional Nodes Category"/>
+    <title value="CH CRL Observation pN Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the TNM Pathologic Regional Nodes Category"/>
+    <description value="Observation for the TNM pathologic regional nodes category"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>

@@ -4,11 +4,11 @@
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
     <version value="0.2.0"/>
     <name value="CHCRLObservationCT"/>
-    <title value="CH CRL Observation TNM Clinical Primary Tumor Category Profile"/>
+    <title value="CH CRL Observation cT Profile"/>
     <status value="draft"/>
     <date value="2019-10-11"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Observation about the TNM Clinical Primary Tumor Category"/>
+    <description value="Observation for the TNM clinical primary tumor category"/>
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>
