@@ -87,6 +87,7 @@
         </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
+            <short value="The UICC TNM stage group"/>
             <type>
                 <code value="CodeableConcept"/>
             </type>
@@ -114,7 +115,7 @@
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="If not applicable or known."/>
+            <short value="The UICC TNM stage group is not applicable or unknown"/>
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>

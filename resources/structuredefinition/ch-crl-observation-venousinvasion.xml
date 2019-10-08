@@ -88,6 +88,7 @@
         </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
+            <short value="The presence or absence of tumour cells in the walls of venous blood vessels, as noted microscopically by the pathologist"/>
             <type>
                 <code value="CodeableConcept"/>
             </type>
@@ -115,7 +116,7 @@
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="Not stated / Not assessed."/>
+            <short value="The presence or absence of tumour cells in the walls of venous blood vessels is not stated / not assessed"/>
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>

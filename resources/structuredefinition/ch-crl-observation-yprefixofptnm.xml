@@ -75,7 +75,7 @@
         </element>
         <element id="Observation.performer">
             <path value="Observation.performer"/>
-            <short value="Practitioner if resident physician or Organization Department if hospital"/>
+            <short value="Practitioner if resident physician or Organization Department if hospital"/> 
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>

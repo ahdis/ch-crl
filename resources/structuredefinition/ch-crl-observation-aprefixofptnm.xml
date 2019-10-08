@@ -65,7 +65,7 @@
             <path value="Observation.subject.reference"/>
             <min value="1"/>
         </element>
-        <element id="Observation.effectiveDateTime">
+        <element id="Observation.effectiveDateTime"> 
             <path value="Observation.effectiveDateTime"/>
             <min value="1"/>
             <type>

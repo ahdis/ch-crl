@@ -87,7 +87,7 @@
         </element>
         <element id="Observation.valueQuantity">
             <path value="Observation.valueQuantity"/>
-            <short value="Number of primary tumours if known"/>
+            <short value="The presence of multiple primary tumours at a single site as number"/>
             <type>
                 <code value="Quantity"/>
             </type>
@@ -98,7 +98,7 @@
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="If the number of primary tumours is unknown (unspecified multiplicity, not stated / not assessed)"/>
+            <short value="The presence of multiple primary tumours at a single site is unspecified or not stated / not assessed"/>
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>

@@ -87,6 +87,7 @@
         </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
+            <short value="ICD-O-3 code of the side of a paired organ or side of the body on which the reportable cancer originated"/>
             <type>
                 <code value="CodeableConcept"/>
             </type>

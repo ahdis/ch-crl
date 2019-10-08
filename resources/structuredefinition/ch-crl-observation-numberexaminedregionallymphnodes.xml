@@ -87,7 +87,7 @@
         </element>
         <element id="Observation.valueQuantity">
             <path value="Observation.valueQuantity"/>
-            <short value="Number of regional lymph nodes that were excised and examined if known"/>
+            <short value="The total number of regional lymph nodes that were excised and examined by the pathologist"/>
             <type>
                 <code value="Quantity"/>
             </type>

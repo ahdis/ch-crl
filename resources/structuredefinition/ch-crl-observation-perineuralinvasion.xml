@@ -87,6 +87,7 @@
         </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
+            <short value="The process of neoplastic invasion of nerves"/>
             <type>
                 <code value="CodeableConcept"/>
             </type>
@@ -114,7 +115,7 @@
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="Not stated / Not assessed."/>
+            <short value="The process of neoplastic invasion is not stated / not assessed"/>
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>

@@ -85,7 +85,7 @@
             <path value="Observation.performer.reference"/>
             <min value="1"/>
         </element>
-        <element id="Observation.valueDateTime">
+        <element id="Observation.valueDateTime"> 
             <path value="Observation.valueDateTime"/>
             <short value="The definite date of diagnosis"/>
             <min value="1"/>
