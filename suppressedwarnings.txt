@@ -6,4 +6,5 @@ ValueSet http://fhir.de/CodeSystem/dimdi/icd-10-gm not found by validator
 ValueSet urn:oid:2.16.840.1.113883.6.43.1 not found by validator
 The link 'urn:oid:2.16.840.1.113883.6.43.1' for "urn:oid:2.16.840.1.113883.6.43.1" cannot be resolved
 
+Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken [path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*')]
 

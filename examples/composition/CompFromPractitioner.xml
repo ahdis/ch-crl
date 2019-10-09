@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Composition xmlns="http://hl7.org/fhir">
   <id value="CompFromPractitioner"/>
   <meta>
@@ -16,9 +15,9 @@
   <subject>
     <reference value="Patient/FranzMinimum"/>
   </subject>
-  <date value="2019-02-07T13:28:17-05:00"/>
+  <date value="2018-12-15T13:00:00+02:00"/>
   <author>
-    <reference value="Practitioner/EmmaMinimum"/>
+    <reference value="Practitioner/EmmaBauer"/>
   </author>
   <title value="Report to the Cancer Registry"/>
   <section>

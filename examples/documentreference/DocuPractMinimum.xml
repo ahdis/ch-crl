@@ -10,7 +10,7 @@
     <reference value="Patient/FranzMinimum"/>
   </subject>
   <author>
-    <reference value="Practitioner/EmmaMinimum"/>
+    <reference value="Practitioner/EmmaBauer"/>
   </author>
   <description value="Meldung an das Krebsregister"/>
   <content>
@@ -21,7 +21,7 @@
       "/>
       <size value="184000"/>
       <title value="Austrittsbericht Onkologie"/>
-      <creation value="2019-07-29"/>
+      <creation value="2018-12-15"/>
     </attachment>
   </content>
 </DocumentReference>

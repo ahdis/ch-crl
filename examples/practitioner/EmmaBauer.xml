@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Practitioner xmlns="http://hl7.org/fhir">
-  <id value="EmmaMinimum"/>
+  <id value="EmmaBauer"/>
   <meta>
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
   </meta>
   <name>
-    <family value="Minimum"/>
+    <family value="Bauer"/>
     <given value="Emma"/>
   </name>
   <telecom>

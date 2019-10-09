@@ -22,7 +22,7 @@
   <subject>
     <reference value="Patient/FranzMinimum"/>
   </subject>
-  <performedDateTime value="2018-12-15T13:28:17+02:00"/>
+  <performedDateTime value="2018-12-15T13:00:00+02:00"/>
   <reasonReference>
     <reference value="Observation/ICD-10"/>
   </reasonReference>

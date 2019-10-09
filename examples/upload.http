@@ -7,22 +7,24 @@ Content-Type: application/fhir+xml
 < ./patient/FranzMinimum.xml
 
 ###
-PUT {{host}}/Practitioner/EmmaMinimum HTTP/1.1
+PUT {{host}}/Practitioner/EmmaBauer HTTP/1.1
 Content-Type: application/fhir+xml
 
-< ./practitioner/EmmaMinimum.xml
+< ./practitioner/EmmaBauer.xml
+
 
 ###
-PUT {{host}}/Organization/SpitalMinimum HTTP/1.1
+PUT {{host}}/Organization/SpitalSeeblick HTTP/1.1
 Content-Type: application/fhir+xml
 
-< ./organization/SpitalMinimum.xml
+< ./organization/SpitalSeeblick.xml
 
 ###
-PUT {{host}}/Organization/AbteilungMinimum HTTP/1.1
+PUT {{host}}/Organization/AbteilungOnko HTTP/1.1
 Content-Type: application/fhir+xml
 
-< ./organization/AbteilungMinimum.xml
+< ./organization/AbteilungOnko.xml
+
 
 ###
 PUT {{host}}/DocumentReference/DocuHospMinimum HTTP/1.1
@@ -36,11 +38,208 @@ Content-Type: application/fhir+xml
 
 < ./documentreference/DocuPractMinimum.xml
 
+
 ###
 PUT {{host}}/Communication/CommMinimum HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./communication/CommMinimum.xml
+
+
+###
+PUT {{host}}/Condition/ConcomitantDiseaseA HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./condition/ConcomitantDiseaseA.xml
+
+###
+PUT {{host}}/Condition/ConcomitantDiseaseB HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./condition/ConcomitantDiseaseB.xml
+
+###
+PUT {{host}}/Condition/FinalCauseOfDeath HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./condition/FinalCauseOfDeath.xml
+
+###
+PUT {{host}}/Condition/PrimaryDisease HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./condition/PrimaryDisease.xml
+
+###
+PUT {{host}}/Condition/SecondaryDisease HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./condition/SecondaryDisease.xml
+
+
+###
+PUT {{host}}/Observation/a-PrefixOfpTNM HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/a-PrefixOfpTNM.xml
+
+###
+PUT {{host}}/Observation/cM HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/cM.xml
+
+###
+PUT {{host}}/Observation/cN HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/cN.xml
+
+###
+PUT {{host}}/Observation/cT HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/cT.xml
+
+###
+PUT {{host}}/Observation/DateOfIncidence HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/DateOfIncidence.xml
+
+###
+PUT {{host}}/Observation/ICD-10 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-10.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-Behaviour HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Behaviour.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-HistologicalGrade-unknown HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-HistologicalGrade-unknown.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-Laterality HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Laterality.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-Morphology HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Morphology.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-Topography HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Topography.xml
+
+###
+PUT {{host}}/Observation/LymphaticInvasion HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/LymphaticInvasion.xml
+
+###
+PUT {{host}}/Observation/m-SuffixOfpT-unknown HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/m-SuffixOfpT-unknown.xml
+
+###
+PUT {{host}}/Observation/m-SuffixOfpT HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/m-SuffixOfpT.xml
+
+###
+PUT {{host}}/Observation/NumberExaminedRegionalLymphNodes-unknown HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/NumberExaminedRegionalLymphNodes-unknown.xml
+
+###
+PUT {{host}}/Observation/NumberExaminedRegionalLymphNodes HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/NumberExaminedRegionalLymphNodes.xml
+
+###
+PUT {{host}}/Observation/NumberInvolvedRegionalLymphNodes-unknown HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/NumberInvolvedRegionalLymphNodes-unknown.xml
+
+###
+PUT {{host}}/Observation/NumberInvolvedRegionalLymphNodes HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/NumberInvolvedRegionalLymphNodes.xml
+
+###
+PUT {{host}}/Observation/PerineuralInvasion HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/PerineuralInvasion.xml
+
+###
+PUT {{host}}/Observation/pM-unknown HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/pM-unknown.xml
+
+###
+PUT {{host}}/Observation/pN HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/pN.xml
+
+###
+PUT {{host}}/Observation/pT HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/pT.xml
+
+###
+PUT {{host}}/Observation/TNM-StageGroup HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/TNM-StageGroup.xml
+
+###
+PUT {{host}}/Observation/VenousInvasion HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/VenousInvasion.xml
+
+###
+PUT {{host}}/Observation/y-PrefixOfcTNM HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/y-PrefixOfcTNM.xml
+
+###
+PUT {{host}}/Observation/y-PrefixOfpTNM HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/y-PrefixOfpTNM.xml
+
+
+###
+PUT {{host}}/Procedure/DiagnosticMethod HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./procedure/DiagnosticMethod.xml
+
 
 ###
 PUT {{host}}/Composition/CompFromOrganization HTTP/1.1
@@ -54,10 +253,18 @@ Content-Type: application/fhir+xml
 
 < ./composition/CompFromPractitioner.xml
 
+###
+PUT {{host}}/Composition/CompStructuredData HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompStructuredData.xml
+
+
 
 ###
 GET {{host}}/Patient/FranzMinimum HTTP/1.1
 Content-Type: application/fhir+xml
+
 
 ###
 GET {{host}}/Composition/CompFromOrganization/$document HTTP/1.1
@@ -65,4 +272,8 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Composition/CompFromPractitioner/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompStructuredData/$document HTTP/1.1
 Content-Type: application/fhir+xml

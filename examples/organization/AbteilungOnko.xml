@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="AbteilungMinimum"/>
+  <id value="AbteilungOnko"/>
   <meta>
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
   </meta>
   <identifier>
-    <system value="https://www.uid.admin.ch"/> <!--  bur? -->
+    <!--  TBD: BUR -->
+    <system value="https://www.uid.admin.ch"/>
     <value value="CHE-105.983.423"/>
   </identifier>
   <active value="true"/>
@@ -17,17 +18,17 @@
       <display value="Clinical oncology"/>
     </coding>
   </type>
-  <name value="Abteilung Minium"/>
+  <name value="Abteilung Onko"/>
   <telecom>
     <system value="email"/>
     <value value="abteilung@spital.ch"/>
   </telecom>
   <address>
-    <line value="Bahnhofstrasse 1"/>
+    <line value="Bergstrasse 11"/>
     <city value="Zürich"/>
-    <postalCode value="8001"/>
+    <postalCode value="8002"/>
   </address>
   <partOf>
-    <reference value="Organization/SpitalMinimum"/>
+    <reference value="Organization/SpitalSeeblick"/>
   </partOf>
 </Organization>

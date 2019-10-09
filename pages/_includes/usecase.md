@@ -1,4 +1,3 @@
-# Swiss CRL (Cancer Registration Law) Implementation Guide
 
 ## Use Cases
 
@@ -7,11 +6,11 @@ Der nachfolgende Use Case dient der Illustration der Prozesse im Zusammenhang mi
 
 #### Erstbesuch beim Hausarzt 
 *Arztbesuch vom 29. November 2018*  
-Franz Minimum, geboren am 27. Januar 1955, kommt mit Beschwerden zu seiner Hausärztin Emma Minimum. Diese diagnostiziert einen Verdacht auf einen Darmkrebs und überweist ihn an einen Gastroenterologen für eine Koloskopie.
+Franz Minimum, geboren am 27. Januar 1955, kommt mit Beschwerden zu seiner Hausärztin Emma Bauer. Diese diagnostiziert einen Verdacht auf einen Darmkrebs und überweist ihn an einen Gastroenterologen für eine Koloskopie.
 
 #### Besuch beim Gastroenterologen
 *Arztbesuch vom 1. Dezember 2018*  
-Franz Minimum erhält einen Termin beim Spezialisten im Spital, der die Koloskopie durchführt und eine Biopsie vom vermuteten Tumor genommen wird. **Er informiert das Krebsregister über die Koloskopie.**
+Franz Minimum erhält einen Termin beim Spezialisten im Spital Seeblick, der die Koloskopie durchführt und eine Biopsie vom vermuteten Tumor genommen wird. **Er informiert das Krebsregister über die Koloskopie.**
 
 #### Pathologische Untersuchung
 *2. Dezember 2018*  
@@ -19,11 +18,11 @@ Das Biopsiematerial wird im pathologischen Institut untersucht. Dabei wird ein K
 
 #### Zweitbesuch bei der Hausärztin
 *Arztbesuch vom 7. Dezember 2018*  
-Franz Minimum wird von Emma Minimum über die Diagnose informiert. Sie informiert ihn über das weitere Vorgehen und informiert ihn, dass seine Daten auch ans Krebsregister gesendet werden. Franz Minimum entscheidet sich für eine sofortige Operation und seine Hausärztin vereinbart einen Operationstermin im Spital. Emma Minimum **informiert das Krebsregister über das Datum der Patienteninformation und die Diagnose**.
+Franz Minimum wird von Emma Bauer über die Diagnose informiert. Sie informiert ihn über das weitere Vorgehen und informiert ihn, dass seine Daten auch ans Krebsregister gesendet werden. Franz Minimum entscheidet sich für eine sofortige Operation und seine Hausärztin vereinbart einen Operationstermin im Spital Seeblick. Emma Bauer **informiert das Krebsregister über das Datum der Patienteninformation und die Diagnose**.
 
 #### Operation
 *Hospitalisierung vom 14. Dezember 2018*  
-Bei Franz Minimum wird im Spital eine Hemikolektomie durchgeführt. Das Exzisat wird an das pathologische Institut zur Untersuchung geschickt. **Das Spital informiert das Krebsregister über die Operation.**
+Bei Franz Minimum wird im Spital Seeblick eine Hemikolektomie durchgeführt. Das Exzisat wird an das pathologische Institut zur Untersuchung geschickt. **Das Spital informiert das Krebsregister über die Operation.**
 
 #### Pathologische Untersuchung
 *15. Dezember 2018*  

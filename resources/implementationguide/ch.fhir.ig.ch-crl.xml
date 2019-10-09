@@ -42,6 +42,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/BundleStructuredData"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Communication/CommMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
@@ -264,13 +270,13 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Organization/AbteilungMinimum"/>
+        <reference value="Organization/AbteilungOnko"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Organization/SpitalMinimum"/>
+        <reference value="Organization/SpitalSeeblick"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
     </resource>
@@ -282,7 +288,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Practitioner/EmmaMinimum"/>
+        <reference value="Practitioner/EmmaBauer"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
     </resource>

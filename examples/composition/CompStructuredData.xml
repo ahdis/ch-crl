@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Composition xmlns="http://hl7.org/fhir">
   <id value="CompStructuredData"/>
   <meta>
@@ -16,9 +15,9 @@
   <subject>
     <reference value="Patient/FranzMinimum"/>
   </subject>
-  <date value="2019-02-07T13:28:17-05:00"/>
+  <date value="2018-12-15T13:00:00+02:00"/>
   <author>
-    <reference value="Organization/AbteilungMinimum"/>
+    <reference value="Organization/AbteilungOnko"/>
   </author>
   <title value="Report to the Cancer Registry"/>
   <section>
@@ -109,7 +108,6 @@
     <entry>
       <reference value="Observation/TNM-StageGroup"/>
     </entry>
-
     <entry>
       <reference value="Procedure/DiagnosticMethod"/>
     </entry>
