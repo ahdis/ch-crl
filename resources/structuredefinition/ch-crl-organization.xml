@@ -25,6 +25,40 @@
             <path value="Organization"/>
             <short value="CH CRL Organization"/>
         </element>
+        <element id="Organization.identifier">
+            <path value="Organization.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="value" />
+                    <path value="system" />
+                </discriminator>
+                <rules value="open" />
+            </slicing>
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+            <isModifier value="false"/>
+        </element>
+        <element id="Organization.identifier:BER">
+            <path value="Organization.identifier" />
+            <sliceName value="BER" />
+            <short value="BER (Business and Enterprise Register)" />
+            <min value="1" />
+            <max value="1" />
+        </element>
+        <element id="Organization.identifier:BER.system">
+            <path value="Organization.identifier.system" />
+            <short value="OID of the BER" />
+            <min value="1" />
+            <fixedUri value="urn:oid:2.16.756.5.45" />
+        </element>
+        <element id="Organization.identifier:BER.value">
+            <path value="Organization.identifier.value" />
+            <short value="BER of the organization" />
+            <min value="1" />
+        </element>
         <element id="Organization.type">
             <path value="Organization.type"/>
             <short value="Kind of organization"/>
@@ -52,7 +86,7 @@
         <element id="Organization.type.coding.display">
             <path value="Organization.type.coding.display"/>
             <min value="1"/>
-        </element>    
+        </element>
         <element id="Organization.name">
             <path value="Organization.name"/>
             <mapping>
