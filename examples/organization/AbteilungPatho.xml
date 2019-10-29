@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="AbteilungOnko"/>
+  <id value="AbteilungPatho"/>
   <meta>
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
   </meta>
@@ -13,14 +13,14 @@
   <type>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <code value="394592004"/>
-      <display value="Clinical oncology"/>
+      <code value="394595002"/>
+      <display value="Pathology"/>
     </coding>
   </type>
-  <name value="Abteilung Onkologie"/>
+  <name value="Pathologisches Institut"/>
   <telecom>
     <system value="email"/>
-    <value value="onko@spital.ch"/>
+    <value value="patho@spital.ch"/>
   </telecom>
   <address>
     <line value="Bergstrasse 11"/>

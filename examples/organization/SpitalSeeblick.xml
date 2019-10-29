@@ -33,10 +33,10 @@
   </address>
   <contact>
     <extension url="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson">
-      <valueString value="Doctor"/>
+      <valueString value="Abteilungsarzt"/>
     </extension>
     <name>
-      <family value="Arzt"/>
+      <family value="Egli"/>
       <given value="Hans"/>
     </name>
   </contact>

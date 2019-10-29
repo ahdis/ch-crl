@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="AbteilungOnko"/>
+  <id value="AbteilungGastro"/>
   <meta>
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
   </meta>
@@ -13,14 +13,14 @@
   <type>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <code value="394592004"/>
-      <display value="Clinical oncology"/>
+      <code value="394584008"/>
+      <display value="Gastroenterology"/>
     </coding>
   </type>
-  <name value="Abteilung Onkologie"/>
+  <name value="Abteilung Gastroenterologie"/>
   <telecom>
     <system value="email"/>
-    <value value="onko@spital.ch"/>
+    <value value="gastro@spital.ch"/>
   </telecom>
   <address>
     <line value="Bergstrasse 11"/>

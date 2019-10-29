@@ -270,7 +270,19 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Organization/AbteilungGastro"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Organization/AbteilungOnko"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/AbteilungPatho"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
     </resource>
