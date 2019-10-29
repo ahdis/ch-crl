@@ -127,11 +127,16 @@
                 <identity value="KRG"/>
                 <map value="Wohnadresse (Art. 3 Abs. 1 Bst. c)"/>
             </mapping>
+        </element>
+        <element id="Patient.address.line">
+            <path value="Patient.address.line"/>
             <mapping>
                 <identity value="NICER-A"/>
-                <map value="Street name (Variable number: 1.5.1), Street number (Variable number: 1.5.2),
-                            Extra address line (Variable number: 1.5.3), City/Municipality name (Variable number: 1.7)"/>
+                <map value="Street name (Variable number: 1.5.1), Street number (Variable number: 1.5.2), Extra address line (Variable number: 1.5.3)"/>
             </mapping>
+        </element>
+        <element id="Patient.address.state">
+            <path value="Patient.address.state"/>
         </element>
         <element id="Patient.address.postalCode">
             <path value="Patient.address.postalCode"/>
@@ -139,6 +144,13 @@
             <mapping>
                 <identity value="NICER-A"/>
                 <map value="Postcode (Variable number: 1.6)"/>
+            </mapping>
+        </element>
+        <element id="Patient.address.city">
+            <path value="Patient.address.city"/>
+            <mapping>
+                <identity value="NICER-A"/>
+                <map value="City/Municipality name (Variable number: 1.7)"/>
             </mapping>
         </element>
     </differential>

@@ -42,20 +42,20 @@
                 <code value="string"/>
             </type>
         </element>
-        <element id="CancerReport.Patient.AHV-Nummer">
-            <path value="CancerReport.Patient.AHV-Nummer" />
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="string"/>
-            </type>
-        </element>
         <element id="CancerReport.Patient.Geschlecht">
             <path value="CancerReport.Patient.Geschlecht" />
             <min value="1"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.AHV-Nummer">
+            <path value="CancerReport.Patient.AHV-Nummer" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
             </type>
         </element>
         <element id="CancerReport.Patient.Geburtsdatum">
@@ -66,10 +66,19 @@
                 <code value="date"/>
             </type>
         </element>
-        <element id="CancerReport.Patient.Todesdatum">
-            <path value="CancerReport.Patient.Todesdatum" />
-            <min value="0"/>
+        <element id="CancerReport.Patient.Verstorben">
+            <path value="CancerReport.Patient.Verstorben" />
+            <min value="1"/>
             <max value="1"/>
+        </element>
+        <element id="CancerReport.Patient.Verstorben.Nein">
+            <path value="CancerReport.Patient.Verstorben.Nein" />
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Patient.Verstorben.Todesdatum">
+            <path value="CancerReport.Patient.Verstorben.Todesdatum" />
             <type>
                 <code value="date"/>
             </type>
@@ -135,7 +144,7 @@
         <element id="CancerReport.DatumDerInformationDesPatienten">
             <path value="CancerReport.DatumDerInformationDesPatienten" />
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
             <type>
                 <code value="date"/>
             </type>
@@ -158,6 +167,22 @@
         <element id="CancerReport.MeldepflichtigePerson.Vorname">
             <path value="CancerReport.MeldepflichtigePerson.Vorname" />
             <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.Geschlecht">
+            <path value="CancerReport.MeldepflichtigePerson.Geschlecht" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigePerson.GLN">
+            <path value="CancerReport.MeldepflichtigePerson.GLN" />
+            <min value="0"/>
             <max value="*"/>
             <type>
                 <code value="string"/>
@@ -252,10 +277,42 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Abteilung">
             <path value="CancerReport.MeldepflichtigeInstitution.Abteilung" />
-            <min value="0"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Abteilung.NameDerAbteilung">
+            <path value="CancerReport.MeldepflichtigeInstitution.Abteilung.NameDerAbteilung" />
+            <min value="1"/>
             <max value="1"/>
             <type>
                 <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Abteilung.ArtDerAbteilung">
+            <path value="CancerReport.MeldepflichtigeInstitution.Abteilung.ArtDerAbteilung" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.BUR">
+            <path value="CancerReport.MeldepflichtigeInstitution.BUR" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.ArtDerInstitution">
+            <path value="CancerReport.MeldepflichtigeInstitution.ArtDerInstitution" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
             </type>
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson">
@@ -284,6 +341,22 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Funktion">
             <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Funktion" />
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.Telefonnummer">
+            <path value="CancerReport.MeldepflichtigeInstitution.Telefonnummer" />
+            <min value="1"/>
+            <max value="*"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.MeldepflichtigeInstitution.EMailAdresse">
+            <path value="CancerReport.MeldepflichtigeInstitution.EMailAdresse" />
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -351,7 +424,7 @@
         <element id="CancerReport.Todesursachen">
             <path value="CancerReport.Todesursachen" />
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
         </element>
         <element id="CancerReport.Todesursachen.EndgültigeTodesursache">
             <path value="CancerReport.Todesursachen.EndgültigeTodesursache"/>
@@ -364,7 +437,7 @@
         <element id="CancerReport.Todesursachen.Grundkrankheit">
             <path value="CancerReport.Todesursachen.Grundkrankheit"/>
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
@@ -372,7 +445,7 @@
         <element id="CancerReport.Todesursachen.Folgekrankheit">
             <path value="CancerReport.Todesursachen.Folgekrankheit"/>
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
@@ -380,7 +453,7 @@
         <element id="CancerReport.Todesursachen.BegleitkrankheitA">
             <path value="CancerReport.Todesursachen.BegleitkrankheitA"/>
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
@@ -388,7 +461,7 @@
         <element id="CancerReport.Todesursachen.BegleitkrankheitB">
             <path value="CancerReport.Todesursachen.BegleitkrankheitB"/>
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
