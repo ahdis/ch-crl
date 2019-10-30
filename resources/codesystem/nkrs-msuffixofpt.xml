@@ -1,0 +1,28 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="nkrs-msuffixofpt"/>
+    <url value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-msuffixofpt" />
+    <version value="0.2.0"/>
+    <name value="NkrsmSuffixOfpT"/>
+    <title value="NKRS - m-Suffix of pT"/>
+    <status value="draft"/>
+    <date value="2019-11-08"/>
+    <publisher value="NKRS - Nationale Krebsregistrierungsstelle"/>
+    <contact>
+        <name value="Foundation National Institute for Cancer Epidemiology and Registration (NICER)"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.nicer.org/"/>
+        </telecom>
+    </contact>
+    <description value="The data item records the unspecified multiplicity of multiple primary tumours at a single site.  
+        **m-Suffix of pT (Variable number: 4.9)** in 
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
+        see [NICER](https://www.nicer.org/)."/>
+    <caseSensitive value="true"/>
+    <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-msuffixofpt"/>
+    <content value="complete"/>
+    <concept>
+        <code value="m"/>
+        <display value="Unspecified multiplicity"/>
+    </concept>
+</CodeSystem>

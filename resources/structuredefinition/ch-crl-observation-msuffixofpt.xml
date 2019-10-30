@@ -85,20 +85,52 @@
             <path value="Observation.performer.reference"/>
             <min value="1"/>
         </element>
-        <element id="Observation.valueQuantity">
-            <path value="Observation.valueQuantity"/>
-            <short value="The presence of multiple primary tumours at a single site as number"/>
-            <type>
-                <code value="Quantity"/>
-            </type>
+        <element id="Observation.value[x]">
+            <path value="Observation.value[x]"/>
         </element>
-        <element id="Observation.valueQuantity.value">
-            <path value="Observation.valueQuantity.value"/>
+        <element id="Observation.value[x].valueQuantity">
+            <path value="Observation.value[x].valueQuantity"/>
+            <short value="The presence of multiple primary tumours at a single site as number (min = 2)"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Observation.value[x].valueQuantity.value">
+            <path value="Observation.value[x].valueQuantity.value"/>
             <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Observation.value[x].valueCodeableConcept">
+            <path value="Observation.value[x].valueCodeableConcept"/>
+            <short value="Unspecified multiplicity"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Observation.value[x].valueCodeableConcept.coding">
+            <path value="Observation.value[x].valueCodeableConcept.coding"/>
+            <min value="1"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation.value[x].valueCodeableConcept.coding.system">
+            <path value="Observation.value[x].valueCodeableConcept.coding.system"/>
+            <min value="1"/>
+            <max value="1"/>
+            <fixedUri value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-msuffixofpt"/>
+        </element>
+        <element id="Observation.value[x].valueCodeableConcept.coding.code">
+            <path value="Observation.value[x].valueCodeableConcept.coding.code"/>
+            <min value="1"/>
+            <max value="1"/>
+            <fixedCode value="m"/>
+        </element>
+        <element id="Observation.value[x].valueCodeableConcept.coding.display">
+            <path value="Observation.value[x].valueCodeableConcept.coding.display"/>
+            <min value="1"/>
+            <max value="1"/>
+            <fixedString value="Unspecified multiplicity"/>
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="The presence of multiple primary tumours at a single site is unspecified or not stated / not assessed"/>
+            <short value="The presence of multiple primary tumours at a single site is not stated / not assessed"/>
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>
@@ -112,12 +144,13 @@
         </element>
         <element id="Observation.dataAbsentReason.coding.code">
             <path value="Observation.dataAbsentReason.coding.code"/>
-            <short value="If unspecified multiplicity than 'value=not-applicable'. If not stated / not assessed than 'value=unknown'."/>
             <min value="1"/>
+            <fixedCode value="unknown"/>
         </element>
         <element id="Observation.dataAbsentReason.coding.display">
             <path value="Observation.dataAbsentReason.coding.display"/>
             <min value="1"/>
+            <fixedString value="Unknown"/>
         </element>
     </differential>
 </StructureDefinition>

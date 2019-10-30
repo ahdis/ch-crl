@@ -392,6 +392,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="CodeSystem/nkrs-msuffixofpt"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="CodeSystem/nkrs-perineuralinvasion"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -691,6 +697,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/nkrs-lymphaticinvasion"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nkrs-msuffixofpt"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
