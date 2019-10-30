@@ -34,16 +34,10 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <!-- TBD: change code & display -->
-                    <system value="http://loinc.org"/>
-                    <code value="86255-7"/>
-                    <display value="Primary diagnosis ICD code"/>
-                </coding>
-                <!--<coding>
                     <system value="http://snomed.info/sct"/>
                     <code value="277060007"/>
-                    <display value=" Lymphatic tumor invasion status"/>
-                </coding>-->
+                    <display value="Lymphatic tumor invasion status"/>
+                </coding>
             </patternCodeableConcept>
         </element>
         <element id="Observation.code.coding.system">

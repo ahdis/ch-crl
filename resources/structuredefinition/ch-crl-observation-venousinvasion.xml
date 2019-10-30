@@ -34,10 +34,9 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <!-- TBD: change code & display -->
-                    <system value="http://loinc.org"/>
-                    <code value="86255-7"/>
-                    <display value="Primary diagnosis ICD code"/>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="277061006"/>
+                    <display value="Venous tumor invasion status"/>
                 </coding>
             </patternCodeableConcept>
         </element>
@@ -82,7 +81,7 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
             </type>
         </element>
-         <element id="Observation.performer.reference">
+        <element id="Observation.performer.reference">
             <path value="Observation.performer.reference"/>
             <min value="1"/>
         </element>

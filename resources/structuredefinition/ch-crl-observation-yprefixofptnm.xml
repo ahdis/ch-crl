@@ -33,11 +33,10 @@
             <path value="Observation.code"/>
             <min value="1"/>
             <patternCodeableConcept>
-                <!-- TBD: change code & display -->
                 <coding>
-                    <system value="http://loinc.org"/>
-                    <code value="85699-7"/>
-                    <display value="Autopsy was performed"/>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="373847000"/>
+                    <display value="Neo-adjuvant - intent"/>
                 </coding>
             </patternCodeableConcept>
         </element>

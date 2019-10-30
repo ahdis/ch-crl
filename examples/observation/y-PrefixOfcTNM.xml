@@ -7,10 +7,9 @@
   <status value="final"/>
   <code>
     <coding>
-      <!-- TBD: change code & display -->
-      <system value="http://loinc.org"/>
-      <code value="86255-7"/>
-      <display value="Primary diagnosis ICD code"/>
+      <system value="http://snomed.info/sct"/>
+      <code value="373847000"/>
+      <display value="Neo-adjuvant - intent"/>
     </coding>
   </code>
   <subject>

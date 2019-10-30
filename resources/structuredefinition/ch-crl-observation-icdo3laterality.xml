@@ -115,7 +115,7 @@
         </element>
         <element id="Observation.dataAbsentReason">
             <path value="Observation.dataAbsentReason"/>
-            <short value="It is unknown whether, for a paired organ, the origin of the cancer was on the left or right side of the body."/>
+            <short value="It is unknown whether, for a paired organ, the reportable cancer was unilateral or bilateral."/> 
         </element>
         <element id="Observation.dataAbsentReason.coding">
             <path value="Observation.dataAbsentReason.coding"/>
