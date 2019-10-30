@@ -499,48 +499,56 @@
                 <code value="date"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategoriePrimärTumor-cT">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategoriePrimärTumor-cT"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieRegionaleKnoten-cN">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieRegionaleKnoten-cN"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimärTumor-cT">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimärTumor-cT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieFernMetastasen-cM">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.KlinischeKategorieFernMetastasen-cM"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieRegionaleKnoten-cN">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieRegionaleKnoten-cN"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategoriePrimärTumor-pT">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategoriePrimärTumor-pT"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieFernMetastasen-cM">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieFernMetastasen-cM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategorieRegionaleKnoten-pN">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategorieRegionaleKnoten-pN"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimärTumor-pT">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimärTumor-pT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategorieFernMetastasen-pM">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.PathologischeKategorieFernMetastasen-pM"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieRegionaleKnoten-pN">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieRegionaleKnoten-pN"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieFernMetastasen-pM">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieFernMetastasen-pM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -653,14 +661,6 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.PerineuralerBefall">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.PerineuralerBefall"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe"/>
             <min value="0"/>
             <max value="1"/>
             <type>

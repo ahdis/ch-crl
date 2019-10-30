@@ -81,7 +81,7 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
             </type>
         </element>
-         <element id="Observation.performer.reference">
+        <element id="Observation.performer.reference">
             <path value="Observation.performer.reference"/>
             <min value="1"/>
         </element>
@@ -129,12 +129,89 @@
         </element>
         <element id="Observation.dataAbsentReason.coding.code">
             <path value="Observation.dataAbsentReason.coding.code"/>
-            <short value="If not applicable or TNM classification not defined for this type of cancer than 'value=not-applicable'. If not stated / not assessed than 'value=unknown'."/> 
+            <short value="If not applicable or TNM classification not defined for this type of cancer than 'value=not-applicable'. If not stated / not assessed than 'value=unknown'."/>
             <min value="1"/>
         </element>
         <element id="Observation.dataAbsentReason.coding.display">
             <path value="Observation.dataAbsentReason.coding.display"/>
             <min value="1"/>
+        </element>
+        <element id="Observation.hasMember">
+            <path value="Observation.hasMember"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="$this"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Observation.hasMember:ch-crl-cT">
+            <path value="Observation.hasMember"/>
+            <sliceName value="ch-crl-cT"/>
+            <short value="TNM clinical primary tumor category"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
+            </type>
+        </element>
+        <element id="Observation.hasMember:ch-crl-cN">
+            <path value="Observation.hasMember"/>
+            <sliceName value="ch-crl-cN"/>
+            <short value="TNM clinical regional nodes category"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cn"/>
+            </type>
+        </element>
+        <element id="Observation.hasMember:ch-crl-cM">
+            <path value="Observation.hasMember"/>
+            <sliceName value="ch-crl-cM"/>
+            <short value="TNM clinical distant metastases category"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
+            </type>
+        </element>
+        <element id="Observation.hasMember:ch-crl-pT">
+            <path value="Observation.hasMember"/>
+            <sliceName value="ch-crl-pT"/>
+            <short value="TNM pathologic primary tumor category"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
+            </type>
+        </element>
+        <element id="Observation.hasMember:ch-crl-pN">
+            <path value="Observation.hasMember"/>
+            <sliceName value="ch-crl-pN"/>
+            <short value="TNM pathologic regional nodes category"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
+            </type>
+        </element>
+        <element id="Observation.hasMember:ch-crl-pM">
+            <path value="Observation.hasMember"/>
+            <sliceName value="ch-crl-pM"/>
+            <short value="TNM pathologic distant metastases category"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
+            </type>
         </element>
     </differential>
 </StructureDefinition>

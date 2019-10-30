@@ -39,6 +39,11 @@
                     <code value="86255-7"/>
                     <display value="Primary diagnosis ICD code"/>
                 </coding>
+                <!--<coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="277060007"/>
+                    <display value=" Lymphatic tumor invasion status"/>
+                </coding>-->
             </patternCodeableConcept>
         </element>
         <element id="Observation.code.coding.system">
@@ -82,7 +87,7 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
             </type>
         </element>
-         <element id="Observation.performer.reference">
+        <element id="Observation.performer.reference">
             <path value="Observation.performer.reference"/>
             <min value="1"/>
         </element>

@@ -198,6 +198,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/m-SuffixOfpT-unspecified"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/m-SuffixOfpT"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>

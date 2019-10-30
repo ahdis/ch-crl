@@ -107,6 +107,10 @@
             <path value="Observation.valueCodeableConcept.coding.system"/>
             <min value="1"/>
         </element>
+        <element id="Observation.valueCodeableConcept.coding.version">
+            <path value="Observation.valueCodeableConcept.coding.version"/>
+            <min value="1"/>
+        </element>
         <element id="Observation.valueCodeableConcept.coding.code">
             <path value="Observation.valueCodeableConcept.coding.code"/>
             <min value="1"/>
