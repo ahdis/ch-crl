@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="SpitalSeeblick"/>
+  <id value="SpitalMinimum"/>
   <meta>
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
   </meta>
   <identifier>
     <system value="urn:oid:2.16.756.5.45"/>
-    <value value="76010088"/>
+    <value value="76010130"/>
   </identifier>
   <active value="true"/>
   <type>
@@ -17,27 +17,26 @@
       <display value="Healthcare Provider"/>
     </coding>
   </type>
-  <name value="Spital Seeblick"/>
+  <name value="Spital Minium"/>
   <telecom>
     <system value="phone"/>
-    <value value="031 409 88 60"/>
+    <value value="031 512 75 98"/>
   </telecom>
   <telecom>
     <system value="email"/>
-    <value value="spital@spital.ch"/>
+    <value value="spital@minimum.ch"/>
   </telecom>
   <address>
-    <line value="Seeblick 14"/>
+    <line value="Bergstrasse 10"/>
     <city value="Zürich"/>
-    <state value="ZH"/>
-    <postalCode value="8005"/>
+    <postalCode value="8001"/>
   </address>
   <contact>
     <extension url="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson">
-      <valueString value="Abteilungsarzt"/>
+      <valueString value="Doctor"/>
     </extension>
     <name>
-      <family value="Egli"/>
+      <family value="Muster"/>
       <given value="Hans"/>
     </name>
   </contact>

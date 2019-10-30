@@ -52,7 +52,7 @@
             <path value="Organization.type"/>
             <short value="Kind of organization"/>
             <min value="1"/>
-            <max value="1"/>
+            <max value="*"/>
             <binding>
                 <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
                     <valueString value="OrganizationType"/>
@@ -158,7 +158,7 @@
         <element id="Organization.contact">
             <path value="Organization.contact"/>
             <min value="1"/>
-            <max value="1"/>
+            <max value="*"/>
         </element>
         <element id="Organization.contact.extension">
             <path value="Organization.contact.extension" />

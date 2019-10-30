@@ -24,7 +24,7 @@
             <path value="Organization.type"/>
             <short value="Kind of department"/>
             <min value="1"/>
-            <max value="1"/>
+            <max value="*"/>
             <binding>
                 <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
                     <valueString value="OrganizationType"/>

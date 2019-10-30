@@ -39,6 +39,7 @@
                 </discriminator>
                 <rules value="open" />
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Patient.identifier:EPR-SPID">
             <path value="Patient.identifier" />

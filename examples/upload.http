@@ -7,11 +7,30 @@ Content-Type: application/fhir+xml
 < ./patient/FranzMinimum.xml
 
 ###
-PUT {{host}}/Practitioner/EmmaBauer HTTP/1.1
+PUT {{host}}/Patient/RobertMeier HTTP/1.1
 Content-Type: application/fhir+xml
 
-< ./practitioner/EmmaBauer.xml
+< ./patient/RobertMeier.xml
 
+
+###
+PUT {{host}}/Practitioner/AgnesBauer HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./practitioner/AgnesBauer.xml
+
+###
+PUT {{host}}/Practitioner/EmmaMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./practitioner/EmmaMinimum.xml
+
+
+###
+PUT {{host}}/Organization/SpitalMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/SpitalMinimum.xml
 
 ###
 PUT {{host}}/Organization/SpitalSeeblick HTTP/1.1
@@ -20,10 +39,28 @@ Content-Type: application/fhir+xml
 < ./organization/SpitalSeeblick.xml
 
 ###
+PUT {{host}}/Organization/AbteilungGastro HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/AbteilungGastro.xml
+
+###
+PUT {{host}}/Organization/AbteilungMinimum HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/AbteilungMinimum.xml
+
+###
 PUT {{host}}/Organization/AbteilungOnko HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./organization/AbteilungOnko.xml
+
+###
+PUT {{host}}/Organization/AbteilungPatho HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/AbteilungPatho.xml
 
 
 ###
@@ -38,6 +75,12 @@ Content-Type: application/fhir+xml
 
 < ./documentreference/DocuPractMinimum.xml
 
+
+###
+PUT {{host}}/Communication/CommMeier HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./communication/CommMeier.xml
 
 ###
 PUT {{host}}/Communication/CommMinimum HTTP/1.1

@@ -10,7 +10,7 @@
     <reference value="Patient/FranzMinimum"/>
   </subject>
   <author>
-    <reference value="Practitioner/EmmaBauer"/>
+    <reference value="Practitioner/EmmaMinimum"/>
   </author>
   <description value="Meldung an das Krebsregister"/>
   <content>

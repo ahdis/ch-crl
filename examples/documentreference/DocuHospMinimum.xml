@@ -10,7 +10,7 @@
     <reference value="Patient/FranzMinimum"/>
   </subject>
   <author>
-    <reference value="Organization/SpitalSeeblick"/>
+    <reference value="Organization/SpitalMinimum"/>
   </author>
   <description value="Meldung an das Krebsregister"/>
   <content>
