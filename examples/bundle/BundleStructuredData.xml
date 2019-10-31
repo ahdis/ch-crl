@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="BundleStructuredData"/>
    <meta>
-      <lastUpdated value="2019-10-09T07:13:46.610+00:00"/>
+      <lastUpdated value="2019-10-31T08:20:09.932+00:00"/>
       <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
    </meta>
    <identifier>
@@ -13,10 +13,10 @@
       <fullUrl value="http://test.fhir.ch/r4/Composition/CompStructuredData"/>
       <resource>
          <Composition xmlns="http://hl7.org/fhir">
-            <id value="CompositionStructuredData"/>
+            <id value="CompStructuredData"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:07:11.721+00:00"/>
+               <lastUpdated value="2019-10-31T08:19:54.315+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
             </meta>
             <status value="final"/>
@@ -32,7 +32,7 @@
             </subject>
             <date value="2018-12-15T13:00:00+02:00"/>
             <author>
-               <reference value="Organization/AbteilungOnko"/>
+               <reference value="Organization/AbteilungMinimum"/>
             </author>
             <title value="Report to the Cancer Registry"/>
             <section>
@@ -131,13 +131,320 @@
       </resource>
    </entry>
    <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/NumberInvolvedRegionalLymphNodes"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="NumberInvolvedRegionalLymphNodes"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:18:52.778+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="21893-3"/>
+                  <display value="Regional lymph nodes positive [#] Specimen"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueQuantity>
+               <value value="2"/>
+            </valueQuantity>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/PerineuralInvasion"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="PerineuralInvasion"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:18:58.443+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-perineuralinvasion"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="92837-4"/>
+                  <display value="Perineural invasion [Presence] in Cancer specimen"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-perineuralinvasion"/>
+                  <code value="0"/>
+                  <display value="Pn0"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/pM-unknown"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="pM-unknown"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:01.533+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="21901-4"/>
+                  <display value="Distant metastases.pathology [Class] Cancer"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <dataAbsentReason>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+                  <code value="unknown"/>
+                  <display value="Unknown"/>
+               </coding>
+            </dataAbsentReason>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/pN"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="pN"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:04.709+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="21900-6"/>
+                  <display value="Regional lymph nodes.pathology [Class] Cancer"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pn"/>
+                  <code value="1(sn)"/>
+                  <display value="pN1(sn)"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/pT"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="pT"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:07.246+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="21899-0"/>
+                  <display value="Primary tumor.pathology Cancer"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pt"/>
+                  <code value="1b2"/>
+                  <display value="pT1b2"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/TNM-StageGroup"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="TNM-StageGroup"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:13.216+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-tnmstagegroup"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="21914-7"/>
+                  <display value="Stage group.other Cancer"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-tnmstagegroup"/>
+                  <code value="IV"/>
+                  <display value="Stage IV"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/VenousInvasion"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="VenousInvasion"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:18.818+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="277061006"/>
+                  <display value="Venous tumor invasion status"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-venousinvasion"/>
+                  <code value="1"/>
+                  <display value="V1"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/y-PrefixOfcTNM"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="y-PrefixOfcTNM"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:23.088+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="373847000"/>
+                  <display value="Neo-adjuvant - intent"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueBoolean value="false"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/y-PrefixOfpTNM"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="y-PrefixOfpTNM"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:27.542+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofptnm"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="373847000"/>
+                  <display value="Neo-adjuvant - intent"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <effectiveDateTime value="2018-12-15"/>
+            <valueBoolean value="true"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Procedure/DiagnosticMethod"/>
+      <resource>
+         <Procedure xmlns="http://hl7.org/fhir">
+            <id value="DiagnosticMethod"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-31T08:19:37.840+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+            </meta>
+            <status value="completed"/>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="67183-4"/>
+                  <display value="Diagnostic staging procedure PhenX"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diagnosticmethodsused"/>
+                  <code value="7"/>
+                  <display value="CT scan of tumour"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/FranzMinimum"/>
+            </subject>
+            <performedDateTime value="2018-12-15T13:00:00+02:00"/>
+            <reasonReference>
+               <reference value="Observation/ICD-10"/>
+            </reasonReference>
+         </Procedure>
+      </resource>
+   </entry>
+   <entry>
       <fullUrl value="http://test.fhir.ch/r4/Patient/FranzMinimum"/>
       <resource>
          <Patient xmlns="http://hl7.org/fhir">
             <id value="FranzMinimum"/>
             <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2019-10-09T06:26:17.802+00:00"/>
+               <versionId value="1"/>
+               <lastUpdated value="2019-10-30T09:31:47.095+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
             </meta>
             <identifier>
@@ -149,7 +456,7 @@
                <given value="Franz"/>
             </name>
             <gender value="male"/>
-            <birthDate value="1955-01-27"/>
+            <birthDate value="1950-03-04"/>
             <deceasedBoolean value="false"/>
             <address>
                <postalCode value="8001"/>
@@ -158,18 +465,18 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Organization/AbteilungOnko"/>
+      <fullUrl value="http://test.fhir.ch/r4/Organization/AbteilungMinimum"/>
       <resource>
          <Organization xmlns="http://hl7.org/fhir">
-            <id value="AbteilungOnko"/>
+            <id value="AbteilungMinimum"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:27:25.247+00:00"/>
+               <lastUpdated value="2019-10-30T09:35:44.498+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.45"/>
-               <value value="76010088"/>
+               <value value="76010130"/>
             </identifier>
             <active value="true"/>
             <type>
@@ -179,18 +486,18 @@
                   <display value="Clinical oncology"/>
                </coding>
             </type>
-            <name value="Abteilung Onko"/>
+            <name value="Abteilung Minium"/>
             <telecom>
                <system value="email"/>
-               <value value="abteilung@spital.ch"/>
+               <value value="abteilung@minimum.ch"/>
             </telecom>
             <address>
-               <line value="Bergstrasse 11"/>
+               <line value="Bergstrasse 10"/>
                <city value="Zürich"/>
-               <postalCode value="8002"/>
+               <postalCode value="8001"/>
             </address>
             <partOf>
-               <reference value="Organization/SpitalSeeblick"/>
+               <reference value="Organization/SpitalMinimum"/>
             </partOf>
          </Organization>
       </resource>
@@ -202,7 +509,7 @@
             <id value="CommMinimum"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:29:21.176+00:00"/>
+               <lastUpdated value="2019-10-30T09:36:28.210+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
             </meta>
             <status value="completed"/>
@@ -225,7 +532,7 @@
             <id value="ConcomitantDiseaseA"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:39:59.592+00:00"/>
+               <lastUpdated value="2019-10-31T08:16:07.375+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </meta>
             <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
@@ -259,7 +566,7 @@
             <id value="ConcomitantDiseaseB"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:40:52.381+00:00"/>
+               <lastUpdated value="2019-10-31T08:16:10.737+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </meta>
             <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
@@ -293,7 +600,7 @@
             <id value="FinalCauseOfDeath"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:41:23.605+00:00"/>
+               <lastUpdated value="2019-10-31T08:16:16.495+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-finalcauseofdeath"/>
             </meta>
             <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
@@ -327,7 +634,7 @@
             <id value="PrimaryDisease"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:41:49.282+00:00"/>
+               <lastUpdated value="2019-10-31T08:16:22.221+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </meta>
             <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
@@ -361,7 +668,7 @@
             <id value="SecondaryDisease"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:42:11.106+00:00"/>
+               <lastUpdated value="2019-10-31T08:16:24.765+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </meta>
             <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
@@ -395,7 +702,7 @@
             <id value="a-PrefixOfpTNM"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:44:05.737+00:00"/>
+               <lastUpdated value="2019-10-31T08:16:57.151+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-aprefixofptnm"/>
             </meta>
             <status value="final"/>
@@ -421,7 +728,7 @@
             <id value="cM"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:44:32.351+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:07.187+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
             </meta>
             <status value="final"/>
@@ -453,7 +760,7 @@
             <id value="cN"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:44:51.001+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:11.002+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cn"/>
             </meta>
             <status value="final"/>
@@ -485,7 +792,7 @@
             <id value="cT"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:45:13.269+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:14.744+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
             </meta>
             <status value="final"/>
@@ -517,7 +824,7 @@
             <id value="DateOfIncidence"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:45:43.784+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:21.732+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
             </meta>
             <status value="final"/>
@@ -543,7 +850,7 @@
             <id value="ICD-10"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:46:06.845+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:25.007+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
             </meta>
             <status value="final"/>
@@ -561,6 +868,7 @@
             <valueCodeableConcept>
                <coding>
                   <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+                  <version value="2019"/>
                   <code value="C25"/>
                   <display value="Bösartige Neubildung des Pankreas"/>
                </coding>
@@ -575,7 +883,7 @@
             <id value="ICD-O-3-Behaviour"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:46:39.768+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:29.049+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3behaviour"/>
             </meta>
             <status value="final"/>
@@ -607,7 +915,7 @@
             <id value="ICD-O-3-HistologicalGrade-unknown"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:47:23.058+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:32.904+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
             </meta>
             <status value="final"/>
@@ -639,7 +947,7 @@
             <id value="ICD-O-3-Laterality"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:47:47.083+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:42.667+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
             </meta>
             <status value="final"/>
@@ -671,7 +979,7 @@
             <id value="ICD-O-3-Morphology"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:48:07.217+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:46.382+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphology"/>
             </meta>
             <status value="final"/>
@@ -689,6 +997,7 @@
             <valueCodeableConcept>
                <coding>
                   <system value="urn:oid:2.16.840.1.113883.6.43.1"/>
+                  <version value="3.2"/>
                   <code value="8140/3"/>
                   <display value="Adenokarzinom o.n.A."/>
                </coding>
@@ -703,7 +1012,7 @@
             <id value="ICD-O-3-Topography"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:48:32.979+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:49.407+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
             </meta>
             <status value="final"/>
@@ -721,6 +1030,7 @@
             <valueCodeableConcept>
                <coding>
                   <system value="urn:oid:2.16.840.1.113883.6.43.1"/>
+                  <version value="3.2"/>
                   <code value="C25.1"/>
                   <display value="Pankreaskörper"/>
                </coding>
@@ -735,16 +1045,15 @@
             <id value="LymphaticInvasion"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:49:03.729+00:00"/>
+               <lastUpdated value="2019-10-31T08:17:52.714+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-lymphaticinvasion"/>
             </meta>
             <status value="final"/>
             <code>
                <coding>
-                  <!-- TBD: change code & display -->
-                  <system value="http://loinc.org"/>
-                  <code value="86255-7"/>
-                  <display value="Primary diagnosis ICD code"/>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="277060007"/>
+                  <display value="Lymphatic tumor invasion status"/>
                </coding>
             </code>
             <subject>
@@ -768,7 +1077,7 @@
             <id value="m-SuffixOfpT"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:50:07.836+00:00"/>
+               <lastUpdated value="2019-10-31T08:18:37.777+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
             </meta>
             <status value="final"/>
@@ -796,7 +1105,7 @@
             <id value="NumberExaminedRegionalLymphNodes"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:52:18.346+00:00"/>
+               <lastUpdated value="2019-10-31T08:18:49.191+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
             </meta>
             <status value="final"/>
@@ -818,328 +1127,18 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/NumberInvolvedRegionalLymphNodes"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="NumberInvolvedRegionalLymphNodes"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:53:03.725+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="21893-3"/>
-                  <display value="Regional lymph nodes positive [#] Specimen"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueQuantity>
-               <value value="2"/>
-            </valueQuantity>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/PerineuralInvasion"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="PerineuralInvasion"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:53:37.864+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-perineuralinvasion"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="92837-4"/>
-                  <display value="Perineural invasion [Presence] in Cancer specimen"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-perineuralinvasion"/>
-                  <code value="0"/>
-                  <display value="Pn0"/>
-               </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/pM-unknown"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="pM-unknown"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:10.996+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="21901-4"/>
-                  <display value="Distant metastases.pathology [Class] Cancer"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <dataAbsentReason>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
-                  <code value="unknown"/>
-                  <display value="Unknown"/>
-               </coding>
-            </dataAbsentReason>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/pN"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="pN"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:17.243+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="21900-6"/>
-                  <display value="Regional lymph nodes.pathology [Class] Cancer"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pn"/>
-                  <code value="1(sn)"/>
-                  <display value="pN1(sn)"/>
-               </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/pT"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="pT"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:25.540+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="21899-0"/>
-                  <display value="Primary tumor.pathology Cancer"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pt"/>
-                  <code value="1b2"/>
-                  <display value="pT1b2"/>
-               </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/TNM-StageGroup"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="TNM-StageGroup"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:28.733+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-tnmstagegroup"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="21914-7"/>
-                  <display value="Stage group.other Cancer"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-tnmstagegroup"/>
-                  <code value="IV"/>
-                  <display value="Stage IV"/>
-               </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/VenousInvasion"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="VenousInvasion"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:32.290+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <!-- TBD: change code & display -->
-                  <system value="http://loinc.org"/>
-                  <code value="86255-7"/>
-                  <display value="Primary diagnosis ICD code"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-venousinvasion"/>
-                  <code value="1"/>
-                  <display value="V1"/>
-               </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/y-PrefixOfcTNM"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="y-PrefixOfcTNM"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:36.494+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <!-- TBD: change code & display -->
-                  <system value="http://loinc.org"/>
-                  <code value="86255-7"/>
-                  <display value="Primary diagnosis ICD code"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueBoolean value="false"/>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/y-PrefixOfpTNM"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="y-PrefixOfpTNM"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:49.239+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofptnm"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <!-- TBD: change code & display -->
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="85699-7"/>
-                  <display value="Autopsy was performed"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <effectiveDateTime value="2018-12-15"/>
-            <valueBoolean value="true"/>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Procedure/DiagnosticMethod"/>
-      <resource>
-         <Procedure xmlns="http://hl7.org/fhir">
-            <id value="DiagnosticMethod"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-09T07:06:57.323+00:00"/>
-               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
-            </meta>
-            <status value="completed"/>
-            <category>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="67183-4"/>
-                  <display value="Diagnostic staging procedure PhenX"/>
-               </coding>
-            </category>
-            <code>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diagnosticmethodsused"/>
-                  <code value="7"/>
-                  <display value="CT scan of tumour"/>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/FranzMinimum"/>
-            </subject>
-            <performedDateTime value="2018-12-15T13:00:00+02:00"/>
-            <reasonReference>
-               <reference value="Observation/ICD-10"/>
-            </reasonReference>
-         </Procedure>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Organization/SpitalSeeblick"/>
+      <fullUrl value="http://test.fhir.ch/r4/Organization/SpitalMinimum"/>
       <resource>
          <Organization xmlns="http://hl7.org/fhir">
-            <id value="SpitalSeeblick"/>
+            <id value="SpitalMinimum"/>
             <meta>
                <versionId value="1"/>
-               <lastUpdated value="2019-10-09T06:26:57.581+00:00"/>
+               <lastUpdated value="2019-10-30T09:34:21.847+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.45"/>
-               <value value="76010088"/>
+               <value value="76010130"/>
             </identifier>
             <active value="true"/>
             <type>
@@ -1149,19 +1148,19 @@
                   <display value="Healthcare Provider"/>
                </coding>
             </type>
-            <name value="Spital Seeblick"/>
+            <name value="Spital Minium"/>
             <telecom>
                <system value="phone"/>
                <value value="031 512 75 98"/>
             </telecom>
             <telecom>
                <system value="email"/>
-               <value value="spital@spital.ch"/>
+               <value value="spital@minimum.ch"/>
             </telecom>
             <address>
-               <line value="Bergstrasse 11"/>
+               <line value="Bergstrasse 10"/>
                <city value="Zürich"/>
-               <postalCode value="8002"/>
+               <postalCode value="8001"/>
             </address>
             <contact>
                <extension url="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson">

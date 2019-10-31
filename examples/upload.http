@@ -199,6 +199,12 @@ Content-Type: application/fhir+xml
 < ./observation/m-SuffixOfpT-unknown.xml
 
 ###
+PUT {{host}}/Observation/m-SuffixOfpT-unspecified HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/m-SuffixOfpT-unspecified.xml
+
+###
 PUT {{host}}/Observation/m-SuffixOfpT HTTP/1.1
 Content-Type: application/fhir+xml
 
