@@ -6,8 +6,8 @@
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
   </meta>
   <identifier>
-    <system value="https://www.uid.admin.ch"/> <!--  bur? -->
-    <value value="CHE-105.983.423"/>
+    <system value="urn:oid:2.16.756.5.45"/>
+    <value value="76010130"/>
   </identifier>
   <active value="true"/>
   <type>
@@ -20,10 +20,10 @@
   <name value="Abteilung Minium"/>
   <telecom>
     <system value="email"/>
-    <value value="abteilung@spital.ch"/>
+    <value value="abteilung@minimum.ch"/>
   </telecom>
   <address>
-    <line value="Bahnhofstrasse 1"/>
+    <line value="Bergstrasse 10"/>
     <city value="Zürich"/>
     <postalCode value="8001"/>
   </address>

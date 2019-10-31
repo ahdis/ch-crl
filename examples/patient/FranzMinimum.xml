@@ -14,7 +14,8 @@
     <given value="Franz"/>
   </name>
   <gender value="male"/>
-  <birthDate value="1995-01-27"/>
+  <birthDate value="1950-03-04"/>
+  <deceasedBoolean value="false"/>
   <address>
     <postalCode value="8001" />
   </address>

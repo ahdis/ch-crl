@@ -6,14 +6,15 @@
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
   </meta>
   <identifier>
-    <system value="https://www.uid.admin.ch"/> <!--  bur? -->
-    <value value="CHE-105.983.423"/>
+    <system value="urn:oid:2.16.756.5.45"/>
+    <value value="76010130"/>
   </identifier>
   <active value="true"/>
   <type>
     <coding>
       <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
       <code value="prov"/>
+      <display value="Healthcare Provider"/>
     </coding>
   </type>
   <name value="Spital Minium"/>
@@ -23,10 +24,10 @@
   </telecom>
   <telecom>
     <system value="email"/>
-    <value value="spital@spital.ch"/>
+    <value value="spital@minimum.ch"/>
   </telecom>
   <address>
-    <line value="Bahnhofstrasse 1"/>
+    <line value="Bergstrasse 10"/>
     <city value="Zürich"/>
     <postalCode value="8001"/>
   </address>
