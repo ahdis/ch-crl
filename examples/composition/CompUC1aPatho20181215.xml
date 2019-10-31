@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="CompUC1aPatho20181215"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+  </meta>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="72134-0"/>
+      <display value="Cancer event report"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/RobertMeier"/>
+  </subject>
+  <date value="2018-12-02T13:00:00+02:00"/>
+  <author>
+    <reference value="Organization/AbteilungPatho"/>
+  </author>
+  <title value="Pathologischer Befund"/>
+  <section>
+    <entry>
+      <reference value="DocumentReference/DocuUC1aPatho20181215"/>
+    </entry>
+  </section>
+</Composition>

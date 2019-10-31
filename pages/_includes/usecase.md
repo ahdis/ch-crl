@@ -20,23 +20,23 @@ Der nachfolgende Use Case dient der Illustration der Prozesse im Zusammenhang mi
 #### Pathologische Untersuchung
 *Diagnostik vom 2. Dezember 2018*  
 Das Biopsiematerial wird im [pathologischen Institut](Organization-AbteilungPatho.html) des [Spitals Seeblick](Organization-SpitalSeeblickDoktorPatho.html) untersucht. Dabei wird ein Karzinom festgestellt. **Das Institut übermittelt das Resultat** an die [Hausärztin](Practitioner-AgnesBauer.html), die [Gastroenterologie](Organization-AbteilungGastro.html) und **das Krebsregister**.
-* Use Case 1a:   
+* Use Case 1a: [Pathologischer Befund](Bundle-BundleUC1aPatho20181202.html)   
 * Use Case 1b:
 
 #### Zweitbesuch bei der Hausärztin
 *Arztbesuch vom 7. Dezember 2018*  
 [Robert Meier](Patient-RobertMeier.html) wird von [Agnes Bauer](Practitioner-AgnesBauer.html) über die Diagnose informiert. Sie informiert ihn über das weitere Vorgehen und informiert ihn, dass seine Daten auch an das Krebsregister ([Information des Patienten](Communication-CommMeier.html)) gesendet werden. [Robert Meier](Patient-RobertMeier.html) entscheidet sich für eine sofortige Operation und seine [Hausärztin](Practitioner-AgnesBauer.html) vereinbart einen Operationstermin im [Spital Seeblick](Organization-SpitalSeeblickHansEgli.html). [Agnes Bauer](Practitioner-AgnesBauer.html) **informiert das Krebsregister über das Datum der Patienteninformation und die Diagnose**.
-* Use Case 1a:   
+* Use Case 1a: [Information über Diagnose und Patienteninformation](Bundle-BundleUC1aInfo20181207.html)   
 * Use Case 1b:
 
 #### Operation
 *Hospitalisierung vom 14. Dezember 2018*  
 Bei [Robert Meier](Patient-RobertMeier.html) wird im [Spital Seeblick](Organization-SpitalSeeblickHansEgli.html) eine Hemikolektomie durchgeführt. Das Exzisat wird an das [pathologische Institut](Organization-AbteilungPatho.html) zur Untersuchung geschickt. Der Abteilungsarzt Hans Egli, als zuständig Ansprechperson des [Spitals](Organization-SpitalSeeblickHansEgli.html), **informiert das Krebsregister über die Operation.**
-* Use Case 1a:   
+* Use Case 1a: [Operationsbericht](Bundle-BundleUC1aOps20181214.html)   
 * Use Case 1b:
 
 #### Pathologische Untersuchung
 *Diagnostik vom 15. Dezember 2018*  
 Das Exzisionsmaterial wird im [pathologischen Institut](Organization-AbteilungPatho.html) untersucht. Dabei kann das Karzinom genauer beschrieben werden. Das [Institut](Organization-AbteilungPatho.html) **übermittelt das Resultat** an die [Hausärztin](Practitioner-AgnesBauer.html), die [Gastroenterologie](Organization-AbteilungGastro.html) und **das Krebsregister**.
-* Use Case 1a:   
+* Use Case 1a: [Pathologischer Befund](Bundle-BundleUC1aPatho20181215.html)   
 * Use Case 1b:

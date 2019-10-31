@@ -54,6 +54,30 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/BundleUC1aInfo20181207"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/BundleUC1aOps20181214"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/BundleUC1aPatho20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/BundleUC1aPatho20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Communication/CommMeier"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
@@ -85,6 +109,30 @@
     <resource>
       <reference>
         <reference value="Composition/CompUC1aGastro20181201"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompUC1aInfo20181207"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompUC1aOps20181214"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompUC1aPatho20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompUC1aPatho20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
     </resource>
@@ -133,6 +181,30 @@
     <resource>
       <reference>
         <reference value="DocumentReference/DocuUC1aGastro20181201"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DocumentReference/DocuUC1aInfo20181207"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DocumentReference/DocuUC1aOps20181214"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DocumentReference/DocuUC1aPatho20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DocumentReference/DocuUC1aPatho20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
     </resource>
@@ -322,7 +394,7 @@
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
     </resource>
-     <resource>
+    <resource>
       <reference>
         <reference value="Organization/SpitalMinimum"/>
       </reference>

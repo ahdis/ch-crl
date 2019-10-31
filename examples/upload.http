@@ -93,6 +93,30 @@ Content-Type: application/fhir+xml
 
 < ./documentreference/DocuUC1aGastro20181201.xml
 
+###
+PUT {{host}}/DocumentReference/DocuUC1aInfo20181207 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./documentreference/DocuUC1aInfo20181207.xml
+
+###
+PUT {{host}}/DocumentReference/DocuUC1aOps20181214 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./documentreference/DocuUC1aOps20181214.xml
+
+###
+PUT {{host}}/DocumentReference/DocuUC1aPatho20181202 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./documentreference/DocuUC1aPatho20181202.xml
+
+###
+PUT {{host}}/DocumentReference/DocuUC1aPatho20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./documentreference/DocuUC1aPatho20181215.xml
+
 
 ###
 PUT {{host}}/Communication/CommMeier HTTP/1.1
@@ -333,6 +357,31 @@ Content-Type: application/fhir+xml
 < ./composition/CompUC1aGastro20181201.xml
 
 ###
+PUT {{host}}/Composition/CompUC1aInfo20181207 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompUC1aInfo20181207.xml
+
+###
+PUT {{host}}/Composition/CompUC1aOps20181214 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompUC1aOps20181214.xml
+
+###
+PUT {{host}}/Composition/CompUC1aPatho20181202 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompUC1aPatho20181202.xml
+
+###
+PUT {{host}}/Composition/CompUC1aPatho20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompUC1aPatho20181215.xml
+
+
+###
 GET {{host}}/Patient/FranzMinimum HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -351,4 +400,20 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Composition/CompUC1aGastro20181201/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1aInfo20181207/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1aOps20181214/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1aPatho20181202/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1aPatho20181215/$document HTTP/1.1
 Content-Type: application/fhir+xml
