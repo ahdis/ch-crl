@@ -11,8 +11,8 @@
     <fhirVersion value="4.0.0"/>
     <mapping>
         <identity value="NICER-A"/>
-        <uri value="https://www.nicer.org/assets/files/Infowelle2/e_a_struktur_der_basisdaten.pdf"/>
-        <name value="NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"/>
+        <uri value="https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip"/>
+        <name value="NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"/>
     </mapping>
     <kind value="resource"/>
     <abstract value="false"/>

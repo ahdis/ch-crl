@@ -16,8 +16,9 @@
     </contact>
     <description value="The data item records the absence or presence and extent of regional lymph node metastasis, based on pathological evidence after completion of surgical therapy.  
         **pN (Variable number: 4.10)** in 
-        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
-        see [NICER](https://www.nicer.org/)."/>
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\' see  
+        [Nationale Krebsregistrierungsstelle](https://www.nkrs.ch) > Partner im Gesundheitswesen >
+        [Information, Grundlagen und Datenstruktur zum KRG](https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip)."/>
     <caseSensitive value="true"/>
     <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-pn"/>
     <content value="complete"/>

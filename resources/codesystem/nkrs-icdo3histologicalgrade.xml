@@ -16,8 +16,9 @@
     </contact>
     <description value="The data item describes the neoplasm’s resemblance to normal (parent) tissue according to ICD-O.  
         **ICD-O Histological Grade (Variable number: 3.7)** in 
-        \'NATIONAL CANCER DATA DICTIONARY, V 1.0, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\'  
-        see [NICER](https://www.nicer.org/)."/>
+        \'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\' see  
+        [Nationale Krebsregistrierungsstelle](https://www.nkrs.ch) > Partner im Gesundheitswesen >
+        [Information, Grundlagen und Datenstruktur zum KRG](https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip)."/>
     <caseSensitive value="true"/>
     <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-icdo3histologicalgrade"/>
     <content value="complete"/>
