@@ -2,13 +2,13 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-organization-contact-functionofcontactperson"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson"/>
-    <version value="0.1.0"/>
-    <name value="ChCrlOrganizationContactFunctionOfContactPerson"/>
-    <title value="Function of contact person"/>
+    <version value="0.2.0"/>
+    <name value="CHCRLOrganizationContactFunctionOfContactPerson"/>
+    <title value="CH CRL Function of Contact Person Extension"/>
     <status value="draft"/>
-    <date value="2019-09-02"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Function of contact person"/>
+    <description value="Extension to define the function of contact person of an organization"/>
     <fhirVersion value="4.0.0"/>
     <kind value="primitive-type"/>
     <abstract value="false"/>
@@ -22,7 +22,7 @@
     <differential>
         <element id="Extension">
             <path value="Extension"/>
-            <short value="Function of contact person, e.g. assistant physician, medical assistant"/>
+            <short value="CH CRL Function of Contact Person"/>
         </element>
         <element id="Extension.extension">
             <path value="Extension.extension"/>

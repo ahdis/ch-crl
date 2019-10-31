@@ -2,22 +2,23 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-crl-bundle"/>
     <url value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
-    <version value="0.1.0"/>
+    <version value="0.2.0"/>
     <name value="CHCRLBundle"/>
     <title value="CH CRL Bundle Profile"/>
     <status value="draft"/>
-    <date value="2019-09-02"/>
+    <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Profile on Bundle for Reporting to the Cancer Registry"/>
+    <description value="Definition of the bundle for reporting to the cancer registry"/>
     <fhirVersion value="4.0.0" />
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Bundle"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Bundle">
             <path value="Bundle"/>
+            <short value="CH CRL Bundle"/>
         </element>
         <element id="Bundle.identifier">
             <path value="Bundle.identifier"/>
@@ -39,25 +40,22 @@
             <path value="Bundle.entry"/>
             <slicing>
                 <discriminator>
-                    <type value="type"/>
+                    <type value="profile"/>
                     <path value="resource"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
             <min value="1"/>
         </element>
-        <element id="Bundle.entry:composition">
+        <element id="Bundle.entry:Composition">
             <path value="Bundle.entry"/>
-            <sliceName value="composition"/>
-            <short value="A resource in the bundle"/>
-            <definition value="The Resources for the entry."/>
+            <sliceName value="Composition"/>
+            <short value="Composition for reporting to the cancer registry"/>
             <min value="1"/>
             <max value="1"/>
         </element>
-        <element id="Bundle.entry.resource:composition">
+        <element id="Bundle.entry:Composition.resource">
             <path value="Bundle.entry.resource"/>
-            <short value="A resource in the bundle"/>
-            <definition value="The Resources for the entry."/>
             <min value="1"/>
             <type>
                 <code value="Composition"/>
