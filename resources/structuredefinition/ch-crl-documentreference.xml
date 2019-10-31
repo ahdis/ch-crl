@@ -40,7 +40,7 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
-                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
             </type>
         </element>
         <element id="DocumentReference.author.reference">

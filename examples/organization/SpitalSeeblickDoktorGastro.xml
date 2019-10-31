@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Organization xmlns="http://hl7.org/fhir">
-  <id value="SpitalSeeblick"/>
+  <id value="SpitalSeeblickDoktorGastro"/>
   <meta>
     <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
   </meta>
@@ -34,11 +34,11 @@
   </address>
   <contact>
     <extension url="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-contact-functionofcontactperson">
-      <valueString value="Abteilungsarzt"/>
+      <valueString value="Gastroenterologe"/>
     </extension>
     <name>
-      <family value="Egli"/>
-      <given value="Hans"/>
+      <family value="Gastro"/>
+      <given value="Doktor"/>
     </name>
   </contact>
 </Organization>

@@ -28,6 +28,6 @@
     <postalCode value="8002"/>
   </address>
   <partOf>
-    <reference value="Organization/SpitalSeeblick"/>
+    <reference value="Organization/SpitalSeeblickHansEgli"/>
   </partOf>
 </Organization>

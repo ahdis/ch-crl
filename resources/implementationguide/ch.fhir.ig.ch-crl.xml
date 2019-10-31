@@ -48,6 +48,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/BundleUC1aGastro20181201"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Communication/CommMeier"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
@@ -73,6 +79,12 @@
     <resource>
       <reference>
         <reference value="Composition/CompStructuredData"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompUC1aGastro20181201"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
     </resource>
@@ -115,6 +127,12 @@
     <resource>
       <reference>
         <reference value="DocumentReference/DocuPractMinimum"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="DocumentReference/DocuUC1aGastro20181201"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
     </resource>
@@ -312,7 +330,19 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Organization/SpitalSeeblick"/>
+        <reference value="Organization/SpitalSeeblickDoktorGastro"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/SpitalSeeblickDoktorPatho"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/SpitalSeeblickHansEgli"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization"/>
     </resource>

@@ -33,10 +33,22 @@ Content-Type: application/fhir+xml
 < ./organization/SpitalMinimum.xml
 
 ###
-PUT {{host}}/Organization/SpitalSeeblick HTTP/1.1
+PUT {{host}}/Organization/SpitalSeeblickDoktorGastro HTTP/1.1
 Content-Type: application/fhir+xml
 
-< ./organization/SpitalSeeblick.xml
+< ./organization/SpitalSeeblickDoktorGastro.xml
+
+###
+PUT {{host}}/Organization/SpitalSeeblickDoktorPatho HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/SpitalSeeblickDoktorPatho.xml
+
+###
+PUT {{host}}/Organization/SpitalSeeblickHansEgli HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./organization/SpitalSeeblickHansEgli.xml
 
 ###
 PUT {{host}}/Organization/AbteilungGastro HTTP/1.1
@@ -74,6 +86,12 @@ PUT {{host}}/DocumentReference/DocuPractMinimum HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./documentreference/DocuPractMinimum.xml
+
+###
+PUT {{host}}/DocumentReference/DocuUC1aGastro20181201 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./documentreference/DocuUC1aGastro20181201.xml
 
 
 ###
@@ -308,7 +326,11 @@ Content-Type: application/fhir+xml
 
 < ./composition/CompStructuredData.xml
 
+###
+PUT {{host}}/Composition/CompUC1aGastro20181201 HTTP/1.1
+Content-Type: application/fhir+xml
 
+< ./composition/CompUC1aGastro20181201.xml
 
 ###
 GET {{host}}/Patient/FranzMinimum HTTP/1.1
@@ -325,4 +347,8 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Composition/CompStructuredData/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1aGastro20181201/$document HTTP/1.1
 Content-Type: application/fhir+xml

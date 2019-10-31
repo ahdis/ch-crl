@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="BundleFromOrganization"/>
    <meta>
-      <lastUpdated value="2019-10-30T09:38:46.971+00:00"/>
+      <lastUpdated value="2019-10-31T08:51:46.828+00:00"/>
       <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
    </meta>
    <identifier>
@@ -90,8 +90,8 @@
          <DocumentReference xmlns="http://hl7.org/fhir">
             <id value="DocuHospMinimum"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2019-10-30T09:36:09.819+00:00"/>
+               <versionId value="2"/>
+               <lastUpdated value="2019-10-31T08:51:08.730+00:00"/>
                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
             </meta>
             <status value="current"/>
@@ -99,7 +99,7 @@
                <reference value="Patient/FranzMinimum"/>
             </subject>
             <author>
-               <reference value="Organization/SpitalMinimum"/>
+               <reference value="Organization/AbteilungMinimum"/>
             </author>
             <description value="Meldung an das Krebsregister"/>
             <content>
