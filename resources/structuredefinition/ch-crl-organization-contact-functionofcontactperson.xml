@@ -9,7 +9,7 @@
     <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Extension to define the function of contact person of an organization"/>
-    <fhirVersion value="4.0.0"/>
+    <fhirVersion value="4.0.1"/>
     <kind value="primitive-type"/>
     <abstract value="false"/>
     <context>
