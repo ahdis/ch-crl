@@ -9,7 +9,7 @@
     <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Communication for the date of informing the patient about the cancer registration"/> 
-    <fhirVersion value="4.0.0"/>
+    <fhirVersion value="4.0.1"/>
     <mapping>
         <identity value="KRV"/>
         <uri value="https://www.admin.ch/opc/de/classified-compilation/20172625/201806010000/818.331.pdf"/>

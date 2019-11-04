@@ -9,7 +9,7 @@
     <date value="2019-11-08"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Observation for the y-Prefix of pTNM"/>
-    <fhirVersion value="4.0.0"/>
+    <fhirVersion value="4.0.1"/>
     <mapping>
         <identity value="NICER-A"/>
         <uri value="https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip"/>
