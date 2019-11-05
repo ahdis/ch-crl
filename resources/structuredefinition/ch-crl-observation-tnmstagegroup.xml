@@ -141,7 +141,7 @@
             <slicing>
                 <discriminator>
                     <type value="value"/>
-                    <path value="$this"/>
+                    <path value="url"/>
                 </discriminator>
                 <ordered value="false"/>
                 <rules value="open"/>
@@ -158,6 +158,10 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
             </type>
         </element>
+        <element id="Observation.hasMember.reference:ch-crl-cT">
+            <path value="Observation.hasMember.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Observation.hasMember:ch-crl-cN">
             <path value="Observation.hasMember"/>
             <sliceName value="ch-crl-cN"/>
@@ -168,6 +172,10 @@
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cn"/>
             </type>
+        </element>
+        <element id="Observation.hasMember.reference:ch-crl-cN">
+            <path value="Observation.hasMember.reference"/>
+            <min value="1"/>
         </element>
         <element id="Observation.hasMember:ch-crl-cM">
             <path value="Observation.hasMember"/>
@@ -180,6 +188,10 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
             </type>
         </element>
+        <element id="Observation.hasMember.reference:ch-crl-cM">
+            <path value="Observation.hasMember.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Observation.hasMember:ch-crl-pT">
             <path value="Observation.hasMember"/>
             <sliceName value="ch-crl-pT"/>
@@ -190,6 +202,10 @@
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
             </type>
+        </element>
+        <element id="Observation.hasMember.reference:ch-crl-pT">
+            <path value="Observation.hasMember.reference"/>
+            <min value="1"/>
         </element>
         <element id="Observation.hasMember:ch-crl-pN">
             <path value="Observation.hasMember"/>
@@ -202,6 +218,10 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
             </type>
         </element>
+        <element id="Observation.hasMember.reference:ch-crl-pN">
+            <path value="Observation.hasMember.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Observation.hasMember:ch-crl-pM">
             <path value="Observation.hasMember"/>
             <sliceName value="ch-crl-pM"/>
@@ -212,6 +232,10 @@
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
             </type>
+        </element>
+        <element id="Observation.hasMember.reference:ch-crl-pM">
+            <path value="Observation.hasMember.reference"/>
+            <min value="1"/>
         </element>
     </differential>
 </StructureDefinition>

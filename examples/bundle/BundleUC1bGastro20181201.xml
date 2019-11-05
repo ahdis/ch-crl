@@ -9,7 +9,7 @@
       <value value="1234"/>
    </identifier>
    <type value="document"/>
-   <timestamp value="2018-12-01T06:19:20.680+00:00"/>
+   <timestamp value="2018-12-01T16:19:20.680+00:00"/>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/CompUC1bGastro20181201"/>
       <resource>

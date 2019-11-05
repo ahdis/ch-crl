@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ICD-10-Kolon20181202"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="86255-7"/>
+      <display value="Primary diagnosis ICD code"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/RobertMeier"/>
+  </subject>
+  <effectiveDateTime value="2018-12-02"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+      <version value="2019"/>
+      <code value="C18"/>
+      <display value="Bösartige Neubildung des Kolons"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

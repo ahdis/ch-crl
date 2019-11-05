@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="pT-20181202"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="21899-0"/>
+      <display value="Primary tumor.pathology Cancer"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/RobertMeier"/>
+  </subject>
+  <effectiveDateTime value="2018-12-02"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pt"/>
+      <code value="1"/>
+      <display value="pT1"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

@@ -23,11 +23,6 @@
     <valueSet value="http://fhir.ch/ig/ch-crl/ValueSet/nkrs-icdo3laterality"/>
     <content value="complete"/>
     <concept>
-        <code value="0"/>
-        <display value="Not applicable"/>
-        <definition value="Midline tumour; unpaired organ."/>
-    </concept>
-    <concept>
         <code value="1"/>
         <display value="Right"/>
     </concept>
