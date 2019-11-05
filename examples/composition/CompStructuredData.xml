@@ -43,24 +43,6 @@
       <reference value="Observation/DateOfIncidence"/>
     </entry>
     <entry>
-      <reference value="Observation/cT"/>
-    </entry>
-    <entry>
-      <reference value="Observation/cN"/>
-    </entry>
-    <entry>
-      <reference value="Observation/cM"/>
-    </entry>
-    <entry>
-      <reference value="Observation/pT"/>
-    </entry>
-    <entry>
-      <reference value="Observation/pN"/>
-    </entry>
-    <entry>
-      <reference value="Observation/pM-unknown"/>
-    </entry>
-    <entry>
       <reference value="Observation/ICD-10"/>
     </entry>
     <entry>

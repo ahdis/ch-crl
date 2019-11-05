@@ -1,6 +1,12 @@
 @host = http://test.fhir.ch/r4
 
 ###
+PUT {{host}}/Patient/ElseZimmerli HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./patient/ElseZimmerli.xml
+
+###
 PUT {{host}}/Patient/FranzMinimum HTTP/1.1
 Content-Type: application/fhir+xml
 

@@ -23,4 +23,22 @@
       <display value="Stage IV"/>
     </coding>
   </valueCodeableConcept>
+  <hasMember>
+    <reference value="Observation/cT"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/cN"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/cM"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/pT"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/pN"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/pM-unknown"/>
+  </hasMember>
 </Observation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="ElseZimmerli"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+  </meta>
+  <identifier>
+    <system value="urn:oid:2.16.756.5.32"/>
+    <value value="756.8833.2836.29"/>
+  </identifier>
+  <name>
+    <family value="Zimmerli"/>
+    <given value="Else"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1948-11-23"/>
+  <deceasedDateTime value="2019-03-24"/>
+  <address>
+    <postalCode value="8004" />
+  </address>
+</Patient>

@@ -588,6 +588,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Patient/ElseZimmerli"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/FranzMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
