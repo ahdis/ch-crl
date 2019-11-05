@@ -140,12 +140,18 @@
             <path value="Observation.hasMember"/>
             <slicing>
                 <discriminator>
-                    <type value="value"/>
-                    <path value="url"/>
+                    <type value="profile"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <ordered value="false"/>
                 <rules value="open"/>
             </slicing>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+            </type>
         </element>
         <element id="Observation.hasMember:ch-crl-cT">
             <path value="Observation.hasMember"/>
@@ -158,10 +164,6 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
             </type>
         </element>
-        <element id="Observation.hasMember.reference:ch-crl-cT">
-            <path value="Observation.hasMember.reference"/>
-            <min value="1"/>
-        </element>
         <element id="Observation.hasMember:ch-crl-cN">
             <path value="Observation.hasMember"/>
             <sliceName value="ch-crl-cN"/>
@@ -173,11 +175,7 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cn"/>
             </type>
         </element>
-        <element id="Observation.hasMember.reference:ch-crl-cN">
-            <path value="Observation.hasMember.reference"/>
-            <min value="1"/>
-        </element>
-        <element id="Observation.hasMember:ch-crl-cM">
+        <element id="Observation.hasMember:ch-crl-cm">
             <path value="Observation.hasMember"/>
             <sliceName value="ch-crl-cM"/>
             <short value="TNM clinical distant metastases category"/>
@@ -187,10 +185,6 @@
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
             </type>
-        </element>
-        <element id="Observation.hasMember.reference:ch-crl-cM">
-            <path value="Observation.hasMember.reference"/>
-            <min value="1"/>
         </element>
         <element id="Observation.hasMember:ch-crl-pT">
             <path value="Observation.hasMember"/>
@@ -203,10 +197,6 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
             </type>
         </element>
-        <element id="Observation.hasMember.reference:ch-crl-pT">
-            <path value="Observation.hasMember.reference"/>
-            <min value="1"/>
-        </element>
         <element id="Observation.hasMember:ch-crl-pN">
             <path value="Observation.hasMember"/>
             <sliceName value="ch-crl-pN"/>
@@ -218,10 +208,6 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
             </type>
         </element>
-        <element id="Observation.hasMember.reference:ch-crl-pN">
-            <path value="Observation.hasMember.reference"/>
-            <min value="1"/>
-        </element>
         <element id="Observation.hasMember:ch-crl-pM">
             <path value="Observation.hasMember"/>
             <sliceName value="ch-crl-pM"/>
@@ -232,10 +218,6 @@
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
             </type>
-        </element>
-        <element id="Observation.hasMember.reference:ch-crl-pM">
-            <path value="Observation.hasMember.reference"/>
-            <min value="1"/>
         </element>
     </differential>
 </StructureDefinition>

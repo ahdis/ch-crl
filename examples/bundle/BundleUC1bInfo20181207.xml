@@ -1,0 +1,172 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <id value="BundleUC1bInfo20181207"/>
+   <meta>
+      <lastUpdated value="2019-11-05T13:02:28.802+00:00"/>
+      <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+   </meta>
+   <identifier>
+      <system value="http://example.fhir"/>
+      <value value="1234"/>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2018-12-07T16:19:20.680+00:00"/>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/CompUC1bInfo20181207"/>
+      <resource>
+         <Composition xmlns="http://hl7.org/fhir">
+            <id value="CompUC1bInfo20181207"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-11-05T12:59:22.615+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+            </meta>
+            <status value="final"/>
+            <type>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="72134-0"/>
+                  <display value="Cancer event report"/>
+               </coding>
+            </type>
+            <subject>
+               <reference value="Patient/RobertMeier"/>
+            </subject>
+            <date value="2018-12-07T13:00:00+02:00"/>
+            <author>
+               <reference value="Practitioner/AgnesBauer"/>
+            </author>
+            <title value="Information über Diagnose und Patienteninformation"/>
+            <section>
+               <entry>
+                  <reference value="Communication/CommMeier"/>
+               </entry>
+               <entry>
+                  <reference value="Observation/ICD-10-Kolon20181207"/>
+               </entry>
+            </section>
+         </Composition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/ICD-10-Kolon20181207"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="ICD-10-Kolon20181207"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-11-05T12:57:34.874+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+            </meta>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="86255-7"/>
+                  <display value="Primary diagnosis ICD code"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/RobertMeier"/>
+            </subject>
+            <effectiveDateTime value="2018-12-07"/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+                  <version value="2019"/>
+                  <code value="C18"/>
+                  <display value="Bösartige Neubildung des Kolons"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Communication/CommMeier"/>
+      <resource>
+         <Communication xmlns="http://hl7.org/fhir">
+            <id value="CommMeier"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-11-05T12:57:53.697+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
+            </meta>
+            <status value="completed"/>
+            <subject>
+               <reference value="Patient/RobertMeier"/>
+            </subject>
+            <topic>
+               <coding>
+                  <display value="2018-12-07"/>
+               </coding>
+            </topic>
+            <sent value="2018-12-07T13:00:00+02:00"/>
+         </Communication>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/AgnesBauer"/>
+      <resource>
+         <Practitioner xmlns="http://hl7.org/fhir">
+            <id value="AgnesBauer"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-11-05T12:59:05.006+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601900041930"/>
+            </identifier>
+            <name>
+               <family value="Bauer"/>
+               <given value="Agnes"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="031 683 13 03"/>
+            </telecom>
+            <telecom>
+               <system value="email"/>
+               <value value="agnes.bauer@hausarzt.ch"/>
+            </telecom>
+            <address>
+               <line value="Seestrasse 11"/>
+               <city value="Zürich"/>
+               <state value="ZH"/>
+               <postalCode value="8001"/>
+            </address>
+            <gender value="female"/>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Patient/RobertMeier"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="RobertMeier"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2019-11-05T06:14:25.233+00:00"/>
+               <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-patient"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.756.5.32"/>
+               <value value="756.9217.0023.43"/>
+            </identifier>
+            <name>
+               <family value="Meier"/>
+               <given value="Robert"/>
+            </name>
+            <gender value="male"/>
+            <birthDate value="1955-01-27"/>
+            <deceasedBoolean value="false"/>
+            <address>
+               <line value="Winterthurerstrasse 13a"/>
+               <city value="Wallisellen"/>
+               <state value="ZH"/>
+               <postalCode value="8304"/>
+            </address>
+         </Patient>
+      </resource>
+   </entry>
+</Bundle>

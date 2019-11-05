@@ -241,6 +241,12 @@ Content-Type: application/fhir+xml
 < ./observation/ICD-10-Kolon20181202.xml
 
 ###
+PUT {{host}}/Observation/ICD-10-Kolon20181207 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-10-Kolon20181207.xml
+
+###
 PUT {{host}}/Observation/ICD-10 HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -561,6 +567,12 @@ Content-Type: application/fhir+xml
 < ./composition/CompUC1bGastro20181201.xml
 
 ###
+PUT {{host}}/Composition/CompUC1bInfo20181207 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompUC1bInfo20181207.xml
+
+###
 PUT {{host}}/Composition/CompUC1bPatho20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -606,6 +618,10 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Composition/CompUC1bGastro20181201/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1bInfo20181207/$document HTTP/1.1
 Content-Type: application/fhir+xml
 
 ###
