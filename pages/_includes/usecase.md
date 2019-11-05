@@ -37,7 +37,7 @@ Das Biopsiematerial wird im [pathologischen Institut](Organization-AbteilungPath
 Bei [Robert Meier](Patient-RobertMeier.html) wird im [Spital Seeblick](Organization-SpitalSeeblickHansEgli.html) eine Hemikolektomie durchgeführt. Das Exzisat wird an das [pathologische Institut](Organization-AbteilungPatho.html) zur Untersuchung geschickt. Der Abteilungsarzt Hans Egli, als zuständig Ansprechperson des [Spitals](Organization-SpitalSeeblickHansEgli.html), **informiert das Krebsregister über die Operation.**
 * Opertationsbericht: 
     [Use Case 1a (PDF)](Bundle-BundleUC1aOps20181214.html), 
-    [Use Case 1b (strukturiert)]
+    [Use Case 1b (strukturiert)](Bundle-BundleUC1bOps20181214.html)
 
 #### Pathologische Untersuchung
 *Diagnostik vom 15. Dezember 2018*  

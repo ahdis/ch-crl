@@ -90,6 +90,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/BundleUC1bOps20181214"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Bundle/BundleUC1bPatho20181202"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
@@ -163,6 +169,12 @@
     <resource>
       <reference>
         <reference value="Composition/CompUC1bInfo20181207"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompUC1bOps20181214"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
     </resource>
@@ -319,6 +331,12 @@
     <resource>
       <reference>
         <reference value="Observation/ICD-10-Kolon20181207"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/ICD-10-Kolon20181214"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
     </resource>
@@ -648,6 +666,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Procedure/DiagnosticMethod-Biopsy20181214"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Procedure/DiagnosticMethod-Endoscopy20181201"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
@@ -655,6 +679,12 @@
     <resource>
       <reference>
         <reference value="Procedure/DiagnosticMethod-Endoscopy20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Procedure/DiagnosticMethod-Surgical20181214"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
     </resource>
