@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="CompUC1bGastro20181201"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+  </meta>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="72134-0"/>
+      <display value="Cancer event report"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/RobertMeier"/>
+  </subject>
+  <date value="2018-12-01T13:00:00+02:00"/>
+  <author>
+    <reference value="Organization/AbteilungGastro"/>
+  </author>
+  <title value="Bericht Koloskopie"/>
+  <section>
+    <entry>
+      <reference value="Procedure/DiagnosticMethod-Endoscopy20181201"/>
+    </entry>
+    <entry>
+      <reference value="Procedure/DiagnosticMethod-Biopsy20181201"/>
+    </entry>
+  </section>
+</Composition>

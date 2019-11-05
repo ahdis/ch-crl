@@ -78,6 +78,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/BundleUC1bGastro20181201"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Communication/CommMeier"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
@@ -133,6 +139,12 @@
     <resource>
       <reference>
         <reference value="Composition/CompUC1aPatho20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/CompUC1bGastro20181201"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
     </resource>
@@ -237,6 +249,12 @@
         <reference value="Observation/DateOfIncidence"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/ICD-10-Kolon20181201"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
     </resource>
     <resource>
       <reference>
@@ -441,6 +459,18 @@
         <reference value="Practitioner/EmmaMinimum"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Procedure/DiagnosticMethod-Biopsy20181201"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Procedure/DiagnosticMethod-Endoscopy20181201"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
     </resource>
     <resource>
       <reference>

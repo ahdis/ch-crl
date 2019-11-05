@@ -193,6 +193,12 @@ Content-Type: application/fhir+xml
 < ./observation/DateOfIncidence.xml
 
 ###
+PUT {{host}}/Observation/ICD-10-Kolon20181201 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-10-Kolon20181201.xml
+
+###
 PUT {{host}}/Observation/ICD-10 HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -326,6 +332,18 @@ Content-Type: application/fhir+xml
 
 
 ###
+PUT {{host}}/Procedure/DiagnosticMethod-Biopsy20181201 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./procedure/DiagnosticMethod-Biopsy20181201.xml
+
+###
+PUT {{host}}/Procedure/DiagnosticMethod-Endoscopy20181201 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./procedure/DiagnosticMethod-Endoscopy20181201.xml
+
+###
 PUT {{host}}/Procedure/DiagnosticMethod HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -380,6 +398,12 @@ Content-Type: application/fhir+xml
 
 < ./composition/CompUC1aPatho20181215.xml
 
+###
+PUT {{host}}/Composition/CompUC1bGastro20181201 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompUC1bGastro20181201.xml
+
 
 ###
 GET {{host}}/Patient/FranzMinimum HTTP/1.1
@@ -416,4 +440,8 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Composition/CompUC1aPatho20181215/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1bGastro20181201/$document HTTP/1.1
 Content-Type: application/fhir+xml

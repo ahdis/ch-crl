@@ -14,8 +14,9 @@ Der nachfolgende Use Case dient der Illustration der Prozesse im Zusammenhang mi
 #### Besuch beim Gastroenterologen
 *Arztbesuch vom 1. Dezember 2018*  
 [Robert Meier](Patient-RobertMeier.html) erhält einen Termin auf der [Abteilung Gastroenterologie](Organization-AbteilungGastro.html) im [Spital Seeblick](Organization-SpitalSeeblickDoktorGastro.html). Der Gastroenterologe führt die Koloskopie durch und entnimmt eine Biopsie vom vermuteten Tumor. Der Gastroenterologe **informiert das Krebsregister über die Koloskopie.**
-* Use Case 1a: [Bericht Koloskopie](Bundle-BundleUC1aGastro20181201.html)   
-* Use Case 1b:
+* Bericht Koloskopie: 
+    [Use Case 1a (PDF)](Bundle-BundleUC1aGastro20181201.html), 
+    [Use Case 1b (strukturiert)](Bundle-BundleUC1bGastro20181201.html)
 
 #### Pathologische Untersuchung
 *Diagnostik vom 2. Dezember 2018*  
