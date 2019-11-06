@@ -102,6 +102,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/BundleUC1bPatho20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Communication/CommMeier"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
@@ -186,6 +192,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Composition/CompUC1bPatho20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-composition"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Condition/ConcomitantDiseaseA"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
@@ -264,6 +276,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/a-PrefixOfpTNM-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-aprefixofptnm"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/a-PrefixOfpTNM"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-aprefixofptnm"/>
@@ -271,6 +289,12 @@
     <resource>
       <reference>
         <reference value="Observation/cM-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/cM-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cm"/>
     </resource>
@@ -288,6 +312,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/cN-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cn"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/cN"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-cn"/>
@@ -300,6 +330,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/cT-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/cT"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-ct"/>
@@ -307,6 +343,12 @@
     <resource>
       <reference>
         <reference value="Observation/DateOfIncidence-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/DateOfIncidence-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
     </resource>
@@ -342,6 +384,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/ICD-10-Kolon20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/ICD-10"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
@@ -349,6 +397,12 @@
     <resource>
       <reference>
         <reference value="Observation/ICD-O-3-Behaviour-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3behaviour"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/ICD-O-3-Behaviour-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3behaviour"/>
     </resource>
@@ -366,6 +420,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/ICD-O-3-HistologicalGrade-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/ICD-O-3-HistologicalGrade-unknown"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
@@ -373,6 +433,12 @@
     <resource>
       <reference>
         <reference value="Observation/ICD-O-3-Laterality-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/ICD-O-3-Laterality-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
     </resource>
@@ -390,6 +456,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/ICD-O-3-Morphology-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphology"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/ICD-O-3-Morphology"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphology"/>
@@ -397,6 +469,12 @@
     <resource>
       <reference>
         <reference value="Observation/ICD-O-3-Topography-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/ICD-O-3-Topography-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
     </resource>
@@ -414,6 +492,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/LymphaticInvasion-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-lymphaticinvasion"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/LymphaticInvasion"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-lymphaticinvasion"/>
@@ -421,6 +505,12 @@
     <resource>
       <reference>
         <reference value="Observation/m-SuffixOfpT-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/m-SuffixOfpT-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
     </resource>
@@ -450,6 +540,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/NumberExaminedRegionalLymphNodes-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/NumberExaminedRegionalLymphNodes-unknown"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
@@ -463,6 +559,12 @@
     <resource>
       <reference>
         <reference value="Observation/NumberInvolvedRegionalLymphNodes-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/NumberInvolvedRegionalLymphNodes-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
     </resource>
@@ -486,6 +588,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/PerineuralInvasion-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-perineuralinvasion"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/PerineuralInvasion"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-perineuralinvasion"/>
@@ -493,6 +601,12 @@
     <resource>
       <reference>
         <reference value="Observation/pM-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="Observation/pM-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pm"/>
     </resource>
@@ -510,6 +624,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/pN-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/pN"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pn"/>
@@ -517,6 +637,12 @@
     <resource>
       <reference>
         <reference value="Observation/pT-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/pT-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-pt"/>
     </resource>
@@ -534,6 +660,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/TNM-StageGroup-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/TNM-StageGroup"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
@@ -541,6 +673,12 @@
     <resource>
       <reference>
         <reference value="Observation/VenousInvasion-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/VenousInvasion-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
     </resource>
@@ -558,6 +696,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/y-PrefixOfcTNM-20181215"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/y-PrefixOfcTNM"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
@@ -565,6 +709,12 @@
     <resource>
       <reference>
         <reference value="Observation/y-PrefixOfpTNM-20181202"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofptnm"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/y-PrefixOfpTNM-20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofptnm"/>
     </resource>
@@ -685,6 +835,12 @@
     <resource>
       <reference>
         <reference value="Procedure/DiagnosticMethod-Surgical20181214"/>
+      </reference>
+      <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Procedure/DiagnosticMethod-Surgical20181215"/>
       </reference>
       <exampleCanonical value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
     </resource>

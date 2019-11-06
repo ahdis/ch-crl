@@ -175,6 +175,12 @@ Content-Type: application/fhir+xml
 < ./observation/a-PrefixOfpTNM-20181202.xml
 
 ###
+PUT {{host}}/Observation/a-PrefixOfpTNM-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/a-PrefixOfpTNM-20181215.xml
+
+###
 PUT {{host}}/Observation/a-PrefixOfpTNM HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -185,6 +191,12 @@ PUT {{host}}/Observation/cM-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/cM-20181202.xml
+
+###
+PUT {{host}}/Observation/cM-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/cM-20181215.xml
 
 ###
 PUT {{host}}/Observation/cM HTTP/1.1
@@ -199,6 +211,12 @@ Content-Type: application/fhir+xml
 < ./observation/cN-20181202.xml
 
 ###
+PUT {{host}}/Observation/cN-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/cN-20181215.xml
+
+###
 PUT {{host}}/Observation/cN HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -211,6 +229,12 @@ Content-Type: application/fhir+xml
 < ./observation/cT-20181202.xml
 
 ###
+PUT {{host}}/Observation/cT-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/cT-20181215.xml
+
+###
 PUT {{host}}/Observation/cT HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -221,6 +245,12 @@ PUT {{host}}/Observation/DateOfIncidence-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/DateOfIncidence-20181202.xml
+
+###
+PUT {{host}}/Observation/DateOfIncidence-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/DateOfIncidence-20181215.xml
 
 ###
 PUT {{host}}/Observation/DateOfIncidence HTTP/1.1
@@ -253,6 +283,12 @@ Content-Type: application/fhir+xml
 < ./observation/ICD-10-Kolon20181214.xml
 
 ###
+PUT {{host}}/Observation/ICD-10-Kolon20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-10-Kolon20181215.xml
+
+###
 PUT {{host}}/Observation/ICD-10 HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -263,6 +299,12 @@ PUT {{host}}/Observation/ICD-O-3-Behaviour-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/ICD-O-3-Behaviour-20181202.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-Behaviour-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Behaviour-20181215.xml
 
 ###
 PUT {{host}}/Observation/ICD-O-3-Behaviour HTTP/1.1
@@ -277,6 +319,12 @@ Content-Type: application/fhir+xml
 < ./observation/ICD-O-3-HistologicalGrade-20181202.xml
 
 ###
+PUT {{host}}/Observation/ICD-O-3-HistologicalGrade-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-HistologicalGrade-20181215.xml
+
+###
 PUT {{host}}/Observation/ICD-O-3-HistologicalGrade-unknown HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -287,6 +335,12 @@ PUT {{host}}/Observation/ICD-O-3-Laterality-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/ICD-O-3-Laterality-20181202.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-Laterality-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Laterality-20181215.xml
 
 ###
 PUT {{host}}/Observation/ICD-O-3-Laterality HTTP/1.1
@@ -301,6 +355,12 @@ Content-Type: application/fhir+xml
 < ./observation/ICD-O-3-Morphology-20181202.xml
 
 ###
+PUT {{host}}/Observation/ICD-O-3-Morphology-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Morphology-20181215.xml
+
+###
 PUT {{host}}/Observation/ICD-O-3-Morphology HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -311,6 +371,12 @@ PUT {{host}}/Observation/ICD-O-3-Topography-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/ICD-O-3-Topography-20181202.xml
+
+###
+PUT {{host}}/Observation/ICD-O-3-Topography-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/ICD-O-3-Topography-20181215.xml
 
 ###
 PUT {{host}}/Observation/ICD-O-3-Topography HTTP/1.1
@@ -325,6 +391,12 @@ Content-Type: application/fhir+xml
 < ./observation/LymphaticInvasion-20181202.xml
 
 ###
+PUT {{host}}/Observation/LymphaticInvasion-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/LymphaticInvasion-20181215.xml
+
+###
 PUT {{host}}/Observation/LymphaticInvasion HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -335,6 +407,12 @@ PUT {{host}}/Observation/m-SuffixOfpT-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/m-SuffixOfpT-20181202.xml
+
+###
+PUT {{host}}/Observation/m-SuffixOfpT-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/m-SuffixOfpT-20181215.xml
 
 ###
 PUT {{host}}/Observation/m-SuffixOfpT-unknown HTTP/1.1
@@ -361,6 +439,12 @@ Content-Type: application/fhir+xml
 < ./observation/NumberExaminedRegionalLymphNodes-20181202.xml
 
 ###
+PUT {{host}}/Observation/NumberExaminedRegionalLymphNodes-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/NumberExaminedRegionalLymphNodes-20181215.xml
+
+###
 PUT {{host}}/Observation/NumberExaminedRegionalLymphNodes-unknown HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -377,6 +461,12 @@ PUT {{host}}/Observation/NumberInvolvedRegionalLymphNodes-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/NumberInvolvedRegionalLymphNodes-20181202.xml
+
+###
+PUT {{host}}/Observation/NumberInvolvedRegionalLymphNodes-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/NumberInvolvedRegionalLymphNodes-20181215.xml
 
 ###
 PUT {{host}}/Observation/NumberInvolvedRegionalLymphNodes-unknown HTTP/1.1
@@ -397,6 +487,12 @@ Content-Type: application/fhir+xml
 < ./observation/PerineuralInvasion-20181202.xml
 
 ###
+PUT {{host}}/Observation/PerineuralInvasion-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/PerineuralInvasion-20181215.xml
+
+###
 PUT {{host}}/Observation/PerineuralInvasion HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -407,6 +503,12 @@ PUT {{host}}/Observation/pM-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/pM-20181202.xml
+
+###
+PUT {{host}}/Observation/pM-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/pM-20181215.xml
 
 ###
 PUT {{host}}/Observation/pM-unknown HTTP/1.1
@@ -421,6 +523,12 @@ Content-Type: application/fhir+xml
 < ./observation/pN-20181202.xml
 
 ###
+PUT {{host}}/Observation/pN-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/pN-20181215.xml
+
+###
 PUT {{host}}/Observation/pN HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -431,6 +539,12 @@ PUT {{host}}/Observation/pT-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/pT-20181202.xml
+
+###
+PUT {{host}}/Observation/pT-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/pT-20181215.xml
 
 ###
 PUT {{host}}/Observation/pT HTTP/1.1
@@ -445,6 +559,12 @@ Content-Type: application/fhir+xml
 < ./observation/TNM-StageGroup-20181202.xml
 
 ###
+PUT {{host}}/Observation/TNM-StageGroup-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/TNM-StageGroup-20181215.xml
+
+###
 PUT {{host}}/Observation/TNM-StageGroup HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -455,6 +575,12 @@ PUT {{host}}/Observation/VenousInvasion-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/VenousInvasion-20181202.xml
+
+###
+PUT {{host}}/Observation/VenousInvasion-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/VenousInvasion-20181215.xml
 
 ###
 PUT {{host}}/Observation/VenousInvasion HTTP/1.1
@@ -469,6 +595,12 @@ Content-Type: application/fhir+xml
 < ./observation/y-PrefixOfcTNM-20181202.xml
 
 ###
+PUT {{host}}/Observation/y-PrefixOfcTNM-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/y-PrefixOfcTNM-20181215.xml
+
+###
 PUT {{host}}/Observation/y-PrefixOfcTNM HTTP/1.1
 Content-Type: application/fhir+xml
 
@@ -479,6 +611,12 @@ PUT {{host}}/Observation/y-PrefixOfpTNM-20181202 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./observation/y-PrefixOfpTNM-20181202.xml
+
+###
+PUT {{host}}/Observation/y-PrefixOfpTNM-20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./observation/y-PrefixOfpTNM-20181215.xml
 
 ###
 PUT {{host}}/Observation/y-PrefixOfpTNM HTTP/1.1
@@ -522,6 +660,12 @@ PUT {{host}}/Procedure/DiagnosticMethod-Surgical20181214 HTTP/1.1
 Content-Type: application/fhir+xml
 
 < ./procedure/DiagnosticMethod-Surgical20181214.xml
+
+###
+PUT {{host}}/Procedure/DiagnosticMethod-Surgical20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./procedure/DiagnosticMethod-Surgical20181215.xml
 
 ###
 PUT {{host}}/Procedure/DiagnosticMethod HTTP/1.1
@@ -602,6 +746,12 @@ Content-Type: application/fhir+xml
 
 < ./composition/CompUC1bPatho20181202.xml
 
+###
+PUT {{host}}/Composition/CompUC1bPatho20181215 HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/CompUC1bPatho20181215.xml
+
 
 ###
 GET {{host}}/Patient/FranzMinimum HTTP/1.1
@@ -654,4 +804,8 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Composition/CompUC1bPatho20181202/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/CompUC1bPatho20181215/$document HTTP/1.1
 Content-Type: application/fhir+xml

@@ -43,5 +43,5 @@ Bei [Robert Meier](Patient-RobertMeier.html) wird im [Spital Seeblick](Organizat
 *Diagnostik vom 15. Dezember 2018*  
 Das Exzisionsmaterial wird im [pathologischen Institut](Organization-AbteilungPatho.html) untersucht. Dabei kann das Karzinom genauer beschrieben werden. Das [Institut](Organization-AbteilungPatho.html) **übermittelt das Resultat** an die [Hausärztin](Practitioner-AgnesBauer.html), die [Gastroenterologie](Organization-AbteilungGastro.html) und **das Krebsregister**.
 * Pathologischer Befund: 
-    [Use Case 1a (PDF)](Bundle-BundleUC1aPatho20181215.html),   
-    [Use Case 1b (strukturiert)]
+    [Use Case 1a (PDF)](Bundle-BundleUC1aPatho20181215.html), 
+    [Use Case 1b (strukturiert)](Bundle-BundleUC1bPatho20181215.html)

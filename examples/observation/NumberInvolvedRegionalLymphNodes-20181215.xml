@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="NumberInvolvedRegionalLymphNodes-20181215"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
+  </meta>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="21893-3"/>
+      <display value="Regional lymph nodes positive [#] Specimen"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/RobertMeier"/>
+  </subject>
+  <effectiveDateTime value="2018-12-15"/>
+  <valueQuantity>
+    <value value="0"/>
+  </valueQuantity>
+</Observation>
