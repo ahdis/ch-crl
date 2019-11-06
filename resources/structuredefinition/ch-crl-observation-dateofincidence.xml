@@ -67,6 +67,7 @@
         </element>
         <element id="Observation.effectiveDateTime">
             <path value="Observation.effectiveDateTime"/>
+            <short value="Clinically relevant time/time-period for observation"/>
             <min value="1"/>
             <type>
                 <code value="dateTime"/>
