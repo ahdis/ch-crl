@@ -39,18 +39,6 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Procedure.category.coding.system">
-            <path value="Procedure.category.coding.system"/>
-            <min value="1"/>
-        </element>
-        <element id="Procedure.category.coding.code">
-            <path value="Procedure.category.coding.code"/>
-            <min value="1"/>
-        </element>
-        <element id="Procedure.category.coding.display">
-            <path value="Procedure.category.coding.display"/>
-            <min value="1"/>
-        </element>
         <element id="Procedure.code">
             <path value="Procedure.code"/>
             <short value="Identification of the diagnostic method"/>

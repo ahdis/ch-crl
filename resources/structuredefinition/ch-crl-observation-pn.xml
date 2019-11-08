@@ -40,19 +40,7 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Observation.code.coding.system">
-            <path value="Observation.code.coding.system"/>
-            <min value="1"/>
-        </element>
-        <element id="Observation.code.coding.code">
-            <path value="Observation.code.coding.code"/>
-            <min value="1"/>
-        </element>
-        <element id="Observation.code.coding.display">
-            <path value="Observation.code.coding.display"/>
-            <min value="1"/>
-        </element>
-       <element id="Observation.subject">
+        <element id="Observation.subject">
             <path value="Observation.subject"/>
             <short value="Patient"/>
             <min value="1"/>
@@ -81,7 +69,7 @@
                 <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-organization-department"/>
             </type>
         </element>
-         <element id="Observation.performer.reference">
+        <element id="Observation.performer.reference">
             <path value="Observation.performer.reference"/>
             <min value="1"/>
         </element>
@@ -129,7 +117,7 @@
         </element>
         <element id="Observation.dataAbsentReason.coding.code">
             <path value="Observation.dataAbsentReason.coding.code"/>
-            <short value="If not applicable or TNM classification not defined for this type of cancer than 'value=not-applicable'. If not stated / not assessed than 'value=unknown'."/> 
+            <short value="If not applicable or TNM classification not defined for this type of cancer than 'value=not-applicable'. If not stated / not assessed than 'value=unknown'."/>
             <min value="1"/>
         </element>
         <element id="Observation.dataAbsentReason.coding.display">
