@@ -29,7 +29,6 @@
       "path": "http://fhir.ch/ig/ch-crl/0.1.0/index.html",
       "status": "draft",
       "fhirVersion": "4.0.0",
-      "current": false,
       "sequence": "STU"
     }
   ]
