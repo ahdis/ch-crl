@@ -9,7 +9,7 @@
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Profile on Composition for Reporting to the Cancer Registry"/>
-    <fhirVersion value="4.0.0" />
+    <fhirVersion value="4.0.1" />
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Composition"/>

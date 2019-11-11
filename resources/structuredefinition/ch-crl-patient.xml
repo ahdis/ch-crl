@@ -9,7 +9,7 @@
     <date value="2019-09-02"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
     <description value="Profile on Patient for Reporting to the Cancer Registry"/>
-    <fhirVersion value="4.0.0"/>
+    <fhirVersion value="4.0.1"/>
     <mapping>
         <identity value="KRG"/>
         <uri value="https://www.admin.ch/opc/de/classified-compilation/20121618/201806010000/818.33.pdf"/>
