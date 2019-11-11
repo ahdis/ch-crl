@@ -5,21 +5,39 @@
   "canonical": "http://fhir.ch/ig/ch-crl",
   "list": [
     {
-      "version": "0.2.0",
+      "version": "0.2.1",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://build.fhir.org/ig/ch-crl/index.html",
+      "path": "http://build.fhir.org/ig/ahdis/ch-crl/index.html",
       "fhirVersion": "4.0.1",
       "status": "draft",
       "sequence": "STU"
     },
     {
-      "version": "0.1.0",
-      "date": "2019-09-02",
-      "desc": "Draft version 0.1.0 for public comment",
+      "version": "0.2.0",
+      "date": "2019-11-18",
+      "desc": "Draft version 0.2.0 of use case 1b for public comment",
       "path": "http://fhir.ch/ig/ch-crl/index.html",
-      "status": "draft",
+      "status": "trial-use",
       "fhirVersion": "4.0.1",
       "current": true,
+      "sequence": "STU"
+    },
+    {
+      "version": "0.1.1",
+      "date": "2019-11-11",
+      "desc": "Final version 0.1.1 of use case 1a",
+      "path": "http://fhir.ch/ig/ch-crl/0.1.1/index.html",
+      "status": "trial-use",
+      "fhirVersion": "4.0.1",
+      "sequence": "STU"
+    },
+    {
+      "version": "0.1.0",
+      "date": "2019-09-02",
+      "desc": "Draft version 0.1.0 of use case 1a for public comment",
+      "path": "http://fhir.ch/ig/ch-crl/0.1.0/index.html",
+      "status": "draft",
+      "fhirVersion": "4.0.1",
       "sequence": "STU"
     }
   ]
