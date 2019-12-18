@@ -7,9 +7,10 @@
   <status value="final"/>
   <code>
     <coding>
+      <!-- TBD: may be specified more precisely as snomed swiss extension -->
       <system value="http://snomed.info/sct"/>
-      <code value="373847000"/>
-      <display value="Neo-adjuvant - intent"/>
+      <code value="373846009"/>
+      <display value="Adjuvant - intent"/>
     </coding>
   </code>
   <subject>

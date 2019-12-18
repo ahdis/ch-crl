@@ -34,6 +34,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
+                    <!-- TBD: may be specified more precisely as snomed swiss extension -->
                     <system value="http://snomed.info/sct"/>
                     <code value="373847000"/>
                     <display value="Neo-adjuvant - intent"/>
