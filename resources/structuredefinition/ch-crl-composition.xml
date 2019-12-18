@@ -69,7 +69,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -80,29 +80,29 @@
             <path value="Composition.section.entry"/>
             <sliceName value="documentReference"/>
             <short value="Report as pdf"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
+            </type>
         </element>
         <element id="Composition.section.entry:documentReference.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-documentreference"/>
-            </type>
         </element>
-
+        
         <!-- Section communication -->
         <element id="Composition.section.entry:communication">
             <path value="Composition.section.entry"/>
             <sliceName value="communication"/>
             <short value="Date of informing the patient about the cancer registration"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
+            </type>
         </element>
         <element id="Composition.section.entry:communication.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-communication"/>
-            </type>
         </element>
 
         <!-- Section final cause of death -->
@@ -110,59 +110,29 @@
             <path value="Composition.section.entry"/>
             <sliceName value="finalCauseOfDeath"/>
             <short value="Final cause of death"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-finalcauseofdeath"/>
+            </type>
         </element>
         <element id="Composition.section.entry:finalCauseOfDeath.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-finalcauseofdeath"/>
-            </type>
         </element>
 
-        <!-- Section primary disease -->
-        <element id="Composition.section.entry:primaryDisease">
+        <!-- Section primary disease & secondary disease & concomitant disease -->
+        <element id="Composition.section.entry:diseases">
             <path value="Composition.section.entry"/>
-            <sliceName value="primaryDisease"/>
-            <short value="Primary disease"/>
-        </element>
-        <element id="Composition.section.entry:primaryDisease.reference">
-            <path value="Composition.section.entry.reference"/>
-            <min value="1"/>
+            <sliceName value="diseases"/>
+            <short value="Primary disease, secondary disease and concomitant diseases (A and B)"/>
             <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
             </type>
         </element>
-
-        <!-- Section secondary disease -->
-        <element id="Composition.section.entry:secondaryDisease">
-            <path value="Composition.section.entry"/>
-            <sliceName value="secondaryDisease"/>
-            <short value="Secondary disease"/>
-        </element>
-        <element id="Composition.section.entry:secondaryDisease.reference">
+        <element id="Composition.section.entry:diseases.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
-            </type>
-        </element>
-
-        <!-- Section concomitant disease -->
-        <element id="Composition.section.entry:concomitantDisease">
-            <path value="Composition.section.entry"/>
-            <sliceName value="concomitantDisease"/>
-            <short value="Concomitant disease"/>
-        </element>
-        <element id="Composition.section.entry:concomitantDisease.reference">
-            <path value="Composition.section.entry.reference"/>
-            <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-condition-disease"/>
-            </type>
         </element>
 
         <!-- Section date of incidence -->
@@ -170,14 +140,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="dateOfIncidence"/>
             <short value="Date of incidence"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
+            </type>
         </element>
         <element id="Composition.section.entry:dateOfIncidence.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-dateofincidence"/>
-            </type>
         </element>
 
         <!-- Section ICD-10 code -->
@@ -185,14 +155,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-10"/>
             <short value="ICD-10 code"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
+            </type>
         </element>
         <element id="Composition.section.entry:ICD-10.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icd10"/>
-            </type>
         </element>
 
         <!-- Section ICD-O-3 Morphology -->
@@ -200,14 +170,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Morphology"/>
             <short value="ICD-O-3 morphology code"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphology"/>
+            </type>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Morphology.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphology"/>
-            </type>
         </element>
 
         <!-- Section ICD-O-3 Topography -->
@@ -215,14 +185,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Topography"/>
             <short value="ICD-O-3 topography code"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
+            </type>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Topography.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3topography"/>
-            </type>
         </element>
 
         <!-- Section ICD-O-3 Behaviour -->
@@ -230,14 +200,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Behaviour"/>
             <short value="ICD-O-3 behaviour code"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3behaviour"/>
+            </type>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Behaviour.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3behaviour"/>
-            </type>
         </element>
 
         <!-- Section ICD-O-3 Laterality -->
@@ -245,14 +215,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-Laterality"/>
             <short value="ICD-O-3 laterality code"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
+            </type>
         </element>
         <element id="Composition.section.entry:ICD-O-3-Laterality.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3laterality"/>
-            </type>
         </element>
 
         <!-- Section ICD-O-3 Histological Grade -->
@@ -260,14 +230,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="ICD-O-3-HistologicalGrade"/>
             <short value="ICD-O-3 histological grade code"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
+            </type>
         </element>
         <element id="Composition.section.entry:ICD-O-3-HistologicalGrade.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3histologicalgrade"/>
-            </type>
         </element>
 
         <!-- Section y-Prefix of cTNM -->
@@ -275,14 +245,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="y-Prefix-cTNM"/>
             <short value="y-Prefix of cTNM"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
+            </type>
         </element>
         <element id="Composition.section.entry:y-Prefix-cTNM.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofctnm"/>
-            </type>
         </element>
 
         <!-- Section a-Prefix of pTNM -->
@@ -290,14 +260,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="a-Prefix-pTNM"/>
             <short value="a-Prefix of pTNM"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-aprefixofptnm"/>
+            </type>
         </element>
         <element id="Composition.section.entry:a-Prefix-pTNM.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-aprefixofptnm"/>
-            </type>
         </element>
 
         <!-- Section y-Prefix of pTNM -->
@@ -305,14 +275,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="y-Prefix-pTNM"/>
             <short value="y-Prefix of pTNM"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofptnm"/>
+            </type>
         </element>
         <element id="Composition.section.entry:y-Prefix-pTNM.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-yprefixofptnm"/>
-            </type>
         </element>
 
         <!-- Section m-Suffix of pT -->
@@ -320,14 +290,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="m-Suffix-pT"/>
             <short value="m-Suffix of pT"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
+            </type>
         </element>
         <element id="Composition.section.entry:m-Suffix-pT.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-msuffixofpt"/>
-            </type>
         </element>
 
         <!-- Section Number of involved regional lymph nodes -->
@@ -335,14 +305,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="numberInvolvedRegionalLymphNodes"/>
             <short value="Number of involved regional lymph nodes"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
+            </type>
         </element>
         <element id="Composition.section.entry:numberInvolvedRegionalLymphNodes.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberinvolvedregionallymphnodes"/>
-            </type>
         </element>
 
         <!-- Section Number of examined regional lymph nodes -->
@@ -350,14 +320,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="numberExaminedRegionalLymphNodes"/>
             <short value="Number of examined regional lymph nodes"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
+            </type>
         </element>
         <element id="Composition.section.entry:numberExaminedRegionalLymphNodes.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-numberexaminedregionallymphnodes"/>
-            </type>
         </element>
 
         <!-- Section Lymphatic Invasion -->
@@ -365,14 +335,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="lymphaticInvasion"/>
             <short value="Lymphatic invasion"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-lymphaticinvasion"/>
+            </type>
         </element>
         <element id="Composition.section.entry:lymphaticInvasion.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-lymphaticinvasion"/>
-            </type>
         </element>
 
         <!-- Section Venous Invasion -->
@@ -380,14 +350,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="venousInvasion"/>
             <short value="Venous invasion"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
+            </type>
         </element>
         <element id="Composition.section.entry:venousInvasion.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-venousinvasion"/>
-            </type>
         </element>
 
         <!-- Section Perineural Invasion -->
@@ -395,14 +365,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="perineuralInvasion"/>
             <short value="Perineural invasion"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-perineuralinvasion"/>
+            </type>
         </element>
         <element id="Composition.section.entry:perineuralInvasion.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-perineuralinvasion"/>
-            </type>
         </element>
 
         <!-- Section TNM Stage Group -->
@@ -410,14 +380,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="TNM-StageGroup"/>
             <short value="TNM stage group"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-tnmstagegroup"/>
+            </type>
         </element>
         <element id="Composition.section.entry:TNM-StageGroup.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-tnmstagegroup"/>
-            </type>
         </element>
 
 
@@ -426,14 +396,14 @@
             <path value="Composition.section.entry"/>
             <sliceName value="diagnosticMethod"/>
             <short value="Diagnostic method(s)"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
+            </type>
         </element>
         <element id="Composition.section.entry:diagnosticMethod.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
-            <type>
-                <code value="string"/>
-                <profile value="http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-procedure-diagnosticmethod"/>
-            </type>
         </element>
 
     </differential>
