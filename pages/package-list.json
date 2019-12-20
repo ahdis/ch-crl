@@ -16,7 +16,7 @@
     {
       "version": "0.2.1",
       "date": "2019-12-20",
-      "desc": "Final version 0.1.1 of use case 1b",
+      "desc": "Final version 0.2.1 of use case 1b",
       "path": "http://fhir.ch/ig/ch-crl",
       "status": "trial-use",
       "fhirVersion": "4.0.1",
