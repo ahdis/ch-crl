@@ -14,13 +14,22 @@
       "sequence": "STU"
     },
     {
+      "version": "0.2.1",
+      "date": "2019-12-20",
+      "desc": "Final version 0.1.1 of use case 1b",
+      "path": "http://fhir.ch/ig/ch-crl",
+      "status": "trial-use",
+      "fhirVersion": "4.0.1",
+      "current": true,
+      "sequence": "STU"
+    },
+    {
       "version": "0.2.0",
       "date": "2019-11-18",
       "desc": "Draft version 0.2.0 of use case 1b for public comment",
-      "path": "http://fhir.ch/ig/ch-crl",
+      "path": "http://fhir.ch/ig/ch-crl/0.2.0",
       "status": "draft",
       "fhirVersion": "4.0.1",
-      "current": true,
       "sequence": "STU"
     },
     {
