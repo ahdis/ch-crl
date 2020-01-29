@@ -319,32 +319,32 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson">
-            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson" />
+        <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson" />
             <min value="1"/>
             <max value="*"/>
             <type>
                 <code value="Element"/>
             </type>
         </element>
-        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Name">
-            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Name" />
+        <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Name">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Name" />
             <min value="1"/>
             <max value="1"/>
             <type>
                 <code value="string"/>
             </type>
         </element>
-        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Vorname">
-            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Vorname" />
+        <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Vorname">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Vorname" />
             <min value="1"/>
             <max value="*"/>
             <type>
                 <code value="string"/>
             </type>
         </element>
-        <element id="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Funktion">
-            <path value="CancerReport.MeldepflichtigeInstitution.ZuständigeAnsprechperson.Funktion" />
+        <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Funktion">
+            <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Funktion" />
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -430,8 +430,8 @@
             <min value="0"/>
             <max value="1"/>
         </element>
-        <element id="CancerReport.Todesursachen.EndgültigeTodesursache">
-            <path value="CancerReport.Todesursachen.EndgültigeTodesursache"/>
+        <element id="CancerReport.Todesursachen.EndgueltigeTodesursache">
+            <path value="CancerReport.Todesursachen.EndgueltigeTodesursache"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -507,8 +507,8 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimärTumor-cT">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimärTumor-cT"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimaerTumor-cT">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimaerTumor-cT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -531,8 +531,8 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimärTumor-pT">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimärTumor-pT"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimaerTumor-pT">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimaerTumor-pT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -595,24 +595,24 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-klinischesTNM">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-klinischesTNM"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-klinischesTNM">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-klinischesTNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="boolean"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.a-Präfix-pathologischesTNM">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.a-Präfix-pathologischesTNM"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.a-Praefix-pathologischesTNM">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.a-Praefix-pathologischesTNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="boolean"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-pathologischesTNM">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Präfix-pathologischesTNM"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-pathologischesTNM">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-pathologischesTNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -651,8 +651,8 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.DatenZurDiagnose.ICD-10.VenöserBefall">
-            <path value="CancerReport.DatenZurDiagnose.ICD-10.VenöserBefall"/>
+        <element id="CancerReport.DatenZurDiagnose.ICD-10.VenoeserBefall">
+            <path value="CancerReport.DatenZurDiagnose.ICD-10.VenoeserBefall"/>
             <min value="0"/>
             <max value="1"/>
             <type>
