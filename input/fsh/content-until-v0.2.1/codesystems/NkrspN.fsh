@@ -1,0 +1,42 @@
+CodeSystem: NkrspN
+Id: nkrs-pn
+Title: "NKRS - pN"
+Description: "The data item records the absence or presence and extent of regional lymph node metastasis, based on pathological evidence after completion of surgical therapy.           **pN (Variable number: 4.10)** in          \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\\' see           [Nationale Krebsregistrierungsstelle](https://www.nkrs.ch) > Partner im Gesundheitswesen >         [Information, Grundlagen und Datenstruktur zum KRG](https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip)."
+* ^version = "0.3.0"
+* ^status = #draft
+* ^date = "2019-11-08"
+* ^publisher = "Bundesamt für Gesundheit BAG"
+* ^contact.name = "Bundesamt für Gesundheit BAG"
+* ^contact.telecom.system = #url
+* ^contact.telecom.value = "https://www.bag.admin.ch/"
+* ^jurisdiction = urn:iso:std:iso:3166#CH
+* ^copyright = "CC-BY-SA-4.0"
+* ^caseSensitive = true
+* ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-pn"
+* ^content = #complete
+* #X "pNX"
+* #0 "pN0"
+* #1 "pN1"
+* #1mi "pN1mi"
+* #1(sn) "pN1(sn)"
+* #1a(sn) "pN1a(sn)"
+* #1a "pN1a"
+* #1b "pN1b"
+* #1c "pN1c"
+* #2 "pN2"
+* #2a "pN2a"
+* #2b "pN2b"
+* #2c "pN2c"
+* #3 "pN3"
+* #3a "pN3a"
+* #3b "pN3b"
+* #3c "pN3c"
+* #0i- "pN0i-"
+* #0i+ "pN0i+"
+* #0mol- "pN0mol-"
+* #0mol+ "pN0mol+"
+* #0(sn) "pN0(sn)"
+* #X(sn) "pNX(sn)"
+* #0(i-)(sn) "pN0(i-)(sn)"
+* #0(mol-)(sn) "pN0(mol-)(sn)"
+* #0(mol+)(sn) "pN0(mol+)(sn)"

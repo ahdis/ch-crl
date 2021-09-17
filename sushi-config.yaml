@@ -1,0 +1,34 @@
+id: ch.fhir.ig.ch-crl
+canonical: http://fhir.ch/ig/ch-crl
+name: CH_CRL
+title: "CH CRL (R4)"
+description: Implementation Guide CH CRL (R4)
+status: active
+license: CC-BY-SA-4.0
+copyright: CC-BY-SA-4.0
+jurisdiction: urn:iso:std:iso:3166#CH
+date: 2021-09-17
+version: 0.3.0
+fhirVersion: 4.0.1
+copyrightYear: 2019+
+releaseLabel: STU
+publisher:
+  name: Bundesamt für Gesundheit BAG
+contact:
+  name: Bundesamt für Gesundheit BAG
+  telecom:
+    system: url
+    value: https://www.bag.admin.ch/
+
+dependencies:
+  ch.fhir.ig.ch-core: 2.0.0
+
+pages:
+  index.md:
+    title: Home
+  profiles.html:
+    title: Profiles
+  extensions.html:
+    title: Extensions
+  terminology.html:
+    title: Terminology

@@ -1,0 +1,43 @@
+CodeSystem: NkrsDiagnosticMethodsUsed
+Id: nkrs-diagnosticmethodsused
+Title: "NKRS - Diagnostic Methods Used"
+Description: "The data item records all diagnostic methods used.           **Diagnostic method(s) used (Variable number: 2.8)** in         \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\\' see           [Nationale Krebsregistrierungsstelle](https://www.nkrs.ch) > Partner im Gesundheitswesen >         [Information, Grundlagen und Datenstruktur zum KRG](https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip)."
+* ^version = "0.3.0"
+* ^status = #draft
+* ^date = "2019-11-08"
+* ^publisher = "Bundesamt für Gesundheit BAG"
+* ^contact.name = "Bundesamt für Gesundheit BAG"
+* ^contact.telecom.system = #url
+* ^contact.telecom.value = "https://www.bag.admin.ch/"
+* ^jurisdiction = urn:iso:std:iso:3166#CH
+* ^copyright = "CC-BY-SA-4.0"
+* ^caseSensitive = true
+* ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-diagnosticmethodsused"
+* ^content = #complete
+* #0 "Death certificate notification"
+* #1 "Clinical examination undefined"
+* #2 "Clinical examination defined"
+* #3 "Tumour clinically palpable"
+* #4 "Radiodiagnostic of tumour (Xray)"
+* #5 "Echography of tumour (ultrasound, sonography)"
+* #6 "Scintigraphy of tumour (e.g. MIBG)"
+* #7 "CT scan of tumour"
+* #8 "MRI scan of tumour"
+* #9 "Specific imaging of tumour (e.g. PET/CT, SPECT, fluorescent optical imaging)"
+* #10 "Imaging to determine spread of disease (metastases)"
+* #11 "Endoscopy"
+* #12 "Imaging NOS"
+* #13 "Specific markers ( biochemical or immunological)"
+* #14 "Cytogenetic analysis (karyotype)"
+* #15 "Molecular markers (FISH, SNP, MLPA, PCR, DNA sequence etc.)"
+* #16 "Cytology NOS / Blood smear / peripheral blood"
+* #17 "Cytology of tumour (e.g. fine needle aspirate/ PAP)"
+* #18 "Bone marrow aspirate"
+* #19 "Bone marrow biopsy"
+* #20 "Biopsy unspecified"
+* #21 "Biopsy locoregional"
+* #22 "Biopsy of metastasis"
+* #23 "Biopsy of primary tumour"
+* #24 "Biopsy and resection (z.B. melanoma)"
+* #25 "Surgical tissue from operation (e.g. neuroendocrine tumours)"
+* #26 "Autopsy with histological confirmation"
