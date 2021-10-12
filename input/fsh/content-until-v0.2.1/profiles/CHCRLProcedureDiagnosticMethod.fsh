@@ -8,9 +8,6 @@ Description: "Procedure for the diagnostic method(s)"
 * category = $loinc#67183-4 "Diagnostic staging procedure PhenX"
 * code from NkrsDiagnosticMethodsUsed (required)
 * code ^short = "Identification of the diagnostic method"
-* code ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* code ^binding.extension.valueString = "ProcedureCode"
-* code ^binding.description = "A code to identify a specific procedure."
 * code.coding 1..
 * code.coding.system 1..
 * code.coding.code 1..

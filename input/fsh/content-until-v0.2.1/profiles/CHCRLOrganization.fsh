@@ -13,9 +13,6 @@ Description: "Organization of which the organization department forms a part"
 * identifier[BER].value ^short = "BER of the organization"
 * type 1..*
 * type from OrganizationType (extensible)
-* type ^short = "Kind of organization"
-* type ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* type ^binding.extension.valueString = "OrganizationType"
 * type.coding 1..
 * type.coding.system 1..
 * type.coding.code 1..

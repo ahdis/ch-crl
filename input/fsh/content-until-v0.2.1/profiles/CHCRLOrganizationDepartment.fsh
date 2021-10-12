@@ -6,9 +6,6 @@ Description: "Definition of the organization department (hospital) for reporting
 * . ^short = "CH CRL Organization Department"
 * type 1..*
 * type from $DocumentEntry.practiceSettingCode (preferred)
-* type ^short = "Kind of department"
-* type ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* type ^binding.extension.valueString = "OrganizationType"
 * type.coding 1..
 * type.coding.system 1..
 * type.coding.code 1..
