@@ -3,15 +3,6 @@ Parent: CHCoreDocument
 Id: ch-crl-bundle
 Title: "CH CRL Bundle Profile"
 Description: "Definition of the bundle for reporting to the cancer registry"
-* ^version = "0.3.0"
-* ^status = #draft
-* ^date = "2019-11-08"
-* ^publisher = "Bundesamt für Gesundheit BAG"
-* ^contact.name = "Bundesamt für Gesundheit BAG"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.bag.admin.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
-* ^copyright = "CC-BY-SA-4.0"
 * . ^short = "CH CRL Bundle"
 * identifier 1..
 * identifier.system 1..

@@ -3,15 +3,6 @@ Parent: Observation
 Id: ch-crl-observation-numberinvolvedregionallymphnodes
 Title: "CH CRL Observation Number of Involved Regional Lymph Nodes Profile"
 Description: "Observation for the number of involved regional lymph nodes"
-* ^version = "0.3.0"
-* ^status = #draft
-* ^date = "2019-11-08"
-* ^publisher = "Bundesamt für Gesundheit BAG"
-* ^contact.name = "Bundesamt für Gesundheit BAG"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.bag.admin.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
-* ^copyright = "CC-BY-SA-4.0"
 * . ^short = "CH CRL Observation Number of Involved Regional Lymph Nodes"
 * code 1..
 * code = $loinc#21893-3 "Regional lymph nodes positive [#] Specimen"

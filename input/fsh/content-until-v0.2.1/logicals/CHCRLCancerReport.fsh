@@ -13,16 +13,6 @@ Parent: Element
 Id: ch-crl-cancerreport
 Title: "CH CRL Cancer Report Logical Model"
 Description: "Logical model of the cancer Report"
-* ^version = "0.3.0"
-* ^status = #draft
-* ^date = "2019-11-08"
-* ^publisher = "Bundesamt für Gesundheit BAG"
-* ^contact.name = "Bundesamt für Gesundheit BAG"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.bag.admin.ch/"
-* ^jurisdiction.coding.system = "urn:iso:std:iso:3166"
-* ^jurisdiction.coding.code = #CH
-* ^copyright = "CC-BY-SA-4.0"
 * ^type = "CancerReport"
 * Patient 1..1 BackboneElement
 * Patient.Name 1..1 string

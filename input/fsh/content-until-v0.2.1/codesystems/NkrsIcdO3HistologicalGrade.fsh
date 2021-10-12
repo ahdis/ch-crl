@@ -2,15 +2,6 @@ CodeSystem: NkrsIcdO3HistologicalGrade
 Id: nkrs-icdo3histologicalgrade
 Title: "NKRS - ICD-O-3 Histological Grade"
 Description: "The data item describes the neoplasm’s resemblance to normal (parent) tissue according to ICD-O.           **ICD-O Histological Grade (Variable number: 3.7)** in          \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children\\' see           [Nationale Krebsregistrierungsstelle](https://www.nkrs.ch) > Partner im Gesundheitswesen >         [Information, Grundlagen und Datenstruktur zum KRG](https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip)."
-* ^version = "0.3.0"
-* ^status = #draft
-* ^date = "2019-11-08"
-* ^publisher = "Bundesamt für Gesundheit BAG"
-* ^contact.name = "Bundesamt für Gesundheit BAG"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.bag.admin.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
-* ^copyright = "CC-BY-SA-4.0"
 * ^caseSensitive = true
 * ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-icdo3histologicalgrade"
 * ^content = #complete

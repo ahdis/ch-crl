@@ -3,15 +3,6 @@ Parent: Observation
 Id: ch-crl-observation-icdo3histologicalgrade
 Title: "CH CRL Observation ICD-O-3 Histological Grade Profile"
 Description: "Observation for the ICD-O-3 histological grade code"
-* ^version = "0.3.0"
-* ^status = #draft
-* ^date = "2019-11-08"
-* ^publisher = "Bundesamt für Gesundheit BAG"
-* ^contact.name = "Bundesamt für Gesundheit BAG"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.bag.admin.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
-* ^copyright = "CC-BY-SA-4.0"
 * . ^short = "CH CRL Observation ICD-O-3 Histological Grade"
 * code 1..
 * code = $loinc#33732-9 "Histology grade [Identifier] in Cancer specimen"
