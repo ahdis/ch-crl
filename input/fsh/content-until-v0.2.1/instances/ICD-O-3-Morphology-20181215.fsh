@@ -8,4 +8,4 @@ Usage: #example
 * subject = Reference(RobertMeier)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept.coding.version = "3.2"
-* valueCodeableConcept.coding = urn:oid:2.16.840.1.113883.6.43.1#8480/3 "Muzinöses Adenokarzinom"
+* valueCodeableConcept.coding = $icd-o-3#8480/3 "Muzinöses Adenokarzinom"

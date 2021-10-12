@@ -9,4 +9,4 @@ Usage: #inline
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept.coding.version = "3.2"
-* valueCodeableConcept.coding = urn:oid:2.16.840.1.113883.6.43.1#C25.1 "Pankreaskörper"
+* valueCodeableConcept.coding = $icd-o-3#C25.1 "Pankreaskörper"
