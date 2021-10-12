@@ -4,9 +4,6 @@ Id: ch-crl-condition-disease
 Title: "CH CRL Condition Disease Profile"
 Description: "Condition for diseases"
 * . ^short = "CH CRL Condition Disease"
-* extension ^slicing.discriminator.type = #value
-* extension ^slicing.discriminator.path = "url"
-* extension ^slicing.rules = #open
 * extension contains $condition-assertedDate named dateOfDiagnosis 1..1
 * category 1..1
 * category.coding 1..*

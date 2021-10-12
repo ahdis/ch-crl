@@ -4,9 +4,6 @@ Id: ch-crl-condition-finalcauseofdeath
 Title: "CH CRL Condition Final Cause of Death Profile"
 Description: "Condition for the final cause of death"
 * . ^short = "CH CRL Condition Final Cause of Death"
-* extension ^slicing.discriminator.type = #value
-* extension ^slicing.discriminator.path = "url"
-* extension ^slicing.rules = #open
 * extension contains $condition-assertedDate named dateOfDiagnosis 1..1
 * category 1..1
 * category.coding 1..*
