@@ -7,8 +7,8 @@ status: active
 license: CC-BY-SA-4.0
 copyright: CC-BY-SA-4.0
 jurisdiction: urn:iso:std:iso:3166#CH
-date: 2021-09-17
-version: 0.3.0
+date: 2021-12-14
+version: 0.9.0
 fhirVersion: 4.0.1
 copyrightYear: 2019+
 releaseLabel: STU

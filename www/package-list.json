@@ -13,9 +13,9 @@
       "current": true
     },
     {
-      "version": "0.3.0",
-      "date": "2021-09-17",
-      "desc": "Final version 0.2.1 of use case 1b",
+      "version": "0.9.0",
+      "date": "2021-12-14",
+      "desc": "Draft version 0.9.0 of use case 1b with further structured elements",
       "path": "http://fhir.ch/ig/ch-crl",
       "status": "trial-use",
       "fhirversion": "4.0.1",
