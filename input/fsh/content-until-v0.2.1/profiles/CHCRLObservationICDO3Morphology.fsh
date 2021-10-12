@@ -16,11 +16,10 @@ Description: "Observation for the ICD-O-3 morphology code"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 * valueCodeableConcept 1..1
-* valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from urn:oid:2.16.840.1.113883.6.43.1 (preferred)
 * valueCodeableConcept ^short = "ICD-O-3 code of the microscopic anatomy or morphology of cells at time of diagnosis"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..
+* valueCodeableConcept.coding.system = "urn:oid:2.16.840.1.113883.6.43.1" (exactly)
 * valueCodeableConcept.coding.version 1..
 * valueCodeableConcept.coding.code 1..
 * valueCodeableConcept.coding.display 1..

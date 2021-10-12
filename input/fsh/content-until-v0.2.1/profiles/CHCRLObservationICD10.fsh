@@ -16,11 +16,10 @@ Description: "Observation for the ICD-10 code"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 * valueCodeableConcept 1..1
-* valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from $icd-10-gm (preferred)
 * valueCodeableConcept ^short = "ICD-10 code of the disease"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..
+* valueCodeableConcept.coding.system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm" (exactly)
 * valueCodeableConcept.coding.version 1..
 * valueCodeableConcept.coding.code 1..
 * valueCodeableConcept.coding.display 1..

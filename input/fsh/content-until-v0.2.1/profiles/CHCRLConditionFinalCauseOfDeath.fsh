@@ -14,11 +14,10 @@ Description: "Condition for the final cause of death"
 * category.coding.display 1..
 * category.coding.display = "Cause of death" (exactly)
 * code 1..
-* code only CodeableConcept
-* code from $icd-10-gm (preferred)
 * code ^short = "Identification of the final cause of death"
 * code.coding 1..*
 * code.coding.system 1..
+* code.coding.system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm" (exactly)
 * code.coding.version 1..
 * code.coding.code 1..
 * code.coding.display 1..
