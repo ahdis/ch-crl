@@ -15,33 +15,34 @@ Description: "Observation for the m-Suffix of pT"
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
+
 // Slices for value[x]
 * value[x] ^slicing.discriminator.type = #type
 * value[x] ^slicing.discriminator.path = "$this"
 * value[x] ^slicing.rules = #closed
+
 // Slice valueQuantity
 * valueQuantity 0..1
 * valueQuantity only Quantity
-* valueQuantity ^sliceName = "valueQuantity"
 * valueQuantity ^short = "The presence of multiple primary tumours at a single site as number (min = 2)"
-//* valueQuantity.value 1..1 -> TBD Workaround
-* valueQuantity.value 0..1
+// TBD Workaround: Minimumkardinalität weggelassen
+// * valueQuantity.value 1..
+
 // Slice valueCodeableConcept
 * valueCodeableConcept 0..1
 * valueCodeableConcept only CodeableConcept
-* valueCodeableConcept ^sliceName = "valueCodeableConcept"
 * valueCodeableConcept ^short = "Unspecified multiplicity"
-//* valueCodeableConcept.coding 1..* -> TBD Workaround
-* valueCodeableConcept.coding 0..* 
-* valueCodeableConcept.coding.system 1..1
+// TBD Workaround: Minimumkardinalität weggelassen
+// * valueCodeableConcept.coding 1.. 
+* valueCodeableConcept.coding.system 1..
 * valueCodeableConcept.coding.system = "http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-msuffixofpt" (exactly)
-* valueCodeableConcept.coding.code 1..1
+* valueCodeableConcept.coding.code 1..
 * valueCodeableConcept.coding.code = #m (exactly)
-* valueCodeableConcept.coding.display 1..1
+* valueCodeableConcept.coding.display 1..
 * valueCodeableConcept.coding.display = "Unspecified multiplicity" (exactly)
 
 * dataAbsentReason ^short = "The presence of multiple primary tumours at a single site is not stated / not assessed"
-* dataAbsentReason.coding 1..*
+* dataAbsentReason.coding 1..
 * dataAbsentReason.coding.system 1..
 * dataAbsentReason.coding.system = "http://terminology.hl7.org/CodeSystem/data-absent-reason" (exactly)
 * dataAbsentReason.coding.code 1..
