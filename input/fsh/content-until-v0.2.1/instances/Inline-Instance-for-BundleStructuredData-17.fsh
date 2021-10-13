@@ -9,6 +9,3 @@ Usage: #inline
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity.value = 4
-
-// TBD: Workaround -> Sushi: error Element Observation.value[x]:valueCodeableConcept.coding has minimum cardinality 1 but occurs 0 time(s).
-// * valueCodeableConcept = $nkrs-msuffixofpt#m "Unspecified multiplicity"
