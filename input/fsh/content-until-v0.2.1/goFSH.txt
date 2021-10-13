@@ -19,6 +19,7 @@ BundleUC1bPatho20181202                                       Instance    instan
 BundleUC1bPatho20181215                                       Instance    instances\BundleUC1bPatho20181215.fsh
 CHCRLBundle                                                   Profile     profiles\CHCRLBundle.fsh
 CHCRLCancerReport                                             Logical     logicals\CHCRLCancerReport.fsh
+-> SUSHI currently doesn't support creating an instance of a logical model: https://chat.fhir.org/#narrow/stream/215610-shorthand/search/logical.20model
 CHCRLCommunication                                            Profile     profiles\CHCRLCommunication.fsh
 CHCRLComposition                                              Profile     profiles\CHCRLComposition.fsh
 CHCRLConditionDisease                                         Profile     profiles\CHCRLConditionDisease.fsh
