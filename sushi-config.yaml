@@ -26,6 +26,10 @@ dependencies:
 pages:
   index.md:
     title: Home
+  usecase-german.md:
+    title: Use Case  
+  logicalmodel.html:
+    title: Logical Model - CH CRL Cancer Report  
   profiles.html:
     title: Profiles
   extensions.html:

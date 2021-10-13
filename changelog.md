@@ -15,7 +15,8 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 ## v0.9.0 - 2021-12-xx
  
 ### Added
-*
+* Download link for NPM package.
+* Separate tabs for the use case and the cancer report (logical model) for simpler navigation in the IG.
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.
