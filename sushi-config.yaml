@@ -32,8 +32,3 @@ pages:
     title: Extensions
   terminology.html:
     title: Terminology
-
-parameters:
-  special-url:
-    - urn:oid:2.16.840.1.113883.6.43.1
-    

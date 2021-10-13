@@ -19,8 +19,7 @@ Description: "Observation for the ICD-O-3 morphology code"
 * valueCodeableConcept ^short = "ICD-O-3 code of the microscopic anatomy or morphology of cells at time of diagnosis"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..
-* valueCodeableConcept.coding.system = "urn:oid:2.16.840.1.113883.6.43.1" (exactly)
-// * valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/icd-o-3" (exactly)
+* valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/icd-o-3" (exactly)
 * valueCodeableConcept.coding.version 1..
 * valueCodeableConcept.coding.code 1..
 * valueCodeableConcept.coding.display 1..

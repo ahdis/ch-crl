@@ -1,10 +1,9 @@
 == Suppressed Messages ==
 
-# The following code systems/value sets cannot be validated
+# The following code systems/value sets are external
 The value provided ('rm-CH') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages, and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#rm-CH) is not valid in the value set CommonLanguages)
 Code System URI 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' is unknown so the code cannot be validated
-ValueSet urn:oid:2.16.840.1.113883.6.43.1 not found by validator
-The link 'urn:oid:2.16.840.1.113883.6.43.1' for "urn:oid:2.16.840.1.113883.6.43.1" cannot be resolved
+Code System URI 'http://terminology.hl7.org/CodeSystem/icd-o-3' is unknown so the code cannot be validated
 
 # Specific names are required
 eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
