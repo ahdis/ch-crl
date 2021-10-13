@@ -5,7 +5,7 @@ On January 1st 2020 the new National Law on Cancer Registration (NLCR) and the a
 
 ### Scope and Download
 * [Use Case](usecase-german.html) - is used to illustrate the processes related to cancer registration
-* [Cancer Report](logicalmodel.html) - represented as an logical model to show the used data set
+* [Cancer Report](logicalmodel.html) - represented as a logical model to show the used data set
 * [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatypes for cancer registration use
 * [Extensions](extensions.html) - are FHIR extensions that are added for cancer registration use
 * [Terminologies](terminology.html) - are defined or referenced code systems and value sets for cancer registration  
