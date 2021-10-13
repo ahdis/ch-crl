@@ -18,11 +18,13 @@
     <differential>
         <element id="CancerReport">
             <path value="CancerReport"/>
+            <definition value="Cancer Report"/>
         </element>
 
         <!-- Patient -->
         <element id="CancerReport.Patient">
             <path value="CancerReport.Patient" />
+            <definition value="Patient"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -31,6 +33,7 @@
         </element>
         <element id="CancerReport.Patient.Name">
             <path value="CancerReport.Patient.Name" />
+            <definition value="Name"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -39,6 +42,7 @@
         </element>
         <element id="CancerReport.Patient.Vorname">
             <path value="CancerReport.Patient.Vorname" />
+            <definition value="Vorname"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -47,6 +51,7 @@
         </element>
         <element id="CancerReport.Patient.Geschlecht">
             <path value="CancerReport.Patient.Geschlecht" />
+            <definition value="Geschlecht"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -55,6 +60,7 @@
         </element>
         <element id="CancerReport.Patient.AHV-Nummer">
             <path value="CancerReport.Patient.AHV-Nummer" />
+            <definition value="AHV-Nummer"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -63,6 +69,7 @@
         </element>
         <element id="CancerReport.Patient.Geburtsdatum">
             <path value="CancerReport.Patient.Geburtsdatum" />
+            <definition value="Geburtsdatum"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -71,6 +78,7 @@
         </element>
         <element id="CancerReport.Patient.Verstorben">
             <path value="CancerReport.Patient.Verstorben" />
+            <definition value="Verstorben"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -79,6 +87,7 @@
         </element>
         <element id="CancerReport.Patient.Verstorben.Nein">
             <path value="CancerReport.Patient.Verstorben.Nein" />
+            <definition value="Nein"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -87,6 +96,7 @@
         </element>
         <element id="CancerReport.Patient.Verstorben.Todesdatum">
             <path value="CancerReport.Patient.Verstorben.Todesdatum" />
+            <definition value="Todesdatum"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -95,6 +105,7 @@
         </element>
         <element id="CancerReport.Patient.Wohnadresse">
             <path value="CancerReport.Patient.Wohnadresse" />
+            <definition value="Wohnadresse"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -103,6 +114,7 @@
         </element>
         <element id="CancerReport.Patient.Wohnadresse.Strasse">
             <path value="CancerReport.Patient.Wohnadresse.Strasse" />
+            <definition value="Strasse"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -111,6 +123,7 @@
         </element>
         <element id="CancerReport.Patient.Wohnadresse.Nummer">
             <path value="CancerReport.Patient.Wohnadresse.Nummer" />
+            <definition value="Nummer"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -119,6 +132,7 @@
         </element>
         <element id="CancerReport.Patient.Wohnadresse.Postfach">
             <path value="CancerReport.Patient.Wohnadresse.Postfach" />
+            <definition value="Postfach"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -127,6 +141,7 @@
         </element>
         <element id="CancerReport.Patient.Wohnadresse.PLZ">
             <path value="CancerReport.Patient.Wohnadresse.PLZ" />
+            <definition value="PLZ"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -135,6 +150,7 @@
         </element>
         <element id="CancerReport.Patient.Wohnadresse.Ort">
             <path value="CancerReport.Patient.Wohnadresse.Ort" />
+            <definition value="Ort"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -143,6 +159,7 @@
         </element>
         <element id="CancerReport.Patient.Wohnadresse.Kanton">
             <path value="CancerReport.Patient.Wohnadresse.Kanton" />
+            <definition value="Kanton"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -153,6 +170,7 @@
         <!-- Datum der Information des Patienten -->
         <element id="CancerReport.DatumDerInformationDesPatienten">
             <path value="CancerReport.DatumDerInformationDesPatienten" />
+            <definition value="Datum der Information des Patienten"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -163,6 +181,7 @@
         <!-- Meldepflichtige Person -->
         <element id="CancerReport.MeldepflichtigePerson">
             <path value="CancerReport.MeldepflichtigePerson" />
+            <definition value="Meldepflichtige Person"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -171,6 +190,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Name">
             <path value="CancerReport.MeldepflichtigePerson.Name" />
+            <definition value="Name"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -179,6 +199,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Vorname">
             <path value="CancerReport.MeldepflichtigePerson.Vorname" />
+            <definition value="Vorname"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -187,6 +208,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Geschlecht">
             <path value="CancerReport.MeldepflichtigePerson.Geschlecht" />
+            <definition value="Geschlecht"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -195,6 +217,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.GLN">
             <path value="CancerReport.MeldepflichtigePerson.GLN" />
+            <definition value="GLN"/>
             <min value="0"/>
             <max value="*"/>
             <type>
@@ -203,6 +226,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Telefonnummer">
             <path value="CancerReport.MeldepflichtigePerson.Telefonnummer" />
+            <definition value="Telefonnummer"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -211,6 +235,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.EMailAdresse">
             <path value="CancerReport.MeldepflichtigePerson.EMailAdresse" />
+            <definition value="E-Mail-Adresse"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -219,6 +244,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Adresse">
             <path value="CancerReport.MeldepflichtigePerson.Adresse" />
+            <definition value="Adresse"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -227,6 +253,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Adresse.Strasse">
             <path value="CancerReport.MeldepflichtigePerson.Adresse.Strasse" />
+            <definition value="Strasse"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -235,6 +262,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Adresse.Nummer">
             <path value="CancerReport.MeldepflichtigePerson.Adresse.Nummer" />
+            <definition value="Nummer"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -243,6 +271,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Adresse.Postfach">
             <path value="CancerReport.MeldepflichtigePerson.Adresse.Postfach" />
+            <definition value="Postfach"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -251,6 +280,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Adresse.PLZ">
             <path value="CancerReport.MeldepflichtigePerson.Adresse.PLZ" />
+            <definition value="PLZ"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -259,6 +289,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Adresse.Ort">
             <path value="CancerReport.MeldepflichtigePerson.Adresse.Ort" />
+            <definition value="Ort"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -267,6 +298,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigePerson.Adresse.Kanton">
             <path value="CancerReport.MeldepflichtigePerson.Adresse.Kanton" />
+            <definition value="Kanton"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -277,6 +309,7 @@
         <!-- Meldepflichtige Institution -->
         <element id="CancerReport.MeldepflichtigeInstitution">
             <path value="CancerReport.MeldepflichtigeInstitution" />
+            <definition value="Meldepflichtige Institution"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -285,6 +318,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.NameDerInsititution">
             <path value="CancerReport.MeldepflichtigeInstitution.NameDerInsititution" />
+            <definition value="Name der Insititution"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -293,6 +327,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Abteilung">
             <path value="CancerReport.MeldepflichtigeInstitution.Abteilung" />
+            <definition value="Abteilung"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -301,6 +336,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Abteilung.NameDerAbteilung">
             <path value="CancerReport.MeldepflichtigeInstitution.Abteilung.NameDerAbteilung" />
+            <definition value="Name der Abteilung"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -309,6 +345,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Abteilung.ArtDerAbteilung">
             <path value="CancerReport.MeldepflichtigeInstitution.Abteilung.ArtDerAbteilung" />
+            <definition value="Art der Abteilung"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -317,6 +354,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.BUR">
             <path value="CancerReport.MeldepflichtigeInstitution.BUR" />
+            <definition value="BUR"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -325,6 +363,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.ArtDerInstitution">
             <path value="CancerReport.MeldepflichtigeInstitution.ArtDerInstitution" />
+            <definition value="Art der Institution"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -333,6 +372,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson">
             <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson" />
+            <definition value="Zuständige Ansprechperson"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -341,6 +381,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Name">
             <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Name" />
+            <definition value="Name"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -349,6 +390,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Vorname">
             <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Vorname" />
+            <definition value="Vorname"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -357,6 +399,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Funktion">
             <path value="CancerReport.MeldepflichtigeInstitution.ZustaendigeAnsprechperson.Funktion" />
+            <definition value="Funktion"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -365,6 +408,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Telefonnummer">
             <path value="CancerReport.MeldepflichtigeInstitution.Telefonnummer" />
+            <definition value="Telefonnummer"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -373,6 +417,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.EMailAdresse">
             <path value="CancerReport.MeldepflichtigeInstitution.EMailAdresse" />
+            <definition value="E-Mail-Adresse"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -381,6 +426,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Adresse">
             <path value="CancerReport.MeldepflichtigeInstitution.Adresse" />
+            <definition value="Adresse"/>
             <min value="1"/>
             <max value="*"/>
             <type>
@@ -389,6 +435,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Strasse">
             <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Strasse" />
+            <definition value="Strasse"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -397,6 +444,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Nummer">
             <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Nummer" />
+            <definition value="Nummer"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -405,6 +453,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Postfach">
             <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Postfach" />
+            <definition value="Postfach"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -413,6 +462,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Adresse.PLZ">
             <path value="CancerReport.MeldepflichtigeInstitution.Adresse.PLZ" />
+            <definition value="PLZ"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -421,6 +471,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Ort">
             <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Ort" />
+            <definition value="Ort"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -429,6 +480,7 @@
         </element>
         <element id="CancerReport.MeldepflichtigeInstitution.Adresse.Kanton">
             <path value="CancerReport.MeldepflichtigeInstitution.Adresse.Kanton" />
+            <definition value="Kanton"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -439,6 +491,7 @@
         <!-- Todesursachen -->
         <element id="CancerReport.Todesursachen">
             <path value="CancerReport.Todesursachen" />
+            <definition value="Todesursachen"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -447,6 +500,7 @@
         </element>
         <element id="CancerReport.Todesursachen.EndgueltigeTodesursache">
             <path value="CancerReport.Todesursachen.EndgueltigeTodesursache"/>
+            <definition value="Endgültige Todesursache"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -455,6 +509,7 @@
         </element>
         <element id="CancerReport.Todesursachen.Grundkrankheit">
             <path value="CancerReport.Todesursachen.Grundkrankheit"/>
+            <definition value="Grundkrankheit"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -463,6 +518,7 @@
         </element>
         <element id="CancerReport.Todesursachen.Folgekrankheit">
             <path value="CancerReport.Todesursachen.Folgekrankheit"/>
+            <definition value="Folgekrankheit"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -471,6 +527,7 @@
         </element>
         <element id="CancerReport.Todesursachen.BegleitkrankheitA">
             <path value="CancerReport.Todesursachen.BegleitkrankheitA"/>
+            <definition value="Begleitkrankheit A"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -479,6 +536,7 @@
         </element>
         <element id="CancerReport.Todesursachen.BegleitkrankheitB">
             <path value="CancerReport.Todesursachen.BegleitkrankheitB"/>
+            <definition value="Begleitkrankheit B"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -490,6 +548,7 @@
         <!-- Daten zur Diagnose -->
         <element id="CancerReport.DatenZurDiagnose">
             <path value="CancerReport.DatenZurDiagnose" />
+            <definition value="Daten zur Diagnose"/>
             <min value="0"/>
             <max value="*"/>
             <type>
@@ -500,6 +559,7 @@
         <!-- Daten zur Diagnose: ICD-10 -->
         <element id="CancerReport.DatenZurDiagnose.ICD-10">
             <path value="CancerReport.DatenZurDiagnose.ICD-10" />
+            <definition value="ICD-10"/>
             <min value="0"/>
             <max value="*"/>
             <type>
@@ -508,6 +568,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.DatumDesAuftretens">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.DatumDesAuftretens"/>
+            <definition value="Datum des Auftretens"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -516,6 +577,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe"/>
+            <definition value="TNM stage group"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -524,6 +586,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimaerTumor-cT">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategoriePrimaerTumor-cT"/>
+            <definition value="Klinische Kategorie Primärtumor cT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -532,6 +595,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieRegionaleKnoten-cN">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieRegionaleKnoten-cN"/>
+            <definition value="Klinische Kategorie regionale Knoten cN"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -540,6 +604,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieFernMetastasen-cM">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.KlinischeKategorieFernMetastasen-cM"/>
+            <definition value="Klinische Kategorie Fernmetastasen cM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -548,6 +613,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimaerTumor-pT">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategoriePrimaerTumor-pT"/>
+            <definition value="Pathologische Kategorie Primärtumor pT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -556,6 +622,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieRegionaleKnoten-pN">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieRegionaleKnoten-pN"/>
+            <definition value="Pathologische Kategorie regionale Knoten pN"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -564,6 +631,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieFernMetastasen-pM">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.TNM-StageGruppe.PathologischeKategorieFernMetastasen-pM"/>
+            <definition value="Pathologische Kategorie Fernmetastasen pM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -572,6 +640,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Morphologie">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Morphologie"/>
+            <definition value="ICD-O-3 Morphologie"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -580,6 +649,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Topografie">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Topografie"/>
+            <definition value="ICD-O-3 Topografie"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -588,6 +658,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Verhalten">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Verhalten"/>
+            <definition value="ICD-O-3 Verhalten"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -596,6 +667,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Seitigkeit">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-Seitigkeit"/>
+            <definition value="ICD-O-3 Seitigkeit"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -604,6 +676,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-HistologischerGrad">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.ICD-O-3-HistologischerGrad"/>
+            <definition value="ICD-O-3 histologischer Grad"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -612,6 +685,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-klinischesTNM">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-klinischesTNM"/>
+            <definition value="y-Präfix klinisches TNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -620,6 +694,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.a-Praefix-pathologischesTNM">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.a-Praefix-pathologischesTNM"/>
+            <definition value="a-Präfix pathologisches TNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -628,6 +703,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-pathologischesTNM">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.y-Praefix-pathologischesTNM"/>
+            <definition value="y-Präfix pathologisches TNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -636,6 +712,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.m-Suffix-pathologischesT">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.m-Suffix-pathologischesT"/>
+            <definition value="m-Suffix pathologisches T"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -644,6 +721,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.AnzahlBeteiligteRegionaleLymphknoten">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.AnzahlBeteiligteRegionaleLymphknoten"/>
+            <definition value="Anzahl beteiligte regionale Lymphknoten"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -652,6 +730,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.AnzahlUntersuchteRegionaleLymphknoten">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.AnzahlUntersuchteRegionaleLymphknoten"/>
+            <definition value="Anzahl untersuchte regionale Lymphknoten"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -660,6 +739,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.LymphatischerBefall">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.LymphatischerBefall"/>
+            <definition value="Lymphatischer Befall"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -668,6 +748,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.VenoeserBefall">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.VenoeserBefall"/>
+            <definition value="Venöser Befall"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -676,6 +757,7 @@
         </element>
         <element id="CancerReport.DatenZurDiagnose.ICD-10.PerineuralerBefall">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.PerineuralerBefall"/>
+            <definition value="Perineuraler Befall"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -685,6 +767,7 @@
 
         <element id="CancerReport.DatenZurDiagnose.ICD-10.VerwendeteDiagnosemethode">
             <path value="CancerReport.DatenZurDiagnose.ICD-10.VerwendeteDiagnosemethode"/>
+            <definition value="Verwendete Diagnosemethode"/>
             <min value="0"/>
             <max value="*"/>
             <type>
@@ -695,6 +778,7 @@
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.DatenZurErstbehandlung">
             <path value="CancerReport.DatenZurErstbehandlung"/>
+            <definition value="Daten zur Erstbehandlung"/>
             <min value="0"/>
             <max value="*"/>
             <type>
