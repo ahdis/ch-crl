@@ -22,6 +22,9 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.
 * Transformation of the raw source (IG input) into [FHIR Shorthand](http://build.fhir.org/ig/HL7/fhir-shorthand/) files (.fsh). This change has no impact on the IG published as a web page, it just makes it easier to author the FHIR artifacts for the IG.
 * Updating the dependency on CH Core from 'current' to the currently published version '2.0.0'.
+* There have been changes to the NKRS code lists V1.1. **Implementers have to adapt the following codes systems**, which were already integrated in the FHIR Implementation Guide: 
+   * [NKRS - Diagnostic Methods Used](http://build.fhir.org/ig/ahdis/ch-crl/CodeSystem-nkrs-diagnosticmethodsused.html)
+      * Additional Code: 23 "Biopsy locoregional or of metastasis", the numerical code of the following elements increases accordingly by 1.
 
  
 ### Fixed
