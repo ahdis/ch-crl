@@ -9,12 +9,12 @@ Usage: #example
 * type = #document
 * timestamp = "2018-12-14T16:13:49.424+00:00"
 * entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/CompUC1aOps20181214"
-* entry[=].resource = Inline-Instance-for-BundleUC1aOps20181214-1
+* entry[=].resource = CompUC1aOps20181214
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/AbteilungOnko"
-* entry[=].resource = Inline-Instance-for-BundleUC1aOps20181214-2
+* entry[=].resource = AbteilungOnko
 * entry[+].fullUrl = "http://test.fhir.ch/r4/DocumentReference/DocuUC1aOps20181214"
-* entry[=].resource = Inline-Instance-for-BundleUC1aOps20181214-3
+* entry[=].resource = DocuUC1aOps20181214
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/RobertMeier"
-* entry[=].resource = Inline-Instance-for-BundleUC1aOps20181214-4
+* entry[=].resource = RobertMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/SpitalSeeblickHansEgli"
-* entry[=].resource = Inline-Instance-for-BundleUC1aOps20181214-5
+* entry[=].resource = SpitalSeeblickHansEgli
