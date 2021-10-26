@@ -13,6 +13,11 @@ On January 1st 2020 the new National Law on Cancer Registration (NLCR) and the a
 **Download**: You can download this implementation guide in [npm](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) format from [here](package.tgz).
 
 
+### Case-opening Criteria and MustSupport
+In order to be able to report a case to the cancer registry, so-called case-opening criteria are required. These criteria are represented in the FHIR implementation guide with the [mustSupport](https://www.hl7.org/fhir/conformance-rules.html#mustSupport) flag set to true.
+* [Date of patient information](StructureDefinition-ch-crl-composition-definitions.html#Composition.section:registrationRequirements.entry:communication)
+* [Deceased](StructureDefinition-ch-crl-patient-definitions.html#Patient.deceased[x])
+
 ### Copyright
 This artefact includes content from SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is copyright of the 
 International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must 

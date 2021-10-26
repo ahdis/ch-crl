@@ -17,6 +17,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 ### Added
 * Download link for NPM package.
 * Separate tabs for the use case and the cancer report (logical model) for simpler navigation in the IG.
+* Set the flag `mustSupport`=true for Case-opening criteria, see [here](http://build.fhir.org/ig/ahdis/ch-crl/index.html#case-opening-criteria-and-mustsupport).
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.

@@ -16,7 +16,7 @@ Description: "Definition of the patient for reporting to the cancer registry"
 * gender ^short = "male | female"
 * birthDate 1..1
 * birthDate ^short = "Format: YYYY-MM-DD"
-* deceased[x] 1..
+* deceased[x] 1.. MS
 * address 1..1
 * address ^short = "Residential address ('Wohnsitz')"
 * address.postalCode 1..

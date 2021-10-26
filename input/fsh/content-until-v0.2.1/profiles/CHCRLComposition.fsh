@@ -56,7 +56,7 @@ Description: "Definition of the composition for reporting to the cancer registry
 * section[registrationRequirements].entry ^slicing.rules = #open
 * section[registrationRequirements].section ..0
 // Date of patient information
-* section[registrationRequirements].entry contains communication 0..1
+* section[registrationRequirements].entry contains communication 0..1 MS
 * section[registrationRequirements].entry[communication] only Reference(CHCRLCommunication)
 * section[registrationRequirements].entry[communication] ^short = "Date of patient information"
 * section[registrationRequirements].entry[communication].reference 1..
