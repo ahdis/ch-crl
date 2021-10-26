@@ -22,6 +22,9 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.
 * Transformation of the raw source (IG input) into [FHIR Shorthand](http://build.fhir.org/ig/HL7/fhir-shorthand/) files (.fsh). This change has no impact on the IG published as a web page, it just makes it easier to author the FHIR artifacts for the IG.
 * Updating the dependency on CH Core from 'current' to the currently published version '2.0.0'.
+* Structure of the cancer report document, based on the registration application. **Implementers need to insert sections (with titles) in the Composition to group the references**.
+   * [CH CRL Composition Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-composition.html) 
+   * [Cancer Report example](http://build.fhir.org/ig/ahdis/ch-crl/Bundle-BundleStructuredData.html)
 * There have been changes to the NKRS code lists V1.1. **Implementers have to adapt the following codes systems**, which were already integrated in the FHIR Implementation Guide: 
    * [NKRS - Diagnostic Methods Used](http://build.fhir.org/ig/ahdis/ch-crl/CodeSystem-nkrs-diagnosticmethodsused.html)
       * Additional code **23** "Biopsy locoregional or of metastasis"

@@ -9,4 +9,6 @@ Usage: #example
 * date = "2018-12-02T13:00:00+02:00"
 * author = Reference(AbteilungPatho)
 * title = "Pathologischer Befund"
-* section.entry = Reference(DocuUC1aPatho20181215)
+
+* section[unstructuredReport].title = "Report as PDF"
+* section[unstructuredReport].entry[documentReference] = Reference(DocuUC1aPatho20181215)

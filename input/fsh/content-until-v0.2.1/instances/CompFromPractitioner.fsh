@@ -9,5 +9,9 @@ Usage: #example
 * date = "2018-12-15T13:00:00+02:00"
 * author = Reference(EmmaMinimum)
 * title = "Report to the Cancer Registry"
-* section.entry[0] = Reference(DocuPractMinimum)
-* section.entry[+] = Reference(CommMinimum)
+
+* section[unstructuredReport].title = "Report as PDF"
+* section[unstructuredReport].entry[documentReference] = Reference(DocuPractMinimum)
+
+* section[registrationRequirements].title = "Registration requirements"
+* section[registrationRequirements].entry[communication] = Reference(CommMinimum)

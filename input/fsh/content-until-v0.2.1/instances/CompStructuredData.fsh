@@ -9,27 +9,37 @@ Usage: #example
 * date = "2018-12-15T13:00:00+02:00"
 * author = Reference(AbteilungMinimum)
 * title = "Report to the Cancer Registry"
-* section.entry[0] = Reference(CommMinimum)
-* section.entry[+] = Reference(FinalCauseOfDeath)
-* section.entry[+] = Reference(PrimaryDisease)
-* section.entry[+] = Reference(SecondaryDisease)
-* section.entry[+] = Reference(ConcomitantDiseaseA)
-* section.entry[+] = Reference(ConcomitantDiseaseB)
-* section.entry[+] = Reference(DateOfIncidence)
-* section.entry[+] = Reference(ICD-10)
-* section.entry[+] = Reference(ICD-O-3-Morphology)
-* section.entry[+] = Reference(ICD-O-3-Topography)
-* section.entry[+] = Reference(ICD-O-3-Behaviour)
-* section.entry[+] = Reference(ICD-O-3-Laterality)
-* section.entry[+] = Reference(ICD-O-3-HistologicalGrade-unknown)
-* section.entry[+] = Reference(y-PrefixOfcTNM)
-* section.entry[+] = Reference(a-PrefixOfpTNM)
-* section.entry[+] = Reference(y-PrefixOfpTNM)
-* section.entry[+] = Reference(m-SuffixOfpT)
-* section.entry[+] = Reference(NumberInvolvedRegionalLymphNodes)
-* section.entry[+] = Reference(NumberExaminedRegionalLymphNodes)
-* section.entry[+] = Reference(LymphaticInvasion)
-* section.entry[+] = Reference(VenousInvasion)
-* section.entry[+] = Reference(PerineuralInvasion)
-* section.entry[+] = Reference(TNM-StageGroup)
-* section.entry[+] = Reference(DiagnosticMethod)
+
+* section[registrationRequirements].title = "Registration requirements"
+* section[registrationRequirements].entry[communication] = Reference(CommMinimum)
+
+* section[causeOfDeath].title = "Cause of death"
+* section[causeOfDeath].entry[principalCauseOfDeath] = Reference(FinalCauseOfDeath)
+* section[causeOfDeath].entry[diseases] = Reference(PrimaryDisease)
+* section[causeOfDeath].entry[diseases] = Reference(SecondaryDisease)
+* section[causeOfDeath].entry[diseases] = Reference(ConcomitantDiseaseA)
+* section[causeOfDeath].entry[diseases] = Reference(ConcomitantDiseaseB)
+
+* section[diagnosis].title = "Diagnosis"
+* section[diagnosis].entry[dateOfIncidence] = Reference(DateOfIncidence)
+* section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod)
+
+* section[coding].title = "Coding"
+* section[coding].entry[ICD-code] = Reference(ICD-10)
+* section[coding].entry[ICD-O-topography] = Reference(ICD-O-3-Topography)
+* section[coding].entry[ICD-O-morphologyAndBehaviour] = Reference(ICD-O-3-Morphology)
+* section[coding].entry[ICD-O-observedBehaviour] = Reference(ICD-O-3-Behaviour)
+* section[coding].entry[ICD-O-histologicalGrades] = Reference(ICD-O-3-HistologicalGrade-unknown)
+* section[coding].entry[ICD-O-laterality] = Reference(ICD-O-3-Laterality)
+
+* section[stagingAndGrading].title = "Staging and grading"
+* section[stagingAndGrading].entry[cTNM-y-prefix] = Reference(y-PrefixOfcTNM)
+* section[stagingAndGrading].entry[pTNM-a-prefix] = Reference(a-PrefixOfpTNM)
+* section[stagingAndGrading].entry[pTNM-y-prefix] = Reference(y-PrefixOfpTNM)
+* section[stagingAndGrading].entry[pT-m-suffix] = Reference(m-SuffixOfpT)
+* section[stagingAndGrading].entry[numberInvolvedRegionalLymphNodes] = Reference(NumberInvolvedRegionalLymphNodes)
+* section[stagingAndGrading].entry[numberExaminedRegionalLymphNodes] = Reference(NumberExaminedRegionalLymphNodes)
+* section[stagingAndGrading].entry[lymphaticInvasion] = Reference(LymphaticInvasion)
+* section[stagingAndGrading].entry[venousInvasion] = Reference(VenousInvasion)
+* section[stagingAndGrading].entry[perineuralInvasion] = Reference(PerineuralInvasion)
+* section[stagingAndGrading].entry[TNM-stage] = Reference(TNM-StageGroup)

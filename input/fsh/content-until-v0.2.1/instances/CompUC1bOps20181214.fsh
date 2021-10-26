@@ -9,5 +9,7 @@ Usage: #example
 * date = "2018-12-14T13:00:00+02:00"
 * author = Reference(AbteilungOnko)
 * title = "Operationsbericht"
-* section.entry[0] = Reference(DiagnosticMethod-Biopsy20181214)
-* section.entry[+] = Reference(DiagnosticMethod-Surgical20181214)
+
+* section[diagnosis].title = "Diagnosis"
+* section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod-Biopsy20181214)
+* section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod-Surgical20181214)
