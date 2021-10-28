@@ -2,7 +2,7 @@ Mapping: NICER-A-for-CHCRLPatient
 Id: NICER-A
 Title: "NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"
 Source: CHCRLPatient
-Target: "https://www.nicer.org/assets/files/krebsregistrierung/datadictionary_e-g-f-i.zip"
+Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf"
 * identifier[AHVN13] -> "OASI number (Variable number: 1.4)"
 * name.family -> "Family Name(s) (Variable number: 1.1.1)"
 * name.given -> "First Name(s) (Variable number: 1.1.2)"
