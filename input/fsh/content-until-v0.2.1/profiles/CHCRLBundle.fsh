@@ -9,6 +9,7 @@ Description: "Definition of the bundle for reporting to the cancer registry"
 * identifier.value 1..
 * type = #document (exactly)
 * timestamp MS
+* timestamp ^short = "Format: YYYY-MM-DD"
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
