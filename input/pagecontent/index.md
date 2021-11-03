@@ -14,14 +14,17 @@ On January 1st 2020 the new National Law on Cancer Registration (NLCR) and the a
 
 
 ### Case-opening Criteria and MustSupport
-In order to be able to report a case to the cancer registry, so-called case-opening criteria are required. These criteria are represented in the FHIR implementation guide with the [mustSupport](https://www.hl7.org/fhir/conformance-rules.html#mustSupport) flag set to true.
-* [Deceased](StructureDefinition-ch-crl-patient-definitions.html#Patient.deceased[x])
+In order to be able to report a case to the cancer registry, so-called case-opening criteria are required. These criteria are represented in the FHIR implementation guide with the [mustSupport](https://www.hl7.org/fhir/conformance-rules.html#mustSupport) flag set to true. The case-opening criteria include the following personal data on the patient and the date of the cancer report:
+* [Family name](StructureDefinition-ch-crl-patient-definitions.html#Patient.name.family)
+* [First name(s)](StructureDefinition-ch-crl-patient-definitions.html#Patient.name.given)
+* [Gender](StructureDefinition-ch-crl-patient-definitions.html#Patient.gender)
+* [Date of birth](StructureDefinition-ch-crl-patient-definitions.html#Patient.birthDate)
+* [OASI number](StructureDefinition-ch-crl-patient-definitions.html#Patient.identifier:AHVN13)
+* [Wheter patient is deceased](StructureDefinition-ch-crl-patient-definitions.html#Patient.deceased[x])
+* [Date of cancer report](StructureDefinition-ch-crl-bundle-definitions.html#Bundle.timestamp)
 
 ### Copyright
-This artefact includes content from SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is copyright of the 
-International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must 
-have the appropriate SNOMED CT Affiliate license - for more information contact 
-http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.
+This specification includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation ([IHTSDO](http://snomed.org/)) and distributed by agreement between IHTSDO and HL7. Implementers of these specification must have the appropriate SNOMED CT Affiliate license - for more information contact 
+<https://www.snomed.org/snomed-ct/getsnomed> or <info@snomed.org>.
 
-This artefact includes content from LOINC®. This content LOINC® is copyright © 1995 Regenstrief Institute, 
-Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.
+This specification contains content from LOINC® (<http://loinc.org>). The LOINC table, LOINC codes, and LOINC panels and forms file are copyright © 1995-2014, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and available at no cost under the license at <http://loinc.org/terms-of-use> .

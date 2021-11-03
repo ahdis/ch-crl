@@ -8,6 +8,7 @@ Description: "Definition of the bundle for reporting to the cancer registry"
 * identifier.system 1..
 * identifier.value 1..
 * type = #document (exactly)
+* timestamp MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
