@@ -8,10 +8,7 @@ Usage: #example
 * subject = Reference(RobertMeier)
 * date = "2018-12-07T13:00:00+02:00"
 * author = Reference(AgnesBauer)
-* title = "Information über Diagnose und Patienteninformation"
-
-* section[registrationRequirements].title = "Registration requirements"
-* section[registrationRequirements].entry[communication] = Reference(CommMeier)
+* title = "Information über Diagnose"
 
 * section[coding].title = "Coding"
 * section[coding].entry[ICD-code] = Reference(ICD-10-Kolon20181207)

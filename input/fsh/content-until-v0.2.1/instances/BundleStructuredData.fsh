@@ -12,8 +12,6 @@ Usage: #example
 * entry[=].resource = CompStructuredData
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/FranzMinimum"
 * entry[=].resource = FranzMinimum
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Communication/CommMinimum"
-* entry[=].resource = CommMinimum
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/ConcomitantDiseaseA"
 * entry[=].resource = ConcomitantDiseaseA
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/ConcomitantDiseaseB"

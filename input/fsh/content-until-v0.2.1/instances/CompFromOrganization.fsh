@@ -12,6 +12,3 @@ Usage: #example
 
 * section[unstructuredReport].title = "Report as PDF"
 * section[unstructuredReport].entry[documentReference] = Reference(DocuHospMinimum)
-
-* section[registrationRequirements].title = "Registration requirements"
-* section[registrationRequirements].entry[communication] = Reference(CommMinimum)

@@ -12,8 +12,6 @@ Usage: #example
 * entry[=].resource = CompUC1bInfo20181207
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon20181207"
 * entry[=].resource = ICD-10-Kolon20181207
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Communication/CommMeier"
-* entry[=].resource = CommMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/AgnesBauer"
 * entry[=].resource = AgnesBauer
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/RobertMeier"

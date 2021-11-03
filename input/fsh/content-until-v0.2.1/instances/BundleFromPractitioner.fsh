@@ -12,8 +12,6 @@ Usage: #example
 * entry[=].resource = CompFromPractitioner
 * entry[+].fullUrl = "http://test.fhir.ch/r4/DocumentReference/DocuPractMinimum"
 * entry[=].resource = DocuPractMinimum
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Communication/CommMinimum"
-* entry[=].resource = CommMinimum
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/FranzMinimum"
 * entry[=].resource = FranzMinimum
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/EmmaMinimum"

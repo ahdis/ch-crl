@@ -167,17 +167,6 @@
             </type>
         </element>
 
-        <!-- Datum der Information des Patienten -->
-        <element id="CancerReport.DatumDerInformationDesPatienten">
-            <path value="CancerReport.DatumDerInformationDesPatienten" />
-            <definition value="Datum der Information des Patienten"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="date"/>
-            </type>
-        </element>
-
         <!-- Meldepflichtige Person -->
         <element id="CancerReport.MeldepflichtigePerson">
             <path value="CancerReport.MeldepflichtigePerson" />

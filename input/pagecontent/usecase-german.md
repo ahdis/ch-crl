@@ -23,8 +23,8 @@ Das Biopsiematerial wird im [pathologischen Institut](Organization-AbteilungPath
 
 ### Zweitbesuch bei der Hausärztin
 *Arztbesuch vom 7. Dezember 2018*  
-[Robert Meier](Patient-RobertMeier.html) wird von [Agnes Bauer](Practitioner-AgnesBauer.html) über die Diagnose informiert. Sie informiert ihn über das weitere Vorgehen und informiert ihn, dass seine Daten auch an das Krebsregister ([Information des Patienten](Communication-CommMeier.html)) gesendet werden. [Robert Meier](Patient-RobertMeier.html) entscheidet sich für eine sofortige Operation und seine [Hausärztin](Practitioner-AgnesBauer.html) vereinbart einen Operationstermin im [Spital Seeblick](Organization-SpitalSeeblickHansEgli.html). [Agnes Bauer](Practitioner-AgnesBauer.html) **informiert das Krebsregister über das Datum der Patienteninformation und die Diagnose**.
-* Information über Diagnose und Patienteninformation: 
+[Robert Meier](Patient-RobertMeier.html) wird von [Agnes Bauer](Practitioner-AgnesBauer.html) über die Diagnose informiert. Sie informiert ihn über das weitere Vorgehen und informiert ihn, dass seine Daten auch an das Krebsregister gesendet werden. [Robert Meier](Patient-RobertMeier.html) entscheidet sich für eine sofortige Operation und seine [Hausärztin](Practitioner-AgnesBauer.html) vereinbart einen Operationstermin im [Spital Seeblick](Organization-SpitalSeeblickHansEgli.html). [Agnes Bauer](Practitioner-AgnesBauer.html) **informiert das Krebsregister über die Diagnose**.
+* Information über Diagnose: 
     [Use Case 1a (PDF)](Bundle-BundleUC1aInfo20181207.html), 
     [Use Case 1b (strukturiert)](Bundle-BundleUC1bInfo20181207.html)
 

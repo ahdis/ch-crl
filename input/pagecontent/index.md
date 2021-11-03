@@ -15,7 +15,6 @@ On January 1st 2020 the new National Law on Cancer Registration (NLCR) and the a
 
 ### Case-opening Criteria and MustSupport
 In order to be able to report a case to the cancer registry, so-called case-opening criteria are required. These criteria are represented in the FHIR implementation guide with the [mustSupport](https://www.hl7.org/fhir/conformance-rules.html#mustSupport) flag set to true.
-* [Date of patient information](StructureDefinition-ch-crl-composition-definitions.html#Composition.section:registrationRequirements.entry:communication)
 * [Deceased](StructureDefinition-ch-crl-patient-definitions.html#Patient.deceased[x])
 
 ### Copyright
