@@ -2,7 +2,7 @@ Mapping: KRV-for-CHCRLOrganization
 Id: KRV
 Title: "Krebsregistrierungsverordnung"
 Source: CHCRLOrganization
-Target: "https://www.admin.ch/opc/de/classified-compilation/20172625/201806010000/818.331.pdf"
+Target: "https://www.fedlex.admin.ch/eli/cc/2018/290/de"
 * name -> "Name der Institution (Art. 7 Abs. 2 Bst. a)"
 * telecom[phone] -> "Telefonnummer (Art. 7 Abs. 2 Bst. c)"
 * telecom[email] -> "E-Mail-Adresse (Art. 7 Abs. 2 Bst. d)"
