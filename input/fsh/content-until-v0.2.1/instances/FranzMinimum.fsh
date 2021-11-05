@@ -1,6 +1,6 @@
 Instance: FranzMinimum
 InstanceOf: CHCRLPatient
-Title: "FranzMinimum"
+Title: "Franz Minimum"
 Description: "Example for Patient"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.32"

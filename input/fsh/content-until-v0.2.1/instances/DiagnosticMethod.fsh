@@ -1,7 +1,7 @@
 Instance: DiagnosticMethod
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "DiagnosticMethod"
-Description: "Example for Procedure"
+Title: "Diagnostic method - CT scan of tumour"
+Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed
 * category = $loinc#67183-4 "Diagnostic staging procedure PhenX"

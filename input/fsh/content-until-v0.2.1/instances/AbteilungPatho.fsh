@@ -1,6 +1,6 @@
 Instance: AbteilungPatho
 InstanceOf: CHCRLOrganizationDepartment
-Title: "AbteilungPatho"
+Title: "Abteilung Pathologie"
 Description: "Example for Organization"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.45"

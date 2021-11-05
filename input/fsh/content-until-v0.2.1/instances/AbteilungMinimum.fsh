@@ -1,6 +1,6 @@
 Instance: AbteilungMinimum
 InstanceOf: CHCRLOrganizationDepartment
-Title: "AbteilungMinimum"
+Title: "Abteilung Minimum"
 Description: "Example for Organization"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.45"

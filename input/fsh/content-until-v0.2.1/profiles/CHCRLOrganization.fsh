@@ -1,8 +1,8 @@
 Profile: CHCRLOrganization
 Parent: CHCoreOrganization
 Id: ch-crl-organization
-Title: "CH CRL Organization Profile"
-Description: "Organization of which the organization department forms a part"
+Title: "CH CRL Organization"
+Description: "Definition of the Organization of which the organization department forms a part"
 * . ^short = "CH CRL Organization"
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "$this"

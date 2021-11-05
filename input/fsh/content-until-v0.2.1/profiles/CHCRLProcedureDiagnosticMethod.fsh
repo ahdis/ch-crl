@@ -1,8 +1,8 @@
 Profile: CHCRLProcedureDiagnosticMethod
 Parent: Procedure
 Id: ch-crl-procedure-diagnosticmethod
-Title: "CH CRL Procedure Diagnostic Method Profile"
-Description: "Procedure for the diagnostic method(s)"
+Title: "CH CRL Procedure Diagnostic Method"
+Description: "Definition of the Procedure for the diagnostic method(s)"
 * . ^short = "CH CRL Procedure Diagnostic Method"
 * category 1..
 * category = $loinc#67183-4 "Diagnostic staging procedure PhenX"

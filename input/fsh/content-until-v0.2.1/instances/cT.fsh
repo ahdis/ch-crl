@@ -1,7 +1,7 @@
 Instance: cT
 InstanceOf: CHCRLObservationCT
-Title: "cT"
-Description: "Example for Observation"
+Title: "cT - cT1"
+Description: "Example for Observation for the TNM clinical primary tumor category"
 Usage: #example
 * status = #final
 * code = $loinc#21905-5 "Primary tumor.clinical [Class] Cancer"

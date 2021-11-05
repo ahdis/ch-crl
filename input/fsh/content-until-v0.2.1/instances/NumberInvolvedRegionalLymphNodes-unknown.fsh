@@ -1,7 +1,7 @@
 Instance: NumberInvolvedRegionalLymphNodes-unknown
 InstanceOf: CHCRLObservationNumberInvolvedRegionalLymphNodes
-Title: "NumberInvolvedRegionalLymphNodes-unknown"
-Description: "Example for Observation"
+Title: "Number involved regional lymph nodes - Unknown"
+Description: "Example for Observation for the number of involved regional lymph nodes"
 Usage: #example
 * status = #final
 * code = $loinc#21893-3 "Regional lymph nodes positive [#] Specimen"

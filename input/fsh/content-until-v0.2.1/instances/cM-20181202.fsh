@@ -1,7 +1,7 @@
 Instance: cM-20181202
 InstanceOf: CHCRLObservationCM
-Title: "cM-20181202"
-Description: "Example for Observation"
+Title: "cM - NA (2018-12-02)"
+Description: "Example for Observation for the TNM clinical distant metastases category"
 Usage: #example
 * status = #final
 * code = $loinc#21907-1 "Distant metastases.clinical [Class] Cancer"

@@ -1,6 +1,6 @@
 Instance: AgnesBauer
 InstanceOf: CHCRLPractitioner
-Title: "AgnesBauer"
+Title: "Agnes Bauer"
 Description: "Example for Practitioner"
 Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"

@@ -1,8 +1,8 @@
 Profile: CHCRLObservationDateOfIncidence
 Parent: Observation
 Id: ch-crl-observation-dateofincidence
-Title: "CH CRL Observation Date of Incidence Profile"
-Description: "Observation for the date of incidence"
+Title: "CH CRL Observation Date of Incidence"
+Description: "Definition of the Observation for the date of incidence"
 * . ^short = "CH CRL Observation Date of Incidence"
 * code 1..
 * code = $loinc#63931-0 "Date of diagnosis"

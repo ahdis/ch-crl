@@ -1,8 +1,8 @@
 Profile: CHCRLObservationICDO3HistologicalGrade
 Parent: Observation
 Id: ch-crl-observation-icdo3histologicalgrade
-Title: "CH CRL Observation ICD-O-3 Histological Grade Profile"
-Description: "Observation for the ICD-O-3 histological grade code"
+Title: "CH CRL Observation ICD-O-3 Histological Grade"
+Description: "Definition of the Observation for the ICD-O-3 histological grade code"
 * . ^short = "CH CRL Observation ICD-O-3 Histological Grade"
 * code 1..
 * code = $loinc#33732-9 "Histology grade [Identifier] in Cancer specimen"

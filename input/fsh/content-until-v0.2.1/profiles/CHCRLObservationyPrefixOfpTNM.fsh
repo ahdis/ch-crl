@@ -1,8 +1,8 @@
 Profile: CHCRLObservationyPrefixOfpTNM
 Parent: Observation
 Id: ch-crl-observation-yprefixofptnm
-Title: "CH CRL Observation y-Prefix of pTNM Profile"
-Description: "Observation for the y-Prefix of pTNM"
+Title: "CH CRL Observation y-Prefix of pTNM"
+Description: "Definition of the Observation for the y-Prefix of pTNM"
 * . ^short = "CH CRL Observation y-Prefix of pTNM"
 * code 1..
 * code = $sct#373847000 "Neo-adjuvant - intent"

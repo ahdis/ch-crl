@@ -1,7 +1,7 @@
 Instance: DiagnosticMethod-Biopsy20181214
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "DiagnosticMethod-Biopsy20181214"
-Description: "Example for Procedure"
+Title: "Diagnostic method - Biopsy of primary tumour (2018-12-14)"
+Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed
 * category = $loinc#67183-4 "Diagnostic staging procedure PhenX"

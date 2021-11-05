@@ -1,7 +1,7 @@
 Instance: ICD-O-3-Topography-20181202
 InstanceOf: CHCRLObservationICDO3Topography
-Title: "ICD-O-3-Topography-20181202"
-Description: "Example for Observation"
+Title: "ICD-O-3 Topography - Flexura hepatica (2018-12-02)"
+Description: "Example for Observation for the ICD-O-3 topography code"
 Usage: #example
 * status = #final
 * code = $loinc#21855-2 "Primary site Cancer"

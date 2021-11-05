@@ -1,8 +1,8 @@
 Profile: CHCRLObservationICDO3Laterality
 Parent: Observation
 Id: ch-crl-observation-icdo3laterality
-Title: "CH CRL Observation ICD-O-3 Laterality Profile"
-Description: "Observation for the ICD-O-3 laterality code"
+Title: "CH CRL Observation ICD-O-3 Laterality"
+Description: "Definition of the Observation for the ICD-O-3 laterality code"
 * . ^short = "CH CRL Observation ICD-O-3 Laterality"
 * code 1..
 * code = $loinc#63930-2 "Laterality [PhenX]"

@@ -1,8 +1,8 @@
 Profile: CHCRLObservationPerineuralInvasion
 Parent: Observation
 Id: ch-crl-observation-perineuralinvasion
-Title: "CH CRL Observation Perineural Invasion Profile"
-Description: "Observation for the perineural invasion"
+Title: "CH CRL Observation Perineural Invasion"
+Description: "Definition of the Observation for the perineural invasion"
 * . ^short = "CH CRL Observation Perineural Invasion"
 * code 1..
 * code = $loinc#92837-4 "Perineural invasion [Presence] in Cancer specimen"

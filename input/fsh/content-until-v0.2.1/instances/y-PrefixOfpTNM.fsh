@@ -1,7 +1,7 @@
 Instance: y-PrefixOfpTNM
 InstanceOf: CHCRLObservationyPrefixOfpTNM
-Title: "y-PrefixOfpTNM"
-Description: "Example for Observation"
+Title: "y-Prefix of pTNM - Yes"
+Description: "Example for Observation for the y-Prefix of pTNM"
 Usage: #example
 * status = #final
 * code = $sct#373847000 "Neo-adjuvant - intent"

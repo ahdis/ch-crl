@@ -1,6 +1,6 @@
 Instance: SpitalMinimum
 InstanceOf: CHCRLOrganization
-Title: "SpitalMinimum"
+Title: "Spital Minimum"
 Description: "Example for Organization"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.45"

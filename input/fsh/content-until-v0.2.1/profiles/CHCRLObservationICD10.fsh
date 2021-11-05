@@ -1,8 +1,8 @@
 Profile: CHCRLObservationICD10
 Parent: Observation
 Id: ch-crl-observation-icd10
-Title: "CH CRL Observation ICD-10 Profile"
-Description: "Observation for the ICD-10 code"
+Title: "CH CRL Observation ICD-10"
+Description: "Definition of the Observation for the ICD-10 code"
 * . ^short = "CH CRL Observation ICD-10"
 * code 1..
 * code = $loinc#86255-7 "Primary diagnosis ICD code"

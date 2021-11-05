@@ -1,7 +1,7 @@
 Instance: DocuUC1aOps20181214
 InstanceOf: CHCRLDocumentReference
-Title: "DocuUC1aOps20181214"
-Description: "Example for DocumentReference"
+Title: "Report as pdf UC 1a Ops (2018-12-14)"
+Description: "Example for DocumentReference for the report as pdf"
 Usage: #example
 * status = #current
 * subject = Reference(RobertMeier)

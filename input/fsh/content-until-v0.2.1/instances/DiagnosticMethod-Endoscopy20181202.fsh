@@ -1,7 +1,7 @@
 Instance: DiagnosticMethod-Endoscopy20181202
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "DiagnosticMethod-Endoscopy20181202"
-Description: "Example for Procedure"
+Title: "Diagnostic method - Endoscopy (2018-12-02)"
+Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed
 * category = $loinc#67183-4 "Diagnostic staging procedure PhenX"

@@ -1,7 +1,7 @@
 Instance: BundleFromPractitioner
 InstanceOf: CHCRLBundle
-Title: "BundleFromPractitioner"
-Description: "Example for Practitioner"
+Title: "Bundle from Practitioner"
+Description: "Example for Bundle for reporting to the cancer registry"
 Usage: #example
 * meta.lastUpdated = "2019-10-30T09:41:15.071+00:00"
 * identifier.system = "http://example.fhir"

@@ -1,8 +1,8 @@
 Profile: CHCRLBundle
 Parent: CHCoreDocument
 Id: ch-crl-bundle
-Title: "CH CRL Bundle Profile"
-Description: "Definition of the bundle for reporting to the cancer registry"
+Title: "CH CRL Bundle"
+Description: "Definition of the Bundle for reporting to the cancer registry"
 * . ^short = "CH CRL Bundle"
 * identifier 1..
 * identifier.system 1..

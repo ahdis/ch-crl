@@ -1,7 +1,7 @@
 Instance: DocuHospMinimum
 InstanceOf: CHCRLDocumentReference
-Title: "DocuHospMinimum"
-Description: "Example for DocumentReference"
+Title: "Report as pdf from Hospital Minimum"
+Description: "Example for DocumentReference for the report as pdf"
 Usage: #example
 * status = #current
 * subject = Reference(FranzMinimum)

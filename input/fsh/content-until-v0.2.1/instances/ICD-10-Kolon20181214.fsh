@@ -1,7 +1,7 @@
 Instance: ICD-10-Kolon20181214
 InstanceOf: CHCRLObservationICD10
-Title: "ICD-10-Kolon20181214"
-Description: "Example for Observation"
+Title: "ICD-10 - Kolon (2018-12-14)"
+Description: "Example for Observation for the ICD-10 code"
 Usage: #example
 * status = #final
 * code = $loinc#86255-7 "Primary diagnosis ICD code"

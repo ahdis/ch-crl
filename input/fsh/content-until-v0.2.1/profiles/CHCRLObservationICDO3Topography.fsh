@@ -1,8 +1,8 @@
 Profile: CHCRLObservationICDO3Topography
 Parent: Observation
 Id: ch-crl-observation-icdo3topography
-Title: "CH CRL Observation ICD-O-3 Topography Profile"
-Description: "Observation for the ICD-O-3 topography code"
+Title: "CH CRL Observation ICD-O-3 Topography"
+Description: "Definition of the Observation for the ICD-O-3 topography code"
 * . ^short = "CH CRL Observation ICD-O-3 Topography"
 * code 1..
 * code = $loinc#21855-2 "Primary site Cancer"

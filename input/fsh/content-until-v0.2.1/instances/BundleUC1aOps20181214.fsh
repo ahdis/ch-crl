@@ -1,7 +1,7 @@
 Instance: BundleUC1aOps20181214
 InstanceOf: CHCRLBundle
-Title: "BundleUC1aOps20181214"
-Description: "Example for Bundle"
+Title: "Bundle UC 1a Ops (2018-12-14)"
+Description: "Example for Bundle for reporting to the cancer registry"
 Usage: #example
 * meta.lastUpdated = "2019-10-31T14:13:49.424+00:00"
 * identifier.system = "http://example.fhir"

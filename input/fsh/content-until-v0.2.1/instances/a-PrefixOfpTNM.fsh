@@ -1,7 +1,7 @@
 Instance: a-PrefixOfpTNM
 InstanceOf: CHCRLObservationaPrefixOfpTNM
-Title: "a-PrefixOfpTNM"
-Description: "Example for Observation"
+Title: "a-Prefix of pTNM - Yes"
+Description: "Example for Observation for the a-Prefix of pTNM"
 Usage: #example
 * status = #final
 * code = $loinc#85699-7 "Autopsy was performed"

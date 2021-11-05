@@ -1,8 +1,8 @@
 Profile: CHCRLObservationICDO3Morphology
 Parent: Observation
 Id: ch-crl-observation-icdo3morphology
-Title: "CH CRL Observation ICD-O-3 Morphology Profile"
-Description: "Observation for the ICD-O-3 morphology code"
+Title: "CH CRL Observation ICD-O-3 Morphology"
+Description: "Definition of the Observation for the ICD-O-3 morphology code"
 * . ^short = "CH CRL Observation ICD-O-3 Morphology"
 * code 1..
 * code = $loinc#59848-2 "Morphology.ICD-O-3 Cancer"

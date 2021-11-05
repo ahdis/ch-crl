@@ -1,7 +1,7 @@
 Instance: ICD-O-3-Morphology
 InstanceOf: CHCRLObservationICDO3Morphology
-Title: "ICD-O-3-Morphology"
-Description: "Example for Observation"
+Title: "ICD-O-3 Morphology - Adenokarzinom"
+Description: "Example for Observation for the ICD-O-3 morphology code"
 Usage: #example
 * status = #final
 * code = $loinc#59848-2 "Morphology.ICD-O-3 Cancer"

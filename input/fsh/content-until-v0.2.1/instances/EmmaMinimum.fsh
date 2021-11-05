@@ -1,6 +1,6 @@
 Instance: EmmaMinimum
 InstanceOf: CHCRLPractitioner
-Title: "EmmaMinimum"
+Title: "Emma Minimum"
 Description: "Example for Practitioner"
 Usage: #example
 * name.family = "Minimum"

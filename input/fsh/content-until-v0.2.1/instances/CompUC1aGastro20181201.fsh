@@ -1,6 +1,6 @@
 Instance: CompUC1aGastro20181201
 InstanceOf: CHCRLComposition
-Title: "CompUC1aGastro20181201"
+Title: "Composition UC 1a Gastro (2018-12-01)"
 Description: "Example for Composition"
 Usage: #example
 * status = #final

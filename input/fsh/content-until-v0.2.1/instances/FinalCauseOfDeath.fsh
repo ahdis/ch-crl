@@ -1,7 +1,7 @@
 Instance: FinalCauseOfDeath
 InstanceOf: CHCRLConditionFinalCauseOfDeath
-Title: "FinalCauseOfDeath"
-Description: "Example for Condition"
+Title: "Final cause of death"
+Description: "Example for Condition for the final cause of death"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2018-12-15T13:00:00+02:00"

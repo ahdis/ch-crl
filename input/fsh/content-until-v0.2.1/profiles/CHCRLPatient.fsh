@@ -1,8 +1,8 @@
 Profile: CHCRLPatient
 Parent: CHCorePatient
 Id: ch-crl-patient
-Title: "CH CRL Patient Profile"
-Description: "Definition of the patient for reporting to the cancer registry"
+Title: "CH CRL Patient"
+Description: "Definition of the Patient for reporting to the cancer registry"
 * . ^short = "CH CRL Patient"
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "$this"

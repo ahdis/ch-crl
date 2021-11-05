@@ -1,8 +1,8 @@
 Profile: CHCRLObservationICDO3Behaviour
 Parent: Observation
 Id: ch-crl-observation-icdo3behaviour
-Title: "CH CRL Observation ICD-O-3 Behaviour Profile"
-Description: "Observation for the ICD-O-3 behaviour code"
+Title: "CH CRL Observation ICD-O-3 Behaviour"
+Description: "Definition of the Observation for the ICD-O-3 behaviour code"
 * . ^short = "CH CRL Observation ICD-O-3 Behaviour"
 * code 1..
 * code = $loinc#31206-6 "Behavior ICD-O-3 Cancer"

@@ -1,8 +1,8 @@
 Profile: CHCRLDocumentReference
 Parent: CHCoreDocumentReference
 Id: ch-crl-documentreference
-Title: "CH CRL DocumentReference Profile"
-Description: "Document reference for the report as pdf"
+Title: "CH CRL DocumentReference"
+Description: "Definition of the DocumentReference for the report as pdf"
 * . ^short = "CH CRL DocumentReference"
 * subject 1..
 * subject only Reference(CHCRLPatient)

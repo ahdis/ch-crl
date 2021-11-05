@@ -1,7 +1,7 @@
 Instance: VenousInvasion-20181215
 InstanceOf: CHCRLObservationVenousInvasion
-Title: "VenousInvasion-20181215"
-Description: "Example for Observation"
+Title: "Venous invasion - V0 (2018-12-15)"
+Description: "Example for Observation for the venous invasion"
 Usage: #example
 * status = #final
 * code = $sct#277061006 "Venous tumor invasion status"

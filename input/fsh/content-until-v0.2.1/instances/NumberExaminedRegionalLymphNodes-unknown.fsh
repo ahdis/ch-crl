@@ -1,7 +1,7 @@
 Instance: NumberExaminedRegionalLymphNodes-unknown
 InstanceOf: CHCRLObservationNumberExaminedRegionalLymphNodes
-Title: "NumberExaminedRegionalLymphNodes-unknown"
-Description: "Example for Observation"
+Title: "Number examined regional lymph nodes - Unknown"
+Description: "Example for Observation for the number of examined regional lymph nodes"
 Usage: #example
 * status = #final
 * code = $loinc#21894-1 "Regional lymph nodes examined [#] Specimen"

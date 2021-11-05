@@ -1,8 +1,8 @@
 Profile: CHCRLConditionDisease
 Parent: Condition
 Id: ch-crl-condition-disease
-Title: "CH CRL Condition Disease Profile"
-Description: "Condition for diseases"
+Title: "CH CRL Condition Disease"
+Description: "Definition of the Condition for diseases"
 * . ^short = "CH CRL Condition Disease"
 * extension contains $condition-assertedDate named dateOfDiagnosis 1..1
 * category 1..1

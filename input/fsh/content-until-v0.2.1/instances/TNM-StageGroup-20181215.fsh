@@ -1,7 +1,7 @@
 Instance: TNM-StageGroup-20181215
 InstanceOf: CHCRLObservationTNMStageGroup
-Title: "TNM-StageGroup-2018121"
-Description: "Example for Observation"
+Title: "TNM stage group - Stage IIA (2018-12-15)"
+Description: "Example for Observation for the TNM stage group"
 Usage: #example
 * status = #final
 * code = $loinc#21914-7 "Stage group.other Cancer"

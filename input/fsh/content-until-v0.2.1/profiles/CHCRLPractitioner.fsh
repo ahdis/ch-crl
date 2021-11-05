@@ -1,8 +1,8 @@
 Profile: CHCRLPractitioner
 Parent: CHCorePractitioner
 Id: ch-crl-practitioner
-Title: "CH CRL Practitioner Profile"
-Description: "Definition of the practitioner (resident physician) for reporting to the cancer registry"
+Title: "CH CRL Practitioner"
+Description: "Definition of the Practitioner (resident physician) for reporting to the cancer registry"
 * . ^short = "CH CRL Practitioner"
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"

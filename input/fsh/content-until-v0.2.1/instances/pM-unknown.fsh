@@ -1,7 +1,7 @@
 Instance: pM-unknown
 InstanceOf: CHCRLObservationPM
-Title: "pM-unknown"
-Description: "Example for Observation"
+Title: "pM - Unknown"
+Description: "Example for Observation for the TNM pathologic distant metastases category"
 Usage: #example
 * status = #final
 * code = $loinc#21901-4 "Distant metastases.pathology [Class] Cancer"

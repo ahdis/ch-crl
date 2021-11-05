@@ -1,8 +1,8 @@
 Profile: CHCRLOrganizationDepartment
 Parent: CHCoreOrganization
 Id: ch-crl-organization-department
-Title: "CH CRL Organization Department Profile"
-Description: "Definition of the organization department (hospital) for reporting to the cancer registry"
+Title: "CH CRL Organization Department"
+Description: "Definition of the Organization department (hospital) for reporting to the cancer registry"
 * . ^short = "CH CRL Organization Department"
 * type 1..*
 * type from $DocumentEntry.practiceSettingCode (preferred)

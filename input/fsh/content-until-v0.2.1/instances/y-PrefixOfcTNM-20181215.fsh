@@ -1,7 +1,7 @@
 Instance: y-PrefixOfcTNM-20181215
 InstanceOf: CHCRLObservationyPrefixOfcTNM
-Title: "y-PrefixOfcTNM-20181215"
-Description: "Example for Observation"
+Title: "y-Prefix of cTNM - No (2018-12-15)"
+Description: "Example for Observation for the y-Prefix of cTNM"
 Usage: #example
 * status = #final
 * code = $sct#373846009 "Adjuvant - intent"

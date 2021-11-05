@@ -1,8 +1,8 @@
 Profile: CHCRLObservationmSuffixOfpT
 Parent: Observation
 Id: ch-crl-observation-msuffixofpt
-Title: "CH CRL Observation m-Suffix of pT Profile"
-Description: "Observation for the m-Suffix of pT"
+Title: "CH CRL Observation m-Suffix of pT"
+Description: "Definition of the Observation for the m-Suffix of pT"
 * . ^short = "CH CRL Observation m-Suffix of pT"
 * code 1..
 * code = $loinc#42030-7 "Multiple tumors reported as single primary Cancer"

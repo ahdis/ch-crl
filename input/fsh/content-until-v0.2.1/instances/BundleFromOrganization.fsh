@@ -1,7 +1,7 @@
 Instance: BundleFromOrganization
 InstanceOf: CHCRLBundle
-Title: "BundleFromOrganization"
-Description: "Example for Organization"
+Title: "Bundle from Organization"
+Description: "Example for Bundle for reporting to the cancer registry"
 Usage: #example
 * meta.lastUpdated = "2019-10-31T08:51:46.828+00:00"
 * identifier.system = "http://example.fhir"

@@ -1,6 +1,6 @@
 Instance: CompStructuredData
 InstanceOf: CHCRLComposition
-Title: "CompStructuredData"
+Title: "Composition structured data"
 Description: "Example for Composition"
 Usage: #example
 * status = #final

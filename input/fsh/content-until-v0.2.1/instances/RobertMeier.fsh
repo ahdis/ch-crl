@@ -1,6 +1,6 @@
 Instance: RobertMeier
 InstanceOf: CHCRLPatient
-Title: "RobertMeier"
+Title: "Robert Meier"
 Description: "Example for Patient"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.32"

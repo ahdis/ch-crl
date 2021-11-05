@@ -1,7 +1,7 @@
 Instance: PerineuralInvasion
 InstanceOf: CHCRLObservationPerineuralInvasion
-Title: "PerineuralInvasion"
-Description: "Example for Observation"
+Title: "Perineural invasion - Pn0"
+Description: "Example for Observation for the perineural invasion"
 Usage: #example
 * status = #final
 * code = $loinc#92837-4 "Perineural invasion [Presence] in Cancer specimen"

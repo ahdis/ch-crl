@@ -1,7 +1,7 @@
 Instance: ICD-O-3-Topography
 InstanceOf: CHCRLObservationICDO3Topography
-Title: "ICD-O-3-Topography"
-Description: "Example for Observation"
+Title: "ICD-O-3 Topography - Pankreaskörper"
+Description: "Example for Observation for the ICD-O-3 topography code"
 Usage: #example
 * status = #final
 * code = $loinc#21855-2 "Primary site Cancer"

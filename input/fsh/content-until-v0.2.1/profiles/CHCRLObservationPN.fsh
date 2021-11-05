@@ -1,8 +1,8 @@
 Profile: CHCRLObservationPN
 Parent: Observation
 Id: ch-crl-observation-pn
-Title: "CH CRL Observation pN Profile"
-Description: "Observation for the TNM pathologic regional nodes category"
+Title: "CH CRL Observation pN"
+Description: "Definition of the Observation for the TNM pathologic regional nodes category"
 * . ^short = "CH CRL Observation pN"
 * code 1..
 * code = $loinc#21900-6 "Regional lymph nodes.pathology [Class] Cancer"

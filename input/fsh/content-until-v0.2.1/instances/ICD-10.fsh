@@ -1,7 +1,7 @@
 Instance: ICD-10
 InstanceOf: CHCRLObservationICD10
-Title: "ICD-10"
-Description: "Example for Observation"
+Title: "ICD-10 - C25"
+Description: "Example for Observation for the ICD-10 code"
 Usage: #example
 * status = #final
 * code = $loinc#86255-7 "Primary diagnosis ICD code"

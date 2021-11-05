@@ -1,6 +1,6 @@
 Instance: SpitalSeeblickDoktorGastro
 InstanceOf: CHCRLOrganization
-Title: "SpitalSeeblickDoktorGastro"
+Title: "Spital Seeblick Doktor Gastro"
 Description: "Example for Organization"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.45"

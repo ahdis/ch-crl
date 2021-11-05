@@ -1,7 +1,7 @@
 Instance: DocuPractMinimum
 InstanceOf: CHCRLDocumentReference
-Title: "DocuPractMinimum"
-Description: "Example for DocumentReference"
+Title: "Report as pdf from Practitioner Minimum"
+Description: "Example for DocumentReference for the report as pdf"
 Usage: #example
 * status = #current
 * subject = Reference(FranzMinimum)

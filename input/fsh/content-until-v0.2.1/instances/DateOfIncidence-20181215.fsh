@@ -1,7 +1,7 @@
 Instance: DateOfIncidence-20181215
 InstanceOf: CHCRLObservationDateOfIncidence
-Title: "DateOfIncidence-20181215"
-Description: "Example for Observation"
+Title: "Date of incidence - 2018-12-15"
+Description: "Example for Observation for the date of incidence"
 Usage: #example
 * status = #final
 * code = $loinc#63931-0 "Date of diagnosis"

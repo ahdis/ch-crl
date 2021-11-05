@@ -1,7 +1,7 @@
 Instance: pN
 InstanceOf: CHCRLObservationPN
-Title: "pN"
-Description: "Example for Observation"
+Title: "pN - pN1(sn)"
+Description: "Example for Observation for the TNM pathologic regional nodes category"
 Usage: #example
 * status = #final
 * code = $loinc#21900-6 "Regional lymph nodes.pathology [Class] Cancer"

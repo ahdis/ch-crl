@@ -1,8 +1,8 @@
 Profile: CHCRLComposition
 Parent: CHCoreComposition
 Id: ch-crl-composition
-Title: "CH CRL Composition Profile"
-Description: "Definition of the composition for reporting to the cancer registry"
+Title: "CH CRL Composition"
+Description: "Definition of the Composition for reporting to the cancer registry"
 * . ^short = "CH CRL Composition"
 * type = $loinc#72134-0 "Cancer event report"
 * subject 1..1

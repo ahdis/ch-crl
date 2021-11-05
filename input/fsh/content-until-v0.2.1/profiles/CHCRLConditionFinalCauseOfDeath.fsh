@@ -1,8 +1,8 @@
 Profile: CHCRLConditionFinalCauseOfDeath
 Parent: Condition
 Id: ch-crl-condition-finalcauseofdeath
-Title: "CH CRL Condition Final Cause of Death Profile"
-Description: "Condition for the final cause of death"
+Title: "CH CRL Condition Final Cause of Death"
+Description: "Definition of the Condition for the final cause of death"
 * . ^short = "CH CRL Condition Final Cause of Death"
 * extension contains $condition-assertedDate named dateOfDiagnosis 1..1
 * category 1..1

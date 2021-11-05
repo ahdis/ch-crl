@@ -1,7 +1,7 @@
 Instance: BundleStructuredData
 InstanceOf: CHCRLBundle
-Title: "BundleStructuredData"
-Description: "Example for Bundle"
+Title: "Bundle structured data"
+Description: "Example for Bundle for reporting to the cancer registry"
 Usage: #example
 * meta.lastUpdated = "2019-11-05T12:02:50.958+00:00"
 * identifier.system = "http://example.fhir"

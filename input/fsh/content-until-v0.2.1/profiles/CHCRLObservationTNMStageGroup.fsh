@@ -1,8 +1,8 @@
 Profile: CHCRLObservationTNMStageGroup
 Parent: Observation
 Id: ch-crl-observation-tnmstagegroup
-Title: "CH CRL Observation TNM Stage Group Profile"
-Description: "Observation for the TNM stage group"
+Title: "CH CRL Observation TNM Stage Group"
+Description: "Definition of the Observation for the TNM stage group"
 * . ^short = "CH CRL Observation TNM Stage Group"
 * code 1..
 * code = $loinc#21914-7 "Stage group.other Cancer"

@@ -1,7 +1,7 @@
 Instance: ICD-O-3-Behaviour
 InstanceOf: CHCRLObservationICDO3Behaviour
-Title: "ICD-O-3-Behaviour"
-Description: "Example for Observation"
+Title: "ICD-O-3 Behaviour - Malignant"
+Description: "Example for Observation for the ICD-O-3 behaviour code"
 Usage: #example
 * status = #final
 * code = $loinc#31206-6 "Behavior ICD-O-3 Cancer"

@@ -1,8 +1,8 @@
 Profile: CHCRLObservationPT
 Parent: Observation
 Id: ch-crl-observation-pt
-Title: "CH CRL Observation pT Profile"
-Description: "Observation for the TNM pathologic primary tumor category"
+Title: "CH CRL Observation pT"
+Description: "Definition of the Observation for the TNM pathologic primary tumor category"
 * . ^short = "CH CRL Observation pT"
 * code 1..
 * code = $loinc#21899-0 "Primary tumor.pathology Cancer"

@@ -1,7 +1,7 @@
 Instance: LymphaticInvasion
 InstanceOf: CHCRLObservationLymphaticInvasion
-Title: "LymphaticInvasion"
-Description: "Example for Observation"
+Title: "Lymphatic invasion - L0"
+Description: "Example for Observation for the lymphatic invasion"
 Usage: #example
 * status = #final
 * code = $sct#277060007 "Lymphatic tumor invasion status"

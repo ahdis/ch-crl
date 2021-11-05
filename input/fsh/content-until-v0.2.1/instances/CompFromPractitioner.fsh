@@ -1,6 +1,6 @@
 Instance: CompFromPractitioner
 InstanceOf: CHCRLComposition
-Title: "CompFromPractitioner"
+Title: "Composition from Practitioner"
 Description: "Example for Composition"
 Usage: #example
 * status = #final
