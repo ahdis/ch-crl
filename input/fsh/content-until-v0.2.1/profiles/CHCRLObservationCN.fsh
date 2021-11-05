@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the TNM clinical regional nodes 
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from NkrscN (required)
 * valueCodeableConcept ^short = "Regional lymph nodes involvement based on clinical investigation, imaging, endoscopy, biopsy or surgical exploration"
 * valueCodeableConcept.coding 1..*

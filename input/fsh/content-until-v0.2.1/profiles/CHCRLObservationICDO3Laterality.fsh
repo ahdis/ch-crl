@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the ICD-O-3 laterality code"
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from NkrsIcdO3Laterality (required)
 * valueCodeableConcept ^short = "ICD-O-3 code of the side of a paired organ or side of the body on which the reportable cancer originated"
 * valueCodeableConcept.coding 1..*

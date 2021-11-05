@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the y-Prefix of pTNM"
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueBoolean only boolean
 * valueBoolean ^short = "If TNM assigned before any therapy then 'value=false'. If TNM assigned during or after neoadjuvant therapy then 'value=true'."
 * dataAbsentReason ^short = "It cannot be assessed whether TNM was assigned before, during or after therapy."
 * dataAbsentReason.coding 1..*

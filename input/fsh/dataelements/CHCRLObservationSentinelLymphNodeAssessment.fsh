@@ -11,12 +11,10 @@ Description: "Definition of the Observation for the sentinel lymph node assessme
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from NkrsSentinelLymphNodeAssessment (required)
 * valueCodeableConcept ^short = "Whether the sentinel lymph node is excised and the result of the examination"
 * valueCodeableConcept.coding 1..*

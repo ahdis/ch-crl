@@ -11,12 +11,10 @@ Description: "Definition of the Observation for the number of examined sentinel 
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueQuantity only Quantity
 * valueQuantity ^short = "The total number of sentinel lymph nodes that were excised and examined by the pathologist"
 * valueQuantity.value 1..
 

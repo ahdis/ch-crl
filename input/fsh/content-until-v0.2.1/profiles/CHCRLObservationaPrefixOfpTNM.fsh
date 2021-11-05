@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the a-Prefix of pTNM"
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueBoolean only boolean
 * valueBoolean ^short = "If pTNM classification is not determined at autopsy then 'value=false'. If pTNM classification is first determined at autopsy then 'value=true'."
 * dataAbsentReason ^short = "No information whether pTNM is determined at autopsy or not."
 * dataAbsentReason.coding 1..*

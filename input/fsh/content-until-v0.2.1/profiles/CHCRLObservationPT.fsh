@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the TNM pathologic primary tumor
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from NkrspT (required)
 * valueCodeableConcept ^short = "The extent of the primary tumour based on pathological (histological) evidence after completion of surgical therapy"
 * valueCodeableConcept.coding 1..*

@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the number of involved regional 
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueQuantity only Quantity
 * valueQuantity ^short = "The number of regional lymph nodes examined by the pathologist and found to contain metastases"
 * valueQuantity.value 1..
 * dataAbsentReason ^short = "No information whether regional lymph nodes were invaded or not. OR Regional lymph nodes were invaded, but no information on the number."

@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the TNM clinical primary tumor c
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from NkrscT (required)
 * valueCodeableConcept ^short = "Tumour size based on clinical investigation, imaging, endoscopy, biopsy or surgical exploration"
 * valueCodeableConcept.coding 1..*

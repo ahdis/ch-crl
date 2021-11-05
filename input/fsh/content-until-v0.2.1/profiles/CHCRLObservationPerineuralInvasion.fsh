@@ -11,11 +11,9 @@ Description: "Definition of the Observation for the perineural invasion"
 * subject ^short = "Patient"
 * subject.reference 1..
 * effectiveDateTime 1..
-* effectiveDateTime only dateTime
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from NkrsPerineuralInvasion (required)
 * valueCodeableConcept ^short = "The process of neoplastic invasion of nerves"
 * valueCodeableConcept.coding 1..*
