@@ -1,8 +1,8 @@
 Profile: CHCRLObservationSentinelLymphNodeAssessment
 Parent: Observation
 Id: ch-crl-observation-sentinellymphnodeassessment
-Title: "CH CRL Observation Sentinel Lymph Node Assessment Profile"
-Description: "Observation for the sentinel lymph node assessment"
+Title: "CH CRL Observation Sentinel Lymph Node Assessment"
+Description: "Definition of the Observation for the sentinel lymph node assessment"
 * . ^short = "CH CRL Observation Sentinel Lymph Node Assessment"
 * code 1..
 * code = $sct#443497002 "Excision of sentinel lymph node (procedure)" // TBD
@@ -34,9 +34,17 @@ Description: "Observation for the sentinel lymph node assessment"
 * dataAbsentReason.coding.display = "Unknown" (exactly)
 
 
+Mapping: NICER-A-for-CHCRLObservationSentinelLymphNodeAssessment
+Id: NICER-A
+Title: "NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"
+Source: CHCRLObservationSentinelLymphNodeAssessment
+Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf"
+* -> "Sentinel lymph node assessment (Variable number: 6.5)"
+
+
 Instance: SentinelLymphNodeAssessment
 InstanceOf: CHCRLObservationSentinelLymphNodeAssessment
-Title: "Sentinel Lymph Node Assessment - NO"
+Title: "Sentinel Lymph Node Assessment - N0"
 Description: "Example for Observation for the sentinel lymph node assessment"
 Usage: #example
 * status = #final
