@@ -22,9 +22,9 @@
         </element>
 
         <!-- Eingangsdatum der ersten Meldung -->
-        <element id="CancerReport.DatumDerMeldung">
+        <element id="CancerReport.Meldedatum">
             <path value="CancerReport.DatumDerMeldung" />
-            <definition value="Datum der Meldung"/>
+            <definition value="Meldedatum"/>
             <min value="1"/>
             <max value="1"/>
             <type>
@@ -586,72 +586,72 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.DatumDesAuftretens">
-            <path value="CancerReport.Fall.DatenZurDiagnose.DatumDesAuftretens"/>
-            <definition value="Datum des Auftretens"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Inzidenzdatum">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Inzidenzdatum"/>
+            <definition value="Inzidenzdatum"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="date"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe"/>
-            <definition value="TNM stage group"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe"/>
+            <definition value="TNM-Stadiengruppe"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.KlinischeKategoriePrimaerTumor-cT">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.KlinischeKategoriePrimaerTumor-cT"/>
-            <definition value="Klinische Kategorie Primärtumor cT"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cT">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cT"/>
+            <definition value="cT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.KlinischeKategorieRegionaleKnoten-cN">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.KlinischeKategorieRegionaleKnoten-cN"/>
-            <definition value="Klinische Kategorie regionale Knoten cN"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cN">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cN"/>
+            <definition value="cN"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.KlinischeKategorieFernMetastasen-cM">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.KlinischeKategorieFernMetastasen-cM"/>
-            <definition value="Klinische Kategorie Fernmetastasen cM"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cM">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cM"/>
+            <definition value="cM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.PathologischeKategoriePrimaerTumor-pT">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.PathologischeKategoriePrimaerTumor-pT"/>
-            <definition value="Pathologische Kategorie Primärtumor pT"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pT">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pT"/>
+            <definition value="pT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.PathologischeKategorieRegionaleKnoten-pN">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.PathologischeKategorieRegionaleKnoten-pN"/>
-            <definition value="Pathologische Kategorie regionale Knoten pN"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pN">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pN"/>
+            <definition value="pN"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.PathologischeKategorieFernMetastasen-pM">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-StageGruppe.PathologischeKategorieFernMetastasen-pM"/>
-            <definition value="Pathologische Kategorie Fernmetastasen pM"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pM">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pM"/>
+            <definition value="pM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -685,108 +685,108 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Seitigkeit">
-            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Seitigkeit"/>
-            <definition value="ICD-O-3 Seitigkeit"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Lateralitaet">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Lateralitaet"/>
+            <definition value="ICD-O-3 Lateralität"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerGrad">
-            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerGrad"/>
-            <definition value="ICD-O-3 histologischer Grad"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerDifferenzierungsgrad">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerDifferenzierungsgrad"/>
+            <definition value="ICD-O-3 Histologischer Differenzierungsgrad"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.y-Praefix-klinischesTNM">
-            <path value="CancerReport.Fall.DatenZurDiagnose.y-Praefix-klinischesTNM"/>
-            <definition value="y-Präfix klinisches TNM"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.y-Praefix-cTNM">
+            <path value="CancerReport.Fall.DatenZurDiagnose.y-Praefix-cTNM"/>
+            <definition value="y-Präfix bei cTNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="boolean"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.a-Praefix-pathologischesTNM">
-            <path value="CancerReport.Fall.DatenZurDiagnose.a-Praefix-pathologischesTNM"/>
-            <definition value="a-Präfix pathologisches TNM"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.a-Praefix-pTNM">
+            <path value="CancerReport.Fall.DatenZurDiagnose.a-Praefix-pTNM"/>
+            <definition value="a-Präfix bei pTNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="boolean"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.y-Praefix-pathologischesTNM">
-            <path value="CancerReport.Fall.DatenZurDiagnose.y-Praefix-pathologischesTNM"/>
-            <definition value="y-Präfix pathologisches TNM"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.y-Praefix-pTNM">
+            <path value="CancerReport.Fall.DatenZurDiagnose.y-Praefix-pTNM"/>
+            <definition value="y-Präfix bei pTNM"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="boolean"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.m-Suffix-pathologischesT">
-            <path value="CancerReport.Fall.DatenZurDiagnose.m-Suffix-pathologischesT"/>
-            <definition value="m-Suffix pathologisches T"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.m-Suffix-pT">
+            <path value="CancerReport.Fall.DatenZurDiagnose.m-Suffix-pT"/>
+            <definition value="m-Suffix bei pT"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="decimal"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.AnzahlBeteiligteRegionaleLymphknoten">
-            <path value="CancerReport.Fall.DatenZurDiagnose.AnzahlBeteiligteRegionaleLymphknoten"/>
-            <definition value="Anzahl beteiligte regionale Lymphknoten"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.RegionaererLymphknotenbefall">
+            <path value="CancerReport.Fall.DatenZurDiagnose.RegionaererLymphknotenbefall"/>
+            <definition value="Regionärer Lymphknotenbefall"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="decimal"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.AnzahlUntersuchteRegionaleLymphknoten">
-            <path value="CancerReport.Fall.DatenZurDiagnose.AnzahlUntersuchteRegionaleLymphknoten"/>
-            <definition value="Anzahl untersuchte regionale Lymphknoten"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.AnzahlUntersuchterRegionaererLymphknoten">
+            <path value="CancerReport.Fall.DatenZurDiagnose.AnzahlUntersuchterRegionaererLymphknoten"/>
+            <definition value="Anzahl untersuchter regionärer Lymphknoten"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="decimal"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.LymphatischerBefall">
-            <path value="CancerReport.Fall.DatenZurDiagnose.LymphatischerBefall"/>
-            <definition value="Lymphatischer Befall"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Lymphgefaessinvasion">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Lymphgefaessinvasion"/>
+            <definition value="Lymphgefässinvasion"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.VenoeserBefall">
-            <path value="CancerReport.Fall.DatenZurDiagnose.VenoeserBefall"/>
-            <definition value="Venöser Befall"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Veneninvasion">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Veneninvasion"/>
+            <definition value="Veneninvasion"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.PerineuralerBefall">
-            <path value="CancerReport.Fall.DatenZurDiagnose.PerineuralerBefall"/>
-            <definition value="Perineuraler Befall"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.PerineuraleInvasion">
+            <path value="CancerReport.Fall.DatenZurDiagnose.PerineuraleInvasion"/>
+            <definition value="Perineurale Invasion"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnosemethode">
-            <path value="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnosemethode"/>
-            <definition value="Verwendete Diagnosemethode"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.VerwendeteDdiagnostischeVerfahren">
+            <path value="CancerReport.Fall.DatenZurDiagnose.VerwendeteDdiagnostischeVerfahren"/>
+            <definition value="Verwendete(s) diagnostische(s) Verfahren"/>
             <min value="0"/>
             <max value="*"/>
             <type>
@@ -824,9 +824,6 @@
                 <code value="Element"/>
             </type>
         </element>
-
-
-
 
     </differential>
 </StructureDefinition>
