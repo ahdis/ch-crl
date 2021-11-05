@@ -49,6 +49,6 @@ Description: "Example for Observation for the sentinel lymph node assessment"
 Usage: #example
 * status = #final
 * code = $sct#443497002 "Excision of sentinel lymph node (procedure)" // TBD
-* subject = Reference(RobertMeier)
-* effectiveDateTime = "2018-12-02"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-sentinellymphnodeassessment#0 "N0"

@@ -797,9 +797,18 @@
             <path value="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten"/>
             <definition value="Beurteilung Sentinel-Lymphknoten"/>
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
             <type>
                 <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.AnzahlUntersuchterSentinelLymphknoten">
+            <path value="CancerReport.Fall.DatenZurDiagnose.AnzahlUntersuchterSentinelLymphknoten"/>
+            <definition value="Anzahl untersuchter Sentinel-Lymphknoten"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
             </type>
         </element>
 
