@@ -40,3 +40,6 @@ Usage: #example
 * section[stagingAndGrading].entry[venousInvasion] = Reference(VenousInvasion)
 * section[stagingAndGrading].entry[perineuralInvasion] = Reference(PerineuralInvasion)
 * section[stagingAndGrading].entry[TNM-stage] = Reference(TNM-StageGroup)
+* section[stagingAndGrading].entry[sentinelLymphNodeAssessment] = Reference(SentinelLymphNodeAssessment-N0)
+* section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes] = Reference(NumberPositiveSentinelLymphNodes-6)
+* section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] = Reference(NumberExaminedSentinelLymphNodes-4)

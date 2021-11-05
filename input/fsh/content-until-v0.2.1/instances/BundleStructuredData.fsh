@@ -74,3 +74,9 @@ Usage: #example
 * entry[=].resource = pT
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/SpitalMinimum"
 * entry[=].resource = SpitalMinimum
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/SentinelLymphNodeAssessment-N0"
+* entry[=].resource = SentinelLymphNodeAssessment-N0
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/NumberPositiveSentinelLymphNodes-6"
+* entry[=].resource = NumberPositiveSentinelLymphNodes-6
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/NumberExaminedSentinelLymphNodes-4"
+* entry[=].resource = NumberExaminedSentinelLymphNodes-4
