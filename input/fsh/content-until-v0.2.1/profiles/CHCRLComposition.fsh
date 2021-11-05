@@ -29,7 +29,7 @@ Description: "Definition of the composition for reporting to the cancer registry
     coding 0..1 and
     stagingAndGrading 0..1 and
     tumourRelatedPrognosticFactors 0..1 and
-    charlsonIndex 0..1 and
+//    charlsonIndex 0..1 and
     treatment 0..1 and
     courseOfDisease 0..1
 
@@ -158,7 +158,8 @@ Description: "Definition of the composition for reporting to the cancer registry
     lymphaticInvasion 0..1 and
     venousInvasion 0..1 and
     perineuralInvasion 0..1 and
-    TNM-stage 0..1
+    TNM-stage 0..1 and
+    sentinelLymphNodeAssessment 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -200,6 +201,10 @@ Description: "Definition of the composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[TNM-stage] only Reference(CHCRLObservationTNMStageGroup)
 * section[stagingAndGrading].entry[TNM-stage] ^short = "TNM stage"
 * section[stagingAndGrading].entry[TNM-stage].reference 1..
+// Sentinel lymph node assessment
+* section[stagingAndGrading].entry[sentinelLymphNodeAssessment] only Reference(CHCRLObservationSentinelLymphNodeAssessment)
+* section[stagingAndGrading].entry[sentinelLymphNodeAssessment] ^short = "Sentinel lymph node assessment"
+* section[stagingAndGrading].entry[sentinelLymphNodeAssessment].reference 1..
 
 // ------- Tumour related prognostic factors -------
 * section[tumourRelatedPrognosticFactors] ^short = "Section for the tumour related prognostic factors"
@@ -211,6 +216,7 @@ Description: "Definition of the composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // ------- Charlson index -------
+/*
 * section[charlsonIndex] ^short = "Section for the Charlson index"
 * section[charlsonIndex].title 1..
 * section[charlsonIndex].title = "Charlson index"
@@ -218,6 +224,7 @@ Description: "Definition of the composition for reporting to the cancer registry
 * section[charlsonIndex].entry ^slicing.discriminator.path = "resolve()"
 * section[charlsonIndex].entry ^slicing.rules = #open
 * section[charlsonIndex].section ..0
+*/
 
 // ------- Treatment -------
 * section[treatment] ^short = "Section for the treatment"
