@@ -811,6 +811,15 @@
                 <code value="decimal"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.AnzahlBefallenerSentinelLymphknoten">
+            <path value="CancerReport.Fall.DatenZurDiagnose.AnzahlBefallenerSentinelLymphknoten"/>
+            <definition value="Anzahl befallener Sentinel-Lymphknoten"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">

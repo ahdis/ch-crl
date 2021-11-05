@@ -36,7 +36,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Number of examined sentinel lymph nodes (Variable number: 6.6)"
 
 
-Instance: SentinelLymphNodeAssessment-4
+Instance: NumberExaminedSentinelLymphNodes-4
 InstanceOf: CHCRLObservationNumberExaminedSentinelLymphNodes
 Title: "Number of Examined Sentinel Lymph Nodes - 4"
 Description: "Example for Observation for the number of examined sentinel lymph nodes"
@@ -47,7 +47,7 @@ Usage: #example
 * effectiveDateTime = "2018-12-15"
 * valueQuantity.value = 4
 
-Instance: SentinelLymphNodeAssessment-Unknown
+Instance: NumberExaminedSentinelLymphNodes-Unknown
 InstanceOf: CHCRLObservationNumberExaminedSentinelLymphNodes
 Title: "Number of Examined Sentinel Lymph Nodes - Unknown"
 Description: "Example for Observation for the number of examined sentinel lymph nodes"

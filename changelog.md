@@ -21,6 +21,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * More NKRS variables with profiles, examples and terminology.
    * Sentinel lymph node assessment (Variable number: 6.5)
    * Number of examined sentinel lymph nodes (Variable number: 6.6)
+   * Number of positive sentinel lymph nodes (Variable number: 6.7)
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.

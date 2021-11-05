@@ -160,6 +160,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
     perineuralInvasion 0..1 and
     TNM-stage 0..1 and
     sentinelLymphNodeAssessment 0..1 and
+    numberPositiveSentinelLymphNodes 0..1 and
     numberExaminedSentinelLymphNodes 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
@@ -206,6 +207,10 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] only Reference(CHCRLObservationSentinelLymphNodeAssessment)
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] ^short = "Sentinel lymph node assessment"
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment].reference 1..
+// Number of positive sentinel lymph nodes
+* section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes] only Reference(CHCRLObservationNumberPositiveSentinelLymphNodes)
+* section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes] ^short = "Number of positive sentinel lymph nodes"
+* section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes].reference 1..
 // Number of examined sentinel lymph nodes
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] only Reference(CHCRLObservationNumberExaminedSentinelLymphNodes)
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] ^short = "Number of examined sentinel lymph nodes"
