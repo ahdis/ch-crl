@@ -832,6 +832,16 @@
                 <code value="code"/>
             </type>
         </element>
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.ResektionsrandInvasiverTumor">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ResektionsrandInvasiverTumor"/>
+            <definition value="Resektionsrand invasiver Tumor"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
     
         <element id="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten">
             <path value="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten"/>
