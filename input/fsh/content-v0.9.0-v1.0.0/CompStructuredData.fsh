@@ -46,6 +46,7 @@ Usage: #example
 * section[stagingAndGrading].entry[topographyMetastasesAtDiagnosis][+] = Reference(TopographyMetastasesAtDiagnosis-C77)
 * section[stagingAndGrading].entry[topographyMetastasesAtDiagnosis][+] = Reference(TopographyMetastasesAtDiagnosis-Other)
 * section[stagingAndGrading].entry[resectionMarginInvasiveTumour] = Reference(ResectionMarginInvasiveTumour-NotApplicable)
+* section[stagingAndGrading].entry[resectionMarginInsituTumour] = Reference(ResectionMarginInsituTumour-2.1mm)
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] = Reference(SentinelLymphNodeAssessment-N0)
 * section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes] = Reference(NumberPositiveSentinelLymphNodes-6)
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] = Reference(NumberExaminedSentinelLymphNodes-4)

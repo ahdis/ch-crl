@@ -92,3 +92,5 @@ Usage: #example
 * entry[=].resource = TopographyMetastasesAtDiagnosis-Other
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ResectionMarginInvasiveTumour-NotApplicable"
 * entry[=].resource = ResectionMarginInvasiveTumour-NotApplicable
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ResectionMarginInsituTumour-2.1mm"
+* entry[=].resource = ResectionMarginInsituTumour-2.1mm
