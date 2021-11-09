@@ -159,6 +159,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
     venousInvasion 0..1 and
     perineuralInvasion 0..1 and
     TNM-stage 0..1 and
+    clinicalTumourSize 0..1 and
     sentinelLymphNodeAssessment 0..1 and
     numberPositiveSentinelLymphNodes 0..1 and
     numberExaminedSentinelLymphNodes 0..1
@@ -203,6 +204,10 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[TNM-stage] only Reference(CHCRLObservationTNMStageGroup)
 * section[stagingAndGrading].entry[TNM-stage] ^short = "TNM stage"
 * section[stagingAndGrading].entry[TNM-stage].reference 1..
+// Clinical tumour size in mm
+* section[stagingAndGrading].entry[clinicalTumourSize] only Reference(CHCRLObservationClinicalTumourSize)
+* section[stagingAndGrading].entry[clinicalTumourSize] ^short = "Clinical tumour size"
+* section[stagingAndGrading].entry[clinicalTumourSize].reference 1..
 // Sentinel lymph node assessment
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] only Reference(CHCRLObservationSentinelLymphNodeAssessment)
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] ^short = "Sentinel lymph node assessment"

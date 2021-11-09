@@ -80,3 +80,5 @@ Usage: #example
 * entry[=].resource = NumberPositiveSentinelLymphNodes-6
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/NumberExaminedSentinelLymphNodes-4"
 * entry[=].resource = NumberExaminedSentinelLymphNodes-4
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ClinicalTumourSize-11mm"
+* entry[=].resource = ClinicalTumourSize-11mm

@@ -19,9 +19,10 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * Separate tabs for the use case and the cancer report (logical model) for simpler navigation in the IG.
 * Set the flag `mustSupport`=true for case-opening criteria, see [here](http://build.fhir.org/ig/ahdis/ch-crl/index.html#case-opening-criteria-and-mustsupport).
 * More NKRS variables with profiles, examples and terminology.
-   * Sentinel lymph node assessment (Variable number: 6.5)
-   * Number of examined sentinel lymph nodes (Variable number: 6.6)
-   * Number of positive sentinel lymph nodes (Variable number: 6.7)
+   * Sentinel lymph node assessment (Variable number: 6.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-sentinellymphnodeassessment.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-sentinellymphnodeassessment.html))
+   * Number of examined sentinel lymph nodes (Variable number: 6.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberexaminedsentinellymphnodes.html))
+   * Number of positive sentinel lymph nodes (Variable number: 6.7) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberpositivesentinellymphnodes.html))
+   * Clinical tumour size (Variable number: 4.39) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-clinicaltumoursize.html))
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.

@@ -577,15 +577,6 @@
         </element>
 
         <!-- Daten zur Diagnose: ICD-10 -->
-        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-10">
-            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-10" />
-            <definition value="ICD-10"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.Inzidenzdatum">
             <path value="CancerReport.Fall.DatenZurDiagnose.Inzidenzdatum"/>
             <definition value="Inzidenzdatum"/>
@@ -595,72 +586,18 @@
                 <code value="date"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe"/>
-            <definition value="TNM-Stadiengruppe"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnostischeVerfahren">
+            <path value="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnostischeVerfahren"/>
+            <definition value="Verwendete(s) diagnostische(s) Verfahren"/>
             <min value="0"/>
-            <max value="1"/>
+            <max value="*"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cT">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cT"/>
-            <definition value="cT"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cN">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cN"/>
-            <definition value="cN"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cM">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cM"/>
-            <definition value="cM"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pT">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pT"/>
-            <definition value="pT"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pN">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pN"/>
-            <definition value="pN"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pM">
-            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pM"/>
-            <definition value="pM"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Morphologie">
-            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Morphologie"/>
-            <definition value="ICD-O-3 Morphologie"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-10">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-10" />
+            <definition value="ICD-10"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -676,6 +613,15 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Morphologie">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Morphologie"/>
+            <definition value="ICD-O-3 Morphologie"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Verhalten">
             <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Verhalten"/>
             <definition value="ICD-O-3 Verhalten"/>
@@ -685,18 +631,18 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Lateralitaet">
-            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Lateralitaet"/>
-            <definition value="ICD-O-3 Lateralität"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerDifferenzierungsgrad">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerDifferenzierungsgrad"/>
+            <definition value="ICD-O-3 Histologischer Differenzierungsgrad"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerDifferenzierungsgrad">
-            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-HistologischerDifferenzierungsgrad"/>
-            <definition value="ICD-O-3 Histologischer Differenzierungsgrad"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Lateralitaet">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICD-O-3-Lateralitaet"/>
+            <definition value="ICD-O-3 Lateralität"/>
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -784,15 +730,81 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.VerwendeteDdiagnostischeVerfahren">
-            <path value="CancerReport.Fall.DatenZurDiagnose.VerwendeteDdiagnostischeVerfahren"/>
-            <definition value="Verwendete(s) diagnostische(s) Verfahren"/>
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe"/>
+            <definition value="TNM-Stadiengruppe"/>
             <min value="0"/>
-            <max value="*"/>
+            <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cT">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cT"/>
+            <definition value="cT"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cN">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cN"/>
+            <definition value="cN"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cM">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.cM"/>
+            <definition value="cM"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pT">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pT"/>
+            <definition value="pT"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pN">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pN"/>
+            <definition value="pN"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pM">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe.pM"/>
+            <definition value="pM"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.KlinischeTumorgroesse">
+            <path value="CancerReport.Fall.DatenZurDiagnose.KlinischeTumorgroesse"/>
+            <definition value="Klinische Tumorgrösse"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+    
         <element id="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten">
             <path value="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten"/>
             <definition value="Beurteilung Sentinel-Lymphknoten"/>
