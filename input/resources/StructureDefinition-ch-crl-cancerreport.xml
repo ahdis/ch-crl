@@ -813,6 +813,16 @@
                 <code value="decimal"/>
             </type>
         </element>
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.MetastasierungZumZeitpunktDerDiagnose">
+            <path value="CancerReport.Fall.DatenZurDiagnose.MetastasierungZumZeitpunktDerDiagnose"/>
+            <definition value="Metastasierung zum Zeitpunkt der Diagnose"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
     
         <element id="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten">
             <path value="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten"/>

@@ -84,3 +84,5 @@ Usage: #example
 * entry[=].resource = ClinicalTumourSize-11mm
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/PathologicalTumourSize-11mm"
 * entry[=].resource = PathologicalTumourSize-11mm
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/MetastasesAtDiagnosisIndicator-Unknown"
+* entry[=].resource = MetastasesAtDiagnosisIndicator-Unknown
