@@ -51,7 +51,7 @@ Usage: #example
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-sentinellymphnodeassessment#0 "N0"
 
-Instance: SentinelLymphNodeAssessment-Unkown
+Instance: SentinelLymphNodeAssessment-Unknown
 InstanceOf: CHCRLObservationSentinelLymphNodeAssessment
 Title: "Sentinel Lymph Node Assessment - Unknown"
 Description: "Example for Observation for the sentinel lymph node assessment"
