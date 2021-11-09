@@ -804,6 +804,15 @@
                 <code value="decimal"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.PathologischeTumorgroesse">
+            <path value="CancerReport.Fall.DatenZurDiagnose.PathologischeTumorgroesse"/>
+            <definition value="Pathologische Tumorgrösse"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
     
         <element id="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten">
             <path value="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten"/>
