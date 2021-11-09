@@ -43,6 +43,8 @@ Usage: #example
 * section[stagingAndGrading].entry[clinicalTumourSize] = Reference(ClinicalTumourSize-11mm)
 * section[stagingAndGrading].entry[pathologicalTumourSize] = Reference(PathologicalTumourSize-11mm)
 * section[stagingAndGrading].entry[metastasesAtDiagnosisIndicator] = Reference(MetastasesAtDiagnosisIndicator-Unknown)
+* section[stagingAndGrading].entry[topographyMetastasesAtDiagnosis][+] = Reference(TopographyMetastasesAtDiagnosis-C77)
+* section[stagingAndGrading].entry[topographyMetastasesAtDiagnosis][+] = Reference(TopographyMetastasesAtDiagnosis-Other)
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] = Reference(SentinelLymphNodeAssessment-N0)
 * section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes] = Reference(NumberPositiveSentinelLymphNodes-6)
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] = Reference(NumberExaminedSentinelLymphNodes-4)

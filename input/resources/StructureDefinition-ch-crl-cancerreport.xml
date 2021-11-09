@@ -823,6 +823,15 @@
                 <code value="boolean"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TopografieDerMetastasenZumZeitpunktDerDiagnose">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TopografieDerMetastasenZumZeitpunktDerDiagnose"/>
+            <definition value="Topografie der Metastasen zum Zeitpunkt der Diagnose"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
     
         <element id="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten">
             <path value="CancerReport.Fall.DatenZurDiagnose.BeurteilungSentinelLymphknoten"/>

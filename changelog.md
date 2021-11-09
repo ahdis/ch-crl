@@ -25,6 +25,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    * Clinical tumour size (Variable number: 4.39) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-clinicaltumoursize.html))
    * Pathological tumour size (Variable number: 4.40) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-pathologicaltumoursize.html))   
    * Metastases at diagnosis indicator (Variable number: 4.41) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-metastasesatdiagnosisindicator.html))  
+   * Topography of metastases at diagnosis (Variable number: 4.42) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographymetastasesatdiagnosis.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastasesatdiagnosis.html))
 
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.

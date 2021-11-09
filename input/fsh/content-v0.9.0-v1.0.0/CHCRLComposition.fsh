@@ -162,6 +162,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
     clinicalTumourSize 0..1 and
     pathologicalTumourSize 0..1 and
     metastasesAtDiagnosisIndicator 0..1 and
+    topographyMetastasesAtDiagnosis 0..* and
     sentinelLymphNodeAssessment 0..1 and
     numberPositiveSentinelLymphNodes 0..1 and
     numberExaminedSentinelLymphNodes 0..1
@@ -218,6 +219,10 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[metastasesAtDiagnosisIndicator] only Reference(CHCRLObservationMetastasesAtDiagnosisIndicator)
 * section[stagingAndGrading].entry[metastasesAtDiagnosisIndicator] ^short = "Metastases at diagnosis indicator"
 * section[stagingAndGrading].entry[metastasesAtDiagnosisIndicator].reference 1..
+// Topography of metastases at diagnosis
+* section[stagingAndGrading].entry[topographyMetastasesAtDiagnosis] only Reference(CHCRLObservationTopographyMetastasesAtDiagnosis)
+* section[stagingAndGrading].entry[topographyMetastasesAtDiagnosis] ^short = "Topography of metastases at diagnosis"
+* section[stagingAndGrading].entry[topographyMetastasesAtDiagnosis].reference 1..
 // Sentinel lymph node assessment
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] only Reference(CHCRLObservationSentinelLymphNodeAssessment)
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] ^short = "Sentinel lymph node assessment"
