@@ -63,7 +63,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[registrationRequirements].entry[communication].reference 1..
 // Deceased -> Patient.deceased[x]
 
-// Cause of death  
+// ------- Cause of death -------
 * section[causeOfDeath] ^short = "Section for the cause of death"
 * section[causeOfDeath].title 1..
 * section[causeOfDeath].title = "Cause of death"
@@ -280,6 +280,33 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.path = "resolve()"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
 * section[tumourRelatedPrognosticFactors].section ..0
+
+// Head / neck: HPV/p16
+// Head / neck: EBV
+
+// Colon / rectum: Circumferential resection margins
+// Colon / rectum: Microsatellite instability
+
+// Melanoma: Breslow thickness in mm
+
+// Breast: Oestrogen receptor status
+// Breast: Progesterone receptor status
+// Breast: HER2 receptor status
+// Breast: Tumour proliferation labelling
+
+// Prostate: PSA
+// Prostate: Gleason Pattern (Biopsy) - most common
+// Prostate: Gleason Pattern (Biopsy) - second most common
+// Prostate: Gleason pattern (excision) - most common
+// Prostate: Gleason pattern (excision) - second most common
+// Prostate: Gleason score
+// Prostate: WHO grade group
+ 
+// Testicle: α-fetoprotein
+// Testicle: hCG (mlU/ml)
+// Testicle: LDH (factor x N)
+// Testicle: Serum tumour markers
+
 
 // ------- Charlson index -------
 /*
