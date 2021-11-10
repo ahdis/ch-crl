@@ -842,6 +842,16 @@
                 <code value="decimal"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.AssoziiertesInsituKarzinom">
+            <path value="CancerReport.Fall.DatenZurDiagnose.AssoziiertesInsituKarzinom"/>
+            <definition value="Assoziiertes In-situ-Karzinom"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <!-- Residual for associated in-situ tumour -->
         <element id="CancerReport.Fall.DatenZurDiagnose.ResektionsrandInsituKarzinom">
             <path value="CancerReport.Fall.DatenZurDiagnose.ResektionsrandInsituKarzinom"/>
             <definition value="Resektionsrand In-situ-Karzinom"/>

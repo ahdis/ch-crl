@@ -164,6 +164,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     metastasesAtDiagnosisIndicator 0..1 and
     topographyMetastasesAtDiagnosis 0..* and
     resectionMarginInvasiveTumour 0..1 and
+    associatedInsituTumour 0..1 and
+    // tbd
     resectionMarginInsituTumour 0..1 and
     sentinelLymphNodeAssessment 0..1 and
     numberPositiveSentinelLymphNodes 0..1 and
@@ -230,7 +232,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[resectionMarginInvasiveTumour] ^short = "Resection margin invasive tumour"
 * section[stagingAndGrading].entry[resectionMarginInvasiveTumour].reference 1..
 // Associated in-situ tumour
- 
+* section[stagingAndGrading].entry[associatedInsituTumour] only Reference(CHCRLObservationAssociatedInsituTumour)
+* section[stagingAndGrading].entry[associatedInsituTumour] ^short = "Associated in-situ tumour"
+* section[stagingAndGrading].entry[associatedInsituTumour].reference 1..
 // Residual for associated in-situ tumour
  
 // Resection margin in-situ tumour
