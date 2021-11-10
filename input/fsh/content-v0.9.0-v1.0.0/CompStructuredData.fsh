@@ -10,6 +10,9 @@ Usage: #example
 * author = Reference(AbteilungMinimum)
 * title = "Report to the Cancer Registry"
 
+* section[registrationRequirements].title = "Registration requirements"
+* section[registrationRequirements].entry[communication] = Reference(CommMinimum)
+
 * section[causeOfDeath].title = "Cause of death"
 * section[causeOfDeath].entry[principalCauseOfDeath] = Reference(FinalCauseOfDeath)
 * section[causeOfDeath].entry[diseases] = Reference(PrimaryDisease)

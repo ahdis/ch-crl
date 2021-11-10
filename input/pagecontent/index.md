@@ -15,13 +15,16 @@ On January 1st 2020 the new National Law on Cancer Registration (NLCR) and the a
 
 ### Case-opening Criteria and MustSupport
 In order to be able to report a case to the cancer registry, so-called case-opening criteria are required. These criteria are represented in the FHIR implementation guide with the [mustSupport](https://www.hl7.org/fhir/conformance-rules.html#mustSupport) flag set to true. The case-opening criteria include the following personal data on the patient and the date of the cancer report:
+
 * [Family name](StructureDefinition-ch-crl-patient-definitions.html#Patient.name.family)
 * [First name(s)](StructureDefinition-ch-crl-patient-definitions.html#Patient.name.given)
-* [Gender](StructureDefinition-ch-crl-patient-definitions.html#Patient.gender)
-* [Date of birth](StructureDefinition-ch-crl-patient-definitions.html#Patient.birthDate)
+* [Sex](StructureDefinition-ch-crl-patient-definitions.html#Patient.gender)
+* [Date of Birth](StructureDefinition-ch-crl-patient-definitions.html#Patient.birthDate)
 * [OASI number](StructureDefinition-ch-crl-patient-definitions.html#Patient.identifier:AHVN13)
+* [Date of notification](StructureDefinition-ch-crl-bundle-definitions.html#Bundle.timestamp)
+* [Date of informing the patient](StructureDefinition-ch-crl-composition-definitions.html#Composition.section:registrationRequirements.entry:communication)
 * [Wheter patient is deceased](StructureDefinition-ch-crl-patient-definitions.html#Patient.deceased[x])
-* [Date of cancer report](StructureDefinition-ch-crl-bundle-definitions.html#Bundle.timestamp)
+
 
 ### Copyright
 This specification includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation ([IHTSDO](http://snomed.org/)) and distributed by agreement between IHTSDO and HL7. Implementers of these specification must have the appropriate SNOMED CT Affiliate license - for more information contact 

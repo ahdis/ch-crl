@@ -47,10 +47,6 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    * [NKRS - TNM Stage Group](http://build.fhir.org/ig/ahdis/ch-crl/CodeSystem-nkrs-tnmstagegroup.html) 
       * Additional code **IIID** "Stage IIID"
       * Removed codes **A** "Stage A", **AP** "Stage AP", **B** "Stage B", **BP** "Stage BP", **C** "Stage C", **CP** "Stage CP"
-* The 'Date of patient information' was removed because it is no longer sent to the cancer registry. **Implementers should remove the Communication resource from the cancer report.**
-   * [CH CRL Composition Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-composition.html)
-   * [Cancer Report example](http://build.fhir.org/ig/ahdis/ch-crl/Bundle-BundleStructuredData.html)
-   * [Cancer Report Logical Model](http://build.fhir.org/ig/ahdis/ch-crl/logicalmodel.html)
 * Add the Extension 'data-absent-reason' to the Procedure for the diagnostic method(s), to support the representation of the value 'unknown'. **Implementers should now be able to support 'unknown' for this Procedure.**
    * [CH CRL Procedure Diagnostic Method Profile](http://build.fhir.org/ig/ahdis/ch-crl/branches/master/StructureDefinition-ch-crl-procedure-diagnosticmethod.html)
    * [Example with value 'unknown'](http://build.fhir.org/ig/ahdis/ch-crl/branches/master/Procedure-DiagnosticMethod-Unknown.html)

@@ -23,7 +23,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 
 * section contains
     unstructuredReport 0..1 and
-//    registrationRequirements 0..1 and
+    registrationRequirements 0..1 and
     causeOfDeath 0..1 and
     diagnosis 0..1 and
     coding 0..1 and
@@ -48,7 +48,6 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[unstructuredReport].entry[documentReference].reference 1..
 
 // ------- Registration requirements -------
-/*
 * section[registrationRequirements] ^short = "Section for the registration requirements"
 * section[registrationRequirements].title 1..
 * section[registrationRequirements].title = "Registration requirements"
@@ -56,10 +55,14 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[registrationRequirements].entry ^slicing.discriminator.path = "resolve()"
 * section[registrationRequirements].entry ^slicing.rules = #open
 * section[registrationRequirements].section ..0
-*/
+// Receipt date of first record -> Bundle.timestamp
+// Date of patient information
+* section[registrationRequirements].entry contains communication 0..1 MS
+* section[registrationRequirements].entry[communication] only Reference(CHCRLCommunication)
+* section[registrationRequirements].entry[communication] ^short = "Date of patient information"
+* section[registrationRequirements].entry[communication].reference 1..
+// Deceased -> Patient.deceased[x]
 
-
-   // diseases 0..* and
 // Cause of death  
 * section[causeOfDeath] ^short = "Section for the cause of death"
 * section[causeOfDeath].title 1..

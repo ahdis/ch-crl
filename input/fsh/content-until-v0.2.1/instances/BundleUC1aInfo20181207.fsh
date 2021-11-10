@@ -12,6 +12,8 @@ Usage: #example
 * entry[=].resource = CompUC1aInfo20181207
 * entry[+].fullUrl = "http://test.fhir.ch/r4/DocumentReference/DocuUC1aInfo20181207"
 * entry[=].resource = DocuUC1aInfo20181207
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Communication/CommMeier"
+* entry[=].resource = CommMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/RobertMeier"
 * entry[=].resource = RobertMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/AgnesBauer"

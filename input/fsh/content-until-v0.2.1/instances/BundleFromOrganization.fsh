@@ -14,6 +14,8 @@ Usage: #example
 * entry[=].resource = AbteilungMinimum
 * entry[+].fullUrl = "http://test.fhir.ch/r4/DocumentReference/DocuHospMinimum"
 * entry[=].resource = DocuHospMinimum
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Communication/CommMinimum"
+* entry[=].resource = CommMinimum
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/FranzMinimum"
 * entry[=].resource = FranzMinimum
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/SpitalMinimum"
