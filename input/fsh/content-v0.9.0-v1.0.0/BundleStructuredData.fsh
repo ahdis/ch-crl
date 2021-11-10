@@ -100,3 +100,5 @@ Usage: #example
 * entry[=].resource = MethodFirstDetection-ClinicalSymptoms
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ResidualInvasiveTumour-R1"
 * entry[=].resource = ResidualInvasiveTumour-R1
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ResidualInsituTumour-RX"
+* entry[=].resource = ResidualInsituTumour-RX

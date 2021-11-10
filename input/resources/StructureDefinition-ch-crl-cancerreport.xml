@@ -874,7 +874,15 @@
                 <code value="boolean"/>
             </type>
         </element>
-        <!-- TBD? Residual for associated in-situ tumour -->
+        <element id="CancerReport.Fall.DatenZurDiagnose.ResidualesInsituKarzinom">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ResidualesInsituKarzinom"/>
+            <definition value="Residuales In-situ-Karzinom"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.ResektionsrandInsituKarzinom">
             <path value="CancerReport.Fall.DatenZurDiagnose.ResektionsrandInsituKarzinom"/>
             <definition value="Resektionsrand In-situ-Karzinom"/>
