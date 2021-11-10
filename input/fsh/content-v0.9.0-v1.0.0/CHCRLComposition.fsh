@@ -166,7 +166,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
     lymphaticInvasion 0..1 and
     venousInvasion 0..1 and
     perineuralInvasion 0..1 and
-    // TBD? residualTumour
+    residualTumour 0..1 and
     TNM-stage 0..1 and
     clinicalTumourSize 0..1 and
     pathologicalTumourSize 0..1 and
@@ -216,6 +216,10 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[perineuralInvasion] only Reference(CHCRLObservationPerineuralInvasion)
 * section[stagingAndGrading].entry[perineuralInvasion] ^short = "Perineural invasion"
 * section[stagingAndGrading].entry[perineuralInvasion].reference 1..
+// Residual tumour (R)
+* section[stagingAndGrading].entry[residualTumour] only Reference(CHCRLObservationResidualInvasiveTumour)
+* section[stagingAndGrading].entry[residualTumour] ^short = "Residual tumour"
+* section[stagingAndGrading].entry[residualTumour].reference 1..
 // TNM stage
 * section[stagingAndGrading].entry[TNM-stage] only Reference(CHCRLObservationTNMStageGroup)
 * section[stagingAndGrading].entry[TNM-stage] ^short = "TNM stage"

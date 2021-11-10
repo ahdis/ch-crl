@@ -744,7 +744,15 @@
                 <code value="code"/>
             </type>
         </element>
-        <!-- TBD? R (residual tumour) -->
+        <element id="CancerReport.Fall.DatenZurDiagnose.InvasiverResidualtumor">
+            <path value="CancerReport.Fall.DatenZurDiagnose.InvasiverResidualtumor"/>
+            <definition value="Invasiver Residualtumor"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <element id="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe">
             <path value="CancerReport.Fall.DatenZurDiagnose.TNM-Stadiengruppe"/>

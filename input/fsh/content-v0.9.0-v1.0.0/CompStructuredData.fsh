@@ -40,6 +40,7 @@ Usage: #example
 * section[stagingAndGrading].entry[lymphaticInvasion] = Reference(LymphaticInvasion)
 * section[stagingAndGrading].entry[venousInvasion] = Reference(VenousInvasion)
 * section[stagingAndGrading].entry[perineuralInvasion] = Reference(PerineuralInvasion)
+* section[stagingAndGrading].entry[residualTumour] = Reference(ResidualInvasiveTumour-R1)
 * section[stagingAndGrading].entry[TNM-stage] = Reference(TNM-StageGroup)
 * section[stagingAndGrading].entry[clinicalTumourSize] = Reference(ClinicalTumourSize-11mm)
 * section[stagingAndGrading].entry[pathologicalTumourSize] = Reference(PathologicalTumourSize-11mm)
