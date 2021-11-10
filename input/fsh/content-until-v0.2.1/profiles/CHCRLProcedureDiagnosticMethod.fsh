@@ -4,6 +4,12 @@ Id: ch-crl-procedure-diagnosticmethod
 Title: "CH CRL Procedure Diagnostic Method"
 Description: "Definition of the Procedure for the diagnostic method(s)"
 * . ^short = "CH CRL Procedure Diagnostic Method"
+
+* extension contains $ext-data-absent-reason named ext-data-absent-reason 0..1
+* extension[ext-data-absent-reason] ^short = "The diagnostic method used is unknown."
+* extension[ext-data-absent-reason].valueCode 1..
+* extension[ext-data-absent-reason].valueCode = #unknown
+
 * category 1..
 * category = $loinc#67183-4 "Diagnostic staging procedure PhenX"
 * code from NkrsDiagnosticMethodsUsed (required)

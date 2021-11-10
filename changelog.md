@@ -49,6 +49,9 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    * [CH CRL Composition Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-composition.html)
    * [Cancer Report example](http://build.fhir.org/ig/ahdis/ch-crl/Bundle-BundleStructuredData.html)
    * [Cancer Report Logical Model](http://build.fhir.org/ig/ahdis/ch-crl/logicalmodel.html)
+* Add the Extension 'data-absent-reason' to the Procedure for the diagnostic method(s), to support the representation of the value 'unknown'. **Implementers should now be able to support 'unknown' for this Procedure.**
+   * [CH CRL Procedure Diagnostic Method Profile](http://build.fhir.org/ig/ahdis/ch-crl/branches/master/StructureDefinition-ch-crl-procedure-diagnosticmethod.html)
+   * [Example with value 'unknown'](http://build.fhir.org/ig/ahdis/ch-crl/branches/master/Procedure-DiagnosticMethod-Unknown.html)
 
  
 ### Fixed
