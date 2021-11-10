@@ -90,12 +90,17 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[diagnosis].entry ^slicing.rules = #open
 * section[diagnosis].entry contains 
     dateOfIncidence 0..1 and
+    methodFirstDetection 0..1 and
     diagnosticMethodsUsed 0..*
 * section[diagnosis].section ..0
 // Date of incidence
 * section[diagnosis].entry[dateOfIncidence] only Reference(CHCRLObservationDateOfIncidence)
 * section[diagnosis].entry[dateOfIncidence] ^short = "Date of incidence"
 * section[diagnosis].entry[dateOfIncidence].reference 1..
+// Method of first detection
+* section[diagnosis].entry[methodFirstDetection] only Reference(CHCRLProcedureMethodFirstDetection)
+* section[diagnosis].entry[methodFirstDetection] ^short = "Method of first detection"
+* section[diagnosis].entry[methodFirstDetection].reference 1..
 // Diagnostic methods used
 * section[diagnosis].entry[diagnosticMethodsUsed] only Reference(CHCRLProcedureDiagnosticMethod)
 * section[diagnosis].entry[diagnosticMethodsUsed] ^short = "Diagnostic methods used"

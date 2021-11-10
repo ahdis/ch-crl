@@ -586,6 +586,15 @@
                 <code value="date"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.VerfahrenZumErstnachweis">
+            <path value="CancerReport.Fall.DatenZurDiagnose.VerfahrenZumErstnachweis"/>
+            <definition value="Verfahren zum Erstnachweis"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnostischeVerfahren">
             <path value="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnostischeVerfahren"/>
             <definition value="Verwendete(s) diagnostische(s) Verfahren"/>

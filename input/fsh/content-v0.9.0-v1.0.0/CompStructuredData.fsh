@@ -19,6 +19,7 @@ Usage: #example
 
 * section[diagnosis].title = "Diagnosis"
 * section[diagnosis].entry[dateOfIncidence] = Reference(DateOfIncidence)
+* section[diagnosis].entry[methodFirstDetection] = Reference(MethodFirstDetection-ClinicalSymptoms)
 * section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod)
 
 * section[coding].title = "Coding"
