@@ -19,20 +19,20 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * Separate tabs for the use case and the cancer report (logical model) for simpler navigation in the IG.
 * Set the flag `mustSupport`=true for case-opening criteria, see [here](http://build.fhir.org/ig/ahdis/ch-crl/index.html#case-opening-criteria-and-mustsupport).
 * More NKRS variables with profiles, examples and terminology.
-   * Sentinel lymph node assessment (Variable number: 6.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-sentinellymphnodeassessment.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-sentinellymphnodeassessment.html))
-   * Number of examined sentinel lymph nodes (Variable number: 6.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberexaminedsentinellymphnodes.html))
-   * Number of positive sentinel lymph nodes (Variable number: 6.7) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberpositivesentinellymphnodes.html))
-   * Clinical tumour size (Variable number: 4.39) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-clinicaltumoursize.html))
-   * Pathological tumour size (Variable number: 4.40) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-pathologicaltumoursize.html))   
-   * Metastases at diagnosis indicator (Variable number: 4.41) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-metastasesatdiagnosisindicator.html))  
-   * Topography of metastases at diagnosis (Variable number: 4.42) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographymetastasesatdiagnosis.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastasesatdiagnosis.html))
-   * Resection margin invasive tumour (Variable number: 6.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininvasivetumour.html))  
-   * Resection margin in-situ tumour (Variable number: 6.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininsitutumour.html))
-   * Associated in situ tumour (Variable number: 3.6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-associatedinsitutumour.html)) 
-   * Method of first detection (Variable number: 2.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-procedure-methodfirstdetection.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-methodfirstdetection.html))
-   * Residual invasive tumour (Variable number: 6.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinvasivetumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinvasivetumour.html))
-   * Residual in-situ tumour (Variable number: 6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinsitutumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinsitutumour.html))
-   * Oestrogen receptor status (Variable number: 5.1.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-oestrogenreceptorstatus.html))
+   1. Sentinel lymph node assessment (Variable number: 6.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-sentinellymphnodeassessment.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-sentinellymphnodeassessment.html))
+   2. Number of examined sentinel lymph nodes (Variable number: 6.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberexaminedsentinellymphnodes.html))
+   3. Number of positive sentinel lymph nodes (Variable number: 6.7) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberpositivesentinellymphnodes.html))
+   4. Clinical tumour size (Variable number: 4.39) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-clinicaltumoursize.html))
+   5. Pathological tumour size (Variable number: 4.40) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-pathologicaltumoursize.html))   
+   6. Metastases at diagnosis indicator (Variable number: 4.41) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-metastasesatdiagnosisindicator.html))  
+   7. Topography of metastases at diagnosis (Variable number: 4.42) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographymetastasesatdiagnosis.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastasesatdiagnosis.html))
+   8. Resection margin invasive tumour (Variable number: 6.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininvasivetumour.html))  
+   9. Resection margin in-situ tumour (Variable number: 6.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininsitutumour.html))
+   10. Associated in situ tumour (Variable number: 3.6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-associatedinsitutumour.html)) 
+   11. Method of first detection (Variable number: 2.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-procedure-methodfirstdetection.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-methodfirstdetection.html))
+   12. Residual invasive tumour (Variable number: 6.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinvasivetumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinvasivetumour.html))
+   13. Residual in-situ tumour (Variable number: 6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinsitutumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinsitutumour.html))
+   14. Oestrogen receptor status (Variable number: 5.1.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-oestrogenreceptorstatus.html))
 
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.
