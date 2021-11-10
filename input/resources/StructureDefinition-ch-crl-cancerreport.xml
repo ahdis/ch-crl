@@ -941,7 +941,7 @@
 
 // Melanoma: Breslow thickness in mm
 
-// Breast: Oestrogen receptor status
+// Oestrogen receptor status
 // Breast: Progesterone receptor status
 // Breast: HER2 receptor status
 // Breast: Tumour proliferation labelling
@@ -959,6 +959,16 @@
 // Testicle: LDH (factor x N)
 // Testicle: Serum tumour markers
 -->
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.OestrogenrezeptorStatus">
+            <path value="CancerReport.Fall.DatenZurDiagnose.OestrogenrezeptorStatus"/>
+            <definition value="Östrogenrezeptor-Status"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">

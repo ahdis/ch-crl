@@ -57,3 +57,5 @@ Usage: #example
 * section[stagingAndGrading].entry[sentinelLymphNodeAssessment] = Reference(SentinelLymphNodeAssessment-N0)
 * section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes] = Reference(NumberPositiveSentinelLymphNodes-6)
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] = Reference(NumberExaminedSentinelLymphNodes-4)
+
+* section[tumourRelatedPrognosticFactors].entry[oestrogenReceptorStatus] = Reference(OestrogenReceptorStatus-5percent)

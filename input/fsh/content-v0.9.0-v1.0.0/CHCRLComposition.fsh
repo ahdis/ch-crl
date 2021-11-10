@@ -279,6 +279,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.type = #profile
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.path = "resolve()"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
+* section[tumourRelatedPrognosticFactors].entry contains
+    oestrogenReceptorStatus 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
@@ -290,6 +292,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // Melanoma: Breslow thickness in mm
 
 // Breast: Oestrogen receptor status
+* section[tumourRelatedPrognosticFactors].entry[oestrogenReceptorStatus] only Reference(CHCRLObservationOestrogenReceptorStatus)
+* section[tumourRelatedPrognosticFactors].entry[oestrogenReceptorStatus] ^short = "Oestrogen receptor status"
+* section[tumourRelatedPrognosticFactors].entry[oestrogenReceptorStatus].reference 1..
 // Breast: Progesterone receptor status
 // Breast: HER2 receptor status
 // Breast: Tumour proliferation labelling
