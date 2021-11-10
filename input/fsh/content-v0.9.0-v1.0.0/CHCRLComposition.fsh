@@ -120,6 +120,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
     ICD-O-observedBehaviour 0..1 and
     ICD-O-histologicalGrades 0..1 and
     ICD-O-laterality 0..1
+    // TBD? ICCC-3 main group
+    // TBD? ICCC-3 code
+    // TBD? ICCC-3 extended code
 * section[coding].section ..0
 // ICD-code
 * section[coding].entry[ICD-code] only Reference(CHCRLObservationICD10)
@@ -163,6 +166,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
     lymphaticInvasion 0..1 and
     venousInvasion 0..1 and
     perineuralInvasion 0..1 and
+    // TBD? residualTumour
     TNM-stage 0..1 and
     clinicalTumourSize 0..1 and
     pathologicalTumourSize 0..1 and
@@ -170,7 +174,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
     topographyMetastasesAtDiagnosis 0..* and
     resectionMarginInvasiveTumour 0..1 and
     associatedInsituTumour 0..1 and
-    // tbd
+    // TBD? residualForAssociatedInsituTumour
     resectionMarginInsituTumour 0..1 and
     sentinelLymphNodeAssessment 0..1 and
     numberPositiveSentinelLymphNodes 0..1 and
