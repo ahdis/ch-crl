@@ -15,10 +15,10 @@ Usage: #example
 
 * section[causeOfDeath].title = "Cause of death"
 * section[causeOfDeath].entry[principalCauseOfDeath] = Reference(FinalCauseOfDeath)
-* section[causeOfDeath].entry[diseases] = Reference(PrimaryDisease)
-* section[causeOfDeath].entry[diseases] = Reference(SecondaryDisease)
-* section[causeOfDeath].entry[diseases] = Reference(ConcomitantDiseaseA)
-* section[causeOfDeath].entry[diseases] = Reference(ConcomitantDiseaseB)
+* section[causeOfDeath].entry[diseases][+] = Reference(PrimaryDisease)
+* section[causeOfDeath].entry[diseases][+] = Reference(SecondaryDisease)
+* section[causeOfDeath].entry[diseases][+] = Reference(ConcomitantDiseaseA)
+* section[causeOfDeath].entry[diseases][+] = Reference(ConcomitantDiseaseB)
 
 * section[diagnosis].title = "Diagnosis"
 * section[diagnosis].entry[dateOfIncidence] = Reference(DateOfIncidence)

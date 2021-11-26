@@ -11,5 +11,5 @@ Usage: #example
 * title = "Operationsbericht"
 
 * section[diagnosis].title = "Diagnosis"
-* section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod-Biopsy20181214)
-* section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod-Surgical20181214)
+* section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Biopsy20181214)
+* section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Surgical20181214)

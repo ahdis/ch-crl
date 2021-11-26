@@ -12,8 +12,8 @@ Usage: #example
 
 * section[diagnosis].title = "Diagnosis"
 * section[diagnosis].entry[dateOfIncidence] = Reference(DateOfIncidence-20181202)
-* section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod-Endoscopy20181202)
-* section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod-Biopsy20181202)
+* section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Endoscopy20181202)
+* section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Biopsy20181202)
 
 * section[coding].title = "Coding"
 * section[coding].entry[ICD-code] = Reference(ICD-10-Kolon20181202)
