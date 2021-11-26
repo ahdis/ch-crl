@@ -5,7 +5,7 @@ Title: "CH CRL Observation Sentinel Lymph Node Assessment"
 Description: "Definition of the Observation for the sentinel lymph node assessment"
 * . ^short = "CH CRL Observation Sentinel Lymph Node Assessment"
 * code 1..
-* code = $sct#443497002 "Excision of sentinel lymph node (procedure)" // TBD
+* code = $loinc#98278-5 "Protocol used for examination of sentinel lymph nodes"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -46,7 +46,7 @@ Title: "Sentinel Lymph Node Assessment - N0"
 Description: "Example for Observation for the sentinel lymph node assessment"
 Usage: #example
 * status = #final
-* code = $sct#443497002 "Excision of sentinel lymph node (procedure)" // TBD
+* code = $loinc#98278-5 "Protocol used for examination of sentinel lymph nodes"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-sentinellymphnodeassessment#0 "N0"
@@ -57,7 +57,7 @@ Title: "Sentinel Lymph Node Assessment - Unknown"
 Description: "Example for Observation for the sentinel lymph node assessment"
 Usage: #example
 * status = #final
-* code = $sct#443497002 "Excision of sentinel lymph node (procedure)" // TBD
+* code = $loinc#98278-5 "Protocol used for examination of sentinel lymph nodes"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

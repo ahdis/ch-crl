@@ -5,7 +5,7 @@ Title: "CH CRL Observation Topography of Metastases at Diagnosis"
 Description: "Definition of the Observation for the topography of metastases at diagnosis"
 * . ^short = "CH CRL Observation Topography of Metastases at Diagnosis"
 * code 1..
-* code = $loinc#67195-8 "ICD-O-2 cancer classification - topography [#] [PhenX]" // TBD
+* code = $loinc#33733-7 "Sites of distant metastasis"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -47,7 +47,7 @@ Title: "Topography of Metastases at Diagnosis - C77"
 Description: "Example for Observation for the topography of metastases at diagnosis"
 Usage: #example
 * status = #final
-* code = $loinc#67195-8 "ICD-O-2 cancer classification - topography [#] [PhenX]" // TBD
+* code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $icd-10-gm#C77 "Secondary and unspecified malignant neoplasm of lymph nodes"
@@ -58,7 +58,7 @@ Title: "Topography of Metastases at Diagnosis - C42.1"
 Description: "Example for Observation for the topography of metastases at diagnosis"
 Usage: #example
 * status = #final
-* code = $loinc#67195-8 "ICD-O-2 cancer classification - topography [#] [PhenX]" // TBD
+* code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept.coding.version = "3.2"
@@ -70,7 +70,7 @@ Title: "Topography of Metastases at Diagnosis - Other"
 Description: "Example for Observation for the topography of metastases at diagnosis"
 Usage: #example
 * status = #final
-* code = $loinc#67195-8 "ICD-O-2 cancer classification - topography [#] [PhenX]" // TBD
+* code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $sct#74964007 "Other (qualifier value)"
@@ -81,7 +81,7 @@ Title: "Topography of Metastases at Diagnosis - Unknown"
 Description: "Example for Observation for the topography of metastases at diagnosis"
 Usage: #example
 * status = #final
-* code = $loinc#67195-8 "ICD-O-2 cancer classification - topography [#] [PhenX]" // TBD
+* code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

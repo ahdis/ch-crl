@@ -5,7 +5,7 @@ Title: "CH CRL Observation Metastases at Diagnosis Indicator"
 Description: "Definition of the Observation for the metastases at diagnosis indicator"
 * . ^short = "CH CRL Observation Metastases at Diagnosis Indicator"
 * code 1..
-* code = $sct#260874000 "Metastases status (attribute)" // TBD
+* code = $loinc#98248-8 "Primary or recurrent or distant metastasis [Type] in Tumor"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -42,7 +42,7 @@ Title: "Metastases at Diagnosis Indicator - No"
 Description: "Example for Observation for the metastases at diagnosis indicator"
 Usage: #example
 * status = #final
-* code = $sct#260874000 "Metastases status (attribute)" // TBD
+* code = $loinc#98248-8 "Primary or recurrent or distant metastasis [Type] in Tumor"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueBoolean = false
@@ -54,7 +54,7 @@ Title: "Metastases at Diagnosis Indicator - Yes"
 Description: "Example for Observation for the metastases at diagnosis indicator"
 Usage: #example
 * status = #final
-* code = $sct#260874000 "Metastases status (attribute)" // TBD
+* code = $loinc#98248-8 "Primary or recurrent or distant metastasis [Type] in Tumor"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueBoolean = true
@@ -66,7 +66,7 @@ Title: "Metastases at Diagnosis Indicator - Unknown"
 Description: "Example for Observation for the metastases at diagnosis indicator"
 Usage: #example
 * status = #final
-* code = $sct#260874000 "Metastases status (attribute)" // TBD
+* code = $loinc#98248-8 "Primary or recurrent or distant metastasis [Type] in Tumor"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

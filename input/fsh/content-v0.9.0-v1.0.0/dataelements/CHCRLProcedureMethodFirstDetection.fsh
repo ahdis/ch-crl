@@ -12,7 +12,7 @@ is not stated / not assessed."
 * extension[ext-data-absent-reason].valueCode = #unknown
 
 * category 1..
-* category = $loinc#42104-0	"Derived SEER summary stage 1977 conversion method Cancer" // TBD
+* category = $loinc#75692-4 "Cancer detection basis"
 * code from NkrsMethodFirstDetection (required)
 * code ^short = "The method or circumstance by which the case came to medical attention and the cancer was first diagnosed."
 * code.coding 1..
@@ -52,7 +52,7 @@ Title: "Method of First Detection - Clinical Symptoms"
 Description: "Example for Procedure for the method of first detection"
 Usage: #example
 * status = #completed
-* category = $loinc#42104-0	"Derived SEER summary stage 1977 conversion method Cancer" // TBD
+* category = $loinc#75692-4 "Cancer detection basis"
 * code = $nkrs-methodfirstdetection#1 "Clinical symptoms"
 * subject = Reference(FranzMinimum)
 * performedDateTime = "2018-12-15T13:00:00+02:00"
@@ -65,7 +65,7 @@ Description: "Example for Procedure for the method of first detection"
 Usage: #example
 * extension[ext-data-absent-reason].valueCode = #unknown
 * status = #completed
-* category = $loinc#42104-0	"Derived SEER summary stage 1977 conversion method Cancer" // TBD
+* category = $loinc#75692-4 "Cancer detection basis"
 * subject = Reference(FranzMinimum)
 * performedDateTime = "2018-12-15T13:00:00+02:00"
 * reasonReference = Reference(ICD-10)
