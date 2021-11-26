@@ -1,17 +1,32 @@
+CodeSystem: NkrsTopographyMetastasesAtDiagnosis
+Id: nkrs-topographymetastasesatdiagnosis
+Title: "NKRS - Topography of Metastases at Diagnosis"
+Description: "The data item identifies the distant site(s) of metastatic involvement at time of diagnosis. 
+**Sentinel lymph node assessment (Variable number: 6.5)** 
+in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
+([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 
+[DE](https://www.nkrs.ch/assets/files/uploads/a-datenstruktur-variablen-der-basisdaten-v1.1.pdf), 
+[FR](https://www.onec.ch/assets/files/uploads/a-dict-des-donnees-variables-de-base-v1.1.pdf), 
+[IT](https://www.snrt.ch/assets/files/uploads/a-dati-oncologici-variabili-di-base-v1.1.pdf))"
+* ^caseSensitive = true
+* ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-topographymetastasesatdiagnosis"
+* ^content = #complete
+
+* #1 "PUL" "Pulmonary (C34)."
+* #2 "OSS" "Osseous (C40, 41)."
+* #3 "HEP" "Hepatic (C22)."
+* #4 "BRA" "Brain (C71)."
+* #5 "LYM" "Lymph nodes (C77)."
+* #6 "MAR" "Bone marrow (C42.1)."
+* #7 "PLE" "Pleura (C38.4)."
+* #8 "PER" "Peritoneum (C48.1, 2)."
+* #9 "ADR" "Adrenals (C74)."
+* #10 "SKI" "Skin (C44)."
+* #11 "OTH" "Others."
+
+
 ValueSet: NkrsTopographyMetastasesAtDiagnosis
 Id: nkrs-topographymetastasesatdiagnosis
 Title: "NKRS - Topography of Metastases at Diagnosis"
 Description: "The data item identifies the distant site(s) of metastatic involvement at time of diagnosis."
-* $icd-10-gm#C34 "Malignant neoplasm of bronchus and lung"
-* $icd-10-gm#C40 "Malignant neoplasm of bone and articular cartilage of limbs"
-* $icd-10-gm#C41 "Malignant neoplasm of bone and articular cartilage of other and unspecified sites"
-* $icd-10-gm#C22 "Malignant neoplasm of liver and intrahepatic bile ducts"
-* $icd-10-gm#C71 "Malignant neoplasm of brain"
-* $icd-10-gm#C77 "Secondary and unspecified malignant neoplasm of lymph nodes"
-* $icd-o-3#C42.1 "Bone Marrow" // https://training.seer.cancer.gov/coding/differences/other.html
-* $icd-10-gm#C38.4 "Malignant neoplasm of pleura"
-* $icd-10-gm#C48.1 "Malignant neoplasm of specified parts of peritoneum"
-* $icd-10-gm#C48.2 "Malignant neoplasm of peritoneum, unspecified"
-* $icd-10-gm#C74 "Malignant neoplasm of adrenal gland"
-* $icd-10-gm#C44 "Other and unspecified malignant neoplasm of skin"
-* $sct#74964007 "Other (qualifier value)"
+* include codes from system NkrsTopographyMetastasesAtDiagnosis

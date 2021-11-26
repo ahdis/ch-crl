@@ -6,3 +6,4 @@ Alias: $nkrs-sentinellymphnodeassessment = http://fhir.ch/ig/ch-crl/CodeSystem/n
 Alias: $nkrs-methodfirstdetection = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-methodfirstdetection
 Alias: $nkrs-residualinvasivetumour = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-residualinvasivetumour
 Alias: $nkrs-residualinsitutumour = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-residualinsitutumour
+Alias: $nkrs-topographymetastasesatdiagnosis = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-topographymetastasesatdiagnosis

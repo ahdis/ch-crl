@@ -19,7 +19,6 @@ Description: "Definition of the Observation for the topography of metastases at 
 * valueCodeableConcept ^short = "The distant site(s) of metastatic involvement at time of diagnosis"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..
-* valueCodeableConcept.coding.version ^short = "Version if system is ICD-O-3"
 * valueCodeableConcept.coding.code 1..
 * valueCodeableConcept.coding.display 1..
 
@@ -41,39 +40,38 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Topography of metastases at diagnosis (Variable number: 4.42)"
 
 
-Instance: TopographyMetastasesAtDiagnosis-C77
+Instance: TopographyMetastasesAtDiagnosis-LYM
 InstanceOf: CHCRLObservationTopographyMetastasesAtDiagnosis
-Title: "Topography of Metastases at Diagnosis - C77"
+Title: "Topography of Metastases at Diagnosis - LYM"
 Description: "Example for Observation for the topography of metastases at diagnosis"
 Usage: #example
 * status = #final
 * code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $icd-10-gm#C77 "Secondary and unspecified malignant neoplasm of lymph nodes"
+* valueCodeableConcept = $nkrs-topographymetastasesatdiagnosis#5 "LYM"
 
-Instance: TopographyMetastasesAtDiagnosis-C42.1
+Instance: TopographyMetastasesAtDiagnosis-MAR
 InstanceOf: CHCRLObservationTopographyMetastasesAtDiagnosis
-Title: "Topography of Metastases at Diagnosis - C42.1"
+Title: "Topography of Metastases at Diagnosis - MAR"
 Description: "Example for Observation for the topography of metastases at diagnosis"
 Usage: #example
 * status = #final
 * code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept.coding.version = "3.2"
-* valueCodeableConcept.coding = $icd-o-3#C42.1 "Bone Marrow"
+* valueCodeableConcept.coding = $nkrs-topographymetastasesatdiagnosis#6 "MAR"
 
-Instance: TopographyMetastasesAtDiagnosis-Other
+Instance: TopographyMetastasesAtDiagnosis-OTH
 InstanceOf: CHCRLObservationTopographyMetastasesAtDiagnosis
-Title: "Topography of Metastases at Diagnosis - Other"
+Title: "Topography of Metastases at Diagnosis - OTH"
 Description: "Example for Observation for the topography of metastases at diagnosis"
 Usage: #example
 * status = #final
 * code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $sct#74964007 "Other (qualifier value)"
+* valueCodeableConcept = $nkrs-topographymetastasesatdiagnosis#11 "OTH"
 
 Instance: TopographyMetastasesAtDiagnosis-Unknown
 InstanceOf: CHCRLObservationTopographyMetastasesAtDiagnosis

@@ -88,10 +88,10 @@ Usage: #example
 * entry[=].resource = PathologicalTumourSize-11mm
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/MetastasesAtDiagnosisIndicator-Unknown"
 * entry[=].resource = MetastasesAtDiagnosisIndicator-Unknown
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/TopographyMetastasesAtDiagnosis-C77"
-* entry[=].resource = TopographyMetastasesAtDiagnosis-C77
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/TopographyMetastasesAtDiagnosis-Other"
-* entry[=].resource = TopographyMetastasesAtDiagnosis-Other
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/TopographyMetastasesAtDiagnosis-LYM"
+* entry[=].resource = TopographyMetastasesAtDiagnosis-LYM
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/TopographyMetastasesAtDiagnosis-OTH"
+* entry[=].resource = TopographyMetastasesAtDiagnosis-OTH
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ResectionMarginInvasiveTumour-NotApplicable"
 * entry[=].resource = ResectionMarginInvasiveTumour-NotApplicable
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ResectionMarginInsituTumour-2.1mm"
