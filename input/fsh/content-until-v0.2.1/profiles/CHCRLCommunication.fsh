@@ -1,7 +1,7 @@
 Profile: CHCRLCommunication
 Parent: Communication
 Id: ch-crl-communication
-Title: "CH CRL Communication Profile"
+Title: "CH CRL Communication"
 Description: "Communication for the date of informing the patient about the cancer registration"
 * . ^short = "CH CRL Communication"
 * subject 1..
