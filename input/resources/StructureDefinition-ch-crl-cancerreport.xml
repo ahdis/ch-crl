@@ -1030,6 +1030,15 @@
                 <code value="decimal"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs.GleasonScore.GleasonBiopsieHaeufigsterGrad">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs.GleasonScore.GleasonBiopsieHaeufigsterGrad"/>
+            <definition value="Gleason Biopsie häufigster Grad"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">
