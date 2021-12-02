@@ -987,6 +987,15 @@
                 <code value="decimal"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Brustkrebs.HER2Rezeptorstatus">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Brustkrebs.HER2Rezeptorstatus"/>
+            <definition value="HER2-Rezeptorstatus"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">

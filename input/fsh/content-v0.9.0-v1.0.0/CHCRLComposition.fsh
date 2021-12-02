@@ -281,7 +281,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
 * section[tumourRelatedPrognosticFactors].entry contains
     oestrogenReceptorStatus 0..1 and
-    progesteroneReceptorStatus 0..1
+    progesteroneReceptorStatus 0..1 and
+    her2ReceptorStatus 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
@@ -301,6 +302,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry[progesteroneReceptorStatus] ^short = "Progesterone receptor status"
 * section[tumourRelatedPrognosticFactors].entry[progesteroneReceptorStatus].reference 1..
 // Breast: HER2 receptor status
+* section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus] only Reference(CHCRLObservationHer2ReceptorStatus)
+* section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus] ^short = "Her2 receptor status"
+* section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus].reference 1..
 // Breast: Tumour proliferation labelling
 
 // Prostate: PSA

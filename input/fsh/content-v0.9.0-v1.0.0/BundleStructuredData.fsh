@@ -108,3 +108,5 @@ Usage: #example
 * entry[=].resource = OestrogenReceptorStatus-5percent
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ProgesteroneReceptorStatus-3percent"
 * entry[=].resource = ProgesteroneReceptorStatus-3percent
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/Her2ReceptorStatus-Overexpressed"
+* entry[=].resource = Her2ReceptorStatus-Overexpressed
