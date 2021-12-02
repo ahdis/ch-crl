@@ -67,6 +67,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[causeOfDeath] ^short = "Section for the cause of death"
 * section[causeOfDeath].title 1..
 * section[causeOfDeath].title = "Cause of death"
+* section[causeOfDeath].code 1..
+* section[causeOfDeath].code = $loinc#79378-6 "Cause of death"
 * section[causeOfDeath].entry ^slicing.discriminator.type = #profile
 * section[causeOfDeath].entry ^slicing.discriminator.path = "resolve()"
 * section[causeOfDeath].entry ^slicing.rules = #open
@@ -87,7 +89,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Diagnosis -------
 * section[diagnosis] ^short = "Section for the diagnosis"
 * section[diagnosis].title 1..
-* section[diagnosis].title = "Diagnosis"
+* section[diagnosis].title = "Diagnosis" // TBD: fixe title entfernen (short Wert)
+* section[diagnosis].code 1..
+* section[diagnosis].code = $loinc#29308-4 "Diagnosis"
 * section[diagnosis].entry ^slicing.discriminator.type = #profile
 * section[diagnosis].entry ^slicing.discriminator.path = "resolve()"
 * section[diagnosis].entry ^slicing.rules = #open

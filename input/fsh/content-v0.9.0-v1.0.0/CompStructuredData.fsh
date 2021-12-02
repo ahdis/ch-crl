@@ -14,6 +14,7 @@ Usage: #example
 * section[registrationRequirements].entry[communication] = Reference(CommMinimum)
 
 * section[causeOfDeath].title = "Cause of death"
+* section[causeOfDeath].code = $loinc#79378-6 "Cause of death"
 * section[causeOfDeath].entry[principalCauseOfDeath] = Reference(FinalCauseOfDeath)
 * section[causeOfDeath].entry[diseases][+] = Reference(PrimaryDisease)
 * section[causeOfDeath].entry[diseases][+] = Reference(SecondaryDisease)
@@ -21,6 +22,7 @@ Usage: #example
 * section[causeOfDeath].entry[diseases][+] = Reference(ConcomitantDiseaseB)
 
 * section[diagnosis].title = "Diagnosis"
+* section[diagnosis].code = $loinc#29308-4 "Diagnosis"
 * section[diagnosis].entry[dateOfIncidence] = Reference(DateOfIncidence)
 * section[diagnosis].entry[methodFirstDetection] = Reference(MethodFirstDetection-ClinicalSymptoms)
 * section[diagnosis].entry[diagnosticMethodsUsed] = Reference(DiagnosticMethod)
