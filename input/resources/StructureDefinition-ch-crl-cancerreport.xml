@@ -960,8 +960,17 @@
 // Testicle: Serum tumour markers
 -->
 
-        <element id="CancerReport.Fall.DatenZurDiagnose.OestrogenrezeptorStatus">
-            <path value="CancerReport.Fall.DatenZurDiagnose.OestrogenrezeptorStatus"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Brustkrebs">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Brustkrebs"/>
+            <definition value="Brustkrebs"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Brustkrebs.OestrogenrezeptorStatus">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Brustkrebs.OestrogenrezeptorStatus"/>
             <definition value="Östrogenrezeptor-Status"/>
             <min value="0"/>
             <max value="1"/>
