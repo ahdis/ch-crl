@@ -941,10 +941,7 @@
 
 // Melanoma: Breslow thickness in mm
 
-// Oestrogen receptor status
-// Breast: Progesterone receptor status
-// Breast: HER2 receptor status
-// Breast: Tumour proliferation labelling
+// Brust: done
 
 // Prostate: PSA
 // Prostate: Gleason Pattern (Biopsy) - most common
@@ -999,6 +996,25 @@
         <element id="CancerReport.Fall.DatenZurDiagnose.Brustkrebs.TumorProliferationsmarkerstatus">
             <path value="CancerReport.Fall.DatenZurDiagnose.Brustkrebs.TumorProliferationsmarkerstatus"/>
             <definition value="Tumor-Proliferationsmarkerstatus"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs"/>
+            <definition value="Prostatakrebs"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs.PSA">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs.PSA"/>
+            <definition value="Prostataspezifisches Antigen (PSA) vor Behandlungsbeginn"/>
             <min value="0"/>
             <max value="1"/>
             <type>

@@ -62,3 +62,5 @@ Usage: #example
 * section[tumourRelatedPrognosticFactors].entry[progesteroneReceptorStatus] = Reference(ProgesteroneReceptorStatus-3percent)
 * section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus] = Reference(Her2ReceptorStatus-Overexpressed)
 * section[tumourRelatedPrognosticFactors].entry[tumourProliferationLabeling] = Reference(TumourProliferationLabeling-3percent)
+
+* section[tumourRelatedPrognosticFactors].entry[psa] = Reference(PretreatmentProstateSpecificAntigen-80ngml)

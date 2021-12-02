@@ -112,3 +112,5 @@ Usage: #example
 * entry[=].resource = Her2ReceptorStatus-Overexpressed
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/TumourProliferationLabeling-3percent"
 * entry[=].resource = TumourProliferationLabeling-3percent
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/PretreatmentProstateSpecificAntigen-80ngml"
+* entry[=].resource = PretreatmentProstateSpecificAntigen-80ngml
