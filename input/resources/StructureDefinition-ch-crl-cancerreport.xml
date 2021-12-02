@@ -1057,6 +1057,15 @@
                 <code value="decimal"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs.GleasonScore.GleasonExzisionZweithaeufigsterOderHoechsterGrad">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Prostatakrebs.GleasonScore.GleasonExzisionZweithaeufigsterOderHoechsterGrad"/>
+            <definition value="Gleason Exzision zweithäufigster oder höchster Grad"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">
