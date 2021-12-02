@@ -66,3 +66,4 @@ Usage: #example
 * section[tumourRelatedPrognosticFactors].entry[tumourProliferationLabeling] = Reference(TumourProliferationLabeling-3percent)
 
 * section[tumourRelatedPrognosticFactors].entry[psa] = Reference(PretreatmentProstateSpecificAntigen-80ngml)
+* section[tumourRelatedPrognosticFactors].entry[gleasonScore] = Reference(GleasonScore-5)

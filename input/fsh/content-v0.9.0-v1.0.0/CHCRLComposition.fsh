@@ -288,7 +288,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     progesteroneReceptorStatus 0..1 and
     her2ReceptorStatus 0..1 and
     tumourProliferationLabeling 0..1 and
-    psa 0..1
+    psa 0..1 and
+    gleasonScore 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
@@ -320,11 +321,10 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry[psa] only Reference(CHCRLObservationPretreatmentProstateSpecificAntigen)
 * section[tumourRelatedPrognosticFactors].entry[psa] ^short = "PSA"
 * section[tumourRelatedPrognosticFactors].entry[psa].reference 1..
-// Prostate: Gleason Pattern (Biopsy) - most common
-// Prostate: Gleason Pattern (Biopsy) - second most common
-// Prostate: Gleason pattern (excision) - most common
-// Prostate: Gleason pattern (excision) - second most common
 // Prostate: Gleason score
+* section[tumourRelatedPrognosticFactors].entry[gleasonScore] only Reference(CHCRLObservationGleasonScore)
+* section[tumourRelatedPrognosticFactors].entry[gleasonScore] ^short = "Gleason Score"
+* section[tumourRelatedPrognosticFactors].entry[gleasonScore].reference 1..
 // Prostate: WHO grade group
  
 // Testicle: α-fetoprotein
