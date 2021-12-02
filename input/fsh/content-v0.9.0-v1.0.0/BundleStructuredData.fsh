@@ -120,3 +120,5 @@ Usage: #example
 * entry[=].resource = GleasonBiopsyMostCommonGrade-2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/GleasonBiopsySecondMostCommonOrHighestGrade-3"
 * entry[=].resource = GleasonBiopsySecondMostCommonOrHighestGrade-3
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/GleasonExcisionMostCommonGrade-1"
+* entry[=].resource = GleasonExcisionMostCommonGrade-1

@@ -45,7 +45,7 @@ if a tumour has more than 2 histological patterns."
 * hasMember[ch-crl-gleasonBiopsyMostCommonGrade] ^short = "Gleason biopsy most common grade"
 * hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonBiopsySecondMostCommonOrHighestGrade)
 * hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] ^short = "Gleason biopsy second most common or highest grade"
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] only Reference(CHCRLObservationCM) // TBD
+* hasMember[ch-crl-gleasonExcisionMostCommonGrade] only Reference(CHCRLObservationGleasonExcisionMostCommonGrade)
 * hasMember[ch-crl-gleasonExcisionMostCommonGrade] ^short = "Gleason excision most common grade"
 * hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] only Reference(CHCRLObservationPT) // TBD
 * hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] ^short = "Gleason excision second most common or highest grade"
@@ -71,7 +71,7 @@ Usage: #example
 * valueQuantity.value = 5
 * hasMember[ch-crl-gleasonBiopsyMostCommonGrade] = Reference(GleasonBiopsyMostCommonGrade-2)
 * hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] = Reference(GleasonBiopsySecondMostCommonOrHighestGrade-3)
-//TBD
+* hasMember[ch-crl-gleasonExcisionMostCommonGrade] = Reference(GleasonExcisionMostCommonGrade-1)
 //TBD
 
 
