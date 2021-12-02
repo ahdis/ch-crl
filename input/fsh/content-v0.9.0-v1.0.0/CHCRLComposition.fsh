@@ -289,7 +289,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     her2ReceptorStatus 0..1 and
     tumourProliferationLabeling 0..1 and
     psa 0..1 and
-    gleasonScore 0..1
+    gleasonScore 0..1 and
+    whoGradeGroup 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
@@ -326,6 +327,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore] ^short = "Gleason Score"
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore].reference 1..
 // Prostate: WHO grade group
+* section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] only Reference(CHCRLObservationWHOGradeGroup)
+* section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] ^short = "WHO grade group"
+* section[tumourRelatedPrognosticFactors].entry[whoGradeGroup].reference 1..
  
 // Testicle: α-fetoprotein
 // Testicle: hCG (mlU/ml)

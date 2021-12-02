@@ -8,3 +8,4 @@ Alias: $nkrs-residualinvasivetumour = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-r
 Alias: $nkrs-residualinsitutumour = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-residualinsitutumour
 Alias: $nkrs-topographymetastasesatdiagnosis = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-topographymetastasesatdiagnosis
 Alias: $nkrs-her2receptorstatus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-her2receptorstatus
+Alias: $nkrs-whogradegroup = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-whogradegroup

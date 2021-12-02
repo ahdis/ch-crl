@@ -67,3 +67,5 @@ Usage: #example
 
 * section[tumourRelatedPrognosticFactors].entry[psa] = Reference(PretreatmentProstateSpecificAntigen-80ngml)
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore] = Reference(GleasonScore-5)
+* section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] = Reference(WHOGradeGroup-GradeGroup2)
+
