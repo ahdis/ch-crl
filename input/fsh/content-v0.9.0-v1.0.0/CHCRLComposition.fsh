@@ -282,7 +282,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry contains
     oestrogenReceptorStatus 0..1 and
     progesteroneReceptorStatus 0..1 and
-    her2ReceptorStatus 0..1
+    her2ReceptorStatus 0..1 and
+    tumourProliferationLabeling 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
@@ -303,9 +304,12 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry[progesteroneReceptorStatus].reference 1..
 // Breast: HER2 receptor status
 * section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus] only Reference(CHCRLObservationHer2ReceptorStatus)
-* section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus] ^short = "Her2 receptor status"
+* section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus] ^short = "HER2 receptor status"
 * section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus].reference 1..
-// Breast: Tumour proliferation labelling
+// Breast: Tumour proliferation labeling
+* section[tumourRelatedPrognosticFactors].entry[tumourProliferationLabeling] only Reference(CHCRLObservationTumourProliferationLabeling)
+* section[tumourRelatedPrognosticFactors].entry[tumourProliferationLabeling] ^short = "Tumour proliferation labeling"
+* section[tumourRelatedPrognosticFactors].entry[tumourProliferationLabeling].reference 1..
 
 // Prostate: PSA
 // Prostate: Gleason Pattern (Biopsy) - most common
