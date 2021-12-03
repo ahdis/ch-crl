@@ -59,20 +59,20 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Gleason score (Variable number: 5.2.6)"
 
 
-Instance: GleasonScore-5
+Instance: GleasonScore-6
 InstanceOf: CHCRLObservationGleasonScore
-Title: "Gleason Score - 5"
+Title: "Gleason Score - 6"
 Description: "Example for Observation for the Gleason Score"
 Usage: #example
 * status = #final
 * code = $loinc#35266-6 "Gleason score in Specimen Qualitative"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueQuantity.value = 5
+* valueQuantity.value = 6
 * hasMember[ch-crl-gleasonBiopsyMostCommonGrade] = Reference(GleasonBiopsyMostCommonGrade-2)
 * hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] = Reference(GleasonBiopsySecondMostCommonOrHighestGrade-3)
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] = Reference(GleasonExcisionMostCommonGrade-1)
-* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] = Reference(GleasonExcisionSecondMostCommonOrHighestGrade-2)
+* hasMember[ch-crl-gleasonExcisionMostCommonGrade] = Reference(GleasonExcisionMostCommonGrade-3)
+* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] = Reference(GleasonExcisionSecondMostCommonOrHighestGrade-3)
 
 
 Instance: GleasonScore-Unknown
