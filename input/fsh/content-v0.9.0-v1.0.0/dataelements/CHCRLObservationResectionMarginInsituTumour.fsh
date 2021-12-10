@@ -5,7 +5,7 @@ Title: "CH CRL Observation Resection Margin In-situ Tumour"
 Description: "Definition of the Observation for the resection margin in-situ tumour"
 * . ^short = "CH CRL Observation Resection Margin In-situ Tumour"
 * code 1..
-* code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy" // TBD
+* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -43,16 +43,16 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Resection margin in-situ tumour (Variable number: 6.4)"
 
 
-Instance: ResectionMarginInsituTumour-2.1mm
+Instance: ResectionMarginInsituTumour-2.0mm
 InstanceOf: CHCRLObservationResectionMarginInsituTumour
-Title: "Resection Margin In-situ Tumour - 2.1 mm"
+Title: "Resection Margin In-situ Tumour - 2.0 mm"
 Description: "Example for Observation for the resection margin in-situ tumour"
 Usage: #example
 * status = #final
-* code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy" // TBD
+* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueQuantity = 2.1 'mm' "millimeter"
+* valueQuantity = 2.0 'mm' "millimeter"
 
 Instance: ResectionMarginInsituTumour-Unknown
 InstanceOf: CHCRLObservationResectionMarginInsituTumour
@@ -60,7 +60,7 @@ Title: "Resection Margin In-situ Tumour - Unknown"
 Description: "Example for Observation for the resection margin in-situ tumour"
 Usage: #example
 * status = #final
-* code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy" // TBD
+* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
@@ -71,7 +71,7 @@ Title: "Resection Margin In-situ Tumour - Not Applicable"
 Description: "Example for Observation for the resection margin in-situ tumour"
 Usage: #example
 * status = #final
-* code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy" // TBD
+* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#not-applicable "Not Applicable"

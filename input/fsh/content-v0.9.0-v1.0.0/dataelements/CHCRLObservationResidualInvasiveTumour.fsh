@@ -5,7 +5,7 @@ Title: "CH CRL Observation Residual Invasive Tumour"
 Description: "Definition of the Observation for the residual invasive tumour"
 * . ^short = "CH CRL Observation Residual Invasive Tumour"
 * code 1..
-* code = $loinc#84892-9 "Residual tumor classification [Type] in Cancer specimen"
+* code = $nkrs-basicvariables#6.1 "Residual invasive tumour"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -40,16 +40,16 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Residual invasive tumour (Variable number: 6.1)"
 
 
-Instance: ResidualInvasiveTumour-R1
+Instance: ResidualInvasiveTumour-R0
 InstanceOf: CHCRLObservationResidualInvasiveTumour
-Title: "Residual Invasive Tumour - R1"
+Title: "Residual Invasive Tumour - R0"
 Description: "Example for Observation for the residual invasive tumour"
 Usage: #example
 * status = #final
-* code = $loinc#84892-9 "Residual tumor classification [Type] in Cancer specimen"
+* code = $nkrs-basicvariables#6.1 "Residual invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $nkrs-residualinvasivetumour#1 "R1"
+* valueCodeableConcept = $nkrs-residualinvasivetumour#0 "R0"
 
 Instance: ResidualInvasiveTumour-Unknown
 InstanceOf: CHCRLObservationResidualInvasiveTumour
@@ -57,7 +57,7 @@ Title: "Residual Invasive Tumour - Unknown"
 Description: "Example for Observation for the residual invasive tumour"
 Usage: #example
 * status = #final
-* code = $loinc#84892-9 "Residual tumor classification [Type] in Cancer specimen"
+* code = $nkrs-basicvariables#6.1 "Residual invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

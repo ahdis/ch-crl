@@ -10,6 +10,12 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 * ^caseSensitive = false
 * ^content = #complete
 
-// $loinc#21889-1 "Size Tumor"
+// differentiation clinical vs. pathological
 * #4.39 "Clinical tumour size"
 * #4.40 "Pathological tumour size"
+
+// differentitation invasive vs. in-situ
+* #6.1 "Residual invasive tumour"
+* #6.2 "Residual in-situ tumour"
+* #6.3 "Resection margin invasive tumour"
+* #6.4 "Resection margin in-situ tumour" 

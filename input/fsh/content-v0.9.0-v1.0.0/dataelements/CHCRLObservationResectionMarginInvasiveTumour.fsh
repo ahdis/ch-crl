@@ -5,7 +5,7 @@ Title: "CH CRL Observation Resection Margin Invasive Tumour"
 Description: "Definition of the Observation for the resection margin invasive tumour"
 * . ^short = "CH CRL Observation Resection Margin Invasive Tumour"
 * code 1..
-* code = $loinc#33737-8 "Distance of tumor from closest margin"
+* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -43,16 +43,16 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Resection margin invasive tumour (Variable number: 6.3)"
 
 
-Instance: ResectionMarginInvasiveTumour-1.5mm
+Instance: ResectionMarginInvasiveTumour-0.3mm
 InstanceOf: CHCRLObservationResectionMarginInvasiveTumour
-Title: "Resection Margin Invasive Tumour - 1.5 mm"
+Title: "Resection Margin Invasive Tumour - 0.3 mm"
 Description: "Example for Observation for the resection margin invasive tumour"
 Usage: #example
 * status = #final
-* code = $loinc#33737-8 "Distance of tumor from closest margin"
+* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueQuantity = 1.5 'mm' "millimeter"
+* valueQuantity = 0.3 'mm' "millimeter"
 
 Instance: ResectionMarginInvasiveTumour-Unknown
 InstanceOf: CHCRLObservationResectionMarginInvasiveTumour
@@ -60,7 +60,7 @@ Title: "Resection Margin Invasive Tumour - Unknown"
 Description: "Example for Observation for the resection margin invasive tumour"
 Usage: #example
 * status = #final
-* code = $loinc#33737-8 "Distance of tumor from closest margin"
+* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
@@ -71,7 +71,7 @@ Title: "Resection Margin Invasive Tumour - Not Applicable"
 Description: "Example for Observation for the resection margin invasive tumour"
 Usage: #example
 * status = #final
-* code = $loinc#33737-8 "Distance of tumor from closest margin"
+* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#not-applicable "Not Applicable"
