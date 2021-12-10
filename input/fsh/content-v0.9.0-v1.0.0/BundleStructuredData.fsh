@@ -132,3 +132,5 @@ Usage: #example
 * entry[=].resource = BreslowThickness-2.0mm
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/CircumferentialResectionMargins-0mm"
 * entry[=].resource = CircumferentialResectionMargins-0mm
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/MicrosatelliteInstability-Yes"
+* entry[=].resource = MicrosatelliteInstability-Yes

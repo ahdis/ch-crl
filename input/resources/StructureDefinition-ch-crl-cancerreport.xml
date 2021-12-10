@@ -1117,6 +1117,15 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.Mikrosatelliteninstabilitaet">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.Mikrosatelliteninstabilitaet"/>
+            <definition value="Mikrosatelliteninstabilität"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">
