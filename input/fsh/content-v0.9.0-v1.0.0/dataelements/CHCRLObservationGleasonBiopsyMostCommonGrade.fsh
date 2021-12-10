@@ -19,6 +19,8 @@ Description: "Definition of the Observation for the gleason biopsy most common g
 extensive pattern (primary pattern) in biopsy-detected prostate cancer."
 * valueQuantity.value 1..
 
+* method 1..
+* method = $sct#86273004 "Biopsy (procedure)"
 
 
 Mapping: NICER-A-for-CHCRLObservationGleasonBiopsyMostCommonGrade
@@ -39,3 +41,4 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity.value = 2
+* method = $sct#86273004 "Biopsy (procedure)"

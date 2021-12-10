@@ -19,6 +19,8 @@ Description: "Definition of the Observation for the gleason excision most common
 extensive pattern (primary pattern) in prostate cancer."
 * valueQuantity.value 1..
 
+* method 1..
+* method = $sct#65801008 "Excision (procedure)"
 
 
 Mapping: NICER-A-for-CHCRLObservationGleasonExcisionMostCommonGrade
@@ -39,3 +41,4 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity.value = 3
+* method = $sct#65801008 "Excision (procedure)"

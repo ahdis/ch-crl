@@ -20,6 +20,8 @@ of the second most common pattern (secondary pattern), or the pattern with the h
 biopsy-detected prostate cancer, if a tumour has more than 2 histological patterns."
 * valueQuantity.value 1..
 
+* method 1..
+* method = $sct#86273004 "Biopsy (procedure)"
 
 
 Mapping: NICER-A-for-CHCRLObservationGleasonBiopsySecondMostCommonOrHighestGrade
@@ -40,3 +42,4 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity.value = 3
+* method = $sct#86273004 "Biopsy (procedure)"

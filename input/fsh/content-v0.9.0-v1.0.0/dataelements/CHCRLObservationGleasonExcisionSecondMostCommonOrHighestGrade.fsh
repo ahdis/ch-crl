@@ -19,6 +19,8 @@ Description: "Definition of the Observation for the gleason excision second most
 of the second-most common pattern (secondary pattern) or the pattern with the highest Gleason grade in prostate cancer."
 * valueQuantity.value 1..
 
+* method 1..
+* method = $sct#65801008 "Excision (procedure)"
 
 
 Mapping: NICER-A-for-CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade
@@ -39,3 +41,4 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity.value = 3
+* method = $sct#65801008 "Excision (procedure)"
