@@ -34,6 +34,7 @@ Usage: #example
 * section[coding].entry[ICD-O-observedBehaviour] = Reference(ICD-O-3-Behaviour)
 * section[coding].entry[ICD-O-histologicalGrades] = Reference(ICD-O-3-HistologicalGrade-unknown)
 * section[coding].entry[ICD-O-laterality] = Reference(ICD-O-3-Laterality)
+* section[coding].entry[ICCC-3-mainGroup] = Reference(ICCC3MainGroup-VIII)
 
 * section[stagingAndGrading].title = "Staging and grading"
 * section[stagingAndGrading].entry[cTNM-y-prefix] = Reference(y-PrefixOfcTNM)

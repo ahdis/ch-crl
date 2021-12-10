@@ -10,6 +10,8 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 * ^caseSensitive = false
 * ^content = #complete
 
+* #3.9.1 "ICCC-3 main group"
+
 // differentiation clinical vs. pathological
 * #4.39 "Clinical tumour size"
 * #4.40 "Pathological tumour size"

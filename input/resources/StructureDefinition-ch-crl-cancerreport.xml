@@ -669,11 +669,15 @@
                 <code value="code"/>
             </type>
         </element>
-
-        <!-- TBD? ICCC-3 main group -->
-        <!-- TBD? ICCC-3 code -->
-        <!-- TBD? ICCC-3 extended code -->
-
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICCC-3-Hauptgruppe">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICCC-3-Hauptgruppe"/>
+            <definition value="ICCC-3-Hauptgruppe"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.y-Praefix-cTNM">
             <path value="CancerReport.Fall.DatenZurDiagnose.y-Praefix-cTNM"/>
             <definition value="y-Präfix bei cTNM"/>
