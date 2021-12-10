@@ -128,3 +128,5 @@ Usage: #example
 * entry[=].resource = WHOGradeGroup-GradeGroup2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICCC3MainGroup-VIII"
 * entry[=].resource = ICCC3MainGroup-VIII
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/BreslowThickness-2.0mm"
+* entry[=].resource = BreslowThickness-2.0mm

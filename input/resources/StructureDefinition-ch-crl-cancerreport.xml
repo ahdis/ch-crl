@@ -1080,6 +1080,25 @@
             </type>
         </element>
 
+        <element id="CancerReport.Fall.DatenZurDiagnose.Melanom">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Melanom"/>
+            <definition value="Melanom"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Melanom.TumordickeNachBreslow">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Melanom.TumordickeNachBreslow"/>
+            <definition value="Tumordicke nach Breslow"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">
             <path value="CancerReport.Fall.DatenZurErstbehandlung"/>

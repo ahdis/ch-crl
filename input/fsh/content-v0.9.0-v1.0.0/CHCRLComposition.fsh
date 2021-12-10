@@ -286,6 +286,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.path = "resolve()"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
 * section[tumourRelatedPrognosticFactors].entry contains
+    breslowThickness 0..1 and
     oestrogenReceptorStatus 0..1 and
     progesteroneReceptorStatus 0..1 and
     her2ReceptorStatus 0..1 and
@@ -302,6 +303,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // Colon / rectum: Microsatellite instability
 
 // Melanoma: Breslow thickness in mm
+* section[tumourRelatedPrognosticFactors].entry[breslowThickness] only Reference(CHCRLObservationBreslowThickness)
+* section[tumourRelatedPrognosticFactors].entry[breslowThickness] ^short = "Breslow thickness in mm"
+* section[tumourRelatedPrognosticFactors].entry[breslowThickness].reference 1..
 
 // Breast: Oestrogen receptor status
 * section[tumourRelatedPrognosticFactors].entry[oestrogenReceptorStatus] only Reference(CHCRLObservationOestrogenReceptorStatus)
