@@ -7,8 +7,10 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 [DE](https://www.nkrs.ch/assets/files/uploads/a-datenstruktur-variablen-der-basisdaten-v1.1.pdf), 
 [FR](https://www.onec.ch/assets/files/uploads/a-dict-des-donnees-variables-de-base-v1.1.pdf), 
 [IT](https://www.snrt.ch/assets/files/uploads/a-dati-oncologici-variabili-di-base-v1.1.pdf))"
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^content = #complete
+
+* #3.6.2 "Associated in situ tumour"
 
 * #3.9.1 "ICCC-3 main group"
 
