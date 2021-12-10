@@ -12,3 +12,4 @@ Alias: $nkrs-topographymetastasesatdiagnosis = http://fhir.ch/ig/ch-crl/CodeSyst
 Alias: $nkrs-her2receptorstatus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-her2receptorstatus
 Alias: $nkrs-whogradegroup = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-whogradegroup
 Alias: $nkrs-nkrsiccc3maingroup = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-nkrsiccc3maingroup
+Alias: $nkrs-circumferentialresectionmargins = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-circumferentialresectionmargins

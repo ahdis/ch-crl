@@ -286,6 +286,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.path = "resolve()"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
 * section[tumourRelatedPrognosticFactors].entry contains
+    circumferentialResectionMargins 0..1 and
     breslowThickness 0..1 and
     oestrogenReceptorStatus 0..1 and
     progesteroneReceptorStatus 0..1 and
@@ -300,6 +301,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // Head / neck: EBV
 
 // Colon / rectum: Circumferential resection margins
+* section[tumourRelatedPrognosticFactors].entry[circumferentialResectionMargins] only Reference(CHCRLObservationCircumferentialResectionMargins)
+* section[tumourRelatedPrognosticFactors].entry[circumferentialResectionMargins] ^short = "Circumferential resection margins"
+* section[tumourRelatedPrognosticFactors].entry[circumferentialResectionMargins].reference 1..
 // Colon / rectum: Microsatellite instability
 
 // Melanoma: Breslow thickness in mm
