@@ -5,7 +5,7 @@ Title: "CH CRL Observation Clinical Tumour Size"
 Description: "Definition of the Observation for the clinical tumour size"
 * . ^short = "CH CRL Observation Clinical Tumour Size"
 * code 1..
-* code = $loinc#21889-1 "Size Tumor"
+* code = $nkrs-basicvariables#4.39 "Clinical tumour size"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -48,7 +48,7 @@ Title: "Clinical Tumour Size - 11 mm"
 Description: "Example for Observation for the clinical tumour size"
 Usage: #example
 * status = #final
-* code = $loinc#21889-1 "Size Tumor"
+* code = $nkrs-basicvariables#4.39 "Clinical tumour size"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity = 11 'mm' "millimeter"
@@ -59,7 +59,7 @@ Title: "Clinical Tumour Size - Unknown"
 Description: "Example for Observation for the clinical tumour size"
 Usage: #example
 * status = #final
-* code = $loinc#21889-1 "Size Tumor"
+* code = $nkrs-basicvariables#4.39 "Clinical tumour size"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

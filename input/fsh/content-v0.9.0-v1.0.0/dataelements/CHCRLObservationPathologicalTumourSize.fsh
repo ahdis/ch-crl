@@ -5,7 +5,7 @@ Title: "CH CRL Observation Pathological Tumour Size"
 Description: "Definition of the Observation for the pathological tumour size"
 * . ^short = "CH CRL Observation Pathological Tumour Size"
 * code 1..
-* code = $sct#396944008 "Tumor size after sectioning (observable entity)" // TBD
+* code = $nkrs-basicvariables#4.40 "Pathological tumour size"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -48,7 +48,7 @@ Title: "Pathological Tumour Size - 11 mm"
 Description: "Example for Observation for the pathological tumour size"
 Usage: #example
 * status = #final
-* code = $sct#396944008 "Tumor size after sectioning (observable entity)" // TBD
+* code = $nkrs-basicvariables#4.40 "Pathological tumour size"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity = 11 'mm' "millimeter"
@@ -59,7 +59,7 @@ Title: "Pathological Tumour Size - Unknown"
 Description: "Example for Observation for the pathological tumour size"
 Usage: #example
 * status = #final
-* code = $sct#396944008 "Tumor size after sectioning (observable entity)" // TBD
+* code = $nkrs-basicvariables#4.40 "Pathological tumour size"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
