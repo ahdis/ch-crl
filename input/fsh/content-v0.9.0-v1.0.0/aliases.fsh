@@ -14,3 +14,4 @@ Alias: $nkrs-whogradegroup = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-whogradegr
 Alias: $nkrs-nkrsiccc3maingroup = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-nkrsiccc3maingroup
 Alias: $nkrs-circumferentialresectionmargins = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-circumferentialresectionmargins
 Alias: $nkrs-alphafetoprotein = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-alphafetoprotein
+Alias: $nkrs-hcg = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-hcg

@@ -136,3 +136,5 @@ Usage: #example
 * entry[=].resource = MicrosatelliteInstability-Yes
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/AlphaFetoprotein-AFP1"
 * entry[=].resource = AlphaFetoprotein-AFP1
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/HCG-hCG2"
+* entry[=].resource = HCG-hCG2

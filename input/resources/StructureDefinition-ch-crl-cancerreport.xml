@@ -1139,6 +1139,15 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.hCG">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.hCG"/>
+            <definition value="hCG"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">

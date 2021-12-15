@@ -76,3 +76,4 @@ Usage: #example
 * section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] = Reference(WHOGradeGroup-GradeGroup2)
 
 * section[tumourRelatedPrognosticFactors].entry[alphaFetoprotein] = Reference(AlphaFetoprotein-AFP1)
+* section[tumourRelatedPrognosticFactors].entry[hCG] = Reference(HCG-hCG2)
