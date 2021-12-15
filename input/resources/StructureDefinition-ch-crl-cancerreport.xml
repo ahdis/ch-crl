@@ -949,10 +949,7 @@
 
 // Prostate: done
  
-// Testicle: α-fetoprotein
-// Testicle: hCG (mlU/ml)
-// Testicle: LDH (factor x N)
-// Testicle: Serum tumour markers
+// Testicle: done
 -->
 
         <element id="CancerReport.Fall.DatenZurDiagnose.Brustkrebs">
@@ -1151,6 +1148,15 @@
         <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.LDH">
             <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.LDH"/>
             <definition value="LDH"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker"/>
+            <definition value="Serumtumormarker"/>
             <min value="0"/>
             <max value="1"/>
             <type>

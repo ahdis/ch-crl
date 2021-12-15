@@ -78,3 +78,4 @@ Usage: #example
 * section[tumourRelatedPrognosticFactors].entry[alphaFetoprotein] = Reference(AlphaFetoprotein-AFP1)
 * section[tumourRelatedPrognosticFactors].entry[hCG] = Reference(HCG-hCG2)
 * section[tumourRelatedPrognosticFactors].entry[LDH] = Reference(LDH-LDH3)
+* section[tumourRelatedPrognosticFactors].entry[serumTumourMarkers] = Reference(SerumTumourMarkers-S3)

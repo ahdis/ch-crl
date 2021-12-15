@@ -43,13 +43,14 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    22. α-fetoprotein (Variable number: 5.5.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-alphafetoprotein.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-alphafetoprotein.html))
    23. β-hCG (Variable number: 5.5.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-hcg.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-hcg.html))
    24. LDH (Variable number: 5.5.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-ldh.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-ldh.html))
-   25. Residual invasive tumour (Variable number: 6.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinvasivetumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinvasivetumour.html))
-   26. Residual in-situ tumour (Variable number: 6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinsitutumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinsitutumour.html))
-   27. Resection margin invasive tumour (Variable number: 6.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininvasivetumour.html))  
-   28. Resection margin in-situ tumour (Variable number: 6.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininsitutumour.html))
-   29. Sentinel lymph node assessment (Variable number: 6.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-sentinellymphnodeassessment.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-sentinellymphnodeassessment.html))
-   30. Number of examined sentinel lymph nodes (Variable number: 6.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberexaminedsentinellymphnodes.html))
-   31. Number of positive sentinel lymph nodes (Variable number: 6.7) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberpositivesentinellymphnodes.html))
+   25. Serum tumour markers (Variable number: 5.5.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-serumtumourmarkers.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-serumtumourmarkers.html))
+   26. Residual invasive tumour (Variable number: 6.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinvasivetumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinvasivetumour.html))
+   27. Residual in-situ tumour (Variable number: 6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinsitutumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinsitutumour.html))
+   28. Resection margin invasive tumour (Variable number: 6.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininvasivetumour.html))  
+   29. Resection margin in-situ tumour (Variable number: 6.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininsitutumour.html))
+   30. Sentinel lymph node assessment (Variable number: 6.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-sentinellymphnodeassessment.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-sentinellymphnodeassessment.html))
+   31. Number of examined sentinel lymph nodes (Variable number: 6.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberexaminedsentinellymphnodes.html))
+   32. Number of positive sentinel lymph nodes (Variable number: 6.7) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberpositivesentinellymphnodes.html))
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.

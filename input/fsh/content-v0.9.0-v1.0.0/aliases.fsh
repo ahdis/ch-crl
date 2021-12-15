@@ -16,3 +16,4 @@ Alias: $nkrs-circumferentialresectionmargins = http://fhir.ch/ig/ch-crl/CodeSyst
 Alias: $nkrs-alphafetoprotein = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-alphafetoprotein
 Alias: $nkrs-hcg = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-hcg
 Alias: $nkrs-ldh = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-ldh
+Alias: $nkrs-serumtumourmarkers = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-serumtumourmarkers
