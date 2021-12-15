@@ -943,17 +943,11 @@
 // Colon / rectum: Circumferential resection margins
 // Colon / rectum: Microsatellite instability
 
-// Melanoma: Breslow thickness in mm
+// Melanoma: done
 
 // Brust: done
 
-// Prostate: PSA
-// Prostate: Gleason Pattern (Biopsy) - most common
-// Prostate: Gleason Pattern (Biopsy) - second most common
-// Prostate: Gleason pattern (excision) - most common
-// Prostate: Gleason pattern (excision) - second most common
-// Prostate: Gleason score
-// Prostate: WHO grade group
+// Prostate: done
  
 // Testicle: α-fetoprotein
 // Testicle: hCG (mlU/ml)
@@ -1124,6 +1118,25 @@
             <max value="1"/>
             <type>
                 <code value="boolean"/>
+            </type>
+        </element>
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs"/>
+            <definition value="Hodenkrebs"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.AlphaFetoprotein">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.AlphaFetoprotein"/>
+            <definition value="α-Fetoprotein"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
             </type>
         </element>
 

@@ -134,3 +134,5 @@ Usage: #example
 * entry[=].resource = CircumferentialResectionMargins-0mm
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/MicrosatelliteInstability-Yes"
 * entry[=].resource = MicrosatelliteInstability-Yes
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/AlphaFetoprotein-AFP1"
+* entry[=].resource = AlphaFetoprotein-AFP1

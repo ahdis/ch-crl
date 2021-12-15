@@ -40,13 +40,14 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    19. Breslow thickness (Variable number: 5.3.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-breslowthickness.html))
    20. Circumferential resection margins (Variable number: 5.4.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-circumferentialresectionmargins.html))
    21. Microsatellite instability (Variable number: 5.4.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-microsatelliteinstability.html))
-   22. Residual invasive tumour (Variable number: 6.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinvasivetumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinvasivetumour.html))
-   23. Residual in-situ tumour (Variable number: 6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinsitutumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinsitutumour.html))
-   24. Resection margin invasive tumour (Variable number: 6.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininvasivetumour.html))  
-   25. Resection margin in-situ tumour (Variable number: 6.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininsitutumour.html))
-   26. Sentinel lymph node assessment (Variable number: 6.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-sentinellymphnodeassessment.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-sentinellymphnodeassessment.html))
-   27. Number of examined sentinel lymph nodes (Variable number: 6.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberexaminedsentinellymphnodes.html))
-   28. Number of positive sentinel lymph nodes (Variable number: 6.7) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberpositivesentinellymphnodes.html))
+   22. α-fetoprotein (Variable number: 5.5.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-alphafetoprotein.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-alphafetoprotein.html))
+   23. Residual invasive tumour (Variable number: 6.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinvasivetumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinvasivetumour.html))
+   24. Residual in-situ tumour (Variable number: 6.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-residualinsitutumour.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-residualinsitutumour.html))
+   25. Resection margin invasive tumour (Variable number: 6.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininvasivetumour.html))  
+   26. Resection margin in-situ tumour (Variable number: 6.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-resectionmargininsitutumour.html))
+   27. Sentinel lymph node assessment (Variable number: 6.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-sentinellymphnodeassessment.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-sentinellymphnodeassessment.html))
+   28. Number of examined sentinel lymph nodes (Variable number: 6.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberexaminedsentinellymphnodes.html))
+   29. Number of positive sentinel lymph nodes (Variable number: 6.7) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-numberpositivesentinellymphnodes.html))
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.

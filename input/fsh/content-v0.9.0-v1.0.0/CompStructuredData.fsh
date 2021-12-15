@@ -75,3 +75,4 @@ Usage: #example
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore] = Reference(GleasonScore-6)
 * section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] = Reference(WHOGradeGroup-GradeGroup2)
 
+* section[tumourRelatedPrognosticFactors].entry[alphaFetoprotein] = Reference(AlphaFetoprotein-AFP1)
