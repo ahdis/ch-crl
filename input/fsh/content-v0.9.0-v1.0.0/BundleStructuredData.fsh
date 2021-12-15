@@ -138,3 +138,5 @@ Usage: #example
 * entry[=].resource = AlphaFetoprotein-AFP1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/HCG-hCG2"
 * entry[=].resource = HCG-hCG2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/LDH-LDH3"
+* entry[=].resource = LDH-LDH3

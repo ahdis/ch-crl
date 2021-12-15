@@ -1148,6 +1148,15 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.LDH">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.LDH"/>
+            <definition value="LDH"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">

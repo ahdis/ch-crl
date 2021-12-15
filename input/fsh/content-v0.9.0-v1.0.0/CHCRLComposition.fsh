@@ -297,7 +297,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     gleasonScore 0..1 and
     whoGradeGroup 0..1 and
     alphaFetoprotein 0..1 and
-    hCG 0..1
+    hCG 0..1 and
+    LDH 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
@@ -356,6 +357,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry[hCG] ^short = "hCG"
 * section[tumourRelatedPrognosticFactors].entry[hCG].reference 1..
 // Testicle: LDH (factor x N)
+* section[tumourRelatedPrognosticFactors].entry[LDH] only Reference(CHCRLObservationLDH)
+* section[tumourRelatedPrognosticFactors].entry[LDH] ^short = "LDH"
+* section[tumourRelatedPrognosticFactors].entry[LDH].reference 1..
 // Testicle: Serum tumour markers
 
 

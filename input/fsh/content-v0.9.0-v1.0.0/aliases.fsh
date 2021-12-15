@@ -15,3 +15,4 @@ Alias: $nkrs-nkrsiccc3maingroup = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-nkrsi
 Alias: $nkrs-circumferentialresectionmargins = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-circumferentialresectionmargins
 Alias: $nkrs-alphafetoprotein = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-alphafetoprotein
 Alias: $nkrs-hcg = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-hcg
+Alias: $nkrs-ldh = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-ldh
