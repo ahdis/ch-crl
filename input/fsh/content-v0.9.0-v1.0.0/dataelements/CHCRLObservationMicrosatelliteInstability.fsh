@@ -2,7 +2,7 @@ Profile: CHCRLObservationMicrosatelliteInstability
 Parent: Observation
 Id: ch-crl-observation-microsatelliteinstability
 Title: "CH CRL Observation Microsatellite Instability"
-Description: "Definition of the Observation for the Microsatellite instability"
+Description: "Definition of the Observation for the microsatellite instability"
 * . ^short = "CH CRL Observation Microsatellite Instability"
 * code 1..
 * code = $loinc#81695-9 "Microsatellite instability [Interpretation] in Cancer specimen Qualitative"
@@ -41,7 +41,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: MicrosatelliteInstability-No
 InstanceOf: CHCRLObservationMicrosatelliteInstability
 Title: "Microsatellite Instability - No"
-Description: "Example for Observation for the Microsatellite instability"
+Description: "Example for Observation for the microsatellite instability"
 Usage: #example
 * status = #final
 * code = $loinc#81695-9 "Microsatellite instability [Interpretation] in Cancer specimen Qualitative"
@@ -52,7 +52,7 @@ Usage: #example
 Instance: MicrosatelliteInstability-Yes
 InstanceOf: CHCRLObservationMicrosatelliteInstability
 Title: "Microsatellite Instability - Yes"
-Description: "Example for Observation for the Microsatellite instability"
+Description: "Example for Observation for the microsatellite instability"
 Usage: #example
 * status = #final
 * code = $loinc#81695-9 "Microsatellite instability [Interpretation] in Cancer specimen Qualitative"
@@ -63,7 +63,7 @@ Usage: #example
 Instance: MicrosatelliteInstability-Unknown
 InstanceOf: CHCRLObservationMicrosatelliteInstability
 Title: "Microsatellite Instability - Unknown"
-Description: "Example for Observation for the Microsatellite instability"
+Description: "Example for Observation for the microsatellite instability"
 Usage: #example
 * status = #final
 * code = $loinc#81695-9 "Microsatellite instability [Interpretation] in Cancer specimen Qualitative"

@@ -2,7 +2,7 @@ Profile: CHCRLObservationCircumferentialResectionMargins
 Parent: Observation
 Id: ch-crl-observation-circumferentialresectionmargins
 Title: "CH CRL Observation Circumferential Resection Margins"
-Description: "Definition of the Observation for the Circumferential resection margins"
+Description: "Definition of the Observation for the circumferential resection margins"
 * . ^short = "CH CRL Observation Circumferential Resection Margins"
 * code 1..
 * code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy"
@@ -43,7 +43,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: CircumferentialResectionMargins-0mm
 InstanceOf: CHCRLObservationCircumferentialResectionMargins
 Title: "Circumferential Resection Margins - 0mm"
-Description: "Example for Observation for the Circumferential resection margins"
+Description: "Example for Observation for the circumferential resection margins"
 Usage: #example
 * status = #final
 * code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy"
@@ -54,7 +54,7 @@ Usage: #example
 Instance: CircumferentialResectionMargins-Unknown
 InstanceOf: CHCRLObservationCircumferentialResectionMargins
 Title: "Circumferential Resection Margins - Unknown"
-Description: "Example for Observation for the Circumferential resection margins"
+Description: "Example for Observation for the circumferential resection margins"
 Usage: #example
 * status = #final
 * code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy"

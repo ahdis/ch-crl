@@ -60,7 +60,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: SerumTumourMarkers-S3
 InstanceOf: CHCRLObservationSerumTumourMarkers
 Title: "Serum Tumour Markers - S3"
-Description: "Example for Observation for the Serum Tumour Markers"
+Description: "Example for Observation for the serum tumour markers"
 Usage: #example
 * status = #final
 * code = $sct#396701002 "Finding of serum tumor marker level (finding)"
@@ -74,7 +74,7 @@ Usage: #example
 Instance: SerumTumourMarkers-Unknown
 InstanceOf: CHCRLObservationSerumTumourMarkers
 Title: "Serum Tumour Markers - Unknown"
-Description: "Example for Observation for the Serum Tumour Markers"
+Description: "Example for Observation for the serum tumour markers"
 Usage: #example
 * status = #final
 * code = $sct#396701002 "Finding of serum tumor marker level (finding)"
@@ -85,7 +85,7 @@ Usage: #example
 Instance: SerumTumourMarkers-NotPerformed
 InstanceOf: CHCRLObservationSerumTumourMarkers
 Title: "Serum Tumour Markers - Not Performed"
-Description: "Example for Observation for the Serum Tumour Markers"
+Description: "Example for Observation for the serum tumour markers"
 Usage: #example
 * status = #final
 * code = $sct#396701002 "Finding of serum tumor marker level (finding)"

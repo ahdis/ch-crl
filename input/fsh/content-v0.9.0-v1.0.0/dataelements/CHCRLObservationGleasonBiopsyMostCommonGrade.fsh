@@ -34,7 +34,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: GleasonBiopsyMostCommonGrade-2
 InstanceOf: CHCRLObservationGleasonBiopsyMostCommonGrade
 Title: "Gleason Biopsy Most Common Grade - 2"
-Description: "Example for Observation for the Gleason Biopsy Most Common Grade"
+Description: "Example for Observation for the gleason biopsy most common grade"
 Usage: #example
 * status = #final
 * code = $loinc#44641-9 "Gleason pattern.primary in Prostate tumor"

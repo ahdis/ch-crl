@@ -34,7 +34,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: GleasonExcisionSecondMostCommonOrHighestGrade-3
 InstanceOf: CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade
 Title: "Gleason Excision Second Most Common or Highest Grade - 3"
-Description: "Example for Observation for the Gleason Excision Second Most Common or Highest Grade"
+Description: "Example for Observation for the gleason excision second most common or highest grade"
 Usage: #example
 * status = #final
 * code = $loinc#44642-7 "Gleason pattern.secondary in Prostate tumor"

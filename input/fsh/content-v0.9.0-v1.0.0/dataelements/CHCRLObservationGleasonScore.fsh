@@ -62,7 +62,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: GleasonScore-6
 InstanceOf: CHCRLObservationGleasonScore
 Title: "Gleason Score - 6"
-Description: "Example for Observation for the Gleason Score"
+Description: "Example for Observation for the gleason score"
 Usage: #example
 * status = #final
 * code = $loinc#35266-6 "Gleason score in Specimen Qualitative"
@@ -78,7 +78,7 @@ Usage: #example
 Instance: GleasonScore-Unknown
 InstanceOf: CHCRLObservationGleasonScore
 Title: "Gleason Score - Unknown"
-Description: "Example for Observation for the Gleason Score"
+Description: "Example for Observation for the gleason score"
 Usage: #example
 * status = #final
 * code = $loinc#35266-6 "Gleason score in Specimen Qualitative"
