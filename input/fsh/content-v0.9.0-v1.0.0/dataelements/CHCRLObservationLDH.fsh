@@ -5,7 +5,7 @@ Title: "CH CRL Observation LDH"
 Description: "Definition of the Observation for the LDH"
 * . ^short = "CH CRL Observation LDH"
 * code 1..
-* code = $loinc#2532-0 "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma"
+* code = $loinc#75639-5 "Lactate dehydrogenase in body fluid/Lactate dehydrogenase in serum"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -46,7 +46,7 @@ Title: "LDH - LDH3"
 Description: "Example for Observation for the LDH"
 Usage: #example
 * status = #final
-* code = $loinc#2532-0 "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma"
+* code = $loinc#75639-5 "Lactate dehydrogenase in body fluid/Lactate dehydrogenase in serum"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-ldh#3 "LDH3"
@@ -57,7 +57,7 @@ Title: "LDH - Unknown"
 Description: "Example for Observation for the LDH"
 Usage: #example
 * status = #final
-* code = $loinc#2532-0 "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma"
+* code = $loinc#75639-5 "Lactate dehydrogenase in body fluid/Lactate dehydrogenase in serum"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
@@ -68,7 +68,7 @@ Title: "LDH - Not Performed"
 Description: "Example for Observation for the LDH"
 Usage: #example
 * status = #final
-* code = $loinc#2532-0 "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma"
+* code = $loinc#75639-5 "Lactate dehydrogenase in body fluid/Lactate dehydrogenase in serum"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#not-performed "Not Performed"
