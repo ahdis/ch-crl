@@ -940,8 +940,7 @@
 // Head / neck: HPV/p16
 // Head / neck: EBV
 
-// Colon / rectum: Circumferential resection margins
-// Colon / rectum: Microsatellite instability
+// Colon: done
 
 // Melanoma: done
 
@@ -950,8 +949,59 @@
 // Prostate: done
  
 // Testicle: done
+
+
 -->
 
+        
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs"/>
+            <definition value="Darmkrebs"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.ZirkumferenzielleResektionsraender">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.ZirkumferenzielleResektionsraender"/>
+            <definition value="Zirkumferenzielle Resektionsränder"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.Mikrosatelliteninstabilitaet">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.Mikrosatelliteninstabilitaet"/>
+            <definition value="Mikrosatelliteninstabilität"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        
+        <element id="CancerReport.Fall.DatenZurDiagnose.Melanom">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Melanom"/>
+            <definition value="Melanom"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Melanom.TumordickeNachBreslow">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Melanom.TumordickeNachBreslow"/>
+            <definition value="Tumordicke nach Breslow"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+        
         <element id="CancerReport.Fall.DatenZurDiagnose.Brustkrebs">
             <path value="CancerReport.Fall.DatenZurDiagnose.Brustkrebs"/>
             <definition value="Brustkrebs"/>
@@ -1068,53 +1118,6 @@
             <max value="1"/>
             <type>
                 <code value="code"/>
-            </type>
-        </element>
-
-        <element id="CancerReport.Fall.DatenZurDiagnose.Melanom">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Melanom"/>
-            <definition value="Melanom"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="Element"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Melanom.TumordickeNachBreslow">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Melanom.TumordickeNachBreslow"/>
-            <definition value="Tumordicke nach Breslow"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="decimal"/>
-            </type>
-        </element>
-
-        <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs"/>
-            <definition value="Darmkrebs"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="Element"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.ZirkumferenzielleResektionsraender">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.ZirkumferenzielleResektionsraender"/>
-            <definition value="Zirkumferenzielle Resektionsränder"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.Mikrosatelliteninstabilitaet">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs.Mikrosatelliteninstabilitaet"/>
-            <definition value="Mikrosatelliteninstabilität"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="boolean"/>
             </type>
         </element>
 
