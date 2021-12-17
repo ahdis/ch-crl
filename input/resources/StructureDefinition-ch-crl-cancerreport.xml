@@ -1127,8 +1127,17 @@
                 <code value="Element"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.AlphaFetoprotein">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.AlphaFetoprotein"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker"/>
+            <definition value="Serumtumormarker"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker.AlphaFetoprotein">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker.AlphaFetoprotein"/>
             <definition value="α-Fetoprotein"/>
             <min value="0"/>
             <max value="1"/>
@@ -1136,8 +1145,8 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.hCG">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.hCG"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker.hCG">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker.hCG"/>
             <definition value="hCG"/>
             <min value="0"/>
             <max value="1"/>
@@ -1145,18 +1154,9 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.LDH">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.LDH"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker.LDH">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker.LDH"/>
             <definition value="LDH"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="code"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Hodenkrebs.Serumtumormarker"/>
-            <definition value="Serumtumormarker"/>
             <min value="0"/>
             <max value="1"/>
             <type>

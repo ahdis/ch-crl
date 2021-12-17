@@ -296,9 +296,6 @@ Description: "Definition of the Composition for reporting to the cancer registry
     psa 0..1 and
     gleasonScore 0..1 and
     whoGradeGroup 0..1 and
-    alphaFetoprotein 0..1 and
-    hCG 0..1 and
-    LDH 0..1 and
     serumTumourMarkers 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
@@ -349,18 +346,6 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] ^short = "WHO grade group"
 * section[tumourRelatedPrognosticFactors].entry[whoGradeGroup].reference 1..
  
-// Testicle: α-fetoprotein
-* section[tumourRelatedPrognosticFactors].entry[alphaFetoprotein] only Reference(CHCRLObservationAlphaFetoprotein)
-* section[tumourRelatedPrognosticFactors].entry[alphaFetoprotein] ^short = "α-fetoprotein"
-* section[tumourRelatedPrognosticFactors].entry[alphaFetoprotein].reference 1..
-// Testicle: hCG (mlU/ml)
-* section[tumourRelatedPrognosticFactors].entry[hCG] only Reference(CHCRLObservationHCG)
-* section[tumourRelatedPrognosticFactors].entry[hCG] ^short = "hCG"
-* section[tumourRelatedPrognosticFactors].entry[hCG].reference 1..
-// Testicle: LDH (factor x N)
-* section[tumourRelatedPrognosticFactors].entry[LDH] only Reference(CHCRLObservationLDH)
-* section[tumourRelatedPrognosticFactors].entry[LDH] ^short = "LDH"
-* section[tumourRelatedPrognosticFactors].entry[LDH].reference 1..
 // Testicle: Serum tumour markers
 * section[tumourRelatedPrognosticFactors].entry[serumTumourMarkers] only Reference(CHCRLObservationSerumTumourMarkers)
 * section[tumourRelatedPrognosticFactors].entry[serumTumourMarkers] ^short = "Serum tumour markers"
