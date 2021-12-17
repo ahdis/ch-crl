@@ -25,7 +25,6 @@ is not stated / not assessed."
 * performed[x] 1..
 * performed[x] only dateTime or Period
 * performer ^short = "Who performed the method of first detection"
-* performer.function ^short = "Type of performance"
 * performer.actor only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer.actor ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.actor.reference 1..

@@ -24,7 +24,6 @@ Description: "Definition of the Procedure for the diagnostic method(s)"
 * performed[x] 1..
 * performed[x] only dateTime or Period
 * performer ^short = "Who performed the diagnostic method"
-* performer.function ^short = "Type of performance"
 * performer.actor only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer.actor ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.actor.reference 1..
