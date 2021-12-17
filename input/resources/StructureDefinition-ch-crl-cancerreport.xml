@@ -936,24 +936,29 @@
             </type>
         </element>
 
+
+        <element id="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs"/>
+            <definition value="Kopf-/Halskrebs"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs.HPV-p16">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs.HPV-p16"/>
+            <definition value="HPV/p16"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
 <!--
 // Head / neck: HPV/p16
 // Head / neck: EBV
-
-// Colon: done
-
-// Melanoma: done
-
-// Brust: done
-
-// Prostate: done
- 
-// Testicle: done
-
-
 -->
-
-        
 
         <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs">
             <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs"/>

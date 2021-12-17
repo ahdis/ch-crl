@@ -142,3 +142,5 @@ Usage: #example
 * entry[=].resource = LDH-LDH3
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/SerumTumourMarkers-S3"
 * entry[=].resource = SerumTumourMarkers-S3
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/HPVp16-Yes"
+* entry[=].resource = HPVp16-Yes

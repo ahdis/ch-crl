@@ -286,6 +286,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.path = "resolve()"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
 * section[tumourRelatedPrognosticFactors].entry contains
+    hpvP16 0..1 and
     circumferentialResectionMargins 0..1 and
     microsatelliteInstability 0..1 and
     breslowThickness 0..1 and
@@ -300,6 +301,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
+* section[tumourRelatedPrognosticFactors].entry[hpvP16] only Reference(CHCRLObservationHPVp16)
+* section[tumourRelatedPrognosticFactors].entry[hpvP16] ^short = "HPV/p16"
+* section[tumourRelatedPrognosticFactors].entry[hpvP16].reference 1..
 // Head / neck: EBV
 
 // Colon / rectum: Circumferential resection margins
