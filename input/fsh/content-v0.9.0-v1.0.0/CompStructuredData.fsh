@@ -62,6 +62,7 @@ Usage: #example
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] = Reference(NumberExaminedSentinelLymphNodes-4)
 
 * section[tumourRelatedPrognosticFactors].entry[hpvP16] = Reference(HPVp16-Yes)
+* section[tumourRelatedPrognosticFactors].entry[ebv] = Reference(EBV-Unknown)
 
 * section[tumourRelatedPrognosticFactors].entry[circumferentialResectionMargins] = Reference(CircumferentialResectionMargins-0mm)
 * section[tumourRelatedPrognosticFactors].entry[microsatelliteInstability] = Reference(MicrosatelliteInstability-Yes)

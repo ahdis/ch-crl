@@ -955,10 +955,15 @@
                 <code value="boolean"/>
             </type>
         </element>
-<!--
-// Head / neck: HPV/p16
-// Head / neck: EBV
--->
+        <element id="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs.EBV">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs.EBV"/>
+            <definition value="EBV"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
 
         <element id="CancerReport.Fall.DatenZurDiagnose.Darmkrebs">
             <path value="CancerReport.Fall.DatenZurDiagnose.Darmkrebs"/>
