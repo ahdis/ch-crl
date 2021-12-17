@@ -1187,6 +1187,14 @@
                 <code value="Element"/>
             </type>
         </element>
+        <!--
+         Treatment decision:Basis of treatment decision 7.1
+         Treatment decision:Date of treatment decision 7.2.1
+          Treatments:Treatment goal 7.3
+          Treatments:Treatment code 7.4
+          Treatments:Treatment start date 7.5.1
+          Treatments:Treatment institution 7.6
+        -->
 
         <!-- Daten zum Krankheitsverlauf -->
         <element id="CancerReport.Fall.DatenZumKrankheitsverlauf">

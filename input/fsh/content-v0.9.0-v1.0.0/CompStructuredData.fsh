@@ -61,21 +61,20 @@ Usage: #example
 * section[stagingAndGrading].entry[numberPositiveSentinelLymphNodes] = Reference(NumberPositiveSentinelLymphNodes-6)
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] = Reference(NumberExaminedSentinelLymphNodes-4)
 
+* section[tumourRelatedPrognosticFactors].title = "Tumour related prognostic factors"
 * section[tumourRelatedPrognosticFactors].entry[hpvP16] = Reference(HPVp16-Yes)
 * section[tumourRelatedPrognosticFactors].entry[ebv] = Reference(EBV-Unknown)
-
 * section[tumourRelatedPrognosticFactors].entry[circumferentialResectionMargins] = Reference(CircumferentialResectionMargins-0mm)
 * section[tumourRelatedPrognosticFactors].entry[microsatelliteInstability] = Reference(MicrosatelliteInstability-Yes)
-
 * section[tumourRelatedPrognosticFactors].entry[breslowThickness] = Reference(BreslowThickness-2.0mm)
-
 * section[tumourRelatedPrognosticFactors].entry[oestrogenReceptorStatus] = Reference(OestrogenReceptorStatus-5percent)
 * section[tumourRelatedPrognosticFactors].entry[progesteroneReceptorStatus] = Reference(ProgesteroneReceptorStatus-3percent)
 * section[tumourRelatedPrognosticFactors].entry[her2ReceptorStatus] = Reference(Her2ReceptorStatus-Overexpressed)
 * section[tumourRelatedPrognosticFactors].entry[tumourProliferationLabeling] = Reference(TumourProliferationLabeling-3percent)
-
 * section[tumourRelatedPrognosticFactors].entry[psa] = Reference(PretreatmentProstateSpecificAntigen-80ngml)
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore] = Reference(GleasonScore-6)
 * section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] = Reference(WHOGradeGroup-GradeGroup2)
-
 * section[tumourRelatedPrognosticFactors].entry[serumTumourMarkers] = Reference(SerumTumourMarkers-S3)
+
+* section[firstTreatmentComplex].title = "First treatment complex"
+* section[firstTreatmentComplex].entry[treatment] = Reference(Treatment-IntraoperativeApplicationOfChemotherapeuticSubstances)

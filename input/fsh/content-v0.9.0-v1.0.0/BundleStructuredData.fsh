@@ -146,3 +146,5 @@ Usage: #example
 * entry[=].resource = HPVp16-Yes
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/EBV-Unknown"
 * entry[=].resource = EBV-Unknown
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Procedure/Treatment-IntraoperativeApplicationOfChemotherapeuticSubstances"
+* entry[=].resource = Treatment-IntraoperativeApplicationOfChemotherapeuticSubstances

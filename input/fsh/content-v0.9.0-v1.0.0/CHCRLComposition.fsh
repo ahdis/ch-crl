@@ -30,7 +30,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
     stagingAndGrading 0..1 and
     tumourRelatedPrognosticFactors 0..1 and
 //    charlsonIndex 0..1 and
-    treatment 0..1 and
+    firstTreatmentComplex 0..1 and
     courseOfDisease 0..1
 
 // ------- Unstructured Report -------
@@ -371,14 +371,24 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[charlsonIndex].section ..0
 */
 
-// ------- Treatment -------
-* section[treatment] ^short = "Section for the treatment"
-* section[treatment].title 1..
-* section[treatment].title = "Treatment"
-* section[treatment].entry ^slicing.discriminator.type = #profile
-* section[treatment].entry ^slicing.discriminator.path = "resolve()"
-* section[treatment].entry ^slicing.rules = #open
-* section[treatment].section ..0
+// ------- First Treatment Complex-------
+* section[firstTreatmentComplex] ^short = "Section for the first treatment complex"
+* section[firstTreatmentComplex].title 1..
+* section[firstTreatmentComplex].title = "First treatment complex"
+* section[firstTreatmentComplex].entry ^slicing.discriminator.type = #profile
+* section[firstTreatmentComplex].entry ^slicing.discriminator.path = "resolve()"
+* section[firstTreatmentComplex].entry ^slicing.rules = #open
+* section[firstTreatmentComplex].entry contains
+    treatment 0..* 
+* section[firstTreatmentComplex].section ..0
+
+// Treatment decision: Basis of treatment decision 7.1
+// Treatment decision: Date of treatment decision 7.2.1
+
+// Treatments: Treatment goal 7.3, Treatment code 7.4, Treatment start date 7.5.1, Treatment institution 7.6
+* section[firstTreatmentComplex].entry[treatment] only Reference(CHCRLProcedureTreatment)
+* section[firstTreatmentComplex].entry[treatment] ^short = "Treatment"
+* section[firstTreatmentComplex].entry[treatment].reference 1..
 
 // ------- Course of disease -------
 * section[courseOfDisease] ^short = "Section for the course of desease"
