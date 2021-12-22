@@ -17,7 +17,7 @@ The first treatment complex includes all therapy steps planned after the diagnos
 * type.coding.code 1..
 * type.coding.display 1..
 
-* serviceType = $sct#
+//* serviceType = $sct#
 
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
