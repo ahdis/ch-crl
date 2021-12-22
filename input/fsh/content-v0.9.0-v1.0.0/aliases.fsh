@@ -18,3 +18,4 @@ Alias: $nkrs-hcg = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-hcg
 Alias: $nkrs-ldh = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-ldh
 Alias: $nkrs-serumtumourmarkers = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-serumtumourmarkers
 Alias: $nkrs-firsttreatmentcomplexcode = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-firsttreatmentcomplexcode
+Alias: $nkrs-basisoffirsttreatmentcomplexdecision = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-basisoffirsttreatmentcomplexdecision
