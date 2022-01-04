@@ -8,12 +8,12 @@ Description: "Definition of the Procedure for the treatment"
 * category 1..
 * category = $sct#708255002 "First line treatment (procedure)"
 
-* code from NkrsFirstTreatmentComplexCode (required)
 * code ^short = "The CHOP code, or NACR-assigned CHOP-like code for treatments where no CHOP code exists, 
 for each treatment as part of the first treatment complex. CHOP is Swiss classification of surgical operations 
 and other diagnostic and treatment procedures and interventions."
 * code.coding 1..
 * code.coding.system 1..
+* code.coding.system = "urn:oid:2.16.756.5.30.1.126.3.1" (exactly)
 * code.coding.code 1..
 * code.coding.display 1..
 
@@ -52,7 +52,7 @@ Description: "Example for Procedure for the treatment"
 Usage: #example
 * status = #in-progress
 * category = $sct#708255002 "First line treatment (procedure)"
-* code = $nkrs-firsttreatmentcomplexcode#Z99.25.29 "Intraoperative Applikation von Chemotherapeutikum, sonstige"
+* code = urn:oid:2.16.756.5.30.1.126.3.1#Z99.25.29 "Intraoperative Applikation von Chemotherapeutikum, sonstige"
 * subject = Reference(FranzMinimum)
 * performedPeriod.start = "2021-12-19"
 * performer.actor = Reference(Inselspital)
