@@ -1,3 +1,4 @@
+/*
 Instance: BundleStructuredData
 InstanceOf: CHCRLBundle
 Title: "Bundle structured data"
@@ -148,3 +149,4 @@ Usage: #example
 * entry[=].resource = EBV-Unknown
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Procedure/Treatment-IntraoperativeApplicationOfChemotherapeuticSubstances"
 * entry[=].resource = Treatment-IntraoperativeApplicationOfChemotherapeuticSubstances
+*/

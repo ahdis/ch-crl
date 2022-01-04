@@ -1,3 +1,4 @@
+/*
 Instance: CompStructuredData
 InstanceOf: CHCRLComposition
 Title: "Composition structured data"
@@ -78,3 +79,4 @@ Usage: #example
 
 * section[firstTreatmentComplex].title = "First treatment complex"
 * section[firstTreatmentComplex].entry[treatment] = Reference(Treatment-IntraoperativeApplicationOfChemotherapeuticSubstances)
+*/

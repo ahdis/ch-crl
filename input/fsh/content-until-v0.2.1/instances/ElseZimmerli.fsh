@@ -1,7 +1,7 @@
 Instance: ElseZimmerli
 InstanceOf: CHCRLPatient
 Title: "Else Zimmerli"
-Description: "Example for Patient"
+Description: "Example for Patient (deceased)"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.32"
 * identifier.value = "756.8833.2836.29"
