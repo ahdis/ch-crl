@@ -44,9 +44,9 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 
 
 
-Instance: TreatmentDecision-Tumourboard20211209
+Instance: TreatmentDecision-Tumourboard20181215
 InstanceOf: CHCRLEncounterTreatmentDecision
-Title: "Treatment Decision - Tumour board 2021-12-09"
+Title: "Treatment Decision - Tumour board 2018-12-15"
 Description: "Example for Encounter for the treatment decision"
 Usage: #example
 * status = #finished
@@ -54,5 +54,5 @@ Usage: #example
 * type = $nkrs-basisoffirsttreatmentcomplexdecision#1 "Tumour board"
 * serviceType = $sct#405083000 "Healthcare decision making (observable entity)"
 * subject = Reference(FranzMinimum)
-* period.start = "2021-12-09"
+* period.start = "2018-12-15"
 * reasonReference = Reference(ICD-10)

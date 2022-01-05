@@ -75,7 +75,7 @@ Usage: #example
 * category = $sct#708255002 "First line treatment (procedure)"
 * code = urn:oid:2.16.756.5.30.1.126.3.1#Z99.25.29 "Intraoperative Applikation von Chemotherapeutikum, sonstige"
 * subject = Reference(FranzMinimum)
-* performedPeriod.start = "2021-12-19"
+* performedPeriod.start = "2018-12-15"
 * performer.actor = Reference(Inselspital)
 * reasonReference = Reference(ICD-10)
 
