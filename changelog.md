@@ -25,7 +25,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    4. Clinical tumour size (Variable number: 4.39) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-clinicaltumoursize.html))
    5. Pathological tumour size (Variable number: 4.40) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-pathologicaltumoursize.html))   
    6. Metastases at diagnosis indicator (Variable number: 4.41) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-metastasesatdiagnosisindicator.html))  
-   7. Topography of metastases at diagnosis (Variable number: 4.42) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographymetastasesatdiagnosis.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastasesatdiagnosis.html))
+   7. Topography of metastases at diagnosis (Variable number: 4.42) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographymetastasesatdiagnosis.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastases.html))
    8. Oestrogen receptor status (Variable number: 5.1.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-oestrogenreceptorstatus.html))
    9. Progesterone receptor status (Variable number: 5.1.2) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-progesteronereceptorstatus.html))
    10. Her2 receptor status (Variable number: 5.1.3) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-her2receptorstatus.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-her2receptorstatus.html))
@@ -63,6 +63,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    42. Date of recurrence(s)/transformation(s) (Variable number: 8.2.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-typerecurrencetransformation.html))
    43. Morphology term before change of main diagnosis (Variable number: 8.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
    44. Morphology term after Transformation (Variable number: 8.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
+   45. Topography(s) of post-diagnosis metastases (Variable number: 8.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographypostdiagnosismetastases.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastases.html))
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.

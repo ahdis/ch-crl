@@ -27,3 +27,4 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 // Course of disease
 * #8.4 "Morphology term before change of main diagnosis"
 * #8.5 "Morphology term after Transformation"
+* #8.6 "Topography(s) of post-diagnosis metastases"
