@@ -15,7 +15,7 @@ Description: "Definition of the Observation for the topography of metastases at 
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsTopographyMetastasesAtDiagnosis (required)
+* valueCodeableConcept from NkrsTopographyMetastases (required)
 * valueCodeableConcept ^short = "The distant site(s) of metastatic involvement at time of diagnosis"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..
@@ -49,7 +49,7 @@ Usage: #example
 * code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $nkrs-topographymetastasesatdiagnosis#5 "LYM"
+* valueCodeableConcept = $nkrs-topographymetastases#5 "LYM"
 
 Instance: TopographyMetastasesAtDiagnosis-MAR
 InstanceOf: CHCRLObservationTopographyMetastasesAtDiagnosis
@@ -60,7 +60,7 @@ Usage: #example
 * code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept.coding = $nkrs-topographymetastasesatdiagnosis#6 "MAR"
+* valueCodeableConcept.coding = $nkrs-topographymetastases#6 "MAR"
 
 Instance: TopographyMetastasesAtDiagnosis-OTH
 InstanceOf: CHCRLObservationTopographyMetastasesAtDiagnosis
@@ -71,7 +71,7 @@ Usage: #example
 * code = $loinc#33733-7 "Sites of distant metastasis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $nkrs-topographymetastasesatdiagnosis#11 "OTH"
+* valueCodeableConcept = $nkrs-topographymetastases#11 "OTH"
 
 Instance: TopographyMetastasesAtDiagnosis-Unknown
 InstanceOf: CHCRLObservationTopographyMetastasesAtDiagnosis
