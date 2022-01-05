@@ -40,9 +40,12 @@ Description: "Definition of the Observation for the type of recurrence/transform
 * hasMember ^slicing.ordered = false
 * hasMember ^slicing.rules = #open
 * hasMember contains
-    ch-crl-icdo3morphologypretransformation 0..1
+    ch-crl-icdo3morphologypretransformation 0..1 and 
+    ch-crl-icdo3morphologyposttransformation 0..1
 * hasMember[ch-crl-icdo3morphologypretransformation] only Reference(CHCRLObservationICDO3MorphologyPreTransformation)
 * hasMember[ch-crl-icdo3morphologypretransformation] ^short = "ICD-O morphology pre-transformation"
+* hasMember[ch-crl-icdo3morphologyposttransformation] only Reference(CHCRLObservationICDO3MorphologyPostTransformation)
+* hasMember[ch-crl-icdo3morphologyposttransformation] ^short = "ICD-O morphology post-transformation"
 
 
 Mapping: NICER-A-for-CHCRLObservationTypeRecurrenceTransformation
@@ -65,6 +68,7 @@ Usage: #example
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-typerecurrencetransformation#4 "Relapse"
 * hasMember[ch-crl-icdo3morphologypretransformation] = Reference(ICDO3MorphologyPreTransformation-8000-0)
+* hasMember[ch-crl-icdo3morphologyposttransformation] = Reference(ICDO3MorphologyPostTransformation-8000-0)
 
 
 Instance: TypeRecurrenceTransformation-Unknown
