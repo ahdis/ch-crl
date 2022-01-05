@@ -32,7 +32,7 @@ CHOP is Swiss classification of surgical operations and other diagnostic and tre
 * performedPeriod.start ^short = "The date when the treatment of the first treatment complex has been started."
 
 * performer ^short = "Who performed the treatment"
-* performer.actor only Reference(CHCRLOrganization)
+* performer.actor only Reference(CHCoreOrganization)
 * performer.actor ^short = "The institution responsible for the treatment"
 * performer.actor.reference 1..
 
@@ -86,6 +86,7 @@ Title: "Inselspital"
 Description: "Example for Organization"
 Usage: #example
 * name = "Inselspital"
-* address.line = "Freiburgstrasse 18"
+* address.line[+] = "Freiburgstrasse"
+* address.line[+] = "18"
 * address.city = "Bern"
 * address.postalCode = "3010"

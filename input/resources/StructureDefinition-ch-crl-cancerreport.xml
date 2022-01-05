@@ -11,6 +11,8 @@
     <description value="Logical model of the cancer Report"/>
     <fhirVersion value="4.0.1"/>
     <kind value="logical"/>
+    <!-- TBD: check if error still exists and if something should be changed
+    https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/New.20logical.20model.20error -->
     <abstract value="false"/>
     <type value="CancerReport"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1187,14 +1189,132 @@
                 <code value="Element"/>
             </type>
         </element>
-        <!--
-         Treatment decision:Basis of treatment decision 7.1
-         Treatment decision:Date of treatment decision 7.2.1
-          Treatments:Treatment goal 7.3
-          Treatments:Treatment code 7.4
-          Treatments:Treatment start date 7.5.1
-          Treatments:Treatment institution 7.6
-        -->
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlungsentscheid">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlungsentscheid"/>
+            <definition value="Behandlungsentscheid"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlungsentscheid.GrundlageDesBehandlungsentscheids">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlungsentscheid.GrundlageDesBehandlungsentscheids"/>
+            <definition value="Grundlage des Behandlungsentscheids"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlungsentscheid.DatumDesBehandlungsentscheids">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlungsentscheid.DatumDesBehandlungsentscheids"/>
+            <definition value="Datum des Behandlungsentscheids"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung"/>
+            <definition value="Behandlung"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.ZielImRahmenDesErstbehandlungskomplexes">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.ZielImRahmenDesErstbehandlungskomplexes"/>
+            <definition value="Ziel(e) im Rahmen des Erstbehandlungskomplexes"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.CodeImRahmenDesErstbehandlungskomplexes">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.CodeImRahmenDesErstbehandlungskomplexes"/>
+            <definition value="Code(s) im Rahmen des Erstbehandlungskomplexes"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.BeginnDerBehandlungImRahmenDesErstbehandlungskomplexes">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.BeginnDerBehandlungImRahmenDesErstbehandlungskomplexes"/>
+            <definition value="Beginn der Behandlung(en) im Rahmen des Erstbehandlungskomplexes"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes"/>
+            <definition value="Institutionen im Rahmen des Erstbehandlungskomplexes"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="BackboneElement"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Name">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Name"/>
+            <definition value="Name"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse"/>
+            <definition value="Adresse"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Strasse">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Strasse"/>
+            <definition value="Strasse"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Nummer">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Nummer"/>
+            <definition value="Nummer"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.PLZ">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.PLZ"/>
+            <definition value="PLZ"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Ort">
+            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Ort"/>
+            <definition value="Ort"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
 
         <!-- Daten zum Krankheitsverlauf -->
         <element id="CancerReport.Fall.DatenZumKrankheitsverlauf">

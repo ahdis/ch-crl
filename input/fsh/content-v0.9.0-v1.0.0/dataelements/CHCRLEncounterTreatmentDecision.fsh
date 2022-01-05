@@ -17,8 +17,10 @@ The first treatment complex includes all therapy steps planned after the diagnos
 * type.coding.code 1..
 * type.coding.display 1..
 
-//* serviceType = $sct#
+* serviceType 1..
+* serviceType = $sct#405083000 "Healthcare decision making (observable entity)"
 
+* subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
 * subject.reference 1..
@@ -50,6 +52,7 @@ Usage: #example
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#IMP "inpatient encounter"
 * type = $nkrs-basisoffirsttreatmentcomplexdecision#1 "Tumour board"
+* serviceType = $sct#405083000 "Healthcare decision making (observable entity)"
 * subject = Reference(FranzMinimum)
 * period.start = "2021-12-09"
 * reasonReference = Reference(ICD-10)

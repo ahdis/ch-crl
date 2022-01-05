@@ -379,12 +379,14 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[firstTreatmentComplex].entry ^slicing.discriminator.path = "resolve()"
 * section[firstTreatmentComplex].entry ^slicing.rules = #open
 * section[firstTreatmentComplex].entry contains
-    treatment 0..* 
+    treatmentDecision 0..* and
+    treatment 0..*
 * section[firstTreatmentComplex].section ..0
 
-// Treatment decision: Basis of treatment decision 7.1
-// Treatment decision: Date of treatment decision 7.2.1
-
+// Treatment decision: Basis of treatment decision 7.1, Date of treatment decision 7.2.1
+* section[firstTreatmentComplex].entry[treatmentDecision] only Reference(CHCRLEncounterTreatmentDecision)
+* section[firstTreatmentComplex].entry[treatmentDecision] ^short = "Treatment decision"
+* section[firstTreatmentComplex].entry[treatmentDecision].reference 1..
 // Treatments: Treatment goal 7.3, Treatment code 7.4, Treatment start date 7.5.1, Treatment institution 7.6
 * section[firstTreatmentComplex].entry[treatment] only Reference(CHCRLProcedureTreatment)
 * section[firstTreatmentComplex].entry[treatment] ^short = "Treatment"
