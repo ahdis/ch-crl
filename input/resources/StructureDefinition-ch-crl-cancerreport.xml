@@ -1344,6 +1344,15 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.ArtDesEreignisses.MorphologieVorAenderungDerHauptdiagnose">
+            <path value="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.ArtDesEreignisses.MorphologieVorAenderungDerHauptdiagnose" />
+            <definition value="Morphologie vor Änderung der Hauptdiagnose"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.DatumDesEreignisses">
             <path value="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.DatumDesEreignisses" />
             <definition value="Datum des/der Ereignisse(s)"/>

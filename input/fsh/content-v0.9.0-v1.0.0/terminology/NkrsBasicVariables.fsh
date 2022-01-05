@@ -23,3 +23,6 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 * #6.2 "Residual in-situ tumour"
 * #6.3 "Resection margin invasive tumour"
 * #6.4 "Resection margin in-situ tumour" 
+
+// Course of disease
+* #8.4 "Morphology term before change of main diagnosis"

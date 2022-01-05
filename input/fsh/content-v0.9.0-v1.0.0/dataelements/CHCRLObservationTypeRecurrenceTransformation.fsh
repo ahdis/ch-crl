@@ -33,7 +33,6 @@ Description: "Definition of the Observation for the type of recurrence/transform
 * dataAbsentReason.coding.display 1..
 * dataAbsentReason.coding.display = "Unknown" (exactly)
 
-/*
 * hasMember ..*
 * hasMember only Reference(Observation)
 * hasMember ^slicing.discriminator.type = #profile
@@ -41,19 +40,10 @@ Description: "Definition of the Observation for the type of recurrence/transform
 * hasMember ^slicing.ordered = false
 * hasMember ^slicing.rules = #open
 * hasMember contains
-    ch-crl-gleasonBiopsyMostCommonGrade 0..1 and
-    ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade 0..1 and
-    ch-crl-gleasonExcisionMostCommonGrade 0..1 and
-    ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade 0..1 
-* hasMember[ch-crl-gleasonBiopsyMostCommonGrade] only Reference(CHCRLObservationGleasonBiopsyMostCommonGrade)
-* hasMember[ch-crl-gleasonBiopsyMostCommonGrade] ^short = "Gleason biopsy most common grade"
-* hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonBiopsySecondMostCommonOrHighestGrade)
-* hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] ^short = "Gleason biopsy second most common or highest grade"
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] only Reference(CHCRLObservationGleasonExcisionMostCommonGrade)
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] ^short = "Gleason excision most common grade"
-* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade)
-* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] ^short = "Gleason excision second most common or highest grade"
-*/
+    ch-crl-icdo3morphologypretransformation 0..1
+* hasMember[ch-crl-icdo3morphologypretransformation] only Reference(CHCRLObservationICDO3MorphologyPreTransformation)
+* hasMember[ch-crl-icdo3morphologypretransformation] ^short = "ICD-O morphology pre-transformation"
+
 
 Mapping: NICER-A-for-CHCRLObservationTypeRecurrenceTransformation
 Id: NICER-A
@@ -74,11 +64,8 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-typerecurrencetransformation#4 "Relapse"
-/* hasMember[ch-crl-gleasonBiopsyMostCommonGrade] = Reference(GleasonBiopsyMostCommonGrade-2)
-* hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] = Reference(GleasonBiopsySecondMostCommonOrHighestGrade-3)
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] = Reference(GleasonExcisionMostCommonGrade-3)
-* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] = Reference(GleasonExcisionSecondMostCommonOrHighestGrade-3)
-*/
+* hasMember[ch-crl-icdo3morphologypretransformation] = Reference(ICDO3MorphologyPreTransformation-8000-0)
+
 
 Instance: TypeRecurrenceTransformation-Unknown
 InstanceOf: CHCRLObservationTypeRecurrenceTransformation
