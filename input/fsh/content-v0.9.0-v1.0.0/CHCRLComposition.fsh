@@ -399,4 +399,11 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[courseOfDisease].entry ^slicing.discriminator.type = #profile
 * section[courseOfDisease].entry ^slicing.discriminator.path = "resolve()"
 * section[courseOfDisease].entry ^slicing.rules = #open
+* section[courseOfDisease].entry contains
+    event 0..*
 * section[courseOfDisease].section ..0
+
+// Event(s)
+* section[courseOfDisease].entry[event] only Reference(CHCRLObservationTypeRecurrenceTransformation)
+* section[courseOfDisease].entry[event] ^short = "Treatment"
+* section[courseOfDisease].entry[event].reference 1..

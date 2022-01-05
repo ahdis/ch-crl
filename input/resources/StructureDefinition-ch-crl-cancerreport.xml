@@ -1326,6 +1326,33 @@
                 <code value="Element"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis">
+            <path value="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis" />
+            <definition value="Ereignis(se)"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.ArtDesEreignisses">
+            <path value="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.ArtDesEreignisses" />
+            <definition value="Art des/der Ereignisse(s)"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.DatumDesEreignisses">
+            <path value="CancerReport.Fall.DatenZumKrankheitsverlauf.Ereignis.DatumDesEreignisses" />
+            <definition value="Datum des/der Ereignisse(s)"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
 
     </differential>
 </StructureDefinition>

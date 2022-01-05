@@ -59,6 +59,8 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    38. First treatment complex code(s) (Variable number: 7.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-procedure-treatment.html))
    39. First treatment complex start date(s) (Variable number: 7.5.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-procedure-treatment.html))
    40. First treatment complex institution(s) (Variable number: 7.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-procedure-treatment.html))
+   41. Type of recurrence(s)/transformation(s) (Variable number: 8.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-typerecurrencetransformation.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-typerecurrencetransformation.html))
+   42. Date of recurrence(s)/transformation(s) (Variable number: 8.2.1) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-typerecurrencetransformation.html))
    
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.
