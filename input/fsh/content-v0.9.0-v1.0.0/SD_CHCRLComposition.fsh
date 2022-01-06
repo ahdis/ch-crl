@@ -169,7 +169,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].title 1..
 * section[stagingAndGrading].title ^short = "Staging and grading"
 * section[stagingAndGrading].code 1..
-* section[stagingAndGrading].code = $loinc#67216-2 "Summary staging [PhenX]"
+* section[stagingAndGrading].code = $sct#254291000 "Staging and scales (staging scale)"
 * section[stagingAndGrading].entry ^slicing.discriminator.type = #profile
 * section[stagingAndGrading].entry ^slicing.discriminator.path = "resolve()"
 * section[stagingAndGrading].entry ^slicing.rules = #open
@@ -387,7 +387,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[firstTreatmentComplex].title 1..
 * section[firstTreatmentComplex].title ^short = "First treatment complex"
 * section[firstTreatmentComplex].code 1..
-* section[firstTreatmentComplex].code = $loinc#63933-6 "Cancer treatment [PhenX]" // TBD: check PhenX
+* section[firstTreatmentComplex].code = $sct#708255002 "First line treatment (procedure)"
 * section[firstTreatmentComplex].entry ^slicing.discriminator.type = #profile
 * section[firstTreatmentComplex].entry ^slicing.discriminator.path = "resolve()"
 * section[firstTreatmentComplex].entry ^slicing.rules = #open
