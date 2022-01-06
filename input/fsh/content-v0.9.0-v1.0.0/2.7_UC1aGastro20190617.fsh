@@ -1,3 +1,40 @@
+Instance: BundleUC1aGastro20190617
+InstanceOf: CHCRLBundle
+Title: "Bundle UC 1a Gastro (2019-06-17)"
+Description: "Example for Bundle for reporting to the cancer registry"
+Usage: #example
+* identifier.system = "http://example.fhir"
+* identifier.value = "1234"
+* type = #document
+* timestamp = "2019-06-17T16:49:22.988+00:00"
+* entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/CompUC1aGastro20190617"
+* entry[=].resource = CompUC1aGastro20190617
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/AbteilungGastro"
+* entry[=].resource = AbteilungGastro
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/RobertMeier"
+* entry[=].resource = RobertMeier
+* entry[+].fullUrl = "http://test.fhir.ch/r4/DocumentReference/DocuUC1aGastro20190617"
+* entry[=].resource = DocuUC1aGastro20190617
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/SpitalSeeblickDoktorGastro"
+* entry[=].resource = SpitalSeeblickDoktorGastro
+
+
+Instance: CompUC1aGastro20190617
+InstanceOf: CHCRLComposition
+Title: "Composition UC 1a Gastro (2019-06-17)"
+Description: "Example for Composition"
+Usage: #example
+* status = #final
+* type = $loinc#72134-0 "Cancer event report"
+* subject = Reference(RobertMeier)
+* date = "2019-06-17T13:00:00+02:00"
+* author = Reference(AbteilungGastro)
+* title = "Bericht Koloskopie"
+
+* section[unstructuredReport].title = "Report as PDF"
+* section[unstructuredReport].entry[documentReference] = Reference(DocuUC1aGastro20190617)
+
+
 Instance: DocuUC1aGastro20190617
 InstanceOf: CHCRLDocumentReference
 Title: "Report as pdf UC 1a Gastro (2019-06-17)"
