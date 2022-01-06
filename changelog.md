@@ -5,14 +5,14 @@ All notable changes to this project will be documented in this file.
 Necessary changes, e.g. due to specification changes or bugs, to existing FHIR artifacts that **affect existing implementations** are **highlighted in bold**.
 
 ## Versions    
-  - [v0.9.0 - 2021-12-xx](#v090---2022-01-xx)
+  - [v0.9.0 - 2022-01-xx](#v090---2022-01-xx)
   - [v0.2.1 - 2019-12-20](#v021---2019-12-20)
   - [v0.2.0 - 2019-11-18](#v020---2019-11-18)
   - [v0.1.1 - 2019-11-11](#v011---2019-11-11)
   - [v0.1.0 - 2019-09-02](#v010---2019-09-02)
  
 ********************************
-## v0.9.0 - 2021-12-xx
+## v0.9.0 - 2022-01-xx
  
 ### Added
 * Download link for NPM package.
@@ -64,14 +64,15 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    43. Morphology term before change of main diagnosis (Variable number: 8.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
    44. Morphology term after Transformation (Variable number: 8.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
    45. Topography(s) of post-diagnosis metastases (Variable number: 8.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographypostdiagnosismetastases.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastases.html))
-   
+* New use case step with example: [Follow-up with a gastroenterologist](http://build.fhir.org/ig/ahdis/ch-crl/branches/master/usecase-german.html#nachsorge-beim-gastroenterologen).
+
 ### Changed / Updated
 * Switch to the new IG template and adaptations to its new requiremenst. This adaptation only slightly changes the appearance of the IG.
 * Transformation of the raw source (IG input) into [FHIR Shorthand](http://build.fhir.org/ig/HL7/fhir-shorthand/) files (.fsh). This change has no impact on the IG published as a web page, it just makes it easier to author the FHIR artifacts for the IG.
 * Updating the dependency on CH Core from 'current' to the currently published version '2.0.0'.
 * Structure of the cancer report document, based on the registration application. **Implementers need to insert sections (with codings and titles) in the Composition to group the references.**
    * [CH CRL Composition Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-composition.html) 
-   * [Cancer Report Example](http://build.fhir.org/ig/ahdis/ch-crl/Bundle-BundleStructuredData.html)
+   * [Cancer Report Example](http://build.fhir.org/ig/ahdis/ch-crl/Bundle-BundleUC1bGastro20181201.json.html)
 * There have been changes to the NKRS code lists V1.1. **Implementers have to adapt the following codes systems**, which were already integrated in the FHIR Implementation Guide: 
    * [NKRS - Diagnostic Methods Used](http://build.fhir.org/ig/ahdis/ch-crl/CodeSystem-nkrs-diagnosticmethodsused.html)
       * Additional code **23** "Biopsy locoregional or of metastasis"
