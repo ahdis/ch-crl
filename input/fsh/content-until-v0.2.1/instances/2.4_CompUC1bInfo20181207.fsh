@@ -12,5 +12,6 @@ Usage: #example
 
 * section[registrationRequirements].title = "Registration requirements"
 * section[registrationRequirements].entry[communication] = Reference(CommMeier)
+
 * section[coding].title = "Coding"
 * section[coding].entry[ICD-code] = Reference(ICD-10-Kolon20181207)

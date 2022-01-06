@@ -13,3 +13,6 @@ Usage: #example
 * section[diagnosis].title = "Diagnosis"
 * section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Endoscopy20181201)
 * section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Biopsy20181201)
+
+* section[coding].title = "Coding"
+* section[coding].entry[ICD-code][+] = Reference(ICD-10-Kolon20181201)
