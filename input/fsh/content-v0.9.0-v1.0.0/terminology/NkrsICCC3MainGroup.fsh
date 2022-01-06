@@ -28,6 +28,9 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 * #14 "Langerhans cell histiocytosis"
 * #15 "Neoplasms of uncertain behaviour or in situ"
 
+// 17.12.2021 MS, MZ:
+// "99 - Not Classified by ICCC" nicht abbilden, auch nicht als dataAbsentReason
+
 
 
 ValueSet: NkrsICCC3MainGroup
