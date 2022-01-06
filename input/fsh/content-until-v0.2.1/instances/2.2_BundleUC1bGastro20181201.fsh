@@ -3,7 +3,6 @@ InstanceOf: CHCRLBundle
 Title: "Bundle UC 1b Gastro (2018-12-01)"
 Description: "Example for Bundle for reporting to the cancer registry"
 Usage: #example
-* meta.lastUpdated = "2019-11-05T16:19:20.680+00:00"
 * identifier.system = "http://example.fhir"
 * identifier.value = "1234"
 * type = #document
