@@ -15,8 +15,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * author.reference 1..
 
 * section 1..
-* section ^slicing.discriminator[0].type = #value
-* section ^slicing.discriminator[=].path = "title"
+* section ^slicing.discriminator[0].type = #pattern
+* section ^slicing.discriminator[=].path = "code"
 * section ^slicing.ordered = false
 * section ^slicing.rules = #open
 * section ^short = "Sections composing the cancer report"
@@ -29,14 +29,16 @@ Description: "Definition of the Composition for reporting to the cancer registry
     coding 0..1 and
     stagingAndGrading 0..1 and
     tumourRelatedPrognosticFactors 0..1 and
-//    charlsonIndex 0..1 and
+    charlsonIndex 0..1 and
     firstTreatmentComplex 0..1 and
     courseOfDisease 0..1
 
 // ------- Unstructured Report -------
 * section[unstructuredReport] ^short = "Section for the unstructured cancer report as PDF"
 * section[unstructuredReport].title 1..
-* section[unstructuredReport].title = "Report as PDF"
+* section[unstructuredReport].title ^short = "Report as PDF"
+* section[unstructuredReport].code 1..
+* section[unstructuredReport].code = $loinc#55108-5 "Clinical presentation Document"
 * section[unstructuredReport].entry ^slicing.discriminator.type = #profile
 * section[unstructuredReport].entry ^slicing.discriminator.path = "resolve()"
 * section[unstructuredReport].entry ^slicing.rules = #open
@@ -50,7 +52,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Registration requirements -------
 * section[registrationRequirements] ^short = "Section for the registration requirements"
 * section[registrationRequirements].title 1..
-* section[registrationRequirements].title = "Registration requirements"
+* section[registrationRequirements].title ^short = "Registration requirements"
+* section[registrationRequirements].code 1..
+* section[registrationRequirements].code = $sct#307782001 "Registration procedure (procedure)" 
 * section[registrationRequirements].entry ^slicing.discriminator.type = #profile
 * section[registrationRequirements].entry ^slicing.discriminator.path = "resolve()"
 * section[registrationRequirements].entry ^slicing.rules = #open
@@ -66,7 +70,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Cause of death -------
 * section[causeOfDeath] ^short = "Section for the cause of death"
 * section[causeOfDeath].title 1..
-* section[causeOfDeath].title = "Cause of death"
+* section[causeOfDeath].title ^short = "Cause of death"
 * section[causeOfDeath].code 1..
 * section[causeOfDeath].code = $loinc#79378-6 "Cause of death"
 * section[causeOfDeath].entry ^slicing.discriminator.type = #profile
@@ -89,7 +93,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Diagnosis -------
 * section[diagnosis] ^short = "Section for the diagnosis"
 * section[diagnosis].title 1..
-* section[diagnosis].title = "Diagnosis" // TBD: fixe title entfernen (short Wert)
+* section[diagnosis].title ^short = "Diagnosis"
 * section[diagnosis].code 1..
 * section[diagnosis].code = $loinc#29308-4 "Diagnosis"
 * section[diagnosis].entry ^slicing.discriminator.type = #profile
@@ -116,7 +120,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Coding -------
 * section[coding] ^short = "Section for the coding"
 * section[coding].title 1..
-* section[coding].title = "Coding"
+* section[coding].title ^short = "Coding"
+* section[coding].code 1..
+* section[coding].code = $loinc#95365-3 "Criteria used for case classification"
 * section[coding].entry ^slicing.discriminator.type = #profile
 * section[coding].entry ^slicing.discriminator.path = "resolve()"
 * section[coding].entry ^slicing.rules = #open
@@ -161,7 +167,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Staging & grading -------
 * section[stagingAndGrading] ^short = "Section for the staging & grading"
 * section[stagingAndGrading].title 1..
-* section[stagingAndGrading].title = "Staging and grading"
+* section[stagingAndGrading].title ^short = "Staging and grading"
+* section[stagingAndGrading].code 1..
+* section[stagingAndGrading].code = $loinc#67216-2 "Summary staging [PhenX]"
 * section[stagingAndGrading].entry ^slicing.discriminator.type = #profile
 * section[stagingAndGrading].entry ^slicing.discriminator.path = "resolve()"
 * section[stagingAndGrading].entry ^slicing.rules = #open
@@ -281,7 +289,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Tumour related prognostic factors -------
 * section[tumourRelatedPrognosticFactors] ^short = "Section for the tumour related prognostic factors"
 * section[tumourRelatedPrognosticFactors].title 1..
-* section[tumourRelatedPrognosticFactors].title = "Tumour related prognostic factors"
+* section[tumourRelatedPrognosticFactors].title ^short = "Tumour related prognostic factors"
+* section[tumourRelatedPrognosticFactors].code 1..
+* section[tumourRelatedPrognosticFactors].code = $loinc#75328-5 "Prognosis"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.type = #profile
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.path = "resolve()"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
@@ -361,20 +371,23 @@ Description: "Definition of the Composition for reporting to the cancer registry
 
 
 // ------- Charlson index -------
-/*
 * section[charlsonIndex] ^short = "Section for the Charlson index"
 * section[charlsonIndex].title 1..
-* section[charlsonIndex].title = "Charlson index"
+* section[charlsonIndex].title ^short = "Charlson index"
+* section[charlsonIndex].code 1..
+* section[charlsonIndex].code = $sct#762713009 "Charlson Comorbidity Index (assessment scale)"
 * section[charlsonIndex].entry ^slicing.discriminator.type = #profile
 * section[charlsonIndex].entry ^slicing.discriminator.path = "resolve()"
 * section[charlsonIndex].entry ^slicing.rules = #open
 * section[charlsonIndex].section ..0
-*/
+
 
 // ------- First Treatment Complex-------
 * section[firstTreatmentComplex] ^short = "Section for the first treatment complex"
 * section[firstTreatmentComplex].title 1..
-* section[firstTreatmentComplex].title = "First treatment complex"
+* section[firstTreatmentComplex].title ^short = "First treatment complex"
+* section[firstTreatmentComplex].code 1..
+* section[firstTreatmentComplex].code = $loinc#63933-6 "Cancer treatment [PhenX]" // TBD: check PhenX
 * section[firstTreatmentComplex].entry ^slicing.discriminator.type = #profile
 * section[firstTreatmentComplex].entry ^slicing.discriminator.path = "resolve()"
 * section[firstTreatmentComplex].entry ^slicing.rules = #open
@@ -395,7 +408,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // ------- Course of disease -------
 * section[courseOfDisease] ^short = "Section for the course of desease"
 * section[courseOfDisease].title 1..
-* section[courseOfDisease].title = "Course of disease"
+* section[courseOfDisease].title ^short = "Course of disease"
+* section[courseOfDisease].code 1..
+* section[courseOfDisease].code = $sct#246453008 "Course of illness (attribute)"
 * section[courseOfDisease].entry ^slicing.discriminator.type = #profile
 * section[courseOfDisease].entry ^slicing.discriminator.path = "resolve()"
 * section[courseOfDisease].entry ^slicing.rules = #open
