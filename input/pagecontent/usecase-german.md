@@ -42,3 +42,9 @@ Das Exzisionsmaterial wird im [pathologischen Institut](Organization-AbteilungPa
     [Use Case 1a (PDF)](Bundle-BundleUC1aPatho20181215.html), 
     [Use Case 1b (strukturiert)](Bundle-BundleUC1bPatho20181215.html)
 
+### Nachsorge beim Gastroenterologen
+*Arztbesuch vom 17. Juni 2019*  
+[Robert Meier](Patient-RobertMeier.html) hat eine Nachsorgeuntersuchung auf der [Abteilung Gastroenterologie](Organization-AbteilungGastro.html) im [Spital Seeblick](Organization-SpitalSeeblickDoktorGastro.html). Der Gastroenterologe führt eine Koloskopie durch und ein Rezidiv wird entdeckt. Daher wird eine erneute Operation geplant. Der Gastroenterologe **informiert das Krebsregister über die Entdeckung des Rezidivs.**
+* Bericht Koloskopie: 
+    [Use Case 1a (PDF)](Bundle-BundleUC1aGastro20190617.html), 
+    [Use Case 1b (strukturiert)](Bundle-BundleUC1bGastro20190617.html)
