@@ -716,6 +716,15 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ICCC-3-ErweiterterCode">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ICCC-3-ErweiterterCode"/>
+            <definition value="ICCC-3 erweiterter Code"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.y-Praefix-cTNM">
             <path value="CancerReport.Fall.DatenZurDiagnose.y-Praefix-cTNM"/>
             <definition value="y-Präfix bei cTNM"/>
