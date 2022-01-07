@@ -13,6 +13,8 @@ Usage: #example
 * entry[=].resource = DiagnosticMethod-Biopsy20190617
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Procedure/DiagnosticMethod-Endoscopy20190617"
 * entry[=].resource = DiagnosticMethod-Endoscopy20190617
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/TypeRecurrenceTransformation-Relapse20190617"
+* entry[=].resource = TypeRecurrenceTransformation-Relapse20190617
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/AbteilungGastro"
 * entry[=].resource = AbteilungGastro
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/RobertMeier"
