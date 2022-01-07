@@ -8,4 +8,6 @@ Usage: #example
 * code = $nkrs-diagnosticmethodsused#24 "Biopsy of primary tumour"
 * subject = Reference(RobertMeier)
 * performedDateTime = "2018-12-02T13:00:00+02:00"
+* performer.actor = Reference(AbteilungPatho)
+* performer.onBehalfOf = Reference(SpitalSeeblickDoktorPatho)
 * reasonReference = Reference(ICD-10-Kolon20181202)

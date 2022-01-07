@@ -8,4 +8,6 @@ Usage: #example
 * code = $nkrs-diagnosticmethodsused#11 "Endoscopy"
 * subject = Reference(RobertMeier)
 * performedDateTime = "2018-12-01T13:00:00+02:00"
+* performer.actor = Reference(AbteilungGastro)
+* performer.onBehalfOf = Reference(SpitalSeeblickDoktorGastro)
 * reasonReference = Reference(ICD-10-Kolon20181201)

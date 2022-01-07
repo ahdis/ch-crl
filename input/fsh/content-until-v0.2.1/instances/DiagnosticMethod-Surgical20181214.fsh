@@ -8,4 +8,6 @@ Usage: #example
 * code = $nkrs-diagnosticmethodsused#26 "Surgical tissue from operation (e.g. neuroendocrine tumours)"
 * subject = Reference(RobertMeier)
 * performedDateTime = "2018-12-14T13:00:00+02:00"
+* performer.actor = Reference(AbteilungOnko)
+* performer.onBehalfOf = Reference(SpitalSeeblickHansEgli)
 * reasonReference = Reference(ICD-10-Kolon20181214)
