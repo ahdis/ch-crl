@@ -16,6 +16,7 @@ is unknown (no information in patients records)."
 * category 1..
 * category = $sct#708255002 "First line treatment (procedure)"
 
+* code 1..
 * code ^short = "The CHOP code for each treatment as part of the first treatment complex. 
 CHOP is Swiss classification of surgical operations and other diagnostic and treatment procedures and interventions."
 * code.coding 1..
@@ -28,13 +29,19 @@ CHOP is Swiss classification of surgical operations and other diagnostic and tre
 * subject ^short = "Patient"
 * subject.reference 1..
 
+* performedPeriod 1..
 * performedPeriod.start 1..
 * performedPeriod.start ^short = "The date when the treatment of the first treatment complex has been started."
 
+* performed[x] 1..
+* performed[x] only dateTime or Period
 * performer ^short = "Who performed the treatment"
-* performer.actor only Reference(CHCoreOrganization)
-* performer.actor ^short = "The institution responsible for the treatment"
+* performer.actor only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
+* performer.actor ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.actor.reference 1..
+* performer.onBehalfOf only Reference(CHCRLOrganization)
+* performer.onBehalfOf ^short = "Organization of which the organization department forms a part"
+* performer.onBehalfOf.reference 1..
 
 * reasonReference 1..
 * reasonReference only Reference(CHCRLObservationICD10)
@@ -62,7 +69,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * extension[treatmentGoal] -> "First treatment complex goal(s) (Variable number: 7.3)"
 * code -> "First treatment complex code(s) (Variable number: 7.4)"
 * performedPeriod.start -> "First treatment complex start date(s) (Variable number: 7.5.1)"
-* performer.actor -> "First treatment complex institution(s) (Variable number: 7.6)"
+* performer -> "First treatment complex institution(s) (Variable number: 7.6)"
 
 
 Instance: Treatment-IntraoperativeApplicationOfChemotherapeuticSubstances
@@ -76,17 +83,6 @@ Usage: #example
 * code = urn:oid:2.16.756.5.30.1.126.3.1#Z99.25.29 "Intraoperative Applikation von Chemotherapeutikum, sonstige"
 * subject = Reference(FranzMinimum)
 * performedPeriod.start = "2018-12-15"
-* performer.actor = Reference(Inselspital)
+* performer.actor = Reference(AbteilungMinimum)
+* performer.onBehalfOf = Reference(SpitalMinimum)
 * reasonReference = Reference(ICD-10)
-
-
-Instance: Inselspital
-InstanceOf: CHCoreOrganization
-Title: "Inselspital"
-Description: "Example for Organization"
-Usage: #example
-* name = "Inselspital"
-* address.line[+] = "Freiburgstrasse"
-* address.line[+] = "18"
-* address.city = "Bern"
-* address.postalCode = "3010"
