@@ -608,13 +608,40 @@
                 <code value="code"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnostischeVerfahren">
-            <path value="CancerReport.Fall.DatenZurDiagnose.VerwendeteDiagnostischeVerfahren"/>
-            <definition value="Verwendete(s) diagnostische(s) Verfahren"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Diagnostik">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Diagnostik"/>
+            <definition value="Diagnostik"/>
             <min value="0"/>
             <max value="*"/>
             <type>
+                <code value="Element"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Diagnostik.VerwendetesDiagnostischesVerfahren">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Diagnostik.VerwendetesDiagnostischesVerfahren"/>
+            <definition value="Verwendete(s) diagnostische(s) Verfahren"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
                 <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Diagnostik.Datum">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Diagnostik.Datum"/>
+            <definition value="Datum"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Diagnostik.DiagnostischeInstitution">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Diagnostik.DiagnostischeInstitution"/>
+            <definition value="Diagnostische Institution(en)"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="BackboneElement"/>
             </type>
         </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.ICD-10">
@@ -1259,60 +1286,6 @@
             <max value="1"/>
             <type>
                 <code value="BackboneElement"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Name">
-            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Name"/>
-            <definition value="Name"/>
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="string"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse">
-            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse"/>
-            <definition value="Adresse"/>
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="Element"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Strasse">
-            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Strasse"/>
-            <definition value="Strasse"/>
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="string"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Nummer">
-            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Nummer"/>
-            <definition value="Nummer"/>
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="string"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.PLZ">
-            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.PLZ"/>
-            <definition value="PLZ"/>
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="string"/>
-            </type>
-        </element>
-        <element id="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Ort">
-            <path value="CancerReport.Fall.DatenZurErstbehandlung.Behandlung.InstitutionImRahmenDesErstbehandlungskomplexes.Adresse.Ort"/>
-            <definition value="Ort"/>
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="string"/>
             </type>
         </element>
 
