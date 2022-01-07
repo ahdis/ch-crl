@@ -37,9 +37,9 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Morphology term after Transformation (Variable number: 8.5)"
 
 
-Instance: ICDO3MorphologyPostTransformation-8000-0
+Instance: ICDO3MorphologyPostTransformation-9861-3
 InstanceOf: CHCRLObservationICDO3MorphologyPostTransformation
-Title: "ICD-O-3 Morphology Post-transformation - 8000/0"
+Title: "ICD-O-3 Morphology Post-transformation - 9861/3"
 Description: "Example for Observation for the ICD-O-3 morphology term after transformation"
 Usage: #example
 * status = #final
@@ -47,4 +47,4 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept.coding.version = "3.2"
-* valueCodeableConcept.coding = $icd-o-3#8000/0 "Neoplasm, benign"
+* valueCodeableConcept.coding = $icd-o-3#9861/3 "Akute myeloische Leukämie o.n.A."

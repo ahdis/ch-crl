@@ -37,9 +37,9 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 * -> "Morphology term before change of main diagnosis (Variable number: 8.4)"
 
 
-Instance: ICDO3MorphologyPreTransformation-8000-0
+Instance: ICDO3MorphologyPreTransformation-9950-3
 InstanceOf: CHCRLObservationICDO3MorphologyPreTransformation
-Title: "ICD-O-3 Morphology Pre-transformation - 8000/0"
+Title: "ICD-O-3 Morphology Pre-transformation - 9950/3"
 Description: "Example for Observation for the ICD-O-3 morphology term before change of main diagnosis"
 Usage: #example
 * status = #final
@@ -47,4 +47,4 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept.coding.version = "3.2"
-* valueCodeableConcept.coding = $icd-o-3#8000/0 "Neoplasm, benign"
+* valueCodeableConcept.coding = $icd-o-3#9950/3 "Polycythaemia vera"

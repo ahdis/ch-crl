@@ -44,11 +44,11 @@ Description: "Definition of the Observation for the type of recurrence/transform
     ch-crl-icdo3morphologyposttransformation 0..1 and 
     ch-crl-topographypostdiagnosismetastases 0..1
 * hasMember[ch-crl-icdo3morphologypretransformation] only Reference(CHCRLObservationICDO3MorphologyPreTransformation)
-* hasMember[ch-crl-icdo3morphologypretransformation] ^short = "ICD-O morphology pre-transformation"
+* hasMember[ch-crl-icdo3morphologypretransformation] ^short = "ICD-O morphology pre-transformation (if 'code = 2 Transformation')"
 * hasMember[ch-crl-icdo3morphologyposttransformation] only Reference(CHCRLObservationICDO3MorphologyPostTransformation)
-* hasMember[ch-crl-icdo3morphologyposttransformation] ^short = "ICD-O morphology post-transformation"
+* hasMember[ch-crl-icdo3morphologyposttransformation] ^short = "ICD-O morphology post-transformation (if 'code = 2 Transformation')"
 * hasMember[ch-crl-topographypostdiagnosismetastases] only Reference(CHCRLObservationTopographyPostDiagnosisMetastases)
-* hasMember[ch-crl-topographypostdiagnosismetastases] ^short = "Topography of post-diagnosis metastases"
+* hasMember[ch-crl-topographypostdiagnosismetastases] ^short = "Topography of post-diagnosis metastases (if 'code = 3 Metastasis')"
 
 
 Mapping: NICER-A-for-CHCRLObservationTypeRecurrenceTransformation
@@ -58,6 +58,51 @@ Source: CHCRLObservationTypeRecurrenceTransformation
 Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf"
 * effectiveDateTime -> "Date of recurrence(s)/transformation(s) (Variable number: 8.2.1)"
 * valueCodeableConcept -> "Type of recurrence(s)/transformation(s) (Variable number: 8.1)"
+
+
+Instance: TypeRecurrenceTransformation-Progression
+InstanceOf: CHCRLObservationTypeRecurrenceTransformation
+Title: "Type of Recurrence/Transformation - Progression"
+Description: "Example for Observation for the type of recurrence/transformation"
+Usage: #example
+* status = #final
+* code = $loinc#97509-4 "Cancer disease progression"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+* valueCodeableConcept = $nkrs-typerecurrencetransformation#1 "Progression"
+// * hasMember[ch-crl-icdo3morphologypretransformation] -> no value if progression
+// * hasMember[ch-crl-icdo3morphologyposttransformation] -> no value if progression
+// * hasMember[ch-crl-topographypostdiagnosismetastases] -> no value if progression
+
+
+Instance: TypeRecurrenceTransformation-Transformation
+InstanceOf: CHCRLObservationTypeRecurrenceTransformation
+Title: "Type of Recurrence/Transformation - Transformation"
+Description: "Example for Observation for the type of recurrence/transformation"
+Usage: #example
+* status = #final
+* code = $loinc#97509-4 "Cancer disease progression"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+* valueCodeableConcept = $nkrs-typerecurrencetransformation#2 "Transformation"
+* hasMember[ch-crl-icdo3morphologypretransformation] = Reference(ICDO3MorphologyPreTransformation-9950-3)
+* hasMember[ch-crl-icdo3morphologyposttransformation] = Reference(ICDO3MorphologyPostTransformation-9861-3)
+// * hasMember[ch-crl-topographypostdiagnosismetastases] -> no value if progression
+
+
+Instance: TypeRecurrenceTransformation-Metastasis
+InstanceOf: CHCRLObservationTypeRecurrenceTransformation
+Title: "Type of Recurrence/Transformation - Metastasis"
+Description: "Example for Observation for the type of recurrence/transformation"
+Usage: #example
+* status = #final
+* code = $loinc#97509-4 "Cancer disease progression"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+* valueCodeableConcept = $nkrs-typerecurrencetransformation#3 "Metastasis"
+// * hasMember[ch-crl-icdo3morphologypretransformation] -> no value if metastasis
+// * hasMember[ch-crl-icdo3morphologyposttransformation] -> no value if metastasis
+* hasMember[ch-crl-topographypostdiagnosismetastases] = Reference(TopographyPostDiagnosisMetastases-HEP)
 
 
 Instance: TypeRecurrenceTransformation-Relapse
@@ -70,9 +115,9 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-typerecurrencetransformation#4 "Relapse"
-* hasMember[ch-crl-icdo3morphologypretransformation] = Reference(ICDO3MorphologyPreTransformation-8000-0)
-* hasMember[ch-crl-icdo3morphologyposttransformation] = Reference(ICDO3MorphologyPostTransformation-8000-0)
-* hasMember[ch-crl-topographypostdiagnosismetastases] = Reference(TopographyPostDiagnosisMetastases-HEP)
+// * hasMember[ch-crl-icdo3morphologypretransformation] -> no value if relapse
+// * hasMember[ch-crl-icdo3morphologyposttransformation] -> no value if relapse
+// * hasMember[ch-crl-topographypostdiagnosismetastases] -> no value if relapse
 
 
 Instance: TypeRecurrenceTransformation-Unknown
