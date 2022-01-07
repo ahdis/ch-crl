@@ -12,7 +12,10 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 
 * #3.6.2 "Associated in situ tumour"
 
+// ICCC-3
 * #3.9.1 "ICCC-3 main group"
+* #3.9.2 "ICCC-3 code"
+* #3.9.3 "ICCC-3 extended code"
 
 // differentiation clinical vs. pathological
 * #4.39 "Clinical tumour size"

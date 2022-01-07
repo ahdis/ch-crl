@@ -133,7 +133,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     ICD-O-observedBehaviour 0..1 and
     ICD-O-histologicalGrades 0..1 and
     ICD-O-laterality 0..1 and
-    ICCC-3-mainGroup 0..1
+    ICCC-3-mainGroup 0..1 and
+    ICCC-3-code 0..1
 * section[coding].section ..0
 // ICD-code
 * section[coding].entry[ICD-code] only Reference(CHCRLObservationICD10)
@@ -163,6 +164,10 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[coding].entry[ICCC-3-mainGroup] only Reference(CHCRLObservationICCC3MainGroup)
 * section[coding].entry[ICCC-3-mainGroup] ^short = "ICCC-3 main group"
 * section[coding].entry[ICCC-3-mainGroup].reference 1..
+// ICCC-3 code
+* section[coding].entry[ICCC-3-code] only Reference(CHCRLObservationICCC3Code)
+* section[coding].entry[ICCC-3-code] ^short = "ICCC-3 code"
+* section[coding].entry[ICCC-3-code].reference 1..
 
 // ------- Staging & grading -------
 * section[stagingAndGrading] ^short = "Section for the staging & grading"
