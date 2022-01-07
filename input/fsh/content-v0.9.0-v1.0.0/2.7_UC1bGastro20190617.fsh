@@ -40,6 +40,8 @@ Usage: #example
 * section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Endoscopy20190617)
 * section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Biopsy20190617)
 
+* section[courseOfDisease].title = "Course of disease"
+* section[courseOfDisease].entry[event][+] = Reference(TypeRecurrenceTransformation-Relapse20190617)
 
 
 Instance: DiagnosticMethod-Biopsy20190617
@@ -53,7 +55,6 @@ Usage: #example
 * subject = Reference(RobertMeier)
 * performedDateTime = "2019-06-17T13:00:00+02:00"
 * reasonReference = Reference(ICD-10-Kolon20190617)
-
 
 
 Instance: DiagnosticMethod-Endoscopy20190617
@@ -80,3 +81,15 @@ Usage: #example
 * effectiveDateTime = "2019-06-17"
 * valueCodeableConcept.coding.version = "2019"
 * valueCodeableConcept.coding = $icd-10-gm#C18 "Bösartige Neubildung des Kolons"
+
+
+Instance: TypeRecurrenceTransformation-Relapse20190617
+InstanceOf: CHCRLObservationTypeRecurrenceTransformation
+Title: "Type of Recurrence/Transformation - Relapse (2019-06-17)"
+Description: "Example for Observation for the type of recurrence/transformation"
+Usage: #example
+* status = #final
+* code = $loinc#97509-4 "Cancer disease progression"
+* subject = Reference(RobertMeier)
+* effectiveDateTime = "2019-06-17"
+* valueCodeableConcept = $nkrs-typerecurrencetransformation#4 "Relapse"
