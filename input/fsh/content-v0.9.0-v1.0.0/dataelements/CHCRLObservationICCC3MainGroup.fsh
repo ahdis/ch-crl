@@ -40,4 +40,4 @@ Usage: #example
 * code = $nkrs-basicvariables#3.9.1 "ICCC-3 main group"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $nkrs-nkrsiccc3maingroup#VIII "Malignant bone tumours"
+* valueCodeableConcept = $nkrs-iccc3maingroup#VIII "Malignant bone tumours"

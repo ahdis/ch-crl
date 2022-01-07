@@ -1,5 +1,5 @@
 CodeSystem: NkrsICCC3Code
-Id: nkrs-nkrsiccc3code
+Id: nkrs-iccc3code
 Title: "NKRS - ICCC-3 code"
 Description: "This data item records detailed division of the diagnostic group according to the third revision 
 of the 1996 International Classification of Childhood Cancer (ICCC-3). 
@@ -10,7 +10,7 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 [FR](https://www.onec.ch/assets/files/uploads/a-dict-des-donnees-variables-de-base-v1.1.pdf), 
 [IT](https://www.snrt.ch/assets/files/uploads/a-dati-oncologici-variabili-di-base-v1.1.pdf))"
 * ^caseSensitive = true
-* ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-nkrsiccc3code"
+* ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-iccc3code"
 * ^content = #complete
 
 * #Ia "Lymphoid leukaemias"
@@ -70,7 +70,7 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 
 
 ValueSet: NkrsICCC3Code
-Id: nkrs-nkrsiccc3code
+Id: nkrs-iccc3code
 Title: "NKRS - ICCC-3 code"
 Description: "This data item records detailed division of the diagnostic group according to the third revision 
 of the 1996 International Classification of Childhood Cancer (ICCC-3)."

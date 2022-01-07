@@ -1,5 +1,5 @@
 CodeSystem: NkrsICCC3MainGroup
-Id: nkrs-nkrsiccc3maingroup
+Id: nkrs-iccc3maingroup
 Title: "NKRS - ICCC-3 main group"
 Description: "This data item records the main diagnostic group according to the third revision (2005) 
 of the 1996 International Classification of Childhood Cancer (ICCC-3). 
@@ -10,7 +10,7 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 [FR](https://www.onec.ch/assets/files/uploads/a-dict-des-donnees-variables-de-base-v1.1.pdf), 
 [IT](https://www.snrt.ch/assets/files/uploads/a-dati-oncologici-variabili-di-base-v1.1.pdf))"
 * ^caseSensitive = true
-* ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-nkrsiccc3maingroup"
+* ^valueSet = "http://fhir.ch/ig/ch-crl/ValueSet/nkrs-iccc3maingroup"
 * ^content = #complete
 
 * #I "Leukaemias, myeloproliferative diseases, and myelodysplastic diseases"
@@ -34,7 +34,7 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 
 
 ValueSet: NkrsICCC3MainGroup
-Id: nkrs-nkrsiccc3maingroup
+Id: nkrs-iccc3maingroup
 Title: "NKRS - ICCC-3 main group"
 Description: "This data item records the main diagnostic group according to the third revision (2005) 
 of the 1996 International Classification of Childhood Cancer (ICCC-3)."
