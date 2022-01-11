@@ -24,3 +24,4 @@ Alias: $nkrs-basisoffirsttreatmentcomplexdecision = http://fhir.ch/ig/ch-crl/Cod
 Alias: $nkrs-typerecurrencetransformation = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-typerecurrencetransformation
 Alias: $nkrs-annarborstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-annarborstaging
 Alias: $nkrs-binetstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-binetstaging
+Alias: $nkrs-cogstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-cogstaging
