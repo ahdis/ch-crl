@@ -208,8 +208,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     numberExaminedSentinelLymphNodes 0..1 and
     annArbor 0..1 and
     binet 0..1 and 
-    cog 0..1 and
-    COGALL 0..1
+    COG 0..1 and
+    COG-ALL 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -309,13 +309,13 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[binet] ^short = "Binet"
 * section[stagingAndGrading].entry[binet].reference 1..
 // COG
-* section[stagingAndGrading].entry[cog] only Reference(CHCRLObservationCOGStaging)
-* section[stagingAndGrading].entry[cog] ^short = "COG"
-* section[stagingAndGrading].entry[cog].reference 1..
+* section[stagingAndGrading].entry[COG] only Reference(CHCRLObservationCOGStaging)
+* section[stagingAndGrading].entry[COG] ^short = "COG"
+* section[stagingAndGrading].entry[COG].reference 1..
 // COG ALL
-* section[stagingAndGrading].entry[COGALL] only Reference(CHCRLObservationCOGALLStaging)
-* section[stagingAndGrading].entry[COGALL] ^short = "COG ALL"
-* section[stagingAndGrading].entry[COGALL].reference 1..
+* section[stagingAndGrading].entry[COG-ALL] only Reference(CHCRLObservationCOGALLStaging)
+* section[stagingAndGrading].entry[COG-ALL] ^short = "COG ALL"
+* section[stagingAndGrading].entry[COG-ALL].reference 1..
 // DSSplus
 // FIGO
 // INRGSS
@@ -345,8 +345,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry ^slicing.discriminator.path = "resolve()"
 * section[tumourRelatedPrognosticFactors].entry ^slicing.rules = #open
 * section[tumourRelatedPrognosticFactors].entry contains
-    hpvP16 0..1 and
-    ebv 0..1 and
+    HPV-p16 0..1 and
+    EBV 0..1 and
     circumferentialResectionMargins 0..1 and
     microsatelliteInstability 0..1 and
     breslowThickness 0..1 and
@@ -354,20 +354,20 @@ Description: "Definition of the Composition for reporting to the cancer registry
     progesteroneReceptorStatus 0..1 and
     her2ReceptorStatus 0..1 and
     tumourProliferationLabeling 0..1 and
-    psa 0..1 and
+    PSA 0..1 and
     gleasonScore 0..1 and
-    whoGradeGroup 0..1 and
+    WHO-gradeGroup 0..1 and
     serumTumourMarkers 0..1
 * section[tumourRelatedPrognosticFactors].section ..0
 
 // Head / neck: HPV/p16
-* section[tumourRelatedPrognosticFactors].entry[hpvP16] only Reference(CHCRLObservationHPVp16)
-* section[tumourRelatedPrognosticFactors].entry[hpvP16] ^short = "HPV/p16"
-* section[tumourRelatedPrognosticFactors].entry[hpvP16].reference 1..
+* section[tumourRelatedPrognosticFactors].entry[HPV-p16] only Reference(CHCRLObservationHPVp16)
+* section[tumourRelatedPrognosticFactors].entry[HPV-p16] ^short = "HPV/p16"
+* section[tumourRelatedPrognosticFactors].entry[HPV-p16].reference 1..
 // Head / neck: EBV
-* section[tumourRelatedPrognosticFactors].entry[ebv] only Reference(CHCRLObservationEBV)
-* section[tumourRelatedPrognosticFactors].entry[ebv] ^short = "EBV"
-* section[tumourRelatedPrognosticFactors].entry[ebv].reference 1..
+* section[tumourRelatedPrognosticFactors].entry[EBV] only Reference(CHCRLObservationEBV)
+* section[tumourRelatedPrognosticFactors].entry[EBV] ^short = "EBV"
+* section[tumourRelatedPrognosticFactors].entry[EBV].reference 1..
 
 // Colon / rectum: Circumferential resection margins
 * section[tumourRelatedPrognosticFactors].entry[circumferentialResectionMargins] only Reference(CHCRLObservationCircumferentialResectionMargins)
@@ -401,17 +401,17 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[tumourRelatedPrognosticFactors].entry[tumourProliferationLabeling].reference 1..
 
 // Prostate: PSA
-* section[tumourRelatedPrognosticFactors].entry[psa] only Reference(CHCRLObservationPretreatmentProstateSpecificAntigen)
-* section[tumourRelatedPrognosticFactors].entry[psa] ^short = "PSA"
-* section[tumourRelatedPrognosticFactors].entry[psa].reference 1..
+* section[tumourRelatedPrognosticFactors].entry[PSA] only Reference(CHCRLObservationPretreatmentProstateSpecificAntigen)
+* section[tumourRelatedPrognosticFactors].entry[PSA] ^short = "PSA"
+* section[tumourRelatedPrognosticFactors].entry[PSA].reference 1..
 // Prostate: Gleason score
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore] only Reference(CHCRLObservationGleasonScore)
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore] ^short = "Gleason Score"
 * section[tumourRelatedPrognosticFactors].entry[gleasonScore].reference 1..
 // Prostate: WHO grade group
-* section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] only Reference(CHCRLObservationWHOGradeGroup)
-* section[tumourRelatedPrognosticFactors].entry[whoGradeGroup] ^short = "WHO grade group"
-* section[tumourRelatedPrognosticFactors].entry[whoGradeGroup].reference 1..
+* section[tumourRelatedPrognosticFactors].entry[WHO-gradeGroup] only Reference(CHCRLObservationWHOGradeGroup)
+* section[tumourRelatedPrognosticFactors].entry[WHO-gradeGroup] ^short = "WHO grade group"
+* section[tumourRelatedPrognosticFactors].entry[WHO-gradeGroup].reference 1..
  
 // Testicle: Serum tumour markers
 * section[tumourRelatedPrognosticFactors].entry[serumTumourMarkers] only Reference(CHCRLObservationSerumTumourMarkers)
