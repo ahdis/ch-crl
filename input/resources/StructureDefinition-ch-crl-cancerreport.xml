@@ -984,6 +984,40 @@
         </element>
 
 
+        <!-- Weitere Systeme für Stadium und Grad -->
+        <!--<element id="CancerReport.Fall.DatenZurDiagnose.Ann-Arbor-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Ann-Arbor-Klassifikation"/>
+            <definition value="Ann-Arbor-Klassifikation"/    >
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>-->
+        <!-- 
+        Binet-Klassifikation
+        COG-Klassifikation
+        COG ALL-Klassifikation
+        DSSplus
+        FIGO-Klassifikation
+        INRGSS-Klassifikation
+        IRSS-Klassifikation
+        ISS-Klassifikation
+        Lugano-Klassifikation
+        PRETEXT-Klassifikation
+        Rai-Klassifikation
+        Prognostische Gruppeneinteilung für Rhabdomyosarkome
+        SIOP-Klassifikation
+        St. Jude- / Murphy-Klassifikation
+        Toronto Tier II-Klassifikation (manuell)
+        Creasman-Gradingsystem
+        Elston/Ellis-Gradingsystem
+        Salzer-Kuntschik-Gradingsystem
+        Shimada-Gradingsystem
+        WHO (ZNS-)Gradingsystem
+        -->
+
+
         <element id="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs">
             <path value="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs"/>
             <definition value="Kopf-/Halskrebs"/>

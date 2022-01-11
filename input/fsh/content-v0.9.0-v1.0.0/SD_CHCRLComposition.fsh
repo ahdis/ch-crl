@@ -296,6 +296,29 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes] ^short = "Number of examined sentinel lymph nodes"
 * section[stagingAndGrading].entry[numberExaminedSentinelLymphNodes].reference 1..
 
+// Ann Arbor
+// Binet
+// COG
+// COG ALL
+// DSSplus
+// FIGO
+// INRGSS
+// IRSS
+// ISS
+// Lugano
+// PRETEXT
+// Rai
+// Rhabdomyosarcoma site
+// SIOP
+// St. Jude / Murphy
+// Toronto Tier II (manually)
+// Creasman
+// Elston/Ellis
+// Salzer-Kuntschik
+// Shimada
+// WHO (CNS)
+
+
 // ------- Tumour related prognostic factors -------
 * section[tumourRelatedPrognosticFactors] ^short = "Section for the tumour related prognostic factors"
 * section[tumourRelatedPrognosticFactors].title 1..
