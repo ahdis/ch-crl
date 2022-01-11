@@ -208,7 +208,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     numberExaminedSentinelLymphNodes 0..1 and
     annArbor 0..1 and
     binet 0..1 and 
-    cog 0..1
+    cog 0..1 and
+    COGALL 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -312,6 +313,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[cog] ^short = "COG"
 * section[stagingAndGrading].entry[cog].reference 1..
 // COG ALL
+* section[stagingAndGrading].entry[COGALL] only Reference(CHCRLObservationCOGALLStaging)
+* section[stagingAndGrading].entry[COGALL] ^short = "COG ALL"
+* section[stagingAndGrading].entry[COGALL].reference 1..
 // DSSplus
 // FIGO
 // INRGSS

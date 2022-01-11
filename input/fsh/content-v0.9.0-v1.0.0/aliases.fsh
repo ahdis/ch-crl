@@ -25,3 +25,4 @@ Alias: $nkrs-typerecurrencetransformation = http://fhir.ch/ig/ch-crl/CodeSystem/
 Alias: $nkrs-annarborstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-annarborstaging
 Alias: $nkrs-binetstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-binetstaging
 Alias: $nkrs-cogstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-cogstaging
+Alias: $nkrs-cogallstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-cogallstaging

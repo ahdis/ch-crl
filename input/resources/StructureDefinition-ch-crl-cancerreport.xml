@@ -1012,8 +1012,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.COG-ALL-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.COG-ALL-Klassifikation"/>
+            <definition value="COG ALL-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <!-- 
-        COG ALL-Klassifikation
         DSSplus
         FIGO-Klassifikation
         INRGSS-Klassifikation

@@ -17,6 +17,9 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 * #3.9.2 "ICCC-3 code"
 * #3.9.3 "ICCC-3 extended code"
 
+// further staging
+* #4.20 "COG ALL staging"
+
 // differentiation clinical vs. pathological
 * #4.39 "Clinical tumour size"
 * #4.40 "Pathological tumour size"
