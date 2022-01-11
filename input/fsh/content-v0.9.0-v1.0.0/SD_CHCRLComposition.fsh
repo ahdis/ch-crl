@@ -209,7 +209,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     annArbor 0..1 and
     binet 0..1 and 
     COG 0..1 and
-    COG-ALL 0..1
+    COG-ALL 0..1 and
+    DSSplus 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -317,6 +318,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[COG-ALL] ^short = "COG ALL"
 * section[stagingAndGrading].entry[COG-ALL].reference 1..
 // DSSplus
+* section[stagingAndGrading].entry[DSSplus] only Reference(CHCRLObservationDSSplus)
+* section[stagingAndGrading].entry[DSSplus] ^short = "DSSplus"
+* section[stagingAndGrading].entry[DSSplus].reference 1..
 // FIGO
 // INRGSS
 // IRSS

@@ -1021,8 +1021,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.DSSplus">
+            <path value="CancerReport.Fall.DatenZurDiagnose.DSSplus"/>
+            <definition value="DSSplus"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <!-- 
-        DSSplus
         FIGO-Klassifikation
         INRGSS-Klassifikation
         IRSS-Klassifikation

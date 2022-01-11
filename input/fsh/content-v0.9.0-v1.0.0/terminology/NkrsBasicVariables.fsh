@@ -19,6 +19,8 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 
 // further staging
 * #4.20 "COG ALL staging"
+* #4.30 "DSSplus"
+
 
 // differentiation clinical vs. pathological
 * #4.39 "Clinical tumour size"
