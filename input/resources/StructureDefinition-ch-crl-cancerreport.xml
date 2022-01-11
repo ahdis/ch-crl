@@ -985,15 +985,15 @@
 
 
         <!-- Weitere Systeme für Stadium und Grad -->
-        <!--<element id="CancerReport.Fall.DatenZurDiagnose.Ann-Arbor-Klassifikation">
+        <element id="CancerReport.Fall.DatenZurDiagnose.Ann-Arbor-Klassifikation">
             <path value="CancerReport.Fall.DatenZurDiagnose.Ann-Arbor-Klassifikation"/>
-            <definition value="Ann-Arbor-Klassifikation"/    >
+            <definition value="Ann-Arbor-Klassifikation"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="code"/>
             </type>
-        </element>-->
+        </element>
         <!-- 
         Binet-Klassifikation
         COG-Klassifikation
