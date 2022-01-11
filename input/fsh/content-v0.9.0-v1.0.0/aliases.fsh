@@ -23,3 +23,4 @@ Alias: $nkrs-serumtumourmarkers = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-serum
 Alias: $nkrs-basisoffirsttreatmentcomplexdecision = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-basisoffirsttreatmentcomplexdecision
 Alias: $nkrs-typerecurrencetransformation = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-typerecurrencetransformation
 Alias: $nkrs-annarborstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-annarborstaging
+Alias: $nkrs-binetstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-binetstaging

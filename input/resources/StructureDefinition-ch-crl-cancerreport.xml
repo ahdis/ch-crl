@@ -994,8 +994,16 @@
                 <code value="code"/>
             </type>
         </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Binet-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Binet-Klassifikation"/>
+            <definition value="Binet-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
         <!-- 
-        Binet-Klassifikation
         COG-Klassifikation
         COG ALL-Klassifikation
         DSSplus
