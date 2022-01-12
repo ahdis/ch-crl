@@ -19,7 +19,6 @@ Description: "Definition of the Observation for the Charlson index"
 It estimates the combined effect of the Charlson Index components on patient survival."
 * valueInteger 1..
 
-/*
 * derivedFrom ..*
 * derivedFrom only Reference(Observation)
 * derivedFrom ^slicing.discriminator.type = #profile
@@ -30,7 +29,7 @@ It estimates the combined effect of the Charlson Index components on patient sur
     ch-crl-congestiveHeartFailure 0..1
 * derivedFrom[ch-crl-congestiveHeartFailure] only Reference(CHCRLObservationCongestiveHeartFailure)
 * derivedFrom[ch-crl-congestiveHeartFailure] ^short = "Congestive heart failure"
-*/
+
 
 Mapping: NICER-B1-for-CHCRLObservationCharlsonIndex
 Id: NICER-B1
@@ -50,5 +49,5 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueInteger = 4
-// * derivedFrom[ch-crl-congestiveHeartFailure] = Reference(CongestiveHeartFailure-Yes)
+* derivedFrom[ch-crl-congestiveHeartFailure] = Reference(CongestiveHeartFailure-No)
 
