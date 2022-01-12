@@ -31,22 +31,22 @@ Description: "Definition of the Observation for the serum tumour markers"
 If serum marker studies not available than 'value=unknown'."
 * dataAbsentReason.coding.display 1..
 
-* hasMember ..*
-* hasMember only Reference(Observation)
-* hasMember ^slicing.discriminator.type = #profile
-* hasMember ^slicing.discriminator.path = "resolve()"
-* hasMember ^slicing.ordered = false
-* hasMember ^slicing.rules = #open
-* hasMember contains
+* derivedFrom ..*
+* derivedFrom only Reference(Observation)
+* derivedFrom ^slicing.discriminator.type = #profile
+* derivedFrom ^slicing.discriminator.path = "resolve()"
+* derivedFrom ^slicing.ordered = false
+* derivedFrom ^slicing.rules = #open
+* derivedFrom contains
     ch-crl-alphaFetoprotein 0..1 and
     ch-crl-hCG 0..1 and
     ch-crl-LDH 0..1
-* hasMember[ch-crl-alphaFetoprotein] only Reference(CHCRLObservationAlphaFetoprotein)
-* hasMember[ch-crl-alphaFetoprotein] ^short = "α-fetoprotein"
-* hasMember[ch-crl-hCG] only Reference(CHCRLObservationHCG)
-* hasMember[ch-crl-hCG] ^short = "hCG"
-* hasMember[ch-crl-LDH] only Reference(CHCRLObservationLDH)
-* hasMember[ch-crl-LDH] ^short = "LDH"
+* derivedFrom[ch-crl-alphaFetoprotein] only Reference(CHCRLObservationAlphaFetoprotein)
+* derivedFrom[ch-crl-alphaFetoprotein] ^short = "α-fetoprotein"
+* derivedFrom[ch-crl-hCG] only Reference(CHCRLObservationHCG)
+* derivedFrom[ch-crl-hCG] ^short = "hCG"
+* derivedFrom[ch-crl-LDH] only Reference(CHCRLObservationLDH)
+* derivedFrom[ch-crl-LDH] ^short = "LDH"
 
 
 Mapping: NICER-A-for-CHCRLObservationSerumTumourMarkers
@@ -67,9 +67,9 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-serumtumourmarkers#3 "S3"
-* hasMember[ch-crl-alphaFetoprotein] = Reference(AlphaFetoprotein-AFP1)
-* hasMember[ch-crl-hCG] = Reference(HCG-hCG2)
-* hasMember[ch-crl-LDH] = Reference(LDH-LDH3)
+* derivedFrom[ch-crl-alphaFetoprotein] = Reference(AlphaFetoprotein-AFP1)
+* derivedFrom[ch-crl-hCG] = Reference(HCG-hCG2)
+* derivedFrom[ch-crl-LDH] = Reference(LDH-LDH3)
 
 Instance: SerumTumourMarkers-Unknown
 InstanceOf: CHCRLObservationSerumTumourMarkers

@@ -30,25 +30,25 @@ if a tumour has more than 2 histological patterns."
 * dataAbsentReason.coding.display = "Unknown" (exactly)
 
 
-* hasMember ..*
-* hasMember only Reference(Observation)
-* hasMember ^slicing.discriminator.type = #profile
-* hasMember ^slicing.discriminator.path = "resolve()"
-* hasMember ^slicing.ordered = false
-* hasMember ^slicing.rules = #open
-* hasMember contains
+* derivedFrom ..*
+* derivedFrom only Reference(Observation)
+* derivedFrom ^slicing.discriminator.type = #profile
+* derivedFrom ^slicing.discriminator.path = "resolve()"
+* derivedFrom ^slicing.ordered = false
+* derivedFrom ^slicing.rules = #open
+* derivedFrom contains
     ch-crl-gleasonBiopsyMostCommonGrade 0..1 and
     ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade 0..1 and
     ch-crl-gleasonExcisionMostCommonGrade 0..1 and
     ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade 0..1 
-* hasMember[ch-crl-gleasonBiopsyMostCommonGrade] only Reference(CHCRLObservationGleasonBiopsyMostCommonGrade)
-* hasMember[ch-crl-gleasonBiopsyMostCommonGrade] ^short = "Gleason biopsy most common grade"
-* hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonBiopsySecondMostCommonOrHighestGrade)
-* hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] ^short = "Gleason biopsy second most common or highest grade"
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] only Reference(CHCRLObservationGleasonExcisionMostCommonGrade)
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] ^short = "Gleason excision most common grade"
-* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade)
-* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] ^short = "Gleason excision second most common or highest grade"
+* derivedFrom[ch-crl-gleasonBiopsyMostCommonGrade] only Reference(CHCRLObservationGleasonBiopsyMostCommonGrade)
+* derivedFrom[ch-crl-gleasonBiopsyMostCommonGrade] ^short = "Gleason biopsy most common grade"
+* derivedFrom[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonBiopsySecondMostCommonOrHighestGrade)
+* derivedFrom[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] ^short = "Gleason biopsy second most common or highest grade"
+* derivedFrom[ch-crl-gleasonExcisionMostCommonGrade] only Reference(CHCRLObservationGleasonExcisionMostCommonGrade)
+* derivedFrom[ch-crl-gleasonExcisionMostCommonGrade] ^short = "Gleason excision most common grade"
+* derivedFrom[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade)
+* derivedFrom[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] ^short = "Gleason excision second most common or highest grade"
 
 
 Mapping: NICER-A-for-CHCRLObservationGleasonScore
@@ -69,10 +69,10 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity.value = 6
-* hasMember[ch-crl-gleasonBiopsyMostCommonGrade] = Reference(GleasonBiopsyMostCommonGrade-2)
-* hasMember[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] = Reference(GleasonBiopsySecondMostCommonOrHighestGrade-3)
-* hasMember[ch-crl-gleasonExcisionMostCommonGrade] = Reference(GleasonExcisionMostCommonGrade-3)
-* hasMember[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] = Reference(GleasonExcisionSecondMostCommonOrHighestGrade-3)
+* derivedFrom[ch-crl-gleasonBiopsyMostCommonGrade] = Reference(GleasonBiopsyMostCommonGrade-2)
+* derivedFrom[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] = Reference(GleasonBiopsySecondMostCommonOrHighestGrade-3)
+* derivedFrom[ch-crl-gleasonExcisionMostCommonGrade] = Reference(GleasonExcisionMostCommonGrade-3)
+* derivedFrom[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] = Reference(GleasonExcisionSecondMostCommonOrHighestGrade-3)
 
 
 Instance: GleasonScore-Unknown
