@@ -22,8 +22,11 @@ Alias: $nkrs-ldh = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-ldh
 Alias: $nkrs-serumtumourmarkers = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-serumtumourmarkers
 Alias: $nkrs-basisoffirsttreatmentcomplexdecision = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-basisoffirsttreatmentcomplexdecision
 Alias: $nkrs-typerecurrencetransformation = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-typerecurrencetransformation
+
 Alias: $nkrs-annarborstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-annarborstaging
 Alias: $nkrs-binetstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-binetstaging
 Alias: $nkrs-cogstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-cogstaging
 Alias: $nkrs-cogallstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-cogallstaging
 Alias: $nkrs-dssplus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-dssplus
+
+Alias: $nkrs-diabetesmellitus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diabetesmellitus

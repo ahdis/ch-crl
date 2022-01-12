@@ -1321,8 +1321,18 @@
             Dementia
             Hemiplegia / paraplegia
             Peptic ulcer disease
-            Chronic kidney disease
-            Diabetes mellitus
+            Chronic kidney disease 
+        -->
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.DiabetesMellitus">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.DiabetesMellitus"/>
+            <definition value="Diabetes mellitus"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <!--  
             Liver disease
             HIV/AIDS
             Connective tissue disease

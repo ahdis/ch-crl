@@ -26,9 +26,13 @@ It estimates the combined effect of the Charlson Index components on patient sur
 * derivedFrom ^slicing.ordered = false
 * derivedFrom ^slicing.rules = #open
 * derivedFrom contains
-    ch-crl-congestiveHeartFailure 0..1
+    ch-crl-congestiveHeartFailure 0..1 and
+    ch-crl-diabetesMellitus 0..1 
 * derivedFrom[ch-crl-congestiveHeartFailure] only Reference(CHCRLObservationCongestiveHeartFailure)
 * derivedFrom[ch-crl-congestiveHeartFailure] ^short = "Congestive heart failure"
+* derivedFrom[ch-crl-diabetesMellitus] only Reference(CHCRLObservationDiabetesMellitus)
+* derivedFrom[ch-crl-diabetesMellitus] ^short = "Diabetes mellitus"    
+
 
 
 Mapping: NICER-B1-for-CHCRLObservationCharlsonIndex
@@ -50,4 +54,4 @@ Usage: #example
 * effectiveDateTime = "2018-12-15"
 * valueInteger = 4
 * derivedFrom[ch-crl-congestiveHeartFailure] = Reference(CongestiveHeartFailure-No)
-
+* derivedFrom[ch-crl-diabetesMellitus] = Reference(DiabetesMellitus-Uncomplicated)
