@@ -15,10 +15,10 @@ Description: "Definition of the Observation for the gleason biopsy second most c
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueQuantity ^short = "The item Gleason biopsy second most common or highest grade shows Gleason grade 
+* valueInteger ^short = "The item Gleason biopsy second most common or highest grade shows Gleason grade 
 of the second most common pattern (secondary pattern), or the pattern with the highest Gleason grade in 
 biopsy-detected prostate cancer, if a tumour has more than 2 histological patterns."
-* valueQuantity.value 1..
+* valueInteger 1..
 
 * method 1..
 * method = $sct#86273004 "Biopsy (procedure)"
@@ -41,5 +41,5 @@ Usage: #example
 * code = $loinc#44642-7 "Gleason pattern.secondary in Prostate tumor"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueQuantity.value = 3
+* valueInteger = 3
 * method = $sct#86273004 "Biopsy (procedure)"

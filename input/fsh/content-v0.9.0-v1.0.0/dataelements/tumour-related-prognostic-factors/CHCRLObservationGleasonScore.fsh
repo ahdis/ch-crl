@@ -15,10 +15,9 @@ Description: "Definition of the Observation for the gleason score"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueQuantity ^short = "Gleason score comprises the Gleason grade or the most extensive (primary pattern) pattern, 
+* valueInteger ^short = "Gleason score comprises the Gleason grade or the most extensive (primary pattern) pattern, 
 plus the second most common pattern (secondary pattern), if two are present, or the pattern with the highest Gleason grade, 
 if a tumour has more than 2 histological patterns."
-* valueQuantity.value 1..
 
 * dataAbsentReason ^short = "The gleason score is unknown"
 * dataAbsentReason.coding 1..
@@ -68,7 +67,7 @@ Usage: #example
 * code = $loinc#35266-6 "Gleason score in Specimen Qualitative"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueQuantity.value = 6
+* valueInteger = 6
 * derivedFrom[ch-crl-gleasonBiopsyMostCommonGrade] = Reference(GleasonBiopsyMostCommonGrade-2)
 * derivedFrom[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] = Reference(GleasonBiopsySecondMostCommonOrHighestGrade-3)
 * derivedFrom[ch-crl-gleasonExcisionMostCommonGrade] = Reference(GleasonExcisionMostCommonGrade-3)

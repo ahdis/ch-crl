@@ -15,9 +15,9 @@ Description: "Definition of the Observation for the gleason excision second most
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueQuantity ^short = "The item Gleason excision second most common or highest grade shows Gleason grade 
+* valueInteger ^short = "The item Gleason excision second most common or highest grade shows Gleason grade 
 of the second-most common pattern (secondary pattern) or the pattern with the highest Gleason grade in prostate cancer."
-* valueQuantity.value 1..
+* valueInteger 1..
 
 * method 1..
 * method = $sct#65801008 "Excision (procedure)"
@@ -40,5 +40,5 @@ Usage: #example
 * code = $loinc#44642-7 "Gleason pattern.secondary in Prostate tumor"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueQuantity.value = 3
+* valueInteger = 3
 * method = $sct#65801008 "Excision (procedure)"
