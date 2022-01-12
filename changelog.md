@@ -71,6 +71,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    50. Morphology term before change of main diagnosis (Variable number: 8.4) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
    51. Morphology term after Transformation (Variable number: 8.5) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
    52. Topography(s) of post-diagnosis metastases (Variable number: 8.6) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-topographypostdiagnosismetastases.html), [ValueSet](http://build.fhir.org/ig/ahdis/ch-crl/ValueSet-nkrs-topographymetastases.html))
+   53. Charlson Index (Variable number: 10.14) ([Profile](http://build.fhir.org/ig/ahdis/ch-crl/StructureDefinition-ch-crl-observation-charlsonindex.html))
 * New use case step with example: [Follow-up with a gastroenterologist](http://build.fhir.org/ig/ahdis/ch-crl/branches/master/usecase-german.html#nachsorge-beim-gastroenterologen).
 
 

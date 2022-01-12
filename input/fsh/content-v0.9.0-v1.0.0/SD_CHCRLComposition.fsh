@@ -432,7 +432,13 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[charlsonIndex].entry ^slicing.discriminator.type = #profile
 * section[charlsonIndex].entry ^slicing.discriminator.path = "resolve()"
 * section[charlsonIndex].entry ^slicing.rules = #open
+* section[charlsonIndex].entry contains
+    charlsonIndex 0..1
 * section[charlsonIndex].section ..0
+
+* section[charlsonIndex].entry[charlsonIndex] only Reference(CHCRLObservationCharlsonIndex)
+* section[charlsonIndex].entry[charlsonIndex] ^short = "Charlson index"
+* section[charlsonIndex].entry[charlsonIndex].reference 1..
 
 
 // ------- First Treatment Complex-------
