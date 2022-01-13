@@ -43,15 +43,30 @@ Target: "https://www.nacr.ch/assets/files/uploads/b1-datadictionary-supplementar
 * -> "Charlson Index (Variable number: 10.14)"
 
 
-Instance: CharlsonIndex-4
+Instance: CharlsonIndex-8
 InstanceOf: CHCRLObservationCharlsonIndex
-Title: "Charlson Index - 4"
+Title: "Charlson Index - 8"
 Description: "Example for Observation for the Charlson index"
 Usage: #example
 * status = #final
 * code = $sct#762713009 "Charlson Comorbidity Index (assessment scale)"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueInteger = 4
-* derivedFrom[ch-crl-congestiveHeartFailure] = Reference(CongestiveHeartFailure-No)
-* derivedFrom[ch-crl-diabetesMellitus] = Reference(DiabetesMellitus-Uncomplicated)
+* valueInteger = 8
+// Age 68 J. = 2 Pkt.
+// Solid tumour  // 0 Pkt.
+// Leukaemia // 0 Pkt.
+// Lymphoma // 0 Pkt.
+* derivedFrom[ch-crl-congestiveHeartFailure] = Reference(CongestiveHeartFailure-No) // 0 Pkt.
+// Myocardial infarction // 1 Pkt.
+// Chronic pulmonary disease // 1 Pkt.
+// Peripheral vascular disease // 0 Pkt.
+// Cerebrovascular accident or TIA // 0 Pkt.
+// Dementia // 0 Pkt.
+// Hemiplegia / paraplegia // 0 Pkt.
+// Peptic ulcer disease // 0 Pkt.
+// Chronic kidney disease // 0 Pkt.
+* derivedFrom[ch-crl-diabetesMellitus] = Reference(DiabetesMellitus-Uncomplicated) // 1 Pkt.
+// Liver disease // 3 Pkt.
+// HIV/AIDS // 0 Pkt.
+// Connective tissue disease // 0 Pkt.
