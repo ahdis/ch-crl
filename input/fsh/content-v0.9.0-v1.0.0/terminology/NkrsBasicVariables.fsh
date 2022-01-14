@@ -18,6 +18,7 @@ Based on \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for 
 * #3.9.3 "ICCC-3 extended code"
 
 // further staging
+* #4.19 "COG staging"
 * #4.20 "COG ALL staging"
 * #4.30 "DSSplus"
 
