@@ -25,8 +25,8 @@ Usage: #example
 * entry[=].resource = RobertMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/DateOfIncidence-20181215"
 * entry[=].resource = DateOfIncidence-20181215
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon20181215"
-* entry[=].resource = ICD-10-Kolon20181215
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon-final"
+* entry[=].resource = ICD-10-Kolon-final
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-O-3-Behaviour-20181215"
 * entry[=].resource = ICD-O-3-Behaviour-20181215
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-O-3-HistologicalGrade-20181215"

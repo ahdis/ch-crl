@@ -19,5 +19,5 @@ Usage: #example
 * entry[=].resource = RobertMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/SpitalSeeblickHansEgli"
 * entry[=].resource = SpitalSeeblickHansEgli
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon20181214"
-* entry[=].resource = ICD-10-Kolon20181214
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon-final"
+* entry[=].resource = ICD-10-Kolon-final

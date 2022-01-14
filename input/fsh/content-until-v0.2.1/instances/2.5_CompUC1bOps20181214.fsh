@@ -15,4 +15,4 @@ Usage: #example
 * section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Surgical20181214)
 
 * section[coding].title = "Coding"
-* section[coding].entry[ICD-code][+] = Reference(ICD-10-Kolon20181214)
+* section[coding].entry[ICD-code][+] = Reference(ICD-10-Kolon-final)

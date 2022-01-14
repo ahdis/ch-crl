@@ -16,7 +16,7 @@ Usage: #example
 * section[diagnosis].entry[diagnosticMethodsUsed][+] = Reference(DiagnosticMethod-Biopsy20181202)
 
 * section[coding].title = "Coding"
-* section[coding].entry[ICD-code] = Reference(ICD-10-Kolon20181202)
+* section[coding].entry[ICD-code] = Reference(ICD-10-Kolon-final)
 * section[coding].entry[ICD-O-topography] = Reference(ICD-O-3-Topography-20181202)
 * section[coding].entry[ICD-O-morphologyAndBehaviour] = Reference(ICD-O-3-Morphology-20181202)
 * section[coding].entry[ICD-O-observedBehaviour] = Reference(ICD-O-3-Behaviour-20181202)

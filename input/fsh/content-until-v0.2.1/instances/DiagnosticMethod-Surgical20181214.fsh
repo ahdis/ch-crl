@@ -10,4 +10,4 @@ Usage: #example
 * performedDateTime = "2018-12-14T13:00:00+02:00"
 * performer.actor = Reference(AbteilungOnko)
 * performer.onBehalfOf = Reference(SpitalSeeblickHansEgli)
-* reasonReference = Reference(ICD-10-Kolon20181214)
+* reasonReference = Reference(ICD-10-Kolon-final)

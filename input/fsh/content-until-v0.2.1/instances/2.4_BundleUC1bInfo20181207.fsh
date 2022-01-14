@@ -9,8 +9,8 @@ Usage: #example
 * timestamp = "2018-12-07T16:19:20.680+00:00"
 * entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/CompUC1bInfo20181207"
 * entry[=].resource = CompUC1bInfo20181207
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon20181207"
-* entry[=].resource = ICD-10-Kolon20181207
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon-final"
+* entry[=].resource = ICD-10-Kolon-final
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Communication/CommMeier"
 * entry[=].resource = CommMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/AgnesBauer"

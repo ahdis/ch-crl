@@ -21,8 +21,8 @@ Usage: #example
 * entry[=].resource = RobertMeier
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/SpitalSeeblickDoktorGastro"
 * entry[=].resource = SpitalSeeblickDoktorGastro
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon20190617"
-* entry[=].resource = ICD-10-Kolon20190617
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/ICD-10-Kolon-final"
+* entry[=].resource = ICD-10-Kolon-final
 
 
 
@@ -56,7 +56,7 @@ Usage: #example
 * code = $nkrs-diagnosticmethodsused#24 "Biopsy of primary tumour"
 * subject = Reference(RobertMeier)
 * performedDateTime = "2019-06-17T13:00:00+02:00"
-* reasonReference = Reference(ICD-10-Kolon20190617)
+* reasonReference = Reference(ICD-10-Kolon-final)
 
 
 Instance: DiagnosticMethod-Endoscopy20190617
@@ -69,20 +69,7 @@ Usage: #example
 * code = $nkrs-diagnosticmethodsused#11 "Endoscopy"
 * subject = Reference(RobertMeier)
 * performedDateTime = "2019-06-17T13:00:00+02:00"
-* reasonReference = Reference(ICD-10-Kolon20190617)
-
-
-Instance: ICD-10-Kolon20190617
-InstanceOf: CHCRLObservationICD10
-Title: "ICD-10 - Kolon (2019-06-17)"
-Description: "Example for Observation for the ICD-10 code"
-Usage: #example
-* status = #preliminary
-* code = $loinc#86255-7 "Primary diagnosis ICD code"
-* subject = Reference(RobertMeier)
-* effectiveDateTime = "2019-06-17"
-* valueCodeableConcept.coding.version = "2019"
-* valueCodeableConcept.coding = $icd-10-gm#C18 "Bösartige Neubildung des Kolons"
+* reasonReference = Reference(ICD-10-Kolon-final)
 
 
 Instance: TypeRecurrenceTransformation-Relapse20190617
