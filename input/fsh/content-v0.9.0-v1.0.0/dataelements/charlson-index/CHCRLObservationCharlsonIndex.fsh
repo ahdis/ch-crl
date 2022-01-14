@@ -26,8 +26,20 @@ It estimates the combined effect of the Charlson Index components on patient sur
 * derivedFrom ^slicing.ordered = false
 * derivedFrom ^slicing.rules = #open
 * derivedFrom contains
+    // Solid tumour/Leukaemia/Lymphoma -> keine Datenelemente aus Nicer; Infos beim Krebsregister implizit schon vorhanden
     ch-crl-congestiveHeartFailure 0..1 and
+// Myocardial infarction
+// Chronic pulmonary disease
+// Peripheral vascular disease
+// Cerebrovascular accident or TIA
+// Dementia
+// Hemiplegia / paraplegia
+// Peptic ulcer disease
+// Chronic kidney disease
     ch-crl-diabetesMellitus 0..1 
+// Liver disease
+// HIV/AIDS
+// Connective tissue disease
 * derivedFrom[ch-crl-congestiveHeartFailure] only Reference(CHCRLObservationCongestiveHeartFailure)
 * derivedFrom[ch-crl-congestiveHeartFailure] ^short = "Congestive heart failure"
 * derivedFrom[ch-crl-diabetesMellitus] only Reference(CHCRLObservationDiabetesMellitus)

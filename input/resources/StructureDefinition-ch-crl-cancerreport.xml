@@ -1299,11 +1299,7 @@
                 <code value="decimal"/>
             </type>
         </element>
-        <!--
-            Solid tumour 
-            Leukaemia
-            Lymphoma 
-        -->
+        <!-- Solid tumour/Leukaemia/Lymphoma -> keine Datenelemente aus Nicer; Infos beim Krebsregister implizit schon vorhanden -->
         <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Herzinsuffizienz">
             <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Herzinsuffizienz"/>
             <definition value="Herzinsuffizienz"/>
