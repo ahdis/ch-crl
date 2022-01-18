@@ -8,7 +8,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 ### v0.9.0
  
 #### Added
-* Download link for NPM package, see [here](index.html#scope-and-download).
+* Download link for NPM package, see [here](index.html#download).
 * Separate tabs for the [use case](usecase-german.html) and the [cancer report (logical model)](logicalmodel.html) for simpler navigation in the IG.
 * Set the flag `mustSupport`=true for case-opening criteria, see [here](index.html#case-opening-criteria-and-mustsupport).
 * New use case step with example: [Follow-up with a gastroenterologist](usecase-german.html#nachsorge-beim-gastroenterologen).
