@@ -31,6 +31,7 @@ Description: "Definition of the Observation for the oestrogen receptor status"
 Qualitative information, if receptor status negative then 'value=false', if receptor status positive then 'value=true'."
 
 * dataAbsentReason ^short = "The oestrogen receptor expression status of the tumour is not performed or unknown"
+* dataAbsentReason.coding obeys ch-crl-obs-2
 * dataAbsentReason.coding 1..*
 * dataAbsentReason.coding.system 1..
 * dataAbsentReason.coding.system = "http://terminology.hl7.org/CodeSystem/data-absent-reason" (exactly)

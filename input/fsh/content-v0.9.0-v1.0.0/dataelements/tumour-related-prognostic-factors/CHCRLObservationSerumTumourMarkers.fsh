@@ -24,6 +24,7 @@ Description: "Definition of the Observation for the serum tumour markers"
 * valueCodeableConcept.coding.display 1..
 
 * dataAbsentReason ^short = "Serum marker studies not available or not performed."
+* dataAbsentReason.coding obeys ch-crl-obs-2
 * dataAbsentReason.coding 1..*
 * dataAbsentReason.coding.system 1..
 * dataAbsentReason.coding.system = "http://terminology.hl7.org/CodeSystem/data-absent-reason" (exactly)

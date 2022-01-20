@@ -24,6 +24,7 @@ Description: "Definition of the Observation for the β-hCG"
 * valueCodeableConcept.coding.display 1..
 
 * dataAbsentReason ^short = "hCG not available or not performed"
+* dataAbsentReason.coding obeys ch-crl-obs-2
 * dataAbsentReason.coding 1..*
 * dataAbsentReason.coding.system 1..
 * dataAbsentReason.coding.system = "http://terminology.hl7.org/CodeSystem/data-absent-reason" (exactly)
@@ -73,3 +74,16 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#not-performed "Not Performed"
+
+/*
+Instance: HCG-WrongExample
+InstanceOf: CHCRLObservationHCG
+Title: "β-hCG - Wrong Example"
+Description: "Example for Observation"
+Usage: #example
+* status = #final
+* code = $loinc#53957-7 "Choriogonadotropin.tumor marker [Mass/volume] in Serum or Plasma"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+* dataAbsentReason = $data-absent-reason#error "Error"
+*/

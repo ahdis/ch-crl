@@ -12,8 +12,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * Separate tabs for the [use case](usecase-german.html) and the [cancer report (logical model)](logicalmodel.html) for simpler navigation in the IG.
 * Set the flag `mustSupport`=true for case-opening criteria, see [here](index.html#case-opening-criteria-and-mustsupport).
 * New use case step with example: [Follow-up with a gastroenterologist](usecase-german.html#nachsorge-beim-gastroenterologen).
-* Constraints to enhance validation:
-   * ch-crl-obs-1: Observation must have either value[x] or dataAbsentReason 
+* Constraints in profiles to enhance validation (e.g. [ch-crl-obs-1: Observation must have either value[x] or dataAbsentReason](StructureDefinition-ch-crl-observation-lymphaticinvasion.html)).
 * More NKRS variables with profiles, examples and terminology. 
    1. Method of first detection (Variable number: 2.6) ([Profile](StructureDefinition-ch-crl-procedure-methodfirstdetection.html), [ValueSet](ValueSet-nkrs-methodfirstdetection.html))
    2. Associated in situ tumour (Variable number: 3.6.2) ([Profile](StructureDefinition-ch-crl-observation-associatedinsitutumour.html)) 

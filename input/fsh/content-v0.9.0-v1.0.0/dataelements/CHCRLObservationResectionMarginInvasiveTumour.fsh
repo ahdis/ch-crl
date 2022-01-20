@@ -28,11 +28,13 @@ Description: "Definition of the Observation for the resection margin invasive tu
 
 * dataAbsentReason ^short = "The minimal width of the normal tissue between the tumour and the surgical margin of the resected tumour on primary site 
 is not applicable or unknown"
+* dataAbsentReason.coding obeys ch-crl-obs-3
 * dataAbsentReason.coding 1..*
 * dataAbsentReason.coding.system 1..
 * dataAbsentReason.coding.system = "http://terminology.hl7.org/CodeSystem/data-absent-reason" (exactly)
 * dataAbsentReason.coding.code 1..
-* dataAbsentReason.coding.code ^short = "If not applicable than 'value=not-applicable'. If not stated / not assessed than 'value=unknown'."
+* dataAbsentReason.coding.code ^short = "If not applicable than 'value=not-applicable'. 
+If not stated / not assessed than 'value=unknown'."
 * dataAbsentReason.coding.display 1..
 
 
