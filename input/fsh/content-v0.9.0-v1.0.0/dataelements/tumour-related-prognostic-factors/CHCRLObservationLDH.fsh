@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-ldh
 Title: "CH CRL Observation LDH"
 Description: "Definition of the Observation for the LDH"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation LDH"
 * code 1..
 * code = $loinc#75639-5 "Lactate dehydrogenase in body fluid/Lactate dehydrogenase in serum"

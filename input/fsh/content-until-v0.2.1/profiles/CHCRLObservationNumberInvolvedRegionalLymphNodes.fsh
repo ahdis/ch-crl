@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-numberinvolvedregionallymphnodes
 Title: "CH CRL Observation Number of Involved Regional Lymph Nodes"
 Description: "Definition of the Observation for the number of involved regional lymph nodes"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Number of Involved Regional Lymph Nodes"
 * code 1..
 * code = $loinc#21893-3 "Regional lymph nodes positive [#] Specimen"

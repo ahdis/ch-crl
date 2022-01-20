@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-binetstaging
 Title: "CH CRL Observation Binet Staging"
 Description: "Definition of the Observation for the Binet staging"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Binet Staging"
 * code 1..
 * code = $sct#1149099005 "Binet staging classification for chronic lymphocytic leukemia (tumor staging)"

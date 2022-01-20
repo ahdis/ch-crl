@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-whogradegroup
 Title: "CH CRL Observation WHO Grade Group"
 Description: "Definition of the Observation for the WHO grade group"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation WHO Grade Group"
 * code 1..
 * code = $sct#397005006 "World Health Organization tumor classification (observable entity)"

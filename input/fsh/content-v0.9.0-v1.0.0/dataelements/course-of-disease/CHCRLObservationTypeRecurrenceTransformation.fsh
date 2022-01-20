@@ -5,6 +5,7 @@ Parent: Observation
 Id: ch-crl-observation-typerecurrencetransformation
 Title: "CH CRL Observation Type of Recurrence/Transformation"
 Description: "Definition of the Observation for the type of recurrence/transformation"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Type of Recurrence/Transformation"
 * code 1..
 * code = $loinc#97509-4 "Cancer disease progression"

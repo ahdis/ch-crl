@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-pn
 Title: "CH CRL Observation pN"
 Description: "Definition of the Observation for the TNM pathologic regional nodes category"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation pN"
 * code 1..
 * code = $loinc#21900-6 "Regional lymph nodes.pathology [Class] Cancer"

@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-her2receptorstatus
 Title: "CH CRL Observation Her2 Receptor Status"
 Description: "Definition of the Observation for the Her2 receptor status"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Her2 Receptor Status"
 * code 1..
 * code = $loinc#31150-6 "ERBB2 gene duplication [Presence] in Tissue by FISH"

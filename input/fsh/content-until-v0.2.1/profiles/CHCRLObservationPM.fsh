@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-pm
 Title: "CH CRL Observation pM"
 Description: "Definition of the Observation for the TNM pathologic distant metastases category"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation pM"
 * code 1..
 * code = $loinc#21901-4 "Distant metastases.pathology [Class] Cancer"

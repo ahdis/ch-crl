@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-pretreatmentprostatespecificantigen
 Title: "CH CRL Observation Pretreatment Prostate Specific Antigen"
 Description: "Definition of the Observation for the pretreatment prostate specific antigen (PSA)"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Pretreatment Prostate Specific Antigen (PSA)"
 * code 1..
 * code = $loinc#19201-3 "Prostate Specific Ag Free [Units/volume] in Serum or Plasma"

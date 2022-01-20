@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-resectionmargininsitutumour
 Title: "CH CRL Observation Resection Margin In-situ Tumour"
 Description: "Definition of the Observation for the resection margin in-situ tumour"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Resection Margin In-situ Tumour"
 * code 1..
 * code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 

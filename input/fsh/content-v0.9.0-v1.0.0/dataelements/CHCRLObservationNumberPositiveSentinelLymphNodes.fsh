@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-numberpositivesentinellymphnodes
 Title: "CH CRL Observation Number of Positive Sentinel Lymph Nodes"
 Description: "Definition of the Observation for the number of positive sentinel lymph nodes"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Number of Positive Sentinel Lymph Nodes"
 * code 1..
 * code = $loinc#92832-5 "Sentinel lymph nodes with metastasis [#] in Cancer specimen"

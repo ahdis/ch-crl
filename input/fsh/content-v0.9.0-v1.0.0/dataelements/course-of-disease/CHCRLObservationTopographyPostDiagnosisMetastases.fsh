@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-topographypostdiagnosismetastases
 Title: "CH CRL Observation Topography of Post-diagnosis Metastases"
 Description: "Definition of the Observation for the topography of post-diagnosis metastases"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Topography of Post-diagnosis Metastases"
 
 * code 1..

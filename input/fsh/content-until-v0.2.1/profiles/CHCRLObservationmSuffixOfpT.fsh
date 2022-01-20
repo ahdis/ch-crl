@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-msuffixofpt
 Title: "CH CRL Observation m-Suffix of pT"
 Description: "Definition of the Observation for the m-Suffix of pT"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation m-Suffix of pT"
 * code 1..
 * code = $loinc#42030-7 "Multiple tumors reported as single primary Cancer"
@@ -17,11 +18,9 @@ Description: "Definition of the Observation for the m-Suffix of pT"
 
 * value[x] only Quantity or CodeableConcept
 
-* valueQuantity 0..1
 * valueQuantity ^short = "The presence of multiple primary tumours at a single site as number (min = 2)"
 * valueQuantity.value 1..
 
-* valueCodeableConcept 0..1
 * valueCodeableConcept ^short = "Unspecified multiplicity"
 * valueCodeableConcept.coding 1.. 
 * valueCodeableConcept.coding.system 1..

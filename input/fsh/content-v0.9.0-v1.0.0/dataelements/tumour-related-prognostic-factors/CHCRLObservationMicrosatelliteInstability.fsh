@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-microsatelliteinstability
 Title: "CH CRL Observation Microsatellite Instability"
 Description: "Definition of the Observation for the microsatellite instability"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Microsatellite Instability"
 * code 1..
 * code = $loinc#81695-9 "Microsatellite instability [Interpretation] in Cancer specimen Qualitative"
@@ -15,7 +16,6 @@ Description: "Definition of the Observation for the microsatellite instability"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueBoolean 0..1
 * valueBoolean ^short = "The data item records presence or absence of microsatellite instability. 
 If microsatellite instability absence then 'value=false', 
 if microsatellite instability presence then 'value=true'."

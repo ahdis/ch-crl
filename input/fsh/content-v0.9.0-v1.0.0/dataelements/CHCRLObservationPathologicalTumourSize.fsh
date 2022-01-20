@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-pathologicaltumoursize
 Title: "CH CRL Observation Pathological Tumour Size"
 Description: "Definition of the Observation for the pathological tumour size"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Pathological Tumour Size"
 * code 1..
 * code = $nkrs-basicvariables#4.40 "Pathological tumour size"

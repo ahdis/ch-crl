@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-cm
 Title: "CH CRL Observation cM"
 Description: "Definition of the Observation for the TNM clinical distant metastases category"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation cM"
 * code 1..
 * code = $loinc#21907-1 "Distant metastases.clinical [Class] Cancer"

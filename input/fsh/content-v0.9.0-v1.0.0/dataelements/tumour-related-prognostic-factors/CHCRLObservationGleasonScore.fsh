@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-gleasonscore
 Title: "CH CRL Observation Gleason Score"
 Description: "Definition of the Observation for the gleason score"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Gleason Score"
 * code 1..
 * code = $loinc#35266-6 "Gleason score in Specimen Qualitative"

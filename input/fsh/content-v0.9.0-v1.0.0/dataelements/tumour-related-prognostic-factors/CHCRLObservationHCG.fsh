@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-hcg
 Title: "CH CRL Observation β-hCG"
 Description: "Definition of the Observation for the β-hCG"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation β-hCG"
 * code 1..
 * code = $loinc#53957-7 "Choriogonadotropin.tumor marker [Mass/volume] in Serum or Plasma"

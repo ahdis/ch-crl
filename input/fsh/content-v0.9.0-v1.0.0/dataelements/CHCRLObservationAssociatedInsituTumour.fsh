@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-associatedinsitutumour
 Title: "CH CRL Observation Associated In-situ Tumour"
 Description: "Definition of the Observation for the associated in-situ tumour"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Associated In-situ Tumour"
 * code 1..
 * code = $nkrs-basicvariables#3.6.2 "Associated in situ tumour"

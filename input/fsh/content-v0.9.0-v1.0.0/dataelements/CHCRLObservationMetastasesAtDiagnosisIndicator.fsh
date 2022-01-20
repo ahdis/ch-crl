@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-metastasesatdiagnosisindicator
 Title: "CH CRL Observation Metastases at Diagnosis Indicator"
 Description: "Definition of the Observation for the metastases at diagnosis indicator"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Metastases at Diagnosis Indicator"
 * code 1..
 * code = $loinc#98248-8 "Primary or recurrent or distant metastasis [Type] in Tumor"

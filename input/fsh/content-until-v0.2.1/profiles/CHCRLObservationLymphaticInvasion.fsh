@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-lymphaticinvasion
 Title: "CH CRL Observation Lymphatic Invasion"
 Description: "Definition of the Observation for the lymphatic invasion"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Lymphatic Invasion"
 * code 1..
 * code = $sct#277060007 "Lymphatic tumor invasion status"

@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-dssplus
 Title: "CH CRL Observation DSSplus"
 Description: "Definition of the Observation for the DSSplus"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation DSSplus"
 * code 1..
 * code = $nkrs-basicvariables#4.30 "DSSplus"

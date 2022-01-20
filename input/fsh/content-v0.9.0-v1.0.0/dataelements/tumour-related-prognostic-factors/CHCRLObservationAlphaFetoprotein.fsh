@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-alphafetoprotein
 Title: "CH CRL Observation α-fetoprotein"
 Description: "Definition of the Observation for the α-fetoprotein"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation α-fetoprotein"
 * code 1..
 * code = $loinc#53962-7 "Alpha-1-fetoprotein.tumor marker [Mass/volume] in Serum or Plasma"

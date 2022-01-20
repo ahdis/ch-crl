@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-figostaging
 Title: "CH CRL Observation FIGO Staging"
 Description: "Definition of the Observation for the FIGO staging"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation FIGO Staging"
 * code 1..
 * code = $nkrs-basicvariables#4.21 "FIGO staging"
@@ -72,3 +73,16 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
+
+/*
+Instance: FIGOStaging-WrongExample
+InstanceOf: CHCRLObservationFIGOStaging
+Title: "FIGO Staging - Wrong Example"
+Description: "Example for Observation for the FIGO staging"
+Usage: #example
+* status = #final
+* code = $nkrs-basicvariables#4.21 "FIGO staging"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+// value[x] or dataAbsentReason is missing
+*/

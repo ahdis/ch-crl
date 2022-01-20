@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-serumtumourmarkers
 Title: "CH CRL Observation Serum Tumour Markers"
 Description: "Definition of the Observation for the serum tumour markers"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Serum Tumour Markers"
 * code 1..
 * code = $sct#396701002 "Finding of serum tumor marker level (finding)"

@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-oestrogenreceptorstatus
 Title: "CH CRL Observation Oestrogen Receptor Status"
 Description: "Definition of the Observation for the oestrogen receptor status"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Oestrogen Receptor Status"
 * code 1..
 * code = $loinc#85329-1 "Cells.estrogen receptor/100 cells in Breast cancer specimen by Immune stain"
@@ -17,7 +18,6 @@ Description: "Definition of the Observation for the oestrogen receptor status"
 
 * value[x] only Quantity or boolean
 
-* valueQuantity 0..1
 * valueQuantity ^short = "The oestrogen receptor expression status of the tumour. Quantitative information, percentage value (%)."
 * valueQuantity.value 1..
 * valueQuantity.unit = "percent"
@@ -27,7 +27,6 @@ Description: "Definition of the Observation for the oestrogen receptor status"
 * valueQuantity.code = #%
 * valueQuantity.code 1..
 
-* valueBoolean 0..1
 * valueBoolean ^short = "The oestrogen receptor expression status of the tumour. 
 Qualitative information, if receptor status negative then 'value=false', if receptor status positive then 'value=true'."
 

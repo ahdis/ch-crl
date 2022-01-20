@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-numberexaminedsentinellymphnodes
 Title: "CH CRL Observation Number of Examined Sentinel Lymph Nodes"
 Description: "Definition of the Observation for the number of examined sentinel lymph nodes"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Number of Examined Sentinel Lymph Nodes"
 * code 1..
 * code = $loinc#85347-3 "Sentinel lymph nodes examined [#] in Cancer specimen by Light microscopy"

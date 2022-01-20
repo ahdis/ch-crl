@@ -19,7 +19,7 @@ Description: "Definition of the Observation for the ICD-O-3 morphology term befo
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept 1..1
+* valueCodeableConcept 1..
 * valueCodeableConcept ^short = "The morphology according to ICD-O-3 in the case that the main diagnosis has been changed."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

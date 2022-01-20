@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-sentinellymphnodeassessment
 Title: "CH CRL Observation Sentinel Lymph Node Assessment"
 Description: "Definition of the Observation for the sentinel lymph node assessment"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Sentinel Lymph Node Assessment"
 * code 1..
 * code = $loinc#98278-5 "Protocol used for examination of sentinel lymph nodes"

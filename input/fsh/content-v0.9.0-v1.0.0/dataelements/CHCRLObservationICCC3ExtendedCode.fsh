@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-iccc3extendedcode
 Title: "CH CRL Observation ICCC-3 Extended Code"
 Description: "Definition of the Observation for the ICCC-3 extended code"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation ICCC-3 Extended Code"
 * code 1..
 * code = $nkrs-basicvariables#3.9.3 "ICCC-3 extended code"

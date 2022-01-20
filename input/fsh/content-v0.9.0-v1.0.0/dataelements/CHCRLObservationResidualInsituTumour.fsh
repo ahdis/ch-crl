@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-residualinsitutumour
 Title: "CH CRL Observation Residual In-situ Tumour"
 Description: "Definition of the Observation for the residual in-situ tumour"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Residual In-situ Tumour"
 * code 1..
 * code = $nkrs-basicvariables#6.2 "Residual in-situ tumour"

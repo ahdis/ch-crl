@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-breslowthickness
 Title: "CH CRL Observation Breslow Thickness"
 Description: "Definition of the Observation for the breslow thickness"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Breslow Thickness"
 * code 1..
 * code = $loinc#92839-0 "Breslow thickness [Length] in Skin melanoma"

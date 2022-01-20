@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-circumferentialresectionmargins
 Title: "CH CRL Observation Circumferential Resection Margins"
 Description: "Definition of the Observation for the circumferential resection margins"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Circumferential Resection Margins"
 * code 1..
 * code = $loinc#81184-4 "Distance of tumor from circumferential resection margin [Length] by Microscopy"

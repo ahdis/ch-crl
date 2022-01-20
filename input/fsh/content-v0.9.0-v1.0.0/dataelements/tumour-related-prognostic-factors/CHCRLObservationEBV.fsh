@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-ebv
 Title: "CH CRL Observation EBV"
 Description: "Definition of the Observation for the EBV"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation EBV"
 * code 1..
 * code = $loinc#5005-4 "Epstein Barr virus DNA [Presence] in Specimen by NAA with probe detection"
@@ -15,7 +16,6 @@ Description: "Definition of the Observation for the EBV"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueBoolean 0..1
 * valueBoolean ^short = "EBV (Epstein Barr virus) positivity is defined as showing evidence of EBV 
 antigen in a blood test, or EBV DNA or RNA by polymerase chain reaction. 
 If EBV-negative then 'value=false', 

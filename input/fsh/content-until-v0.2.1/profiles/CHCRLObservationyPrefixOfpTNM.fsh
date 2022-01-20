@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-yprefixofptnm
 Title: "CH CRL Observation y-Prefix of pTNM"
 Description: "Definition of the Observation for the y-Prefix of pTNM"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation y-Prefix of pTNM"
 * code 1..
 * code = $sct#373847000 "Neo-adjuvant - intent"

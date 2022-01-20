@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-annarborstaging
 Title: "CH CRL Observation Ann Arbor Staging"
 Description: "Definition of the Observation for the Ann Arbor staging"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Ann Arbor Staging"
 * code 1..
 * code = $sct#254372002 "Ann Arbor lymphoma staging system (tumor staging)"

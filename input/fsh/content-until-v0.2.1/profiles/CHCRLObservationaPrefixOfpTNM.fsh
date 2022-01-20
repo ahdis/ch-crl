@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-aprefixofptnm
 Title: "CH CRL Observation a-Prefix of pTNM"
 Description: "Definition of the Observation for the a-Prefix of pTNM"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation a-Prefix of pTNM"
 * code 1..
 * code = $loinc#85699-7 "Autopsy was performed"

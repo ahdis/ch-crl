@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-hpvp16
 Title: "CH CRL Observation HPV/p16"
 Description: "Definition of the Observation for the HPV/p16"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation HPV/p16"
 * code 1..
 * code = $loinc#49896-4 "Human papilloma virus 16+18+31+33+35+39+45+51+52+56+58+59+68 DNA [Presence] in Specimen by NAA with probe detection"
@@ -15,7 +16,6 @@ Description: "Definition of the Observation for the HPV/p16"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueBoolean 0..1
 * valueBoolean ^short = "HPV (Human papillomavirus) positivity is defined as showing either evidence of HPV gene expression 
 (tested with p16 immunohistochemistry) or HPV DNA, or both. 
 If HPV- or p16-negative then 'value=false', 

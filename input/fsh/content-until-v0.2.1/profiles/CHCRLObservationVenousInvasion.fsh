@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-venousinvasion
 Title: "CH CRL Observation Venous Invasion"
 Description: "Definition of the Observation for the venous invasion"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Venous Invasion"
 * code 1..
 * code = $sct#277061006 "Venous tumor invasion status"

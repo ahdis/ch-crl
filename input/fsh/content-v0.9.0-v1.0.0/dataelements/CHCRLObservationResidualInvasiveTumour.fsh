@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-residualinvasivetumour
 Title: "CH CRL Observation Residual Invasive Tumour"
 Description: "Definition of the Observation for the residual invasive tumour"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Residual Invasive Tumour"
 * code 1..
 * code = $nkrs-basicvariables#6.1 "Residual invasive tumour"

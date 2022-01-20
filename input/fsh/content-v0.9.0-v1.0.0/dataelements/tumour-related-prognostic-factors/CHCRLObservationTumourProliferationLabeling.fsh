@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-tumourproliferationlabeling
 Title: "CH CRL Observation Tumour Proliferation Labeling"
 Description: "Definition of the Observation for the tumour proliferation labeling"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Tumour Proliferation Labeling"
 * code 1..
 * code = $sct#1495041000004108 "Neoplastic proliferation (qualifier value)"
@@ -15,7 +16,6 @@ Description: "Definition of the Observation for the tumour proliferation labelin
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueQuantity 0..1
 * valueQuantity ^short = "The expression of the immunohistochemical marker of proliferation, the Ki-67 antigen."
 * valueQuantity.value 1..
 * valueQuantity.unit = "percent"

@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-cogallstaging
 Title: "CH CRL Observation COG ALL Staging"
 Description: "Definition of the Observation for the COG ALL staging"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation COG ALL Staging"
 * code 1..
 * code = $nkrs-basicvariables#4.20 "COG ALL staging"

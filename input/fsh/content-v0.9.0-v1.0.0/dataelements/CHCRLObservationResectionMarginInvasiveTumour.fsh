@@ -3,6 +3,7 @@ Parent: Observation
 Id: ch-crl-observation-resectionmargininvasivetumour
 Title: "CH CRL Observation Resection Margin Invasive Tumour"
 Description: "Definition of the Observation for the resection margin invasive tumour"
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Resection Margin Invasive Tumour"
 * code 1..
 * code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
