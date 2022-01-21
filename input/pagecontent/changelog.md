@@ -89,6 +89,7 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * Add the Extension 'data-absent-reason' to the Procedure for the diagnostic method(s), to support the representation of the value 'unknown'. **Implementers should now be able to support 'unknown' for this Procedure.**
    * [CH CRL Procedure Diagnostic Method Profile](StructureDefinition-ch-crl-procedure-diagnosticmethod.html)
    * [Example with value 'unknown'](Procedure-DiagnosticMethod-Unknown.html)
+* [Mapping CH CRL to mCODE](https://docs.google.com/spreadsheets/d/1_qllz1wvfPzW6DO59-l_ochrLFJ9WK-3DZ_9jLS2xOc/edit?usp=sharing) adapted to both new versions.
 
  
 #### Fixed
