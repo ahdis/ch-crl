@@ -5,7 +5,7 @@ Parent: Observation
 Id: ch-crl-observation-typerecurrencetransformation
 Title: "CH CRL Observation Type of Recurrence/Transformation"
 Description: "Definition of the Observation for the type of recurrence/transformation"
-* obeys ch-crl-obs-1
+* obeys ch-crl-obs-1 and ch-crl-obs-4
 * . ^short = "CH CRL Observation Type of Recurrence/Transformation"
 * code 1..
 * code = $loinc#97509-4 "Cancer disease progression"
@@ -44,8 +44,11 @@ Description: "Definition of the Observation for the type of recurrence/transform
     ch-crl-icdo3morphologypretransformation 0..1 and 
     ch-crl-icdo3morphologyposttransformation 0..1 and 
     ch-crl-topographypostdiagnosismetastases 0..1
+
 * hasMember[ch-crl-icdo3morphologypretransformation] only Reference(CHCRLObservationICDO3MorphologyPreTransformation)
 * hasMember[ch-crl-icdo3morphologypretransformation] ^short = "ICD-O morphology pre-transformation (if 'code = 2 Transformation')"
+* hasMember[ch-crl-icdo3morphologypretransformation] obeys ch-crl-obs-4
+
 * hasMember[ch-crl-icdo3morphologyposttransformation] only Reference(CHCRLObservationICDO3MorphologyPostTransformation)
 * hasMember[ch-crl-icdo3morphologyposttransformation] ^short = "ICD-O morphology post-transformation (if 'code = 2 Transformation')"
 * hasMember[ch-crl-topographypostdiagnosismetastases] only Reference(CHCRLObservationTopographyPostDiagnosisMetastases)
@@ -131,3 +134,19 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
+
+
+// ------- Wrong examples ----------- //
+Instance: TypeRecurrenceTransformation-Progression-WrongExample
+InstanceOf: CHCRLObservationTypeRecurrenceTransformation
+Title: "Type of Recurrence/Transformation - Progression"
+Description: "Example for Observation for the type of recurrence/transformation"
+Usage: #example
+* status = #final
+* code = $loinc#97509-4 "Cancer disease progression"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+* valueCodeableConcept = $nkrs-typerecurrencetransformation#1 "Progression"
+* hasMember[ch-crl-icdo3morphologypretransformation] = Reference(ICDO3MorphologyPreTransformation-9950-3)
+// * hasMember[ch-crl-icdo3morphologyposttransformation] -> no value if progression
+// * hasMember[ch-crl-topographypostdiagnosismetastases] -> no value if progression
