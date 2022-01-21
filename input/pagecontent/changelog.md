@@ -97,6 +97,8 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    * [CH CRL Observation ICD-O-3 Morphology Profile](StructureDefinition-ch-crl-observation-icdo3morphology.html)
    * [CH CRL Observation ICD-O-3 Topography Profile](StructureDefinition-ch-crl-observation-icdo3topography.html) 
 
+#### Previous Version Comparison
+[Comparison with version 0.2.1](comparison-v0.2.1/index.html).
 
 *************************
 
