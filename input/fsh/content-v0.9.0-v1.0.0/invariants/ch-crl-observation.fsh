@@ -19,5 +19,14 @@ Severity: #error
 // * obeys ch-crl-obs-4
 Invariant: ch-crl-obs-4
 Description: "ICD-O morphology pre-transformation as member is only allowed if 'code = 2 Transformation'"
-Expression: "hasMember.where($this.conformsTo('http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphologypretransformation')).exists() and valueCodeableConcept.coding.code=2"
-Severity: #error
+Expression: "(value.empty() and hasMember.count()=0) 
+or (value.coding.code=3 and hasMember.where(reference.conformsTo('http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-topographypostdiagnosismetastases')).count()=1)"
+// Expression: "(value.empty() and hasMember.count()=0) or (value.coding.code='1' and hasMember.where($this.conformsTo('http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-icdo3morphologypretransformation')).count()=1)"
+
+Severity: #warning
+
+
+
+// true: fsh-generated\resources\Observation-TypeRecurrenceTransformation-Unknown.json -fhirpath "(value.empty() and hasMember.count()=0)"
+// true: fsh-generated\resources\Observation-TypeRecurrenceTransformation-Metastasis.json -fhirpath "value.coding.code=3"
+// false? fsh-generated\resources\Observation-TypeRecurrenceTransformation-Metastasis.json -fhirpath "hasMember.where($this.conformsTo('http://fhir.ch/ig/ch-crl/StructureDefinition/ch-crl-observation-topographypostdiagnosismetastases')).count()=1"
