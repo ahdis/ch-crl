@@ -67,9 +67,10 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    51. Morphology term before change of main diagnosis (Variable number: 8.4) ([Profile](StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
    52. Morphology term after Transformation (Variable number: 8.5) ([Profile](StructureDefinition-ch-crl-observation-icdo3morphologypretransformation.html))
    53. Topography(s) of post-diagnosis metastases (Variable number: 8.6) ([Profile](StructureDefinition-ch-crl-observation-topographypostdiagnosismetastases.html), [ValueSet](ValueSet-nkrs-topographymetastases.html))
-   54. Diabetes mellitus (Variable number: 10.1) ([Profile](StructureDefinition-ch-crl-observation-diabetesmellitus.html))
-   55. Congestive Heart Failure (Variable number: 10.5) ([Profile](StructureDefinition-ch-crl-observation-congestiveheartfailure.html))
-   56. Charlson Index (Variable number: 10.14) ([Profile](StructureDefinition-ch-crl-observation-charlsonindex.html))
+   54. Diabetes mellitus (Variable number: 10.1) ([Profile](StructureDefinition-ch-crl-observation-diabetesmellitus.html), [ValueSet](ValueSet-nkrs-diabetesmellitus.html))
+   55. Liver Disease (Variable number: 10.2) ([Profile](StructureDefinition-ch-crl-observation-liverdisease.html), [ValueSet](ValueSet-nkrs-liverdisease.html))
+   56. Congestive Heart Failure (Variable number: 10.5) ([Profile](StructureDefinition-ch-crl-observation-congestiveheartfailure.html))
+   57. Charlson Index (Variable number: 10.14) ([Profile](StructureDefinition-ch-crl-observation-charlsonindex.html))
 
 
 #### Changed / Updated

@@ -31,3 +31,4 @@ Alias: $nkrs-dssplus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-dssplus
 Alias: $nkrs-figostaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-figostaging
 
 Alias: $nkrs-diabetesmellitus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diabetesmellitus
+Alias: $nkrs-liverdisease = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-liverdisease

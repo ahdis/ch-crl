@@ -36,14 +36,16 @@ It estimates the combined effect of the Charlson Index components on patient sur
 // Hemiplegia / paraplegia
 // Peptic ulcer disease
 // Chronic kidney disease
-    ch-crl-diabetesMellitus 0..1 
-// Liver disease
+    ch-crl-diabetesMellitus 0..1 and 
+    ch-crl-liverDisease 0..1
 // HIV/AIDS
 // Connective tissue disease
 * derivedFrom[ch-crl-congestiveHeartFailure] only Reference(CHCRLObservationCongestiveHeartFailure)
 * derivedFrom[ch-crl-congestiveHeartFailure] ^short = "Congestive heart failure"
 * derivedFrom[ch-crl-diabetesMellitus] only Reference(CHCRLObservationDiabetesMellitus)
-* derivedFrom[ch-crl-diabetesMellitus] ^short = "Diabetes mellitus"    
+* derivedFrom[ch-crl-diabetesMellitus] ^short = "Diabetes mellitus" 
+* derivedFrom[ch-crl-liverDisease] only Reference(CHCRLObservationLiverDisease)
+* derivedFrom[ch-crl-liverDisease] ^short = "Liver disease"   
 
 
 
@@ -79,6 +81,6 @@ Usage: #example
 // Peptic ulcer disease // 0 Pkt.
 // Chronic kidney disease // 0 Pkt.
 * derivedFrom[ch-crl-diabetesMellitus] = Reference(DiabetesMellitus-Uncomplicated) // 1 Pkt.
-// Liver disease // 3 Pkt.
+* derivedFrom[ch-crl-liverDisease] = Reference(LiverDisease-ModerateToSevere) // 3 Pkt.
 // HIV/AIDS // 0 Pkt.
 // Connective tissue disease // 0 Pkt.
