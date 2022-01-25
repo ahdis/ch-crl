@@ -47,10 +47,10 @@ Description: "Definition of the Observation for the type of recurrence/transform
 
 * hasMember[ch-crl-icdo3morphologypretransformation] only Reference(CHCRLObservationICDO3MorphologyPreTransformation)
 * hasMember[ch-crl-icdo3morphologypretransformation] ^short = "ICD-O morphology pre-transformation (if 'code = 2 Transformation')"
-* hasMember[ch-crl-icdo3morphologypretransformation] obeys ch-crl-obs-4
 
 * hasMember[ch-crl-icdo3morphologyposttransformation] only Reference(CHCRLObservationICDO3MorphologyPostTransformation)
 * hasMember[ch-crl-icdo3morphologyposttransformation] ^short = "ICD-O morphology post-transformation (if 'code = 2 Transformation')"
+
 * hasMember[ch-crl-topographypostdiagnosismetastases] only Reference(CHCRLObservationTopographyPostDiagnosisMetastases)
 * hasMember[ch-crl-topographypostdiagnosismetastases] ^short = "Topography of post-diagnosis metastases (if 'code = 3 Metastasis')"
 
@@ -137,9 +137,9 @@ Usage: #example
 
 
 // ------- Wrong examples ----------- //
-Instance: TypeRecurrenceTransformation-Progression-WrongExample
+Instance: TypeRecurrenceTransformation-Progression-WrongExample1
 InstanceOf: CHCRLObservationTypeRecurrenceTransformation
-Title: "Type of Recurrence/Transformation - Progression"
+Title: "Type of Recurrence/Transformation - Wrong Example 1"
 Description: "Example for Observation for the type of recurrence/transformation"
 Usage: #example
 * status = #final
@@ -147,6 +147,19 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-typerecurrencetransformation#1 "Progression"
+// ICD-O morphology pre-transformation (if 'code = 2 Transformation') => ch-crl-obs-4
 * hasMember[ch-crl-icdo3morphologypretransformation] = Reference(ICDO3MorphologyPreTransformation-9950-3)
-// * hasMember[ch-crl-icdo3morphologyposttransformation] -> no value if progression
-// * hasMember[ch-crl-topographypostdiagnosismetastases] -> no value if progression
+
+
+Instance: TypeRecurrenceTransformation-Progression-WrongExample2
+InstanceOf: CHCRLObservationTypeRecurrenceTransformation
+Title: "Type of Recurrence/Transformation - Wrong Example 2"
+Description: "Example for Observation for the type of recurrence/transformation"
+Usage: #example
+* status = #final
+* code = $loinc#97509-4 "Cancer disease progression"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+* valueCodeableConcept = $nkrs-typerecurrencetransformation#2 "Transformation"
+// Topography of post-diagnosis metastases (if 'code = 3 Metastasis') => TBD
+* hasMember[ch-crl-topographypostdiagnosismetastases] = Reference(TopographyPostDiagnosisMetastases-HEP)
