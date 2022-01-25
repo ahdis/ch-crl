@@ -1037,24 +1037,141 @@
                 <code value="code"/>
             </type>
         </element>
-        <!-- 
-        INRGSS-Klassifikation
-        IRSS-Klassifikation
-        ISS-Klassifikation
-        Lugano-Klassifikation
-        PRETEXT-Klassifikation
-        Rai-Klassifikation
-        Prognostische Gruppeneinteilung für Rhabdomyosarkome
-        SIOP-Klassifikation
-        St. Jude- / Murphy-Klassifikation
-        Toronto Tier II-Klassifikation (manuell)
-        Creasman-Gradingsystem
-        Elston/Ellis-Gradingsystem
-        Salzer-Kuntschik-Gradingsystem
-        Shimada-Gradingsystem
-        WHO (ZNS-)Gradingsystem
-        -->
-
+        <element id="CancerReport.Fall.DatenZurDiagnose.INRGSS-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.INRGSS-Klassifikation"/>
+            <definition value="INRGSS-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.IRSS-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.IRSS-Klassifikation"/>
+            <definition value="IRSS-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.ISS-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.ISS-Klassifikation"/>
+            <definition value="ISS-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Lugano-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Lugano-Klassifikation"/>
+            <definition value="Lugano-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.PRETEXT-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.PRETEXT-Klassifikation"/>
+            <definition value="PRETEXT-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Rai-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Rai-Klassifikation"/>
+            <definition value="Rai-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.PrognostischeGruppeneinteilungFuerRhabdomyosarkome">
+            <path value="CancerReport.Fall.DatenZurDiagnose.PrognostischeGruppeneinteilungFuerRhabdomyosarkome"/>
+            <definition value="Prognostische Gruppeneinteilung für Rhabdomyosarkome"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.SIOP-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.SIOP-Klassifikation"/>
+            <definition value="SIOP-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.StJude-Murphy-Klassifikation">
+            <path value="CancerReport.Fall.DatenZurDiagnose.StJude-Murphy-Klassifikation"/>
+            <definition value="St. Jude- / Murphy-Klassifikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.TorontoTierII-Klassifikation-manuell">
+            <path value="CancerReport.Fall.DatenZurDiagnose.TorontoTierII-Klassifikation-manuell"/>
+            <definition value="Toronto Tier II-Klassifikation (manuell)"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Creasman-Gradingsystem">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Creasman-Gradingsystem"/>
+            <definition value="Creasman-Gradingsystem"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Elston-Ellis-Gradingsystem">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Elston-Ellis-Gradingsystem"/>
+            <definition value="Elston/Ellis-Gradingsystem"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Salzer-Kuntschik-Gradingsystem">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Salzer-Kuntschik-Gradingsystem"/>
+            <definition value="Salzer-Kuntschik-Gradingsystem"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Shimada-Gradingsystem">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Shimada-Gradingsystem"/>
+            <definition value="Shimada-Gradingsystem"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.WHO-ZNS-Gradingsystem">
+            <path value="CancerReport.Fall.DatenZurDiagnose.WHO-ZNS-Gradingsystem"/>
+            <definition value="WHO (ZNS-)Gradingsystem"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
 
         <element id="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs">
             <path value="CancerReport.Fall.DatenZurDiagnose.Kopf-Halskrebs"/>
@@ -1414,9 +1531,9 @@
                 <code value="boolean"/>
             </type>
         </element>
-        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Kollagenose–RheumatischeErkrankung">
-            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Kollagenose–RheumatischeErkrankung"/>
-            <definition value="Kollagenose – rheumatische Erkrankung"/>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Kollagenose-RheumatischeErkrankung">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Kollagenose-RheumatischeErkrankung"/>
+            <definition value="Kollagenose - rheumatische Erkrankung"/>
             <min value="0"/>
             <max value="1"/>
             <type>
