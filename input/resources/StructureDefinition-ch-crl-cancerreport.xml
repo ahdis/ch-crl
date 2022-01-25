@@ -11,8 +11,6 @@
     <description value="Logical model of the cancer Report"/>
     <fhirVersion value="4.0.1"/>
     <kind value="logical"/>
-    <!-- TBD: check if error still exists and if something should be changed
-    https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/New.20logical.20model.20error -->
     <abstract value="false"/>
     <type value="CancerReport"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1317,16 +1315,78 @@
                 <code value="boolean"/>
             </type>
         </element>
-        <!--
-            Myocardial infarction
-            Chronic pulmonary disease
-            Peripheral vascular disease
-            Cerebrovascular accident or TIA
-            Dementia
-            Hemiplegia / paraplegia
-            Peptic ulcer disease
-            Chronic kidney disease 
-        -->
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Myokardinfarkt">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Myokardinfarkt"/>
+            <definition value="Myokardinfarkt"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.ChronischeLungenerkrankung">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.ChronischeLungenerkrankung"/>
+            <definition value="Chronische Lungenerkrankung"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.PeriphereGefaesserkrankung">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.PeriphereGefaesserkrankung"/>
+            <definition value="Periphere Gefässerkrankung"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.SchlaganfallOderTransitorischeIschaemischeAttacke">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.SchlaganfallOderTransitorischeIschaemischeAttacke"/>
+            <definition value="Schlaganfall oder transitorische ischämische Attacke"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Demenz">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Demenz"/>
+            <definition value="Demenz"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.HemiplegieParaplegie">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.HemiplegieParaplegie"/>
+            <definition value="Hemiplegie / Paraplegie"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Ulkuskrankheit">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Ulkuskrankheit"/>
+            <definition value="Ulkuskrankheit"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.ModerateBisSchwereChronischeNierenerkrankung">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.ModerateBisSchwereChronischeNierenerkrankung"/>
+            <definition value="Moderate bis schwere chronische Nierenerkrankung"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
         <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.DiabetesMellitus">
             <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.DiabetesMellitus"/>
             <definition value="Diabetes mellitus"/>
@@ -1345,10 +1405,24 @@
                 <code value="code"/>
             </type>
         </element>
-        <!--  
-            HIV/AIDS
-            Connective tissue disease
-        -->
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.HIV-AIDS">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.HIV-AIDS"/>
+            <definition value="HIV/AIDS"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Kollagenose–RheumatischeErkrankung">
+            <path value="CancerReport.Fall.DatenZurDiagnose.Charlson-Index.Kollagenose–RheumatischeErkrankung"/>
+            <definition value="Kollagenose – rheumatische Erkrankung"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
 
         <!-- Daten zur Erstbehandlung -->
         <element id="CancerReport.Fall.DatenZurErstbehandlung">
