@@ -17,7 +17,7 @@ Description: "Definition of the Observation for the congestive heart failure"
 
 * valueBoolean 1..
 * valueBoolean ^short = "If a congestive heart failure is not present then 'value=false'. 
-If a congestive heart failure is present 'value=true'."
+If a congestive heart failure is present then 'value=true'."
 
 
 Mapping: NICER-B1-for-CHCRLObservationCongestiveHeartFailure
