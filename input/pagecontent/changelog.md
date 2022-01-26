@@ -69,8 +69,18 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    53. Topography(s) of post-diagnosis metastases (Variable number: 8.6) ([Profile](StructureDefinition-ch-crl-observation-topographypostdiagnosismetastases.html), [ValueSet](ValueSet-nkrs-topographymetastases.html))
    54. Diabetes mellitus (Variable number: 10.1) ([Profile](StructureDefinition-ch-crl-observation-diabetesmellitus.html), [ValueSet](ValueSet-nkrs-diabetesmellitus.html))
    55. Liver Disease (Variable number: 10.2) ([Profile](StructureDefinition-ch-crl-observation-liverdisease.html), [ValueSet](ValueSet-nkrs-liverdisease.html))
-   56. Congestive Heart Failure (Variable number: 10.5) ([Profile](StructureDefinition-ch-crl-observation-congestiveheartfailure.html))
-   57. Charlson Index (Variable number: 10.14) ([Profile](StructureDefinition-ch-crl-observation-charlsonindex.html))
+   56. HIV/AIDS (Variable number: 10.3) ([Profile](StructureDefinition-ch-crl-observation-hivaids.html))
+   57. Moderate to Severe Chronic Kidney Disease (Variable number: 10.4) ([Profile](StructureDefinition-ch-crl-observation-moderatetoseverechronickidneydisease.html))
+   58. Congestive Heart Failure (Variable number: 10.5) ([Profile](StructureDefinition-ch-crl-observation-congestiveheartfailure.html))
+   59. Myocardial infarction (Variable number: 10.6) ([Profile](StructureDefinition-ch-crl-observation-myocardialinfarction.html))
+   60. Chronic Pulmonary Disease (Variable number: 10.7) ([Profile](StructureDefinition-ch-crl-observation-chronicpulmonarydisease.html))
+   61. Peripheral Vascular Disease (Variable number: 10.8) ([Profile](StructureDefinition-ch-crl-observation-peripheralvasculardisease.html))
+   62. Cerebrovascular Accident or Transient Ischemic Attack (Variable number: 10.9) ([Profile](StructureDefinition-ch-crl-observation-cvaortia.html)) 
+   63. Dementia (Variable number: 10.10) ([Profile](StructureDefinition-ch-crl-observation-dementia.html))
+   64. Hemiplegia / Paraplegia (Variable number: 10.11) ([Profile](StructureDefinition-ch-crl-observation-hemiplegiaparaplegia.html))
+   65. Connective Tissue Disease - Rheumatic disease (Variable number: 10.12) ([Profile](StructureDefinition-ch-crl-observation-connectivetissuediseaserheumaticdisease.html))
+   66. Peptic Ulcer Disease (Variable number: 10.13) ([Profile](StructureDefinition-ch-crl-observation-pepticulcerdisease.html))
+   67. Charlson Index (Variable number: 10.14) ([Profile](StructureDefinition-ch-crl-observation-charlsonindex.html))
 
 
 #### Changed / Updated

@@ -28,24 +28,45 @@ It estimates the combined effect of the Charlson Index components on patient sur
 * derivedFrom contains
     // Solid tumour/Leukaemia/Lymphoma -> keine Datenelemente aus Nicer; Infos beim Krebsregister implizit schon vorhanden
     ch-crl-congestiveHeartFailure 0..1 and
-// Myocardial infarction
-// Chronic pulmonary disease
-// Peripheral vascular disease
-// Cerebrovascular accident or TIA
-// Dementia
-// Hemiplegia / paraplegia
-// Peptic ulcer disease
-// Chronic kidney disease
+    ch-crl-myocardialInfarction 0..1 and
+    ch-crl-chronicPulmonaryDisease 0..1 and
+    ch-crl-peripheralVascularDisease 0..1 and
+    ch-crl-cerebrovascularAccidentOrTIA 0..1 and
+    ch-crl-dementia 0..1 and
+    ch-crl-hemiplegiaParaplegia 0..1 and
+    ch-crl-pepticUlcerDisease 0..1 and
+    ch-crl-chronicKidneyDisease 0..1 and
     ch-crl-diabetesMellitus 0..1 and 
-    ch-crl-liverDisease 0..1
-// HIV/AIDS
-// Connective tissue disease
+    ch-crl-liverDisease 0..1 and
+    ch-crl-HIVAIDS 0..1 and
+    ch-crl-connectiveTissueDisease 0..1
+
 * derivedFrom[ch-crl-congestiveHeartFailure] only Reference(CHCRLObservationCongestiveHeartFailure)
 * derivedFrom[ch-crl-congestiveHeartFailure] ^short = "Congestive heart failure"
+* derivedFrom[ch-crl-myocardialInfarction] only Reference(CHCRLObservationMyocardialInfarction)
+* derivedFrom[ch-crl-myocardialInfarction] ^short = "Myocardial infarction"
+* derivedFrom[ch-crl-chronicPulmonaryDisease] only Reference(CHCRLObservationChronicPulmonaryDisease)
+* derivedFrom[ch-crl-chronicPulmonaryDisease] ^short = "Chronic pulmonary disease"
+* derivedFrom[ch-crl-peripheralVascularDisease] only Reference(CHCRLObservationPeripheralVascularDisease)
+* derivedFrom[ch-crl-peripheralVascularDisease] ^short = "Peripheral vascular disease"
+* derivedFrom[ch-crl-cerebrovascularAccidentOrTIA] only Reference(CHCRLObservationCVAOrTIA)
+* derivedFrom[ch-crl-cerebrovascularAccidentOrTIA] ^short = "Cerebrovascular accident or TIA"
+* derivedFrom[ch-crl-dementia] only Reference(CHCRLObservationDementia)
+* derivedFrom[ch-crl-dementia] ^short = "Dementia"
+* derivedFrom[ch-crl-hemiplegiaParaplegia] only Reference(CHCRLObservationHemiplegiaParaplegia)
+* derivedFrom[ch-crl-hemiplegiaParaplegia] ^short = "Hemiplegia / paraplegia"
+* derivedFrom[ch-crl-pepticUlcerDisease] only Reference(CHCRLObservationPepticUlcerDisease)
+* derivedFrom[ch-crl-pepticUlcerDisease] ^short = "Peptic ulcer disease"
+* derivedFrom[ch-crl-chronicKidneyDisease] only Reference(CHCRLObservationModerateToSevereChronicKidneyDisease)
+* derivedFrom[ch-crl-chronicKidneyDisease] ^short = "Chronic kidney disease" 
 * derivedFrom[ch-crl-diabetesMellitus] only Reference(CHCRLObservationDiabetesMellitus)
 * derivedFrom[ch-crl-diabetesMellitus] ^short = "Diabetes mellitus" 
 * derivedFrom[ch-crl-liverDisease] only Reference(CHCRLObservationLiverDisease)
 * derivedFrom[ch-crl-liverDisease] ^short = "Liver disease"   
+* derivedFrom[ch-crl-HIVAIDS] only Reference(CHCRLObservationHIVAIDS)
+* derivedFrom[ch-crl-HIVAIDS] ^short = "HIV/AIDS" 
+* derivedFrom[ch-crl-connectiveTissueDisease] only Reference(CHCRLObservationConnectiveTissueDiseaseRheumaticDisease)
+* derivedFrom[ch-crl-connectiveTissueDisease] ^short = "Connective tissue disease"   
 
 
 
@@ -72,15 +93,15 @@ Usage: #example
 // Leukaemia // 0 Pkt.
 // Lymphoma // 0 Pkt.
 * derivedFrom[ch-crl-congestiveHeartFailure] = Reference(CongestiveHeartFailure-No) // 0 Pkt.
-// Myocardial infarction // 1 Pkt.
-// Chronic pulmonary disease // 1 Pkt.
-// Peripheral vascular disease // 0 Pkt.
-// Cerebrovascular accident or TIA // 0 Pkt.
-// Dementia // 0 Pkt.
-// Hemiplegia / paraplegia // 0 Pkt.
-// Peptic ulcer disease // 0 Pkt.
-// Chronic kidney disease // 0 Pkt.
+* derivedFrom[ch-crl-myocardialInfarction] = Reference(MyocardialInfarction-Yes) // 1 Pkt.
+* derivedFrom[ch-crl-chronicPulmonaryDisease] = Reference(ChronicPulmonaryDisease-Yes) // 1 Pkt.
+* derivedFrom[ch-crl-peripheralVascularDisease] = Reference(PeripheralVascularDisease-No) // 0 Pkt.
+* derivedFrom[ch-crl-cerebrovascularAccidentOrTIA] = Reference(CVAOrTIA-No) // 0 Pkt.
+* derivedFrom[ch-crl-dementia] = Reference(Dementia-No) // 0 Pkt.
+* derivedFrom[ch-crl-hemiplegiaParaplegia] = Reference(HemiplegiaParaplegia-No) // 0 Pkt.
+* derivedFrom[ch-crl-pepticUlcerDisease] = Reference(PepticUlcerDisease-No) // 0 Pkt.
+* derivedFrom[ch-crl-chronicKidneyDisease] = Reference(ModerateToSevereChronicKidneyDisease-No) // 0 Pkt.
 * derivedFrom[ch-crl-diabetesMellitus] = Reference(DiabetesMellitus-Uncomplicated) // 1 Pkt.
 * derivedFrom[ch-crl-liverDisease] = Reference(LiverDisease-ModerateToSevere) // 3 Pkt.
-// HIV/AIDS // 0 Pkt.
-// Connective tissue disease // 0 Pkt.
+* derivedFrom[ch-crl-HIVAIDS] = Reference(HIVAIDS-No) // 0 Pkt.
+* derivedFrom[ch-crl-connectiveTissueDisease] = Reference(ConnectiveTissueDiseaseRheumaticDisease-No) // 0 Pkt.
