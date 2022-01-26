@@ -2,7 +2,7 @@ Profile: CHCRLObservationGleasonScore
 Parent: Observation
 Id: ch-crl-observation-gleasonscore
 Title: "CH CRL Observation Gleason Score"
-Description: "Definition of the Observation for the gleason score"
+Description: "Definition of the Observation for the Gleason score"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Gleason Score"
 * code 1..
@@ -20,7 +20,7 @@ Description: "Definition of the Observation for the gleason score"
 plus the second most common pattern (secondary pattern), if two are present, or the pattern with the highest Gleason grade, 
 if a tumour has more than 2 histological patterns."
 
-* dataAbsentReason ^short = "The gleason score is unknown"
+* dataAbsentReason ^short = "The Gleason score is unknown"
 * dataAbsentReason.coding 1..
 * dataAbsentReason.coding.system 1..
 * dataAbsentReason.coding.system = "http://terminology.hl7.org/CodeSystem/data-absent-reason" (exactly)
@@ -62,7 +62,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: GleasonScore-6
 InstanceOf: CHCRLObservationGleasonScore
 Title: "Gleason Score - 6"
-Description: "Example for Observation for the gleason score"
+Description: "Example for Observation for the Gleason score"
 Usage: #example
 * status = #final
 * code = $loinc#35266-6 "Gleason score in Specimen Qualitative"
@@ -78,7 +78,7 @@ Usage: #example
 Instance: GleasonScore-Unknown
 InstanceOf: CHCRLObservationGleasonScore
 Title: "Gleason Score - Unknown"
-Description: "Example for Observation for the gleason score"
+Description: "Example for Observation for the Gleason score"
 Usage: #example
 * status = #final
 * code = $loinc#35266-6 "Gleason score in Specimen Qualitative"

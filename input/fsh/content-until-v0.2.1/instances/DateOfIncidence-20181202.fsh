@@ -1,6 +1,6 @@
 Instance: DateOfIncidence-20181202
 InstanceOf: CHCRLObservationDateOfIncidence
-Title: "Date of incidence - 2018-12-02"
+Title: "Date of Incidence - 2018-12-02"
 Description: "Example for Observation for the date of incidence"
 Usage: #example
 * status = #final

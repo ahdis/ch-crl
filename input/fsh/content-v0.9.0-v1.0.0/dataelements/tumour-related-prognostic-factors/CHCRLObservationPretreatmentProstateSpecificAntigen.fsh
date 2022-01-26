@@ -46,7 +46,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 
 Instance: PretreatmentProstateSpecificAntigen-80ngml
 InstanceOf: CHCRLObservationPretreatmentProstateSpecificAntigen
-Title: "Pretreatment Prostate Specific Antigen - 80ng/ml"
+Title: "Pretreatment Prostate Specific Antigen - 80 ng/ml"
 Description: "Example for Observation for the pretreatment prostate specific antigen (PSA)"
 Usage: #example
 * status = #final

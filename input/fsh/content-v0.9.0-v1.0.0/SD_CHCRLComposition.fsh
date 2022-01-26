@@ -46,7 +46,7 @@ Description: "Definition of the Composition for reporting to the cancer registry
 // PDF
 * section[unstructuredReport].entry contains documentReference 0..*
 * section[unstructuredReport].entry[documentReference] only Reference(CHCRLDocumentReference)
-* section[unstructuredReport].entry[documentReference] ^short = "Report as pdf"
+* section[unstructuredReport].entry[documentReference] ^short = "Report as PDF"
 * section[unstructuredReport].entry[documentReference].reference 1..
 
 // ------- Registration requirements -------

@@ -1,6 +1,6 @@
 Instance: DiagnosticMethod-Surgical20181215
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "Diagnostic method - Surgical tissue from operation (2018-12-15)"
+Title: "Diagnostic Method - Surgical Tissue from Operation (2018-12-15)"
 Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed

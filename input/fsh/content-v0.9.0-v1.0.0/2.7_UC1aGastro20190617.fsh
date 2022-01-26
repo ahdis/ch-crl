@@ -37,8 +37,8 @@ Usage: #example
 
 Instance: DocuUC1aGastro20190617
 InstanceOf: CHCRLDocumentReference
-Title: "Report as pdf UC 1a Gastro (2019-06-17)"
-Description: "Example for DocumentReference for the report as pdf"
+Title: "Report as PDF UC 1a Gastro (2019-06-17)"
+Description: "Example for DocumentReference for the report as PDF"
 Usage: #example
 * status = #current
 * subject = Reference(RobertMeier)

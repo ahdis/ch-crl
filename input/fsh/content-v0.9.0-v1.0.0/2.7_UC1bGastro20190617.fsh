@@ -48,7 +48,7 @@ Usage: #example
 
 Instance: DiagnosticMethod-Biopsy20190617
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "Diagnostic method - Biopsy of primary tumour (2019-06-17)"
+Title: "Diagnostic Method - Biopsy of Primary Tumour (2019-06-17)"
 Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed
@@ -61,7 +61,7 @@ Usage: #example
 
 Instance: DiagnosticMethod-Endoscopy20190617
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "Diagnostic method - Endoscopy (2019-06-17)"
+Title: "Diagnostic Method - Endoscopy (2019-06-17)"
 Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed

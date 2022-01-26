@@ -2,7 +2,7 @@ Profile: CHCRLObservationGleasonExcisionMostCommonGrade
 Parent: Observation
 Id: ch-crl-observation-gleasonexcisionmostcommongrade
 Title: "CH CRL Observation Gleason Excision Most Common Grade"
-Description: "Definition of the Observation for the gleason excision most common grade"
+Description: "Definition of the Observation for the Gleason excision most common grade"
 * . ^short = "CH CRL Observation Gleason Excision Most Common Grade"
 * code 1..
 * code = $loinc#44641-9 "Gleason pattern.primary in Prostate tumor"
@@ -34,7 +34,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: GleasonExcisionMostCommonGrade-3
 InstanceOf: CHCRLObservationGleasonExcisionMostCommonGrade
 Title: "Gleason Excision Most Common Grade - 3"
-Description: "Example for Observation for the gleason excision most common grade"
+Description: "Example for Observation for the Gleason excision most common grade"
 Usage: #example
 * status = #final
 * code = $loinc#44641-9 "Gleason pattern.primary in Prostate tumor"

@@ -35,7 +35,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/b1-datadictionary-supplementar
 Instance: LiverDisease-No
 InstanceOf: CHCRLObservationLiverDisease
 Title: "Liver Disease - No"
-Description: "Example for Observation for the Liver Disease"
+Description: "Example for Observation for the liver disease"
 Usage: #example
 * status = #final
 * code = $sct#235856003 "Disorder of liver (disorder)"
@@ -46,7 +46,7 @@ Usage: #example
 Instance: LiverDisease-Mild
 InstanceOf: CHCRLObservationLiverDisease
 Title: "Liver Disease - Mild"
-Description: "Example for Observation for the Liver Disease"
+Description: "Example for Observation for the liver disease"
 Usage: #example
 * status = #final
 * code = $sct#235856003 "Disorder of liver (disorder)"
@@ -56,8 +56,8 @@ Usage: #example
 
 Instance: LiverDisease-ModerateToSevere
 InstanceOf: CHCRLObservationLiverDisease
-Title: "Liver Disease - Moderate to severe"
-Description: "Example for Observation for the Liver Disease"
+Title: "Liver Disease - Moderate to Severe"
+Description: "Example for Observation for the liver disease"
 Usage: #example
 * status = #final
 * code = $sct#235856003 "Disorder of liver (disorder)"

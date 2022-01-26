@@ -1,6 +1,6 @@
 Instance: DiagnosticMethod-Biopsy20181202
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "Diagnostic method - Biopsy of primary tumour (2018-12-02)"
+Title: "Diagnostic Method - Biopsy of Primary Tumour (2018-12-02)"
 Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed

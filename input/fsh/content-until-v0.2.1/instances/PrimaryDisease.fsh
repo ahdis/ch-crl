@@ -1,7 +1,7 @@
 Instance: PrimaryDisease
 InstanceOf: CHCRLConditionDisease
 Title: "Primary disease"
-Description: "Example for Condition for diseases"
+Description: "Example for Condition for the diseases"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2018-12-15T13:00:00+02:00"

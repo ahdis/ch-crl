@@ -1,6 +1,6 @@
 Instance: VenousInvasion-20181215
 InstanceOf: CHCRLObservationVenousInvasion
-Title: "Venous invasion - V0 (2018-12-15)"
+Title: "Venous Invasion - V0 (2018-12-15)"
 Description: "Example for Observation for the venous invasion"
 Usage: #example
 * status = #final

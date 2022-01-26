@@ -1,6 +1,6 @@
 Instance: DiagnosticMethod-Unknown
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "Diagnostic method - Unknown"
+Title: "Diagnostic Method - Unknown"
 Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * extension[ext-data-absent-reason].valueCode = #unknown

@@ -1,9 +1,9 @@
 Profile: CHCRLObservationConnectiveTissueDiseaseRheumaticDisease
 Parent: Observation
 Id: ch-crl-observation-connectivetissuediseaserheumaticdisease
-Title: "CH CRL Observation Connective Tissue Disease - Rheumatic disease"
+Title: "CH CRL Observation Connective Tissue Disease - Rheumatic Disease"
 Description: "Definition of the Observation for the connective tissue disease - rheumatic disease"
-* . ^short = "CH CRL Observation Connective Tissue Disease - Rheumatic disease"
+* . ^short = "CH CRL Observation Connective Tissue Disease - Rheumatic Disease"
 * code 1..
 * code = $nkrs-variables#10.12 "Connective Tissue Disease - Rheumatic disease"
 * subject 1..
@@ -30,7 +30,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/b1-datadictionary-supplementar
 
 Instance: ConnectiveTissueDiseaseRheumaticDisease-No
 InstanceOf: CHCRLObservationConnectiveTissueDiseaseRheumaticDisease
-Title: "Connective Tissue Disease - Rheumatic disease - No"
+Title: "Connective Tissue Disease - Rheumatic Disease - No"
 Description: "Example for Observation for the connective tissue disease - rheumatic disease"
 Usage: #example
 * status = #final
@@ -41,7 +41,7 @@ Usage: #example
 
 Instance: ConnectiveTissueDiseaseRheumaticDisease-Yes
 InstanceOf: CHCRLObservationConnectiveTissueDiseaseRheumaticDisease
-Title: "Connective Tissue Disease - Rheumatic disease - Yes"
+Title: "Connective Tissue Disease - Rheumatic Disease - Yes"
 Description: "Example for Observation for the connective tissue disease - rheumatic disease"
 Usage: #example
 * status = #final

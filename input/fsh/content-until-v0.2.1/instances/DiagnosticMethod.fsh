@@ -1,6 +1,6 @@
 Instance: DiagnosticMethod
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "Diagnostic method - CT scan of tumour"
+Title: "Diagnostic Method - CT Scan of Tumour"
 Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed

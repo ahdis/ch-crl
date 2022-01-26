@@ -46,7 +46,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 
 Instance: TreatmentDecision-Tumourboard20181215
 InstanceOf: CHCRLEncounterTreatmentDecision
-Title: "Treatment Decision - Tumour board 2018-12-15"
+Title: "Treatment Decision - Tumour Board 2018-12-15"
 Description: "Example for Encounter for the treatment decision"
 Usage: #example
 * status = #finished

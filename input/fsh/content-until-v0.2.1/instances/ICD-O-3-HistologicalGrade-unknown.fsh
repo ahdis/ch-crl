@@ -1,6 +1,6 @@
 Instance: ICD-O-3-HistologicalGrade-unknown
 InstanceOf: CHCRLObservationICDO3HistologicalGrade
-Title: "ICD-O-3 Histological grade - Unknown"
+Title: "ICD-O-3 Histological Grade - Unknown"
 Description: "Example for Observation for the ICD-O-3 histological grade code"
 Usage: #example
 * status = #final

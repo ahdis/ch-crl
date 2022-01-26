@@ -1,6 +1,6 @@
 Instance: CommMinimum
 InstanceOf: CHCRLCommunication
-Title: "CommMinimum"
+Title: "Communication Franz Minimum"
 Description: "Example for Communication"
 Usage: #example
 * status = #completed

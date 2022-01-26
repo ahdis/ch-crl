@@ -16,8 +16,8 @@ Description: "Definition of the Observation for HIV/AIDS"
 * performer.reference 1..
 
 * valueBoolean 1..
-* valueBoolean ^short = "If HIV/AIDS is not present then 'value=false'. 
-If HIV/AIDS is present then 'value=true'."
+* valueBoolean ^short = "If the HIV/AIDS is not present then 'value=false'. 
+If the HIV/AIDS is present then 'value=true'."
 
 
 Mapping: NICER-B1-for-CHCRLObservationHIVAIDS
@@ -31,7 +31,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/b1-datadictionary-supplementar
 Instance: HIVAIDS-No
 InstanceOf: CHCRLObservationHIVAIDS
 Title: "HIV/AIDS - No"
-Description: "Example for Observation for HIV/AIDS"
+Description: "Example for Observation for the HIV/AIDS"
 Usage: #example
 * status = #final
 * code = $nkrs-variables#10.3 "HIV/AIDS"
@@ -42,7 +42,7 @@ Usage: #example
 Instance: HIVAIDS-Yes
 InstanceOf: CHCRLObservationHIVAIDS
 Title: "HIV/AIDS - Yes"
-Description: "Example for Observation for HIV/AIDS"
+Description: "Example for Observation for the HIV/AIDS"
 Usage: #example
 * status = #final
 * code = $nkrs-variables#10.3 "HIV/AIDS"

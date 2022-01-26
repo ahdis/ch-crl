@@ -73,7 +73,7 @@ Usage: #example
 
 Instance: ProgesteroneReceptorStatus-NotPerformed
 InstanceOf: CHCRLObservationProgesteroneReceptorStatus
-Title: "Progesterone Receptor Status - Not performed"
+Title: "Progesterone Receptor Status - Not Performed"
 Description: "Example for Observation for the progesterone receptor status"
 Usage: #example
 * status = #final

@@ -1,6 +1,6 @@
 Instance: TNM-StageGroup-20181215
 InstanceOf: CHCRLObservationTNMStageGroup
-Title: "TNM stage group - Stage IIA (2018-12-15)"
+Title: "TNM Stage Group - Stage IIA (2018-12-15)"
 Description: "Example for Observation for the TNM stage group"
 Usage: #example
 * status = #final

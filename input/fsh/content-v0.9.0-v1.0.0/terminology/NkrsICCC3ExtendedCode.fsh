@@ -1,6 +1,6 @@
 CodeSystem: NkrsICCC3ExtendedCode
 Id: nkrs-iccc3extendedcode
-Title: "NKRS - ICCC-3 extended code"
+Title: "NKRS - ICCC-3 Extended Code"
 Description: "This data item records detailed division of the diagnostic group according to the third revision 
 of the 1996 International Classification of Childhood Cancer (ICCC-3). 
 **ICCC-3 code (Variable number: 3.9.3)** 
@@ -104,7 +104,7 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 
 ValueSet: NkrsICCC3ExtendedCode
 Id: nkrs-iccc3extendedcode
-Title: "NKRS - ICCC-3 extendedcode"
+Title: "NKRS - ICCC-3 Extended Code"
 Description: "This data item records detailed division of the diagnostic group according to the third revision 
 of the 1996 International Classification of Childhood Cancer (ICCC-3)."
 * include codes from system NkrsICCC3ExtendedCode

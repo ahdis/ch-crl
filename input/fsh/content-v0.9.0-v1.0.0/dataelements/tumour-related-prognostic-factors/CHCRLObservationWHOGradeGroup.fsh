@@ -43,7 +43,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 
 Instance: WHOGradeGroup-GradeGroup2
 InstanceOf: CHCRLObservationWHOGradeGroup
-Title: "WHO Grade Group - Grade group 2"
+Title: "WHO Grade Group - Grade Group 2"
 Description: "Example for Observation for the WHO grade group"
 Usage: #example
 * status = #final

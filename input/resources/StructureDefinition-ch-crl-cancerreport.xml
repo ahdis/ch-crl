@@ -10,7 +10,7 @@
     <name value="CHCRLCancerReport"/>
     <title value="CH CRL Cancer Report Logical Model"/>
     <publisher value="Bundesamt für Gesundheit BAG"/>
-    <description value="Logical model of the cancer Report"/>
+    <description value="Logical model of the cancer report"/>
     <fhirVersion value="4.0.1"/>
     <kind value="logical"/>
     <abstract value="false"/>

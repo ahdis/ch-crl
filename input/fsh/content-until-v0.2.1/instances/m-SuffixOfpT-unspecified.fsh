@@ -1,6 +1,6 @@
 Instance: m-SuffixOfpT-unspecified
 InstanceOf: CHCRLObservationmSuffixOfpT
-Title: "m-Suffix of pT - Unspecified multiplicity"
+Title: "m-Suffix of pT - Unspecified Multiplicity"
 Description: "Example for Observation for the m-Suffix of pT"
 Usage: #example
 * status = #final

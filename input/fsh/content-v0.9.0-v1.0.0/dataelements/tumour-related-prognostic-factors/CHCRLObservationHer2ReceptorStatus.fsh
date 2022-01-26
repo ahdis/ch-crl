@@ -55,7 +55,7 @@ Usage: #example
 
 Instance: Her2ReceptorStatus-NotPerformed
 InstanceOf: CHCRLObservationHer2ReceptorStatus
-Title: "Her2 Receptor Status - Not performed"
+Title: "Her2 Receptor Status - Not Performed"
 Description: "Example for Observation for the Her2 receptor status"
 Usage: #example
 * status = #final

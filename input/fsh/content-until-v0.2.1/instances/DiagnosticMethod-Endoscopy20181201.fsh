@@ -1,6 +1,6 @@
 Instance: DiagnosticMethod-Endoscopy20181201
 InstanceOf: CHCRLProcedureDiagnosticMethod
-Title: "Diagnostic method - Endoscopy (2018-12-01)"
+Title: "Diagnostic Method - Endoscopy (2018-12-01)"
 Description: "Example for Procedure for the diagnostic method(s)"
 Usage: #example
 * status = #completed

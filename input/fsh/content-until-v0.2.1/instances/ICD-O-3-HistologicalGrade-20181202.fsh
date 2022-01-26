@@ -1,6 +1,6 @@
 Instance: ICD-O-3-HistologicalGrade-20181202
 InstanceOf: CHCRLObservationICDO3HistologicalGrade
-Title: "ICD-O-3 Histological grade - Grade III (2018-12-02)"
+Title: "ICD-O-3 Histological Grade - Grade III (2018-12-02)"
 Description: "Example for Observation for the ICD-O-3 histological grade code"
 Usage: #example
 * status = #final

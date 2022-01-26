@@ -1,6 +1,6 @@
 Instance: CommMeier
 InstanceOf: CHCRLCommunication
-Title: "CommMeier"
+Title: "Communication Robert Meier"
 Description: "Example for Communication"
 Usage: #example
 * status = #completed

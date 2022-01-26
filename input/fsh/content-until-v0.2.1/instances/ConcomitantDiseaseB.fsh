@@ -1,7 +1,7 @@
 Instance: ConcomitantDiseaseB
 InstanceOf: CHCRLConditionDisease
-Title: "Concomitant disease B"
-Description: "Example for Condition for diseases"
+Title: "Concomitant Disease B"
+Description: "Example for Condition for the diseases"
 Usage: #example
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2018-12-15T13:00:00+02:00"

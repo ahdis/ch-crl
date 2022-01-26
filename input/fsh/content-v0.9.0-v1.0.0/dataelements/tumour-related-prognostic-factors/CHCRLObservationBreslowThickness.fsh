@@ -2,7 +2,7 @@ Profile: CHCRLObservationBreslowThickness
 Parent: Observation
 Id: ch-crl-observation-breslowthickness
 Title: "CH CRL Observation Breslow Thickness"
-Description: "Definition of the Observation for the breslow thickness"
+Description: "Definition of the Observation for the Breslow thickness"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Breslow Thickness"
 * code 1..
@@ -46,7 +46,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariable
 Instance: BreslowThickness-2.0mm
 InstanceOf: CHCRLObservationBreslowThickness
 Title: "Breslow Thickness - 2.0 mm"
-Description: "Example for Observation for the breslow thickness"
+Description: "Example for Observation for the Breslow thickness"
 Usage: #example
 * status = #final
 * code = $loinc#92839-0 "Breslow thickness [Length] in Skin melanoma"
@@ -57,7 +57,7 @@ Usage: #example
 Instance: BreslowThickness-Unknown
 InstanceOf: CHCRLObservationBreslowThickness
 Title: "Breslow Thickness - Unknown"
-Description: "Example for Observation for the breslow thickness"
+Description: "Example for Observation for the Breslow thickness"
 Usage: #example
 * status = #final
 * code = $loinc#92839-0 "Breslow thickness [Length] in Skin melanoma"

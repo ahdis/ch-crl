@@ -31,7 +31,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/b1-datadictionary-supplementar
 Instance: CongestiveHeartFailure-No
 InstanceOf: CHCRLObservationCongestiveHeartFailure
 Title: "Congestive Heart Failure - No"
-Description: "Example for Observation for the Congestive Heart Failure"
+Description: "Example for Observation for the congestive heart failure"
 Usage: #example
 * status = #final
 * code = $sct#42343007 "Congestive heart failure (disorder)"
@@ -42,7 +42,7 @@ Usage: #example
 Instance: CongestiveHeartFailure-Yes
 InstanceOf: CHCRLObservationCongestiveHeartFailure
 Title: "Congestive Heart Failure - Yes"
-Description: "Example for Observation for the Congestive Heart Failure"
+Description: "Example for Observation for the congestive heart failure"
 Usage: #example
 * status = #final
 * code = $sct#42343007 "Congestive heart failure (disorder)"

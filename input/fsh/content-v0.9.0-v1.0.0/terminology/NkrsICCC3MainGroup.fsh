@@ -1,6 +1,6 @@
 CodeSystem: NkrsICCC3MainGroup
 Id: nkrs-iccc3maingroup
-Title: "NKRS - ICCC-3 main group"
+Title: "NKRS - ICCC-3 Main Group"
 Description: "This data item records the main diagnostic group according to the third revision (2005) 
 of the 1996 International Classification of Childhood Cancer (ICCC-3). 
 **ICCC-3 main group (Variable number: 3.9.1)** 
@@ -35,7 +35,7 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 
 ValueSet: NkrsICCC3MainGroup
 Id: nkrs-iccc3maingroup
-Title: "NKRS - ICCC-3 main group"
+Title: "NKRS - ICCC-3 Main Group"
 Description: "This data item records the main diagnostic group according to the third revision (2005) 
 of the 1996 International Classification of Childhood Cancer (ICCC-3)."
 * include codes from system NkrsICCC3MainGroup

@@ -35,7 +35,7 @@ Target: "https://www.nacr.ch/assets/files/uploads/b1-datadictionary-supplementar
 Instance: DiabetesMellitus-No
 InstanceOf: CHCRLObservationDiabetesMellitus
 Title: "Diabetes Mellitus - No"
-Description: "Example for Observation for the Diabetes Mellitus"
+Description: "Example for Observation for the diabetes mellitus"
 Usage: #example
 * status = #final
 * code = $sct#73211009 "Diabetes mellitus (disorder)"
@@ -46,7 +46,7 @@ Usage: #example
 Instance: DiabetesMellitus-Uncomplicated
 InstanceOf: CHCRLObservationDiabetesMellitus
 Title: "Diabetes Mellitus - Uncomplicated"
-Description: "Example for Observation for the Diabetes Mellitus"
+Description: "Example for Observation for the diabetes mellitus"
 Usage: #example
 * status = #final
 * code = $sct#73211009 "Diabetes mellitus (disorder)"
@@ -57,7 +57,7 @@ Usage: #example
 Instance: DiabetesMellitus-EndOrganDamage
 InstanceOf: CHCRLObservationDiabetesMellitus
 Title: "Diabetes Mellitus - End-organ damage"
-Description: "Example for Observation for the Diabetes Mellitus"
+Description: "Example for Observation for the diabetes mellitus"
 Usage: #example
 * status = #final
 * code = $sct#73211009 "Diabetes mellitus (disorder)"

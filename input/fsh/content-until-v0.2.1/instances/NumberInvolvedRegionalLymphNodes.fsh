@@ -1,6 +1,6 @@
 Instance: NumberInvolvedRegionalLymphNodes
 InstanceOf: CHCRLObservationNumberInvolvedRegionalLymphNodes
-Title: "Number involved regional lymph nodes - 2"
+Title: "Number of Involved Regional Lymph Nodes - 2"
 Description: "Example for Observation for the number of involved regional lymph nodes"
 Usage: #example
 * status = #final
