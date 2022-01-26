@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the associated in-situ tumour"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Associated In-situ Tumour"
 * code 1..
-* code = $nkrs-basicvariables#3.6.2 "Associated in situ tumour"
+* code = $nkrs-variables#3.6.2 "Associated in situ tumour"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -43,7 +43,7 @@ Title: "Associated In-situ Tumour - No"
 Description: "Example for Observation for the associated in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#3.6.2 "Associated in situ tumour"
+* code = $nkrs-variables#3.6.2 "Associated in situ tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueBoolean = false
@@ -55,7 +55,7 @@ Title: "Associated In-situ Tumour - Yes"
 Description: "Example for Observation for the associated in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#3.6.2 "Associated in situ tumour"
+* code = $nkrs-variables#3.6.2 "Associated in situ tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueBoolean = true
@@ -67,7 +67,7 @@ Title: "Associated In-situ Tumour - Unknown"
 Description: "Example for Observation for the associated in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#3.6.2 "Associated in situ tumour"
+* code = $nkrs-variables#3.6.2 "Associated in situ tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

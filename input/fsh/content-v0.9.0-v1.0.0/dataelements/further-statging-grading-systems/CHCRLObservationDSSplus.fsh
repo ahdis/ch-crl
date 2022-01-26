@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the DSSplus"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation DSSplus"
 * code 1..
-* code = $nkrs-basicvariables#4.30 "DSSplus"
+* code = $nkrs-variables#4.30 "DSSplus"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -48,7 +48,7 @@ Title: "DSSplus - IB"
 Description: "Example for Observation for the DSSplus"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.30 "DSSplus"
+* code = $nkrs-variables#4.30 "DSSplus"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-dssplus#IB "Stage IB"
@@ -60,7 +60,7 @@ Title: "DSSplus - Unknown"
 Description: "Example for Observation for the DSSplus"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.30 "DSSplus"
+* code = $nkrs-variables#4.30 "DSSplus"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

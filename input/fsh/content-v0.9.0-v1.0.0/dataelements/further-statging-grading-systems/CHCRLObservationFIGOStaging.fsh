@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the FIGO staging"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation FIGO Staging"
 * code 1..
-* code = $nkrs-basicvariables#4.21 "FIGO staging"
+* code = $nkrs-variables#4.21 "FIGO staging"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -47,7 +47,7 @@ Title: "FIGO Staging - I"
 Description: "Example for Observation for the FIGO staging"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.21 "FIGO staging"
+* code = $nkrs-variables#4.21 "FIGO staging"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-figostaging#I "Stage I"
@@ -58,7 +58,7 @@ Title: "FIGO Staging - IIIA1i"
 Description: "Example for Observation for the FIGO staging"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.21 "FIGO staging"
+* code = $nkrs-variables#4.21 "FIGO staging"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-figostaging#IIIA1i "Stage IIIA1i"
@@ -69,7 +69,7 @@ Title: "FIGO Staging - Unknown"
 Description: "Example for Observation for the FIGO staging"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.21 "FIGO staging"
+* code = $nkrs-variables#4.21 "FIGO staging"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
@@ -81,7 +81,7 @@ Title: "FIGO Staging - Wrong Example"
 Description: "Example for Observation for the FIGO staging"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.21 "FIGO staging"
+* code = $nkrs-variables#4.21 "FIGO staging"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 // value[x] or dataAbsentReason is missing

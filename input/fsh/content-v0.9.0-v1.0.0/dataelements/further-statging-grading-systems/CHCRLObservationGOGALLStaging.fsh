@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the COG ALL staging"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation COG ALL Staging"
 * code 1..
-* code = $nkrs-basicvariables#4.20 "COG ALL staging"
+* code = $nkrs-variables#4.20 "COG ALL staging"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -48,7 +48,7 @@ Title: "COG ALL Staging - CNS1"
 Description: "Example for Observation for the COG ALL staging"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.20 "COG ALL staging"
+* code = $nkrs-variables#4.20 "COG ALL staging"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-cogallstaging#CNS1 "CNS1"
@@ -60,7 +60,7 @@ Title: "COG ALL Staging - Unknown"
 Description: "Example for Observation for the COG ALL staging"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#4.20 "COG ALL staging"
+* code = $nkrs-variables#4.20 "COG ALL staging"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

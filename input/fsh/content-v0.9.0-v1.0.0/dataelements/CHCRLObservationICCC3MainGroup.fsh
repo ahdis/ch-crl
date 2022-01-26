@@ -5,7 +5,7 @@ Title: "CH CRL Observation ICCC-3 Main Group"
 Description: "Definition of the Observation for the ICCC-3 main group"
 * . ^short = "CH CRL Observation ICCC-3 Main Group"
 * code 1..
-* code = $nkrs-basicvariables#3.9.1 "ICCC-3 main group"
+* code = $nkrs-variables#3.9.1 "ICCC-3 main group"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -38,7 +38,7 @@ Title: "ICCC-3 Main Group - VIII"
 Description: "Example for Observation for the ICCC-3 main group"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#3.9.1 "ICCC-3 main group"
+* code = $nkrs-variables#3.9.1 "ICCC-3 main group"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-iccc3maingroup#VIII "Malignant bone tumours"

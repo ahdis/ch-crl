@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the ICD-O-3 morphology term befo
 * . ^short = "CH CRL Observation ICD-O-3 Morphology Pre-transformation"
 
 * code 1..
-* code = $nkrs-basicvariables#8.4 "Morphology term before change of main diagnosis"
+* code = $nkrs-variables#8.4 "Morphology term before change of main diagnosis"
 
 * subject 1..
 * subject only Reference(CHCRLPatient)
@@ -43,7 +43,7 @@ Title: "ICD-O-3 Morphology Pre-transformation - 9950/3"
 Description: "Example for Observation for the ICD-O-3 morphology term before change of main diagnosis"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#8.4 "Morphology term before change of main diagnosis"
+* code = $nkrs-variables#8.4 "Morphology term before change of main diagnosis"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept.coding.version = "3.2"

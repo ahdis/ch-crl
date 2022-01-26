@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the ICCC-3 extended code"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation ICCC-3 Extended Code"
 * code 1..
-* code = $nkrs-basicvariables#3.9.3 "ICCC-3 extended code"
+* code = $nkrs-variables#3.9.3 "ICCC-3 extended code"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -47,7 +47,7 @@ Title: "ICCC-3 Extended Code - Ia.4"
 Description: "Example for Observation for the ICCC-3 extended code"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#3.9.3 "ICCC-3 extended code"
+* code = $nkrs-variables#3.9.3 "ICCC-3 extended code"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-iccc3extendedcode#Ia.4 "Lymphoid leukaemia, NOS"
@@ -58,7 +58,7 @@ Title: "ICCC-3 Extended Code - Not Applicable"
 Description: "Example for Observation for the ICCC-3 extended code"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#3.9.3 "ICCC-3 extended code"
+* code = $nkrs-variables#3.9.3 "ICCC-3 extended code"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#not-applicable "Not Applicable"

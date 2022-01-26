@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the ICD-O-3 morphology term afte
 * . ^short = "CH CRL Observation ICD-O-3 Morphology Post-transformation"
 
 * code 1..
-* code = $nkrs-basicvariables#8.5 "Morphology term after Transformation"
+* code = $nkrs-variables#8.5 "Morphology term after Transformation"
 
 * subject 1..
 * subject only Reference(CHCRLPatient)
@@ -43,7 +43,7 @@ Title: "ICD-O-3 Morphology Post-transformation - 9861/3"
 Description: "Example for Observation for the ICD-O-3 morphology term after transformation"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#8.5 "Morphology term after Transformation"
+* code = $nkrs-variables#8.5 "Morphology term after Transformation"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept.coding.version = "3.2"

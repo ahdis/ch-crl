@@ -5,7 +5,7 @@ Title: "CH CRL Observation ICCC-3 Code"
 Description: "Definition of the Observation for the ICCC-3 code"
 * . ^short = "CH CRL Observation ICCC-3 Code"
 * code 1..
-* code = $nkrs-basicvariables#3.9.2 "ICCC-3 code"
+* code = $nkrs-variables#3.9.2 "ICCC-3 code"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -38,7 +38,7 @@ Title: "ICCC-3 Code - VIIIa"
 Description: "Example for Observation for the ICCC-3 code"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#3.9.2 "ICCC-3 code"
+* code = $nkrs-variables#3.9.2 "ICCC-3 code"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-iccc3code#VIIIa "Osteosarcomas"

@@ -7,7 +7,7 @@ Description: "Definition of the Observation for the topography of post-diagnosis
 * . ^short = "CH CRL Observation Topography of Post-diagnosis Metastases"
 
 * code 1..
-* code = $nkrs-basicvariables#8.6 "Topography(s) of post-diagnosis metastases"
+* code = $nkrs-variables#8.6 "Topography(s) of post-diagnosis metastases"
 
 * subject 1..
 * subject only Reference(CHCRLPatient)
@@ -51,7 +51,7 @@ Title: "Topography of Post-diagnosis Metastases - HEP"
 Description: "Example for Observation for the topography of post-diagnosis metastases"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#8.6 "Topography(s) of post-diagnosis metastases"
+* code = $nkrs-variables#8.6 "Topography(s) of post-diagnosis metastases"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-topographymetastases#3 "HEP"
@@ -62,7 +62,7 @@ Title: "Topography of Post-diagnosis Metastases - Unknown"
 Description: "Example for Observation for the topography of post-diagnosis metastasess"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#8.6 "Topography(s) of post-diagnosis metastases"
+* code = $nkrs-variables#8.6 "Topography(s) of post-diagnosis metastases"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

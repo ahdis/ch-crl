@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the residual invasive tumour"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Residual Invasive Tumour"
 * code 1..
-* code = $nkrs-basicvariables#6.1 "Residual invasive tumour"
+* code = $nkrs-variables#6.1 "Residual invasive tumour"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -47,7 +47,7 @@ Title: "Residual Invasive Tumour - R0"
 Description: "Example for Observation for the residual invasive tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.1 "Residual invasive tumour"
+* code = $nkrs-variables#6.1 "Residual invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-residualinvasivetumour#0 "R0"
@@ -58,7 +58,7 @@ Title: "Residual Invasive Tumour - Unknown"
 Description: "Example for Observation for the residual invasive tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.1 "Residual invasive tumour"
+* code = $nkrs-variables#6.1 "Residual invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

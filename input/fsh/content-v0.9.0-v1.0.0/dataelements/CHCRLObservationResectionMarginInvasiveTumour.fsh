@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the resection margin invasive tu
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Resection Margin Invasive Tumour"
 * code 1..
-* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
+* code = $nkrs-variables#6.3 "Resection margin invasive tumour"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -52,7 +52,7 @@ Title: "Resection Margin Invasive Tumour - 0.3 mm"
 Description: "Example for Observation for the resection margin invasive tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
+* code = $nkrs-variables#6.3 "Resection margin invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity = 0.3 'mm' "millimeter"
@@ -63,7 +63,7 @@ Title: "Resection Margin Invasive Tumour - Unknown"
 Description: "Example for Observation for the resection margin invasive tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
+* code = $nkrs-variables#6.3 "Resection margin invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
@@ -74,7 +74,7 @@ Title: "Resection Margin Invasive Tumour - Not Applicable"
 Description: "Example for Observation for the resection margin invasive tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.3 "Resection margin invasive tumour"
+* code = $nkrs-variables#6.3 "Resection margin invasive tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#not-applicable "Not Applicable"

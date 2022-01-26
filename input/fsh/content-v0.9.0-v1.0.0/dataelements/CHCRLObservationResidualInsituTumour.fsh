@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the residual in-situ tumour"
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Residual In-situ Tumour"
 * code 1..
-* code = $nkrs-basicvariables#6.2 "Residual in-situ tumour"
+* code = $nkrs-variables#6.2 "Residual in-situ tumour"
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -47,7 +47,7 @@ Title: "Residual In-situ Tumour - R1"
 Description: "Example for Observation for the residual in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.2 "Residual in-situ tumour"
+* code = $nkrs-variables#6.2 "Residual in-situ tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-residualinsitutumour#1 "R1"
@@ -58,7 +58,7 @@ Title: "Residual In-situ Tumour - Unknown"
 Description: "Example for Observation for the residual in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.2 "Residual in-situ tumour"
+* code = $nkrs-variables#6.2 "Residual in-situ tumour"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"

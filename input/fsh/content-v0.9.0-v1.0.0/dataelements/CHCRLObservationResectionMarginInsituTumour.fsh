@@ -6,7 +6,7 @@ Description: "Definition of the Observation for the resection margin in-situ tum
 * obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Resection Margin In-situ Tumour"
 * code 1..
-* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
+* code = $nkrs-variables#6.4 "Resection margin in-situ tumour" 
 * subject 1..
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -52,7 +52,7 @@ Title: "Resection Margin In-situ Tumour - 2.0 mm"
 Description: "Example for Observation for the resection margin in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
+* code = $nkrs-variables#6.4 "Resection margin in-situ tumour" 
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueQuantity = 2.0 'mm' "millimeter"
@@ -63,7 +63,7 @@ Title: "Resection Margin In-situ Tumour - Unknown"
 Description: "Example for Observation for the resection margin in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
+* code = $nkrs-variables#6.4 "Resection margin in-situ tumour" 
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
@@ -74,7 +74,7 @@ Title: "Resection Margin In-situ Tumour - Not Applicable"
 Description: "Example for Observation for the resection margin in-situ tumour"
 Usage: #example
 * status = #final
-* code = $nkrs-basicvariables#6.4 "Resection margin in-situ tumour" 
+* code = $nkrs-variables#6.4 "Resection margin in-situ tumour" 
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#not-applicable "Not Applicable"
