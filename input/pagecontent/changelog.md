@@ -41,9 +41,9 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    25. Tumour proliferation labeling (Variable number: 5.1.4) ([Profile](StructureDefinition-ch-crl-observation-tumourproliferationlabeling.html))
    26. Pretreatment Prostate Specific Antigen (PSA) (Variable number: 5.2.1) ([Profile](StructureDefinition-ch-crl-observation-pretreatmentprostatespecificantigen.html))
    27. Gleason biopsy most common grade (Variable number: 5.2.2) ([Profile](StructureDefinition-ch-crl-observation-gleasonbiopsymostcommongrade.html))
-   28. Gleason biopsy second most common or highest grade (Variable number: 5.2.3) ([Profile](StructureDefinition-ch-crl-observation-gleasonbiopsysecondmostcommonorhighestgrade.html))
+   28. Gleason biopsy second most common or highest grade (Variable number: 5.2.3) ([Profile](StructureDefinition-ch-crl-observation-gleasonbiopsy2ndmostcommonorhighestgrade.html))
    29. Gleason excision most common grade (Variable number: 5.2.4) ([Profile](StructureDefinition-ch-crl-observation-gleasonexcisionmostcommongrade.html))
-   30. Gleason excision second most common or highest grade (Variable number: 5.2.5) ([Profile](StructureDefinition-ch-crl-observation-gleasonexcisionsecondmostcommonorhighestgrade.html))
+   30. Gleason excision second most common or highest grade (Variable number: 5.2.5) ([Profile](StructureDefinition-ch-crl-observation-gleasonexcision2ndmostcommonorhighestgrade.html))
    31. Gleason score (Variable number: 5.2.6) ([Profile](StructureDefinition-ch-crl-observation-gleasonscore.html))
    32. WHO grade group (Variable number: 5.2.7) ([Profile](StructureDefinition-ch-crl-observation-whogradegroup.html))
    33. Breslow thickness (Variable number: 5.3.1) ([Profile](StructureDefinition-ch-crl-observation-breslowthickness.html))
@@ -114,9 +114,6 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
 * [Issue 6](https://github.com/ahdis/ch-crl/issues/6): Using the official registered URL for the code system [IcdO3](https://terminology.hl7.org/CodeSystem-icd-o-3.html) instead of the OID. **Implementers have to adapt the code system in the instances** ([old example](https://fhir.ch/ig/ch-crl/0.2.1/Observation-ICD-O-3-Morphology.json.html) -> [new example](Observation-ICD-O-3-Morphology.html)).
    * [CH CRL Observation ICD-O-3 Morphology Profile](StructureDefinition-ch-crl-observation-icdo3morphology.html)
    * [CH CRL Observation ICD-O-3 Topography Profile](StructureDefinition-ch-crl-observation-icdo3topography.html) 
-
-#### Previous Version Comparison
-[Comparison with version 0.2.1](comparison-v0.2.1/index.html).
 
 *************************
 

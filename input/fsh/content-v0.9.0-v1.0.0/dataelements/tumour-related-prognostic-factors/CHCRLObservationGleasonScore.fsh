@@ -43,11 +43,11 @@ if a tumour has more than 2 histological patterns."
     ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade 0..1 
 * derivedFrom[ch-crl-gleasonBiopsyMostCommonGrade] only Reference(CHCRLObservationGleasonBiopsyMostCommonGrade)
 * derivedFrom[ch-crl-gleasonBiopsyMostCommonGrade] ^short = "Gleason biopsy most common grade"
-* derivedFrom[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonBiopsySecondMostCommonOrHighestGrade)
+* derivedFrom[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonBiopsy2ndMostCommonOrHighestGrade)
 * derivedFrom[ch-crl-gleasonBiopsySecondMostCommonOrHighestGrade] ^short = "Gleason biopsy second most common or highest grade"
 * derivedFrom[ch-crl-gleasonExcisionMostCommonGrade] only Reference(CHCRLObservationGleasonExcisionMostCommonGrade)
 * derivedFrom[ch-crl-gleasonExcisionMostCommonGrade] ^short = "Gleason excision most common grade"
-* derivedFrom[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade)
+* derivedFrom[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] only Reference(CHCRLObservationGleasonExcision2ndMostCommonOrHighestGrade)
 * derivedFrom[ch-crl-gleasonExcisionSecondMostCommonOrHighestGrade] ^short = "Gleason excision second most common or highest grade"
 
 

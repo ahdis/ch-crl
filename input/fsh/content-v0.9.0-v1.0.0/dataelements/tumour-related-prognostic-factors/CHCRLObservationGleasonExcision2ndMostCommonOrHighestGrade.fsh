@@ -1,6 +1,6 @@
-Profile: CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade
+Profile: CHCRLObservationGleasonExcision2ndMostCommonOrHighestGrade
 Parent: Observation
-Id: ch-crl-observation-gleasonexcisionsecondmostcommonorhighestgrade
+Id: ch-crl-observation-gleasonexcision2ndmostcommonorhighestgrade
 Title: "CH CRL Observation Gleason Excision Second Most Common or Highest Grade"
 Description: "Definition of the Observation for the Gleason excision second most common or highest grade"
 * . ^short = "CH CRL Observation Gleason Excision Second Most Common or Highest Grade"
@@ -23,16 +23,16 @@ of the second-most common pattern (secondary pattern) or the pattern with the hi
 * method = $sct#65801008 "Excision (procedure)"
 
 
-Mapping: NICER-A-for-CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade
+Mapping: NICER-A-for-CHCRLObservationGleasonExcision2ndMostCommonOrHighestGrade
 Id: NICER-A
 Title: "NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A: BASIC VARIABLES for Adults, Adolescents, and Children"
-Source: CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade
+Source: CHCRLObservationGleasonExcision2ndMostCommonOrHighestGrade
 Target: "https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf"
 * -> "Gleason excision second most common or highest grade (Variable number: 5.2.5)"
 
 
 Instance: GleasonExcisionSecondMostCommonOrHighestGrade-3
-InstanceOf: CHCRLObservationGleasonExcisionSecondMostCommonOrHighestGrade
+InstanceOf: CHCRLObservationGleasonExcision2ndMostCommonOrHighestGrade
 Title: "Gleason Excision Second Most Common or Highest Grade - 3"
 Description: "Example for Observation for the Gleason excision second most common or highest grade"
 Usage: #example
