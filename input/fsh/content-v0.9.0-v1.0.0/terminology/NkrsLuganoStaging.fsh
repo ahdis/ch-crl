@@ -18,12 +18,18 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 * #IE "Stage IE" // Stage IE
 * #IE+A "Stage IE+A"
 * #IE+B "Stage IE+B"
+* #I(E) "Stage I(E)" // neu
+* #I(E)+A "Stage I(E)+A" // neu
+* #I(E)+B "Stage I(E)+B" // neu
 * #II "Stage II" // Stage II
 * #II+A "Stage II+A" // Stage IIA
 * #II+B "Stage II+B" // Stage IIB
 * #IIE "Stage IIE" // Stage IIE
 * #IIE+A "Stage IIE+A"
 * #IIE+B "Stage IIE+B"
+* #II(E) "Stage II(E)" // neu
+* #II(E)+A "Stage II(E)+A" // neu
+* #II(E)+B "Stage II(E)+B" // neu
 * #"II bulky" "Stage II bulky" // Stage II bulky 
 * #"II bulky+A" "Stage II bulky+A" // Stage IIA bulky
 * #"II bulky+B" "Stage II bulky+B" // Stage IIB bulky
@@ -33,13 +39,20 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 * #IIIS "Stage IIIS"
 * #IIIS+A "Stage IIIS+A"
 * #IIIS+B "Stage IIIS+B"
+* #III(S) "Stage III(S)" // neu
+* #III(S)+A "Stage III(S)+A" // neu
+* #III(S)+B "Stage III(S)+B" // neu
 * #IV "Stage IV" // Stage IV
 * #IV+A "Stage IV+A"
 * #IV+B "Stage IV+B"
+* #LS "Stage LS" // neu
+* #LS+A "Stage LS+A" // neu
+* #LS+B "Stage LS+B" // neu
+* #AS "Stage AS" // neu
+* #AS+A "Stage AS+A" // neu
+* #AS+B "Stage AS+B" // neu
 
 // 99 Unknown -> dataAbsentReason
-// 88 NA // nicht explizit im PDF
-
 
 
 ValueSet: NkrsLuganoStaging
