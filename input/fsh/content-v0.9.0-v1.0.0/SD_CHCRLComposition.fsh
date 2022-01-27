@@ -219,7 +219,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     PRETEXT 0..1 and 
     rai 0..1 and 
     rhabdomyosarcomaSite 0..1 and 
-    SIOP 0..1
+    SIOP 0..1 and 
+    stJudeMurphy 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -367,6 +368,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[SIOP] ^short = "SIOP"
 * section[stagingAndGrading].entry[SIOP].reference 1..
 // St. Jude / Murphy
+* section[stagingAndGrading].entry[stJudeMurphy] only Reference(CHCRLObservationStJudeMurphyStaging)
+* section[stagingAndGrading].entry[stJudeMurphy] ^short = "St. Jude / Murphy"
+* section[stagingAndGrading].entry[stJudeMurphy].reference 1..
 // Toronto Tier II (manually)
 // Creasman
 // Elston/Ellis
