@@ -211,7 +211,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     COG 0..1 and
     COG-ALL 0..1 and
     DSSplus 0..1 and 
-    FIGO 0..1
+    FIGO 0..1 and 
+    INRGSS 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -327,6 +328,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[FIGO] ^short = "FIGO"
 * section[stagingAndGrading].entry[FIGO].reference 1..
 // INRGSS
+* section[stagingAndGrading].entry[INRGSS] only Reference(CHCRLObservationINRGSSStaging)
+* section[stagingAndGrading].entry[INRGSS] ^short = "INRGSS"
+* section[stagingAndGrading].entry[INRGSS].reference 1..
 // IRSS
 // ISS
 // Lugano
