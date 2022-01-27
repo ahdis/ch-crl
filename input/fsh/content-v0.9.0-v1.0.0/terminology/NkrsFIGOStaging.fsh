@@ -34,6 +34,8 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 
 * #IIB "Stage IIB"
 
+* #IIC "Stage IIC"
+
 * #III "Stage III"
 * #IIIA "Stage IIIA"
 * #IIIA1i "Stage IIIA1i"
