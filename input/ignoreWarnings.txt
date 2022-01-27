@@ -33,3 +33,4 @@ The link 'CodeSystem-nkrs-variables.html#nkrs-variables-6.3' for "6.3" cannot be
 The link 'CodeSystem-nkrs-variables.html#nkrs-variables-6.2' for "6.2" cannot be resolved (valid targets: 49 targets)
 The link 'CodeSystem-nkrs-variables.html#nkrs-variables-6.1' for "6.1" cannot be resolved (valid targets: 49 targets)
 The link 'CodeSystem-nkrs-variables.html#nkrs-variables-8.6' for "8.6" cannot be resolved (valid targets: 49 targets)
+The link 'CodeSystem-nkrs-variables.html#nkrs-variables-4.25' for "4.25" cannot be resolved (valid targets: 49 targets)

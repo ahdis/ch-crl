@@ -33,6 +33,7 @@ Alias: $nkrs-inrgssstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-inrgssstag
 Alias: $nkrs-irssstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-irssstaging
 Alias: $nkrs-issstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-issstaging
 Alias: $nkrs-luganostaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-luganostaging
+Alias: $nkrs-pretextstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-pretextstaging
 
 Alias: $nkrs-diabetesmellitus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diabetesmellitus
 Alias: $nkrs-liverdisease = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-liverdisease
