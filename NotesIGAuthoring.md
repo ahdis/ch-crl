@@ -67,7 +67,7 @@ Artifakte | Benennung | Gliederung
 
 Zahlenwerte werden entweder als valueQuantity (mit/ohne Unit) oder valueInteger abgebildet.
 
-**valueQuantity mit Unit** ([UCUM]())   
+**valueQuantity mit Unit** ([UCUM](https://www.hl7.org/fhir/valueset-ucum-common.html))   
 * Clinical Tumour Size (mm)
 * Pathological Tumour Size (mm)
 * Resection Margin In-situ Tumour (mm)
