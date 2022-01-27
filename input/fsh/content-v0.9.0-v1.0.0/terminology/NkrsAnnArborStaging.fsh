@@ -20,6 +20,10 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 * #IE+A "Stage IE+A"
 * #IE+B "Stage IE+B"
 
+* #I(E) "Stage I(E)" // neu
+* #I(E)+A "Stage I(E)+A" // neu
+* #I(E)+B "Stage I(E)+B" // neu
+
 * #II "Stage II"
 * #II+A "Stage II+A"
 * #II+B "Stage II+B"
@@ -27,6 +31,10 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 * #IIE "Stage IIE"
 * #IIE+A "Stage IIE+A"
 * #IIE+B "Stage IIE+B"
+
+* #II(E) "Stage II(E)" // neu
+* #II(E)+A "Stage II(E)+A" // neu
+* #II(E)+B "Stage II(E)+B" // neu
 
 * #III "Stage III"
 * #III+A "Stage III+A"
@@ -36,13 +44,33 @@ in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults
 * #IIIE+A "Stage IIIE+A"
 * #IIIE+B "Stage IIIE+B"
 
+* #III(E) "Stage III(E)" // neu
+* #III(E)+A "Stage III(E)+A" // neu
+* #III(E)+B "Stage III(E)+B" // neu
+
 * #IIIS "Stage IIIS"
 * #IIIS+A "Stage IIIS+A"
 * #IIIS+B "Stage IIIS+B"
 
+* #III(S) "Stage III(S)" // neu
+* #III(S)+A "Stage III(S)+A" // neu
+* #III(S)+B "Stage III(S)+B" // neu
+
 * #IIIES "Stage IIIES"
 * #IIIES+A "Stage IIIES+A"
 * #IIIES+B "Stage IIIES+B"
+
+* #III(E)S "Stage III(E)S" // neu
+* #III(E)S+A "Stage III(E)S+A" // neu
+* #III(E)S+B "Stage III(E)S+B" // neu
+
+* #IIIE(S) "Stage IIIE(S)" // neu
+* #IIIE(S)+A "Stage IIIE(S)+A" // neu
+* #IIIE(S)+B "Stage IIIE(S)+B" // neu
+
+* #III(E)(S) "Stage III(E)(S)" // neu
+* #III(E)(S)+A "Stage III(E)(S)+A" // neu
+* #III(E)(S)+B "Stage III(E)(S)+B" // neu
 
 * #IV "Stage IV"
 * #IV+A "Stage IV+A"
