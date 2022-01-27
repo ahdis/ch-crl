@@ -35,6 +35,7 @@ and
 * #4.30 "DSSplus"
 * #4.31 "SIOP staging"
 * #4.32 "St. Jude / Murphy staging"
+* #4.33.2 "Toronto Tier II (manual) staging"
 * #4.34 "Creasman grading system"
 * #4.35 "Elston/Ellis grading system"
 * #4.36 "SalzerKuntschik grading system"

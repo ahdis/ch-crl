@@ -38,6 +38,7 @@ Alias: $nkrs-raistaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-raistaging
 Alias: $nkrs-rhabdomyosarcomasitestaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-rhabdomyosarcomasitestaging
 Alias: $nkrs-siopstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-siopstaging
 Alias: $nkrs-stjudemurphystaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-stjudemurphystaging
+Alias: $nkrs-torontotierIImanualstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-torontotierIImanualstaging
 
 Alias: $nkrs-diabetesmellitus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diabetesmellitus
 Alias: $nkrs-liverdisease = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-liverdisease
