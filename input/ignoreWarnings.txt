@@ -41,3 +41,4 @@ The link 'CodeSystem-nkrs-variables.html#nkrs-variables-4.34' for "4.34" cannot 
 The link 'CodeSystem-nkrs-variables.html#nkrs-variables-4.33.2' for "4.33.2" cannot be resolved (valid targets: 50 targets)
 The link 'CodeSystem-nkrs-variables.html#nkrs-variables-4.35' for "4.35" cannot be resolved (valid targets: 50 targets)
 The link 'CodeSystem-nkrs-variables.html#nkrs-variables-4.36' for "4.36" cannot be resolved (valid targets: 50 targets)
+The link 'CodeSystem-nkrs-variables.html#nkrs-variables-4.37' for "4.37" cannot be resolved (valid targets: 50 targets)
