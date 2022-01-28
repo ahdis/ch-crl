@@ -5,7 +5,7 @@ Parent: Observation
 Id: ch-crl-observation-typerecurrencetransformation
 Title: "CH CRL Observation Type of Recurrence/Transformation"
 Description: "Definition of the Observation for the type of recurrence/transformation"
-* obeys ch-crl-obs-1 and ch-crl-obs-4
+* obeys ch-crl-obs-1
 * . ^short = "CH CRL Observation Type of Recurrence/Transformation"
 * code 1..
 * code = $loinc#97509-4 "Cancer disease progression"
@@ -134,32 +134,3 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
-
-
-// ------- Wrong examples ----------- //
-Instance: TypeRecurrenceTransformation-Progression-WrongExample1
-InstanceOf: CHCRLObservationTypeRecurrenceTransformation
-Title: "Type of Recurrence/Transformation - Wrong Example 1"
-Description: "Example for Observation for the type of recurrence/transformation"
-Usage: #example
-* status = #final
-* code = $loinc#97509-4 "Cancer disease progression"
-* subject = Reference(FranzMinimum)
-* effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $nkrs-typerecurrencetransformation#1 "Progression"
-// ICD-O morphology pre-transformation (if 'code = 2 Transformation') => ch-crl-obs-4
-* hasMember[ch-crl-icdo3morphologypretransformation] = Reference(ICDO3MorphologyPreTransformation-9950-3)
-
-
-Instance: TypeRecurrenceTransformation-Progression-WrongExample2
-InstanceOf: CHCRLObservationTypeRecurrenceTransformation
-Title: "Type of Recurrence/Transformation - Wrong Example 2"
-Description: "Example for Observation for the type of recurrence/transformation"
-Usage: #example
-* status = #final
-* code = $loinc#97509-4 "Cancer disease progression"
-* subject = Reference(FranzMinimum)
-* effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $nkrs-typerecurrencetransformation#2 "Transformation"
-// Topography of post-diagnosis metastases (if 'code = 3 Metastasis') => TBD
-* hasMember[ch-crl-topographypostdiagnosismetastases] = Reference(TopographyPostDiagnosisMetastases-HEP)
