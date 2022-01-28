@@ -225,7 +225,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     creasman 0..1 and 
     elstonEllis 0..1 and 
     salzerKuntschik 0..1 and 
-    shimada 0..1
+    shimada 0..1 and 
+    WHOCNS 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -397,7 +398,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[shimada] ^short = "Shimada"
 * section[stagingAndGrading].entry[shimada].reference 1..
 // WHO (CNS)
-
+* section[stagingAndGrading].entry[WHOCNS] only Reference(CHCRLObservationWHOCNSGradingSystem)
+* section[stagingAndGrading].entry[WHOCNS] ^short = "WHO (CNS)"
+* section[stagingAndGrading].entry[WHOCNS].reference 1..
 
 // ------- Tumour related prognostic factors -------
 * section[tumourRelatedPrognosticFactors] ^short = "Section for the tumour related prognostic factors"
