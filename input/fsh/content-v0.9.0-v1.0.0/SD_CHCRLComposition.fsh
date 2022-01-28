@@ -221,7 +221,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     rhabdomyosarcomaSite 0..1 and 
     SIOP 0..1 and 
     stJudeMurphy 0..1 and 
-    torontoTierIIManually 0..1
+    torontoTierIIManually 0..1 and 
+    creasman 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -377,6 +378,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[torontoTierIIManually] ^short = "Toronto Tier II (manually)"
 * section[stagingAndGrading].entry[torontoTierIIManually].reference 1..
 // Creasman
+* section[stagingAndGrading].entry[creasman] only Reference(CHCRLObservationCreasmanGradingSystem)
+* section[stagingAndGrading].entry[creasman] ^short = "Creasman"
+* section[stagingAndGrading].entry[creasman].reference 1..
 // Elston/Ellis
 // Salzer-Kuntschik
 // Shimada
