@@ -40,6 +40,7 @@ Alias: $nkrs-siopstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-siopstaging
 Alias: $nkrs-stjudemurphystaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-stjudemurphystaging
 Alias: $nkrs-torontotierIImanualstaging = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-torontotierIImanualstaging
 Alias: $nkrs-creasmangradingsystem = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-creasmangradingsystem
+Alias: $nkrs-elstonellisgradingsystem = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-elstonellisgradingsystem
 
 Alias: $nkrs-diabetesmellitus = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-diabetesmellitus
 Alias: $nkrs-liverdisease = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-liverdisease

@@ -222,7 +222,8 @@ Description: "Definition of the Composition for reporting to the cancer registry
     SIOP 0..1 and 
     stJudeMurphy 0..1 and 
     torontoTierIIManually 0..1 and 
-    creasman 0..1
+    creasman 0..1 and 
+    elstonEllis 0..1
 * section[stagingAndGrading].section ..0
 // cTNM: y-Prefix
 * section[stagingAndGrading].entry[cTNM-y-prefix] only Reference(CHCRLObservationyPrefixOfcTNM)
@@ -382,6 +383,9 @@ Description: "Definition of the Composition for reporting to the cancer registry
 * section[stagingAndGrading].entry[creasman] ^short = "Creasman"
 * section[stagingAndGrading].entry[creasman].reference 1..
 // Elston/Ellis
+* section[stagingAndGrading].entry[elstonEllis] only Reference(CHCRLObservationElstonEllisGradingSystem)
+* section[stagingAndGrading].entry[elstonEllis] ^short = "Elston/Ellis"
+* section[stagingAndGrading].entry[elstonEllis].reference 1..
 // Salzer-Kuntschik
 // Shimada
 // WHO (CNS)
