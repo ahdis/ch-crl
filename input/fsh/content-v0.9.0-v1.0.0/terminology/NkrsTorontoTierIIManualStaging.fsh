@@ -5,6 +5,7 @@ Description: "The Toronto Paediatric Cancer Stage Guidelines recommend the malig
 for use by population registries for 16 of the most common childhood malignancies. The Guidelines include a two-tiered 
 approach that provides less detailed criteria for registries with limited resources and/or limited data access (Tier 1) 
 based on collapsing of the more detailed criteria (Tier 2). 
+
 **Toronto Tier II (manual) staging (Variable number: 4.33.2)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

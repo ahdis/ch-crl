@@ -2,6 +2,7 @@ CodeSystem: NkrsAnnArborStaging
 Id: nkrs-annarborstaging
 Title: "NKRS - Ann Arbor Staging"
 Description: "This data item is a last modification of the Ann Arbor classification for lymphoma. 
+
 **Ann Arbor staging (Variable number: 4.18)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

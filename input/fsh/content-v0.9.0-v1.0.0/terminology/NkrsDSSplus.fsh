@@ -3,6 +3,7 @@ Id: nkrs-dssplus
 Title: "NKRS - DSSplus"
 Description: "The DSSplus (Durie-Salmon Plus staging system) is the revised Durie-Salmon staging system for multiple myeloma 
 classification, based on MRI findings, FDG PET/CT findings, or both. 
+
 **DSSplus (Variable number: 4.30)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

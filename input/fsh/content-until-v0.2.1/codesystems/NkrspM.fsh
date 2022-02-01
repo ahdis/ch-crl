@@ -2,6 +2,7 @@ CodeSystem: NkrspM
 Id: nkrs-pm
 Title: "NKRS - pM"
 Description: "The data item records the absence or presence of distant metastasis, based on pathological evidence after completion of surgical therapy or microscopic examination of metastasis. 
+
 **pM (Variable number: 4.13)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

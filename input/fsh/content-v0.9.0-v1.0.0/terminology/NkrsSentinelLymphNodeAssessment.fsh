@@ -3,6 +3,7 @@ Id: nkrs-sentinellymphnodeassessment
 Title: "NKRS - Sentinel Lymph Node Assessment"
 Description: "The data item indicates whether the sentinel lymph node is excised and the result of the examination. 
 The sentinel lymph node is the first lymph node to receive lymphatic drainage from a primary tumour. 
+
 **Sentinel lymph node assessment (Variable number: 6.5)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

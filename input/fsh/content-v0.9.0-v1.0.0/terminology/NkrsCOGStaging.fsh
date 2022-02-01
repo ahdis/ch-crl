@@ -4,6 +4,7 @@ Title: "NKRS - COG Staging"
 Description: "This data item records staging of Wilms’ tumour for pediatric patients acc. to pre-chemotherapy staging 
 system developed by the National Wilms’ Tumor Study Group (NWTSG). Based exclusively on the anatomic extent of the 
 tumour, without consideration of genetic, biologic, or molecular markers. 
+
 **COG staging (Variable number: 4.19)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

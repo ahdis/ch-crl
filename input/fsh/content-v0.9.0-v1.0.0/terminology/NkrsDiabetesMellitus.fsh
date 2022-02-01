@@ -3,6 +3,7 @@ Id: nkrs-diabetesmellitus
 Title: "NKRS - Diabetes Mellitus"
 Description: "The data item records the presence and severity of diabetes mellitus at the time of diagnosis 
 as pre-existing medical condition. Scores weight the estimated effect on patient survival. 
+
 **Diabetes mellitus (Variable number: 10.1)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part B1, SUPPLEMENTARY VARIABLES for Adults (15.10.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/b1-datadictionary-supplementaryvariables-adults-v1.1.pdf), 

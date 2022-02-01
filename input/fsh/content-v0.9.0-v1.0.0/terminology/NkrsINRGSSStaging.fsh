@@ -3,6 +3,7 @@ Id: nkrs-inrgssstaging
 Title: "NKRS - INRGSS Staging"
 Description: "This data item records the paediatric stage classification of the 
 International Neuroblastoma Risk Group Staging System (INRGSS). 
+
 **INRGSS staging (Variable number: 4.22)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

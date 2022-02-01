@@ -2,6 +2,7 @@ CodeSystem: NkrscM
 Id: nkrs-cm
 Title: "NKRS - cM"
 Description: "The data item records the absence or presence of distant metastases based on clinical investigation, imaging, endoscopy, surgical exploration without biopsy. 
+
 **cM (Variable number: 4.5)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

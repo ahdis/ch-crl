@@ -2,6 +2,7 @@ CodeSystem: NkrsIcdO3HistologicalGrade
 Id: nkrs-icdo3histologicalgrade
 Title: "NKRS - ICD-O-3 Histological Grade"
 Description: "The data item describes the neoplasm’s resemblance to normal (parent) tissue according to ICD-O. 
+
 **ICD-O Histological Grade (Variable number: 3.7)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

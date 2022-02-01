@@ -2,6 +2,7 @@ CodeSystem: NkrsLDH
 Id: nkrs-ldh
 Title: "NKRS - LDH"
 Description: "The data item records the levels of serum tumour marker lactate dehydrogenase (LDH). 
+
 **LDH (Variable number: 5.5.3)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

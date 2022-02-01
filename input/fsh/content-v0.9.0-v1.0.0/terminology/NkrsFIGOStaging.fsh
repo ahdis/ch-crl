@@ -3,6 +3,7 @@ Id: nkrs-figostaging
 Title: "NKRS - FIGO Staging"
 Description: "FIGO Staging of gynecologic tumours is based on clinical staging, careful clinical 
 examination before therapy, and surgical exploration. 
+
 **FIGO staging (Variable number: 4.21)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

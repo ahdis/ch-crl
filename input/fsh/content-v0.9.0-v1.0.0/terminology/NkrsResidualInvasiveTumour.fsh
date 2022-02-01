@@ -5,6 +5,7 @@ Description: "This data items records the invasive tumour status after treatment
 The R classification can be used following surgical treatment alone, after radiotherapy alone, 
 after chemotherapy alone or following multimodal therapy. 
 The status after treatment takes distant metastases into account. 
+
 **Residual invasive tumour (Variable number: 6.1)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

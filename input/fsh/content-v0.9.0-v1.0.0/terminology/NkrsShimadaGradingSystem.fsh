@@ -3,6 +3,7 @@ Id: nkrs-shimadagradingsystem
 Title: "NKRS - Shimada Grading System"
 Description: "This data item records the grade for neuroblastoma, a frequent childhood cancer. Based on a grade of 
 neuroblastic differentiation and mitosis-karyorrhexis index [MKI]) along with patient age at the time of diagnosis. 
+
 **Shimada grading system (Variable number: 4.37)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

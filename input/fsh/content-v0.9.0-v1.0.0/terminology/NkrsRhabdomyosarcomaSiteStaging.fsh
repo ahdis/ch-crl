@@ -3,6 +3,7 @@ Id: nkrs-rhabdomyosarcomasitestaging
 Title: "NKRS - Rhabdomyosarcoma Site Staging"
 Description: "Rhabdomyosarcoma staging is based on the classic TNM staging taking into account 
 favourable/non favourable tumour sites. It is used in paediatric oncology. 
+
 **Rhabdomyosarcoma site staging (Variable number: 4.28)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

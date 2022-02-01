@@ -2,6 +2,7 @@ CodeSystem: NkrsVenousInvasion
 Id: nkrs-venousinvasion
 Title: "NKRS - Venous Invasion"
 Description: "The data item indicates the presence or absence of tumour cells in the walls of venous blood vessels, as noted microscopically by the pathologist. 
+
 **Venous invasion (Variable number: 4.15)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

@@ -3,6 +3,7 @@ Id: nkrs-irssstaging
 Title: "NKRS - IRSS Staging"
 Description: "The paediatric International Retinoblastoma Staging System is based on extent 
 of disease and the presence of overt extra-ocular extension after enucleation. 
+
 **IRSS staging (Variable number: 4.23)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

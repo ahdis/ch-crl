@@ -2,6 +2,7 @@ CodeSystem: NkrsMethodFirstDetection
 Id: nkrs-methodfirstdetection
 Title: "NKRS - Method of First Detection"
 Description: "The data item records the method or circumstance by which the case came to medical attention and the cancer was first diagnosed. 
+
 **Method of first detection (Variable number: 2.6)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

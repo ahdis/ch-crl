@@ -2,6 +2,7 @@ CodeSystem: NkrsWHOGradeGroup
 Id: nkrs-whogradegroup
 Title: "NKRS - WHO Grade Group"
 Description: "A five-grade group system based on the grading categories from Gleason score 2 to 10. 
+
 **WHO grade group (Variable number: 5.2.7)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

@@ -2,6 +2,7 @@ CodeSystem: NkrsHer2ReceptorStatus
 Id: nkrs-her2receptorstatus
 Title: "NKRS - Her2 Receptor Status"
 Description: "The data item records the Her2 (human epidermal growth factor receptor 2) expression status of the tumour. 
+
 **Her2 receptor status (Variable number: 5.1.3)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

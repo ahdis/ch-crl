@@ -2,6 +2,7 @@ CodeSystem: NkrsTopographyMetastases
 Id: nkrs-topographymetastases
 Title: "NKRS - Topography of Metastases"
 Description: "The data item identifies the distant site(s) of metastatic involvement at time of diagnosis or after disease recurrence. 
+
 **Sentinel lymph node assessment (Variable number: 6.5) / Topography(s) of post-diagnosis metastases (Variable number: 8.6)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

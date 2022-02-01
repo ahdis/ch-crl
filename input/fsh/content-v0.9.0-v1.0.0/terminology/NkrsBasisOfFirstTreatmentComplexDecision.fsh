@@ -3,6 +3,7 @@ Id: nkrs-basisoffirsttreatmentcomplexdecision
 Title: "NKRS - Basis of First Treatment Complex Decision"
 Description: "This data item records the basis of treatment decision for the entire first treatment complex. 
 The first treatment complex includes all therapy steps planned after the diagnosis. 
+
 **Basis of first treatment complex decision (Variable number: 7.1)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

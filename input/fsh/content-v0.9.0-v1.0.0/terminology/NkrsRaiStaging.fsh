@@ -5,6 +5,7 @@ Description: "This classification for Chronic Lymphocytic Leukaemia (CLL) includ
 cell count (lymphocytes, platelets), haemoglobin/haematocrit, LN envolvement, hepato- and/or splenomegaly. The staging 
 allows classification of patients into three risk categories (low, intermediary, high risk with median survival >12y, >8y 
 and >2y, respectively). 
+
 **Rai staging (Variable number: 4.26)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

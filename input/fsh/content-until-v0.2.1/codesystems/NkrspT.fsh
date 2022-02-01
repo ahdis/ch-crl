@@ -2,6 +2,7 @@ CodeSystem: NkrspT
 Id: nkrs-pt
 Title: "NKRS - pT"
 Description: "This data item records the extent of the primary tumour based on pathological (histological) evidence after completion of surgical therapy. 
+
 **pT (Variable number: 4.8)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

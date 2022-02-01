@@ -2,6 +2,7 @@ CodeSystem: NkrsTypeRecurrenceTransformation
 Id: nkrs-typerecurrencetransformation
 Title: "NKRS - Type of Recurrence/Transformation"
 Description: "The data item records the type of first recurrence of the disease or the occurrence of a transformation. 
+
 **Type of recurrence(s)/transformation(s) (Variable number: 8.1)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

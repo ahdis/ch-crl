@@ -2,6 +2,7 @@ CodeSystem: NkrsCircumferentialResectionMargins
 Id: nkrs-circumferentialresectionmargins
 Title: "NKRS - Circumferential Resection Margins"
 Description: "The circumferential resection margin (CRM) is a surgically created plane produced during the removal of the rectum from its surroundings. 
+
 **Circumferential resection margins (Variable number: 5.4.1)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

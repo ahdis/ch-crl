@@ -2,6 +2,7 @@ CodeSystem: NkrsLymphaticInvasion
 Id: nkrs-lymphaticinvasion
 Title: "NKRS - Lymphatic Invasion"
 Description: "The data item indicates the presence or absence of tumour cells in lymphatic vessels within and at the margins of the primary tumour, as well as afferent and efferent lymphatics, as noted microscopically by the pathologist. 
+
 **Lymphatic invasion (Variable number: 4.14)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

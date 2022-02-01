@@ -2,6 +2,7 @@ CodeSystem: NkrsTnmStageGroup
 Id: nkrs-tnmstagegroup
 Title: "NKRS - TNM Stage Group"
 Description: "The data item records the UICC TNM stage group. 
+
 **TNM stage group (Variable number: 4.17)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

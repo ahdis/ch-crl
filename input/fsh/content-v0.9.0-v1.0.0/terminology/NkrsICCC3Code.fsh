@@ -3,6 +3,7 @@ Id: nkrs-iccc3code
 Title: "NKRS - ICCC-3 Code"
 Description: "This data item records detailed division of the diagnostic group according to the third revision 
 of the 1996 International Classification of Childhood Cancer (ICCC-3). 
+
 **ICCC-3 code (Variable number: 3.9.2)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

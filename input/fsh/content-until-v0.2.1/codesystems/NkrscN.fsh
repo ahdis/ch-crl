@@ -2,6 +2,7 @@ CodeSystem: NkrscN
 Id: nkrs-cn
 Title: "NKRS - cN"
 Description: "The data item records regional lymph nodes involvement based on clinical investigation, imaging, endoscopy, biopsy or surgical exploration. 
+
 **cN (Variable number: 4.4)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

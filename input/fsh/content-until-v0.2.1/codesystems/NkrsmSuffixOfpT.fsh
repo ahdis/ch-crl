@@ -2,6 +2,7 @@ CodeSystem: NkrsmSuffixOfpT
 Id: nkrs-msuffixofpt
 Title: "NKRS - m-Suffix of pT"
 Description: "The data item records the unspecified multiplicity of multiple primary tumours at a single site. 
+
 **m-Suffix of pT (Variable number: 4.9)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 

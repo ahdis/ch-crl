@@ -4,6 +4,7 @@ Title: "NKRS - SIOP Staging"
 Description: "This data item records staging of Wilms’ tumor for pediatric patients acc. to post-chemotherapy staging 
 system developed by the International Society of Pediatric Oncology (SIOP). Based exclusively on the anatomic extent 
 of the tumor, without consideration of genetic, biologic, or molecular markers. 
+
 **SIOP staging (Variable number: 4.31)** 
 in \\'NATIONAL CANCER DATA DICTIONARY, V 1.1, Part A, BASIC VARIABLES for Adults, Adolescents, and Children (23.12.2019)\\'
 ([EN](https://www.nacr.ch/assets/files/uploads/a-datadictionary-basicvariables-v1.1.pdf), 
