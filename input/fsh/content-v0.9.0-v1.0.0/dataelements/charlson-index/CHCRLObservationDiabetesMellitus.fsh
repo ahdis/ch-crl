@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the diabetes mellitus"
 * performer.reference 1..
 
 * valueCodeableConcept 1..
-* valueCodeableConcept from NkrsDiabetesMellitus (required)
+* valueCodeableConcept from NkrsDiabetesMellitus (preferred)
 * valueCodeableConcept ^short = "The presence and severity of diabetes mellitus at the time of diagnosis as pre-existing medical condition."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

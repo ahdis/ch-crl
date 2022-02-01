@@ -22,13 +22,7 @@ Description: "Definition of the Observation for the m-Suffix of pT"
 * valueQuantity.value 1..
 
 * valueCodeableConcept ^short = "Unspecified multiplicity"
-* valueCodeableConcept.coding 1.. 
-* valueCodeableConcept.coding.system 1..
-* valueCodeableConcept.coding.system = "http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-msuffixofpt" (exactly)
-* valueCodeableConcept.coding.code 1..
-* valueCodeableConcept.coding.code = #m (exactly)
-* valueCodeableConcept.coding.display 1..
-* valueCodeableConcept.coding.display = "Unspecified multiplicity" (exactly)
+* valueCodeableConcept = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-msuffixofpt#m "Unspecified multiplicity"
 
 * dataAbsentReason ^short = "The presence of multiple primary tumours at a single site is not stated / not assessed"
 * dataAbsentReason.coding 1..

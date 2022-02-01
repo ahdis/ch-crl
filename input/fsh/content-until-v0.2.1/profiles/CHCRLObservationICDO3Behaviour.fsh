@@ -15,7 +15,7 @@ Description: "Definition of the Observation for the ICD-O-3 behaviour code"
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept from NkrsIcdO3Behaviour (required)
+* valueCodeableConcept from NkrsIcdO3Behaviour (preferred)
 * valueCodeableConcept ^short = "ICD-O-3 code of the behaviour of the neoplasm at time of diagnosis"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

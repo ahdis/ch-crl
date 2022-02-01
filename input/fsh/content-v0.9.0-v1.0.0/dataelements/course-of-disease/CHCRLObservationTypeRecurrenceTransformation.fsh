@@ -18,7 +18,7 @@ Description: "Definition of the Observation for the type of recurrence/transform
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsTypeRecurrenceTransformation (required)
+* valueCodeableConcept from NkrsTypeRecurrenceTransformation (preferred)
 * valueCodeableConcept ^short = "The type of first recurrence of the disease or the occurrence of a transformation."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

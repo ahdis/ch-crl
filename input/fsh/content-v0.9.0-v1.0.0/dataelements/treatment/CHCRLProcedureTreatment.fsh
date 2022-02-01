@@ -19,11 +19,15 @@ is unknown (no information in patients records)."
 * code 1..
 * code ^short = "The CHOP code for each treatment as part of the first treatment complex. 
 CHOP is Swiss classification of surgical operations and other diagnostic and treatment procedures and interventions."
-* code.coding 1..
-* code.coding.system 1..
-* code.coding.system = "urn:oid:2.16.756.5.30.1.126.3.1" (exactly)
-* code.coding.code 1..
-* code.coding.display 1..
+* code.coding ^slicing.discriminator.type = #value
+* code.coding ^slicing.discriminator.path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding contains chop 0..*
+* code.coding[chop] ^short = "ICD-10-GM"
+* code.coding[chop].system 1..
+* code.coding[chop].system = "urn:oid:2.16.756.5.30.1.126.3.1" (exactly)
+* code.coding[chop].code 1..
+* code.coding[chop].display 1..
 
 * subject only Reference(CHCRLPatient)
 * subject ^short = "Patient"
@@ -58,7 +62,7 @@ Description: "Extension to define the goal for the treatment as part of the firs
 * . ^short = "CH CRL Procedure Treatment Goal"
 * valueCodeableConcept 1..
 * valueCodeableConcept ^short = "Goal for the treatment as part of the first treatment complex"
-* valueCodeableConcept from NkrsTreatmentGoal (required)
+* valueCodeableConcept from NkrsTreatmentGoal (preferred)
 
 
 Mapping: NICER-A-for-CHCRLProcedureTreatment

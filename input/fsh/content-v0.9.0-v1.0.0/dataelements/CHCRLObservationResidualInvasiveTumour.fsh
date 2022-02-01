@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the residual invasive tumour"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsResidualInvasiveTumour (required)
+* valueCodeableConcept from NkrsResidualInvasiveTumour (preferred)
 * valueCodeableConcept ^short = "The invasive tumour status after treatment. The status takes distant metastases into account."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

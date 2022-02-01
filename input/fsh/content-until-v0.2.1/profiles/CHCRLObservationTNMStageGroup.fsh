@@ -15,7 +15,7 @@ Description: "Definition of the Observation for the TNM stage group"
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept from NkrsTnmStageGroup (required)
+* valueCodeableConcept from NkrsTnmStageGroup (preferred)
 * valueCodeableConcept ^short = "The UICC TNM stage group"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the PRETEXT staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsPRETEXTStaging (required)
+* valueCodeableConcept from NkrsPRETEXTStaging (preferred)
 * valueCodeableConcept ^short = "The PRETEXT (PRE-Treatment EXTent of tumor) staging system is used for malignant primary 
 liver tumours of childhood before any therapy. The PRETEXT hepatoblastoma staging is based on Couinaud’s system of 
 segmentation of the liver."

@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the α-fetoprotein"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsAlphaFetoprotein (required)
+* valueCodeableConcept from NkrsAlphaFetoprotein (preferred)
 * valueCodeableConcept ^short = "The serum level of the tumour marker α-fetoprotein (AFP)."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

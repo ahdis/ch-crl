@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the Ann Arbor staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsAnnArborStaging (required)
+* valueCodeableConcept from NkrsAnnArborStaging (preferred)
 * valueCodeableConcept ^short = "The Ann Arbor classification for lymphoma."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..
@@ -51,6 +51,18 @@ Usage: #example
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
 * valueCodeableConcept = $nkrs-annarborstaging#I "Stage I"
+
+Instance: AnnArborStaging-LocalCode
+InstanceOf: CHCRLObservationAnnArborStaging
+Title: "Ann Arbor Staging - Local Code"
+Description: "Example for Observation for the Ann Arbor staging"
+Usage: #example
+* status = #final
+* code = $sct#254372002 "Ann Arbor lymphoma staging system (tumor staging)"
+* subject = Reference(FranzMinimum)
+* effectiveDateTime = "2018-12-15"
+//* valueCodeableConcept.coding[+] = $nkrs-annarborstaging#I "Stage I"
+* valueCodeableConcept.coding[+] = $localcode#localCode "Stage I"
 
 Instance: AnnArborStaging-I-A
 InstanceOf: CHCRLObservationAnnArborStaging

@@ -15,7 +15,7 @@ Description: "Definition of the Observation for the TNM pathologic regional node
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept from NkrspN (required)
+* valueCodeableConcept from NkrspN (preferred)
 * valueCodeableConcept ^short = "The absence or presence and extent of regional lymph node metastasis, based on pathological evidence after completion of surgical therapy"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

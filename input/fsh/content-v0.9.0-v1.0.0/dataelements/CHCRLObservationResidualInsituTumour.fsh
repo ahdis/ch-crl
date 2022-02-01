@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the residual in-situ tumour"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsResidualInsituTumour (required)
+* valueCodeableConcept from NkrsResidualInsituTumour (preferred)
 * valueCodeableConcept ^short = "The in-situ tumour status after treatment. The status takes distant metastases into account."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

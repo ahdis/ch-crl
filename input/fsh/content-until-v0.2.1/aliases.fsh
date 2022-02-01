@@ -20,3 +20,5 @@ Alias: $nkrs-icdo3histologicalgrade = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-i
 Alias: $nkrs-msuffixofpt = http://fhir.ch/ig/ch-crl/CodeSystem/nkrs-msuffixofpt
 Alias: $condition-assertedDate = http://hl7.org/fhir/StructureDefinition/condition-assertedDate
 Alias: $DocumentEntry.practiceSettingCode = http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.practiceSettingCode
+
+Alias: $localcode = http://example.com/localcode

@@ -20,7 +20,7 @@ Description: "Definition of the Observation for the topography of post-diagnosis
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsTopographyMetastases (required)
+* valueCodeableConcept from NkrsTopographyMetastases (preferred)
 * valueCodeableConcept ^short = "The distant site(s) of metastatic involvement after disease recurrence"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

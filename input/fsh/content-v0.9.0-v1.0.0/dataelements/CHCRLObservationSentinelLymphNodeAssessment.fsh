@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the sentinel lymph node assessme
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsSentinelLymphNodeAssessment (required)
+* valueCodeableConcept from NkrsSentinelLymphNodeAssessment (preferred)
 * valueCodeableConcept ^short = "Whether the sentinel lymph node is excised and the result of the examination"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

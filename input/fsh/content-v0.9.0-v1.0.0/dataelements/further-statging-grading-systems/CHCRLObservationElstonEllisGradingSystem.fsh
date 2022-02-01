@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the Elston/Ellis grading system"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsElstonEllisGradingSystem (required)
+* valueCodeableConcept from NkrsElstonEllisGradingSystem (preferred)
 * valueCodeableConcept ^short = "The histopathological grade for breast cancer. It is also called the Nottingham Histological Score."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the Shimada grading system"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsShimadaGradingSystem (required)
+* valueCodeableConcept from NkrsShimadaGradingSystem (preferred)
 * valueCodeableConcept ^short = "The grade for neuroblastoma, a frequent childhood cancer. Based on a grade of neuroblastic differentiation and mitosis-karyorrhexis index [MKI]) along with patient age at the time of diagnosis."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

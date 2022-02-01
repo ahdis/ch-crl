@@ -17,7 +17,7 @@ Description: "Definition of the Observation for the St. Jude / Murphy staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsStJudeMurphyStaging (required)
+* valueCodeableConcept from NkrsStJudeMurphyStaging (preferred)
 * valueCodeableConcept ^short = "The St Jude/Murphy staging system for childhood NHL is based on clinical-pathological 
 features like physical examination, CBC, imaging, bone marrow, CSF examinations etc."
 * valueCodeableConcept.coding 1..*

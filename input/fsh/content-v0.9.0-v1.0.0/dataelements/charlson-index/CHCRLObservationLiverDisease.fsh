@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the liver disease"
 * performer.reference 1..
 
 * valueCodeableConcept 1..
-* valueCodeableConcept from NkrsLiverDisease (required)
+* valueCodeableConcept from NkrsLiverDisease (preferred)
 * valueCodeableConcept ^short = "The presence and severity of liver disease at the time of diagnosis as pre-existing medical condition."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

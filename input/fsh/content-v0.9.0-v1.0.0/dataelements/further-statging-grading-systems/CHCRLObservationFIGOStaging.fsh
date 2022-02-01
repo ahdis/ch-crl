@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the FIGO staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsFIGOStaging (required)
+* valueCodeableConcept from NkrsFIGOStaging (preferred)
 * valueCodeableConcept ^short = "FIGO Staging of gynecologic tumours is based on clinical staging, careful clinical examination before therapy, and surgical exploration."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

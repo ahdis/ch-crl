@@ -17,7 +17,7 @@ Description: "Definition of the Observation for the Rhabdomyosarcoma site stagin
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsRhabdomyosarcomaSiteStaging (required)
+* valueCodeableConcept from NkrsRhabdomyosarcomaSiteStaging (preferred)
 * valueCodeableConcept ^short = "Rhabdomyosarcoma staging is based on the classic TNM staging taking 
 into account favourable/non favourable tumour sites. It is used in paediatric oncology."
 * valueCodeableConcept.coding 1..*

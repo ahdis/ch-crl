@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the serum tumour markers"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsSerumTumourMarkers (required)
+* valueCodeableConcept from NkrsSerumTumourMarkers (preferred)
 * valueCodeableConcept ^short = "The TNM S-categories as combination of levels for AFP, hCG, and LDH."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

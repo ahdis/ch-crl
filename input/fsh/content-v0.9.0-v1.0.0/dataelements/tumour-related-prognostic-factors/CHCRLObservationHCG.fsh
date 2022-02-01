@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the β-hCG"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsHCG (required)
+* valueCodeableConcept from NkrsHCG (preferred)
 * valueCodeableConcept ^short = "The level of serum tumour marker human chorionic gonadotropin (β-hCG)."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

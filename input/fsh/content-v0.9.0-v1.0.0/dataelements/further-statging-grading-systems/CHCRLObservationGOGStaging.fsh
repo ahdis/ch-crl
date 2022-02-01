@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the COG staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsCOGStaging (required)
+* valueCodeableConcept from NkrsCOGStaging (preferred)
 * valueCodeableConcept ^short = "The staging of Wilms’ tumour for pediatric patients acc. to pre-chemotherapy staging 
 system developed by the National Wilms’ Tumor Study Group (NWTSG). Based exclusively on the anatomic extent of the 
 tumour, without consideration of genetic, biologic, or molecular markers."

@@ -17,7 +17,7 @@ Description: "Definition of the Observation for the SIOP staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsSIOPStaging (required)
+* valueCodeableConcept from NkrsSIOPStaging (preferred)
 * valueCodeableConcept ^short = "The staging of Wilms’ tumor for pediatric patients acc. to post-chemotherapy staging 
 system developed by the International Society of Pediatric Oncology (SIOP)."
 * valueCodeableConcept.coding 1..*

@@ -12,7 +12,7 @@ Description: "Definition of the Procedure for the diagnostic method(s)"
 
 * category 1..
 * category = $loinc#67183-4 "Diagnostic staging procedure PhenX"
-* code from NkrsDiagnosticMethodsUsed (required)
+* code from NkrsDiagnosticMethodsUsed (preferred)
 * code ^short = "Identification of the diagnostic method"
 * code.coding 1..
 * code.coding.system 1..

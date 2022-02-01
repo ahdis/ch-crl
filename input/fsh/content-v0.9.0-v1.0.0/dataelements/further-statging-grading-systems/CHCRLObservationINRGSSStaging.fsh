@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the INRGSS staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsINRGSSStaging (required)
+* valueCodeableConcept from NkrsINRGSSStaging (preferred)
 * valueCodeableConcept ^short = "The paediatric stage classification of the International Neuroblastoma Risk Group Staging System (INRGSS)."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

@@ -21,12 +21,16 @@ Description: "Definition of the Observation for the ICD-O-3 morphology term afte
 
 * valueCodeableConcept 1..1
 * valueCodeableConcept ^short = "The morphology term according to ICD-O-3 after transformation."
-* valueCodeableConcept.coding 1..*
-* valueCodeableConcept.coding.system 1..
-* valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/icd-o-3" (exactly)
-* valueCodeableConcept.coding.version 1..
-* valueCodeableConcept.coding.code 1..
-* valueCodeableConcept.coding.display 1..
+* valueCodeableConcept.coding ^slicing.discriminator.type = #value
+* valueCodeableConcept.coding ^slicing.discriminator.path = "system"
+* valueCodeableConcept.coding ^slicing.rules = #open
+* valueCodeableConcept.coding contains icd-o-3 0..*
+* valueCodeableConcept.coding[icd-o-3] ^short = "ICD-O-3"
+* valueCodeableConcept.coding[icd-o-3].system 1..
+* valueCodeableConcept.coding[icd-o-3].system = "http://terminology.hl7.org/CodeSystem/icd-o-3" (exactly)
+* valueCodeableConcept.coding[icd-o-3].version 1..
+* valueCodeableConcept.coding[icd-o-3].code 1..
+* valueCodeableConcept.coding[icd-o-3].display 1..
 
 
 Mapping: NICER-A-for-CHCRLObservationICDO3MorphologyPostTransformation

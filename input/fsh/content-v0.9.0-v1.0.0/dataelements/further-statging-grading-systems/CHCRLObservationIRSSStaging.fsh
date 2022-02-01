@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the IRSS staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsIRSSStaging (required)
+* valueCodeableConcept from NkrsIRSSStaging (preferred)
 * valueCodeableConcept ^short = "The paediatric International Retinoblastoma Staging System is based on extent of disease and the presence of overt extra-ocular extension after enucleation."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

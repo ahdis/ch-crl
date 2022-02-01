@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the Binet staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsBinetStaging (required)
+* valueCodeableConcept from NkrsBinetStaging (preferred)
 * valueCodeableConcept ^short = "The stage of Chronic Lymphocytic Leukaemia (CLL) based on the cell count in the blood and 
 bone marrow (lymphocytes, platelets), haemoglobin/ haematocrit, lymph nodes involvement, hepato- and/or splenomegaly."
 * valueCodeableConcept.coding 1..*

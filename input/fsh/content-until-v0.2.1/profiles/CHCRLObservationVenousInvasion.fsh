@@ -15,7 +15,7 @@ Description: "Definition of the Observation for the venous invasion"
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept from NkrsVenousInvasion (required)
+* valueCodeableConcept from NkrsVenousInvasion (preferred)
 * valueCodeableConcept ^short = "The presence or absence of tumour cells in the walls of venous blood vessels, as noted microscopically by the pathologist"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

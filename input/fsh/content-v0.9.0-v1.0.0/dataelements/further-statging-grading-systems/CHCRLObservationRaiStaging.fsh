@@ -17,7 +17,7 @@ Description: "Definition of the Observation for the Rai staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsRaiStaging (required)
+* valueCodeableConcept from NkrsRaiStaging (preferred)
 * valueCodeableConcept ^short = "This classification for Chronic Lymphocytic Leukaemia (CLL) includes 4 stages based on blood 
 and bone marrow cell count (lymphocytes, platelets), haemoglobin/haematocrit, LN envolvement, hepato- and/or splenomegaly."
 * valueCodeableConcept.coding 1..*

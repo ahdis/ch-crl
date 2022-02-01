@@ -13,7 +13,7 @@ is not stated / not assessed."
 
 * category 1..
 * category = $loinc#75692-4 "Cancer detection basis"
-* code from NkrsMethodFirstDetection (required)
+* code from NkrsMethodFirstDetection (preferred)
 * code ^short = "The method or circumstance by which the case came to medical attention and the cancer was first diagnosed."
 * code.coding 1..
 * code.coding.system 1..

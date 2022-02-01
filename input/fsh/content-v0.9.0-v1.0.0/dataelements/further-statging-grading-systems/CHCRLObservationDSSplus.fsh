@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the DSSplus"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsDSSplus (required)
+* valueCodeableConcept from NkrsDSSplus (preferred)
 * valueCodeableConcept ^short = "The DSSplus (Durie-Salmon Plus staging system) is the revised Durie-Salmon staging system 
 for multiple myeloma classification, based on MRI findings, FDG PET/CT findings, or both."
 * valueCodeableConcept.coding 1..*

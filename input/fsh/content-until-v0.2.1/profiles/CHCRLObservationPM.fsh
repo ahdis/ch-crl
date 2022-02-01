@@ -15,7 +15,7 @@ Description: "Definition of the Observation for the TNM pathologic distant metas
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
-* valueCodeableConcept from NkrspM (required)
+* valueCodeableConcept from NkrspM (preferred)
 * valueCodeableConcept ^short = "The absence or presence of distant metastasis, based on pathological evidence after completion of surgical therapy or microscopic examination of metastasis"
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..

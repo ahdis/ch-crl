@@ -2,7 +2,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 **Note for implementers:**    
-Necessary changes, e.g. due to specification changes or bugs, to existing FHIR artifacts that **affect existing implementations** are **highlighted in bold**.
+Necessary changes, e.g. due to specification changes or bugs, to existing FHIR artifacts from the previous version that **affect existing implementations** are **highlighted in bold**.
 
 
 ### v0.9.0
@@ -112,6 +112,9 @@ Necessary changes, e.g. due to specification changes or bugs, to existing FHIR a
    * [NKRS - TNM Stage Group](CodeSystem-nkrs-tnmstagegroup.html) 
       * Additional code **IIID** "Stage IIID"
       * Removed codes **A** "Stage A", **AP** "Stage AP", **B** "Stage B", **BP** "Stage BP", **C** "Stage C", **CP** "Stage CP"
+* Enable local codes to be reported as an option (if not otherwise possible):
+   * Reduction of the [binding strength](http://hl7.org/fhir/R4/terminologies.html#strength) of value sets from [required](http://hl7.org/fhir/R4/terminologies.html#required) to [preferred](http://hl7.org/fhir/R4/terminologies.html#preferred). (Example: [Profile](StructureDefinition-ch-crl-observation-annarborstaging.html), [Instance](Observation-AnnArborStaging-LocalCode.json.html).)
+   * Inserting a slice, for elements with code systems as fixed values. (Example: [Profile](StructureDefinition-ch-crl-condition-finalcauseofdeath.html), [Instance](Condition-FinalCauseOfDeath-LocalCode.json.html).)
 * Add the Extension 'data-absent-reason' to the Procedure for the diagnostic method(s), to support the representation of the value 'unknown'. **Implementers should now be able to support 'unknown' for this Procedure.**
    * [CH CRL Procedure Diagnostic Method Profile](StructureDefinition-ch-crl-procedure-diagnosticmethod.html)
    * [Example with value 'unknown'](Procedure-DiagnosticMethod-Unknown.html)

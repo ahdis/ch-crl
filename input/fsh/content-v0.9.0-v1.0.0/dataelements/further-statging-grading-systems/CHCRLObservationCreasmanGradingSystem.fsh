@@ -16,7 +16,7 @@ Description: "Definition of the Observation for the Creasman grading system"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
-* valueCodeableConcept from NkrsCreasmanGradingSystem (required)
+* valueCodeableConcept from NkrsCreasmanGradingSystem (preferred)
 * valueCodeableConcept ^short = "The histopathological grade for uterine or endometrial cancer."
 * valueCodeableConcept.coding 1..*
 * valueCodeableConcept.coding.system 1..
