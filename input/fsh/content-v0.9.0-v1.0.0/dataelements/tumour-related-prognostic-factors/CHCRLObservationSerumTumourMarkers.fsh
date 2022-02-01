@@ -68,7 +68,7 @@ Usage: #example
 * code = $sct#396701002 "Finding of serum tumor marker level (finding)"
 * subject = Reference(FranzMinimum)
 * effectiveDateTime = "2018-12-15"
-* valueCodeableConcept = $nkrs-serumtumourmarkers#3 "S3"
+* valueCodeableConcept = $sct#313142006 "Serum tumor marker stage S3 (finding)"
 * derivedFrom[ch-crl-alphaFetoprotein] = Reference(AlphaFetoprotein-AFP1)
 * derivedFrom[ch-crl-hCG] = Reference(HCG-hCG2)
 * derivedFrom[ch-crl-LDH] = Reference(LDH-LDH3)
