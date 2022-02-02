@@ -15,6 +15,8 @@ Description: "Definition of the Observation for the perineural invasion"
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
+
+* valueCodeableConcept obeys nkrs-perineuralinvasion
 * valueCodeableConcept from NkrsPerineuralInvasion (preferred)
 * valueCodeableConcept ^short = "The process of neoplastic invasion of nerves"
 * valueCodeableConcept.coding 1..*

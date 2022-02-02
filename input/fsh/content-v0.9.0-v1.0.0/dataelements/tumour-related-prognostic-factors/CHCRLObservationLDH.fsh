@@ -16,6 +16,7 @@ Description: "Definition of the Observation for the LDH"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-ldh
 * valueCodeableConcept from NkrsLDH (preferred)
 * valueCodeableConcept ^short = "The levels of serum tumour marker lactate dehydrogenase (LDH)."
 * valueCodeableConcept.coding 1..*

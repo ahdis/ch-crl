@@ -63,7 +63,7 @@ Description: "Extension to define the goal for the treatment as part of the firs
 * valueCodeableConcept 1..
 * valueCodeableConcept ^short = "Goal for the treatment as part of the first treatment complex"
 * valueCodeableConcept from NkrsTreatmentGoal (preferred)
-
+* valueCodeableConcept obeys nkrs-treatmentgoal
 
 Mapping: NICER-A-for-CHCRLProcedureTreatment
 Id: NICER-A

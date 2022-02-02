@@ -17,6 +17,7 @@ Description: "Definition of the Observation for the Toronto Tier II (manual) sta
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-torontotierIImanualstaging
 * valueCodeableConcept from NkrsTorontoTierIIManualStaging (preferred)
 * valueCodeableConcept ^short = "The Toronto Paediatric Cancer Stage Guidelines recommend the malignancy-specific staging system 
 most suitable for use by population registries for 16 of the most common childhood malignancies."

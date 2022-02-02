@@ -15,6 +15,7 @@ Description: "Definition of the Observation for the diabetes mellitus"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-diabetesmellitus
 * valueCodeableConcept 1..
 * valueCodeableConcept from NkrsDiabetesMellitus (preferred)
 * valueCodeableConcept ^short = "The presence and severity of diabetes mellitus at the time of diagnosis as pre-existing medical condition."

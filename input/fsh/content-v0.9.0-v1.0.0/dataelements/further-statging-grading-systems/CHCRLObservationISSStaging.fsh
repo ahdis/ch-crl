@@ -17,6 +17,7 @@ Description: "Definition of the Observation for the ISS staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-issstaging
 * valueCodeableConcept from NkrsISSStaging (preferred)
 * valueCodeableConcept ^short = "The International Staging System (ISS) for multiple myeloma."
 * valueCodeableConcept.coding 1..*

@@ -16,6 +16,7 @@ Description: "Definition of the Observation for the Her2 receptor status"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-her2receptorstatus
 * valueCodeableConcept from NkrsHer2ReceptorStatus (preferred)
 * valueCodeableConcept ^short = "The Her2 (human epidermal growth factor receptor 2) expression status of the tumour."
 * valueCodeableConcept.coding 1..*

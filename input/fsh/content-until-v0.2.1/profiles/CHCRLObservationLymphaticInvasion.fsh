@@ -15,6 +15,8 @@ Description: "Definition of the Observation for the lymphatic invasion"
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
+
+* valueCodeableConcept obeys nkrs-lymphaticinvasion
 * valueCodeableConcept from NkrsLymphaticInvasion (preferred)
 * valueCodeableConcept ^short = "The presence or absence of tumour cells in lymphatic vessels within and at the margins of the primary tumour, as well as afferent and efferent lymphatics, as noted microscopically by the pathologist"
 * valueCodeableConcept.coding 1..*

@@ -15,6 +15,7 @@ Description: "Definition of the Observation for the ICCC-3 main group"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-iccc3maingroup
 * valueCodeableConcept 1..
 * valueCodeableConcept from NkrsICCC3MainGroup (preferred)
 * valueCodeableConcept ^short = "The main diagnostic group according to the third revision of the International Classification of Childhood Cancer (ICCC-3)."

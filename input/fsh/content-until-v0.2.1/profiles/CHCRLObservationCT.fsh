@@ -15,6 +15,8 @@ Description: "Definition of the Observation for the TNM clinical primary tumor c
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
+
+* valueCodeableConcept obeys nkrs-ct
 * valueCodeableConcept from NkrscT (preferred)
 * valueCodeableConcept ^short = "Tumour size based on clinical investigation, imaging, endoscopy, biopsy or surgical exploration"
 * valueCodeableConcept.coding 1..*

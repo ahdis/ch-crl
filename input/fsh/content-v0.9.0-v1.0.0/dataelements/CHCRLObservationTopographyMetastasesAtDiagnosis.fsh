@@ -16,6 +16,7 @@ Description: "Definition of the Observation for the topography of metastases at 
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-topographymetastases
 * valueCodeableConcept from NkrsTopographyMetastases (preferred)
 * valueCodeableConcept ^short = "The distant site(s) of metastatic involvement at time of diagnosis"
 * valueCodeableConcept.coding 1..*

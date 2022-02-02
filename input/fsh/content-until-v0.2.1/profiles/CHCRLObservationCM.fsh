@@ -15,6 +15,8 @@ Description: "Definition of the Observation for the TNM clinical distant metasta
 * performer only Reference(CHCRLPractitioner or CHCRLOrganizationDepartment)
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
+
+* valueCodeableConcept obeys nkrs-cm
 * valueCodeableConcept from NkrscM (preferred)
 * valueCodeableConcept ^short = "The absence or presence of distant metastases based on clinical investigation, imaging, endoscopy, surgical exploration without biopsy"
 * valueCodeableConcept.coding 1..*

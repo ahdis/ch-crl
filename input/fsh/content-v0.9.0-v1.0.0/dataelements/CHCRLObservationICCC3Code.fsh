@@ -15,6 +15,7 @@ Description: "Definition of the Observation for the ICCC-3 code"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-iccc3code
 * valueCodeableConcept 1..
 * valueCodeableConcept from NkrsICCC3Code (preferred)
 * valueCodeableConcept ^short = "The detailed division of the diagnostic group according to the third revision of the 1996 International Classification of Childhood Cancer (ICCC-3)."

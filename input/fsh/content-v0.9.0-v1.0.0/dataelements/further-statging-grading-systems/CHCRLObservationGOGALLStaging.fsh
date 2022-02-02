@@ -16,6 +16,7 @@ Description: "Definition of the Observation for the COG ALL staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-cogallstaging
 * valueCodeableConcept from NkrsCOGALLStaging (preferred)
 * valueCodeableConcept ^short = "COG ALL staging (for childhood B- precursor acute lymphoblastic leukemia, B-ALL) allows a uniform 
 assessment of the extent of CNS involvement based on presence of blasts in the diagnostic cerebrospinal fluid (CSF)."

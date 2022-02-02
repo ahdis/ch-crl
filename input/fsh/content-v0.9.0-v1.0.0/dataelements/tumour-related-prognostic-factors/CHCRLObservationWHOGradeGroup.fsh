@@ -16,6 +16,7 @@ Description: "Definition of the Observation for the WHO grade group"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-whogradegroup
 * valueCodeableConcept from NkrsWHOGradeGroup (preferred)
 * valueCodeableConcept ^short = "A five-grade group system based on the grading categories from Gleason score 2 to 10."
 * valueCodeableConcept.coding 1..*

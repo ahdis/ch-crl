@@ -17,6 +17,7 @@ Description: "Definition of the Observation for the WHO(CNS) grading system"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-whocnsgradingsystem
 * valueCodeableConcept from NkrsWHOCNSGradingSystem (preferred)
 * valueCodeableConcept ^short = "Primary brain tumours are grouped according to the WHO classification based on the cell of origin, and the histological aggressiveness."
 * valueCodeableConcept.coding 1..*

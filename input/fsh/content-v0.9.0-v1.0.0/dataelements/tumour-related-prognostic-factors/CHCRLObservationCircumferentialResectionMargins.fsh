@@ -16,6 +16,7 @@ Description: "Definition of the Observation for the circumferential resection ma
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-circumferentialresectionmargins
 * valueCodeableConcept from NkrsCircumferentialResectionMargins (preferred)
 * valueCodeableConcept ^short = "The circumferential resection margin (CRM)"
 * valueCodeableConcept.coding 1..*

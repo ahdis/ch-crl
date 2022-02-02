@@ -16,6 +16,7 @@ Description: "Definition of the Observation for the SalzerKuntschik grading syst
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-salzerkuntschikgradingsystem
 * valueCodeableConcept from NkrsSalzerKuntschikGradingSystem (preferred)
 * valueCodeableConcept ^short = "The grade of morphological regression for malignant bone tumour in children after chemotherapy."
 * valueCodeableConcept.coding 1..*

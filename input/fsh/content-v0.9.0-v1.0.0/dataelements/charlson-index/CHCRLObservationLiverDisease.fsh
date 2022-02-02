@@ -15,6 +15,7 @@ Description: "Definition of the Observation for the liver disease"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-liverdisease
 * valueCodeableConcept 1..
 * valueCodeableConcept from NkrsLiverDisease (preferred)
 * valueCodeableConcept ^short = "The presence and severity of liver disease at the time of diagnosis as pre-existing medical condition."

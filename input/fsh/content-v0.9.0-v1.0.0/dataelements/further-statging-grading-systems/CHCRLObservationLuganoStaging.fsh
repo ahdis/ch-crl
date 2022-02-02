@@ -17,6 +17,7 @@ Description: "Definition of the Observation for the Lugano staging"
 * performer ^short = "Practitioner if resident physician or Organization Department if hospital"
 * performer.reference 1..
 
+* valueCodeableConcept obeys nkrs-luganostaging
 * valueCodeableConcept from NkrsLuganoStaging (preferred)
 * valueCodeableConcept ^short = "A modification of the Ann Arbor classification for lymphoma."
 * valueCodeableConcept.coding 1..*
