@@ -9,6 +9,7 @@ Title: "CH CRL Encounter Treatment Decision"
 Description: "Definition of the Encounter for the treatment decision"
 * . ^short = "CH CRL Encounter Treatment Decision"
 
+* type 1..
 * type obeys nkrs-basisoffirsttreatmentcomplexdecision
 * type from NkrsBasisOfFirstTreatmentComplexDecision (preferred)
 * type ^short = "This data item records the basis of treatment decision for the entire first treatment complex. 
