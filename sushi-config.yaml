@@ -29,7 +29,9 @@ pages:
   usecase-german.md:
     title: Use Case  
   logicalmodel.html:
-    title: Logical Model - CH CRL Cancer Report  
+    title: Logical Model  
+  document.md:
+    title: FHIR Document (Bundle)
   profiles.html:
     title: Profiles
   extensions.html:
